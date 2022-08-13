@@ -1,5 +1,6 @@
 :global(.vtex-store__template) {
   --primary-orange: #ed752d;
+  --secondary-orange: #df6922;
   --primary-blue: #062f87;
   --secondary-blue: #4e7eff;
   --base: #fff;
