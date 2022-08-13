@@ -28,7 +28,6 @@
       "flex-layout.col#logo-desktop",
       "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ]
@@ -48,8 +47,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "assets/desktop-logo.svg",
+      "width": "265"
     }
   },
   "header-layout.mobile": {
