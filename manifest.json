@@ -25,7 +25,11 @@
     "vtex.product-review-interfaces": "1.x",
     "vtex.add-to-cart-button": "0.x",
     "vtex.order-placed": "2.x",
-    "vtex.slider-layout": "0.x"
+    "vtex.slider-layout": "0.x",
+    "vtex.menu": "2.x",
+    "vtex.store-icons": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.store-image": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

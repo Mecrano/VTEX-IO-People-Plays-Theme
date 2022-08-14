@@ -1,0 +1,43 @@
+{
+  "menu#header-aux": {
+    "props": {
+      "blockClass": "header-menu"
+    },
+    "children": [
+      "menu-item#link-stores",
+      "menu-item#link-find-orders"
+    ]
+  },
+  "menu-item#link-stores": {
+    "props": {
+      "id": "menu-item-link-stores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/tiendas/",
+        "noFollow": false,
+        "tagTitle": "Tiendas",
+        "text": "Tiendas"
+      }
+    }
+  },
+  "menu-item#link-find-orders": {
+    "props": {
+      "id": "menu-item-link-find-orders",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/rastrear-pedido/",
+        "noFollow": false,
+        "tagTitle": "Rastrear pedido",
+        "text": "Rastrear pedido"
+      }
+    }
+  }
+}

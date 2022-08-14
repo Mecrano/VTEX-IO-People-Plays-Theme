@@ -1,0 +1,11 @@
+.container--sticky-header {
+  background-color: var(--primary-orange);
+  color: #fff;
+  padding: 0 3.3%;
+}
+
+@media (max-width: 1700px) {
+  .container--sticky-header {
+    padding: 0 2%;
+  }
+}

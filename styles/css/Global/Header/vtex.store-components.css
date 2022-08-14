@@ -1,0 +1,12 @@
+:global(.vtex-sticky-layout-0-x-container--sticky-header) .logoLink {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+:global(.vtex-sticky-layout-0-x-container--sticky-header) .logoContainer {
+  padding: 5px;
+  margin: 0;
+  display: flex;
+  max-width: none;
+}

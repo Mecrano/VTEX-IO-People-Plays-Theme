@@ -1,4 +1,20 @@
 <svg class="dn" height="0" version="1.1" width="0"
   xmlns="http://www.w3.org/2000/svg">
-  <defs></defs>
+  <defs>
+    <g id="hpa-profile">
+      <path style="fill:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 23.353271 7.428223 C 23.353271 10.699219 20.704346 13.35791 17.423096 13.35791 C 14.150391 13.35791 11.501465 10.699219 11.501465 7.428223 C 11.501465 4.157227 14.150391 1.498535 17.423096 1.498535 C 20.704346 1.498535 23.353271 4.157227 23.353271 7.428223 Z M 23.353271 7.428223 " transform="matrix(0.457143,0,0,0.484848,0,0)"/>
+      <path style="fill:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 29.821777 31.001953 L 4.571533 31.001953 C 2.70874 31.001953 1.298828 29.318115 1.777344 27.513428 C 2.939453 23.162842 5.032959 17.998535 7.861328 17.998535 C 13.193359 17.998535 11.663818 22.333008 16.99585 22.333008 C 22.336426 22.333008 20.046387 17.998535 26.138916 17.998535 C 30.001221 17.998535 31.889648 23.428711 32.633057 27.84375 C 32.923584 29.543701 31.547852 31.001953 29.821777 31.001953 Z M 29.821777 31.001953 " transform="matrix(0.457143,0,0,0.484848,0,0)"/>
+    </g>
+
+    <g id="hpa-cart">
+      <path style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 1.999512 2 L 2.435303 2 C 3.913574 2 5.169678 3.070312 5.400391 4.53125 L 8.100586 21.46875 C 8.331299 22.929688 9.587402 24 11.057129 24 L 26.489258 24 C 27.941895 24 29.189453 22.960938 29.437256 21.523438 L 31.368408 10.671875 C 31.70166 8.835938 30.283203 7.148438 28.42041 7.148438 L 27.001953 7.148438 " transform="matrix(0.457143,0,0,0.5,0,0)"/>
+      <path style=" stroke:none;fill-rule:nonzero;fill:currentColor;fill-opacity:1;" d="M 6.398438 15 C 6.398438 15.550781 5.992188 16 5.484375 16 C 4.980469 16 4.570312 15.550781 4.570312 15 C 4.570312 14.449219 4.980469 14 5.484375 14 C 5.992188 14 6.398438 14.449219 6.398438 15 Z M 6.398438 15 "/>
+      <path style=" stroke:none;fill-rule:nonzero;fill:currentColor;fill-opacity:1;" d="M 11.886719 15 C 11.886719 15.550781 11.476562 16 10.972656 16 C 10.464844 16 10.058594 15.550781 10.058594 15 C 10.058594 14.449219 10.464844 14 10.972656 14 C 11.476562 14 11.886719 14.449219 11.886719 15 Z M 11.886719 15 "/>
+    </g>
+
+    <g id="hpa-search">
+      <path style="fill:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 26.055176 14.4375 C 26.055176 21.213135 20.560547 26.71582 13.776855 26.71582 C 6.993164 26.71582 1.498535 21.213135 1.498535 14.4375 C 1.498535 7.653809 6.993164 2.15918 13.776855 2.15918 C 20.560547 2.15918 26.055176 7.653809 26.055176 14.4375 Z M 26.055176 14.4375 " transform="matrix(0.484848,0,0,0.484848,0,0)"/>
+      <path style="fill:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke:currentColor;stroke-opacity:1;stroke-miterlimit:4;" d="M 22.961426 23.62207 L 31.001953 31.654541 " transform="matrix(0.484848,0,0,0.484848,0,0)"/>
+    </g>
+  </defs>
 </svg>
