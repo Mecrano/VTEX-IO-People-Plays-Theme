@@ -73,17 +73,6 @@
       "iconSize": 28
     }
   },
-  "minicart.v2": {
-    "props": {
-      "quantityDisplay": "always",
-      "MinicartIcon": "icon-cart#minicart-icon"
-    }
-  },
-  "icon-cart#minicart-icon": {
-    "props": {
-      "size": 28
-    }
-  },
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
   },

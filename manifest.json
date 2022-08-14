@@ -30,7 +30,9 @@
     "vtex.store-icons": "0.x",
     "vtex.rich-text": "0.x",
     "vtex.store-image": "0.x",
-    "vtex.search": "2.x"
+    "vtex.search": "2.x",
+    "vtex.product-list": "0.x",
+    "vtex.checkout-summary": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
