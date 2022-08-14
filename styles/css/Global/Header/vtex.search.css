@@ -1,0 +1,24 @@
+.biggy-autocomplete,
+.biggy-autocomplete.biggy-js-container--hidden {
+  position: relative;
+  opacity: 1;
+  max-height: none !important;
+  transition: none;
+  box-shadow: none;
+  padding: 40px 20px;
+}
+
+.biggy-autocomplete .itemListTitle,
+.biggy-autocomplete .tileListTitle {
+  text-transform: none;
+  font-size: 1.25rem;
+}
+
+.biggy-autocomplete .itemListIcon {
+  display: none;
+}
+
+.biggy-autocomplete .itemListLinkTitle {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}

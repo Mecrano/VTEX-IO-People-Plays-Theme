@@ -28,10 +28,27 @@
   },
   "submenu#header-search": {
     "props": {
-      "width": "auto"
+      "width": "100%"
     },
     "children": [
-      "search-bar"
+      "search-bar#desktop"
     ]
+  },
+  "search-bar#desktop": {
+    "props": {
+      "displayMode": "search-button",
+      "hasIconLeft": true,
+      "placeholder": "Busca productos dentro de People Plays",
+      "disableBlurAndTouchEndHandler": true,
+      "containerMode": "container",
+      "autocompleteAlignment": "center"
+    },
+    "blocks": ["autocomplete-result-list.v2"]
+  },
+  "autocomplete-result-list.v2": {
+    "props": {
+      "hideUnavailableItems": true
+    },
+    "blocks": ["product-summary"]
   }
 }
