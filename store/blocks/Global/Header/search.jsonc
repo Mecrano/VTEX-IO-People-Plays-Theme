@@ -1,0 +1,37 @@
+{
+  "menu#header-search": {
+    "props": {
+      "blockClass": ["header-menu", "header-menu--search"]
+    },
+    "children": [
+      "menu-item#header-search"
+    ]
+  },
+  "menu-item#header-search": {
+    "props": {
+      "id": "menu-item-header-search",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "hpa-search",
+        "size": 28,
+        "viewBox": "0 0 16 16"
+      }
+    },
+    "blocks": ["submenu#header-search"]
+  },
+  "submenu#header-search": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "search-bar"
+    ]
+  }
+}

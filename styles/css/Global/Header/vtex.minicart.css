@@ -1,0 +1,54 @@
+.minicartWrapperContainer {
+  margin: 10px 0;
+  border-right: 2px solid var(--secondary-orange);
+}
+
+.minicartIconContainer {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.minicartIconContainer::after {
+  content: "Carrito";
+  display: block;
+  font-size: 1.15rem;
+  margin-left: 7px;
+}
+
+.minicartContainer .openIconContainer {
+  padding: 0;
+}
+
+.minicartQuantityBadgeDefault {
+  top: 0px;
+  left: 5px;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.minicartContainer .openIconContainer :global(.vtex-button) {
+  border: none;
+  background-color: transparent;
+}
+
+.minicartContainer
+  .openIconContainer
+  :global(.vtex-button):hover
+  .minicartIconContainer {
+  color: var(--primary-blue);
+}
+
+.minicartContainer
+  .openIconContainer
+  :global(.vtex-button):hover
+  .minicartQuantityBadge {
+  color: #feea70;
+}
+
+@media (max-width: 1700px) {
+  .minicartIconContainer::after {
+    font-size: 1rem;
+  }
+}

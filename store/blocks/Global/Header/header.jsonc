@@ -6,9 +6,7 @@
     "blocks": ["header-layout.desktop", "header-layout.mobile"]
   },
   "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
+    "children": ["sticky-layout#desktop"]
   },
   "sticky-layout#desktop": {
     "props": {
@@ -18,37 +16,64 @@
   },
   "flex-layout.row#desktop": {
     "props": {
-      "horizontalAlign": "center",
+      "horizontalAlign": "between",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
       "fullWidth": true
     },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "login",
-      "minicart.v2"
-    ]
+    "children": ["flex-layout.col#left-column", "flex-layout.col#right-column"]
   },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
+  "flex-layout.col#left-column": {
+    "children": ["flex-layout.row#left-column"]
   },
-  "flex-layout.col#logo-desktop": {
+  "flex-layout.row#left-column": {
     "props": {
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "preventHorizontalStretch": true,
+      "colSizing": "auto",
+      "blockClass": ["header-row"]
     },
-    "children": ["logo"]
+    "children": ["logo#desktop", "menu#header-main"]
   },
-  "logo": {
+  "logo#desktop": {
     "props": {
-      "title": "Logo",
+      "title": "People Plays",
       "href": "/",
       "url": "assets/desktop-logo.svg",
       "width": "265"
+    }
+  },
+  "flex-layout.col#right-column": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["flex-layout.row#right-column"]
+  },
+  "flex-layout.row#right-column": {
+    "props": {
+      "verticalAlign": "middle",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "colSizing": "auto"
+    },
+    "children": ["menu#header-aux", "menu#header-search", "login", "minicart.v2"]
+  },
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true,
+      "iconSize": 28
+    }
+  },
+  "minicart.v2": {
+    "props": {
+      "quantityDisplay": "always",
+      "MinicartIcon": "icon-cart#minicart-icon"
+    }
+  },
+  "icon-cart#minicart-icon": {
+    "props": {
+      "size": 28
     }
   },
   "header-layout.mobile": {
@@ -61,7 +86,6 @@
     "children": [
       "drawer",
       "logo",
-      "flex-layout.col#spacer",
       "login",
       "minicart.v2"
     ],
