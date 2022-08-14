@@ -47,8 +47,57 @@
   },
   "autocomplete-result-list.v2": {
     "props": {
-      "hideUnavailableItems": true
+      "hideUnavailableItems": true,
+      "maxTopSearches": 3,
+      "maxHistory": 3,
+      "maxSuggestedProducts": 3,
+      "maxSuggestedTerms": 3
     },
     "blocks": ["product-summary"]
+  },
+
+  "menu#header-search-mobile": {
+    "props": {
+      "blockClass": ["header-menu", "header-menu--search"]
+    },
+    "children": [
+      "menu-item#header-search-mobile"
+    ]
+  },
+  "menu-item#header-search-mobile": {
+    "props": {
+      "id": "menu-item-header-search-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "#"
+      },
+      "iconProps": {
+        "id": "hpa-search",
+        "size": 28,
+        "viewBox": "0 0 16 16"
+      }
+    },
+    "blocks": ["submenu#header-search-mobile"]
+  },
+  "submenu#header-search-mobile": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "search-bar#mobile"
+    ]
+  },
+  "search-bar#mobile": {
+    "props": {
+      "placeholder": "Busca productos dentro de People Plays",
+      "disableBlurAndTouchEndHandler": true,
+      "containerMode": "container",
+      "autocompleteAlignment": "center"
+    },
+    "blocks": ["autocomplete-result-list.v2"]
   }
 }

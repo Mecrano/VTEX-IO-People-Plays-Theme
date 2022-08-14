@@ -1,5 +1,5 @@
 {
-  "menu#header-main": {
+  "menu#header-main-menu": {
     "props": {
       "experimentalOptimizeRendering": true,
       "blockClass": "header-menu"
@@ -143,18 +143,27 @@
     ]
   },
   "flex-layout.col#header-menu-content-image-4": {
+    "props": {
+      "horizontalAlign": "center"
+    },
     "children": [
       "rich-text#header-menu-content-title",
       "image-new#header-menu-content-image"
     ]
   },
   "flex-layout.col#header-menu-content-image-5": {
+    "props": {
+      "horizontalAlign": "center"
+    },
     "children": [
       "rich-text#header-menu-content-title",
       "image-new#header-menu-content-image"
     ]
   },
   "flex-layout.col#header-menu-content-image-6": {
+    "props": {
+      "horizontalAlign": "center"
+    },
     "children": [
       "rich-text#header-menu-content-title",
       "image-new#header-menu-content-image"

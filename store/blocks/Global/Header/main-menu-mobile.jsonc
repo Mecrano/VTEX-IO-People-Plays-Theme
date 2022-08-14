@@ -1,0 +1,162 @@
+{
+  "menu#header-main-menu-mobile": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "header-menu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-marcas-mobile",
+      "menu-item#category-mujer-mobile",
+      "menu-item#category-hombre-mobile",
+      "menu-item#category-ninos-mobile",
+      "menu-item#sales-mobile"
+    ]
+  },
+  "menu-item#category-marcas-mobile": {
+    "props": {
+      "id": "menu-item-category-marcas-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/",
+        "noFollow": false,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    },
+    "blocks": ["submenu.accordion#header-doble-menu"]
+  },
+  "submenu.accordion#header-doble-menu": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#header-menu-content-doble-menu"]
+  },
+  "menu-item#category-mujer-mobile": {
+    "props": {
+      "id": "menu-item-category-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "Mujer"
+      }
+    },
+    "blocks": ["submenu.accordion#header-category-menu-images"]
+  },
+  "submenu.accordion#header-category-menu-images": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#header-menu-content-menu-images"]
+  },
+  "menu-item#category-hombre-mobile": {
+    "props": {
+      "id": "menu-item-category-hombre-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre",
+        "noFollow": false,
+        "tagTitle": "Hombre",
+        "text": "Hombre"
+      }
+    },
+    "blocks": ["submenu.accordion#header-category-menu-images"]
+  },
+  "menu-item#category-ninos-mobile": {
+    "props": {
+      "id": "menu-item-category-ninos-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ninos",
+        "noFollow": false,
+        "tagTitle": "Niños",
+        "text": "Niños"
+      }
+    },
+    "blocks": ["submenu.accordion#header-category-menu-images"]
+  },
+  "menu-item#sales-mobile": {
+    "props": {
+      "id": "menu-item-category-sales-mobile",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/sales",
+        "noFollow": false,
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    }
+  },
+
+  "menu#header-aux-menu-mobile": {
+    "props": {
+      "experimentalOptimizeRendering": true,
+      "blockClass": "header-menu",
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#link-stores",
+      "menu-item#link-find-orders",
+      "menu-item#link-whatsapp",
+      "menu-item#link-contact-us"
+    ]
+  },
+  "menu-item#link-whatsapp": {
+    "props": {
+      "id": "menu-item-category-whatsapp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": ["root", "whatsapp"],
+      "itemProps": {
+        "type": "external",
+        "href": "https://wa.me/573208786617",
+        "noFollow": false,
+        "tagTitle": "Venta por WhatsApp\n 312 316 9884",
+        "text": "Venta por WhatsApp\n 312 316 9884"
+      },
+      "iconProps": {
+        "id": "bnd-whatsapp",
+        "size": 32,
+        "viewBox": "0 0 16 16"
+      }
+    }
+  },
+  "menu-item#link-contact-us": {
+    "props": {
+      "id": "menu-item-category-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/contactanos",
+        "noFollow": false,
+        "tagTitle": "Línea de atención:\n BOG 390.72.22 - Ext. 1203",
+        "text": "Línea de atención:\n BOG 390.72.22 - Ext. 1203"
+      }
+    }
+  }
+}
