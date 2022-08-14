@@ -21,12 +21,15 @@
       "preventHorizontalStretch": true,
       "fullWidth": true
     },
-    "children": ["flex-layout.col#left-column", "flex-layout.col#right-column"]
+    "children": [
+      "flex-layout.col#header-left-column",
+      "flex-layout.col#header-right-column"
+    ]
   },
-  "flex-layout.col#left-column": {
-    "children": ["flex-layout.row#left-column"]
+  "flex-layout.col#header-left-column": {
+    "children": ["flex-layout.row#header-left-column"]
   },
-  "flex-layout.row#left-column": {
+  "flex-layout.row#header-left-column": {
     "props": {
       "verticalAlign": "middle",
       "preventHorizontalStretch": true,
@@ -43,20 +46,25 @@
       "width": "265"
     }
   },
-  "flex-layout.col#right-column": {
+  "flex-layout.col#header-right-column": {
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["flex-layout.row#right-column"]
+    "children": ["flex-layout.row#header-right-column"]
   },
-  "flex-layout.row#right-column": {
+  "flex-layout.row#header-right-column": {
     "props": {
       "verticalAlign": "middle",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "colSizing": "auto"
     },
-    "children": ["menu#header-aux", "menu#header-search", "login", "minicart.v2"]
+    "children": [
+      "menu#header-aux",
+      "menu#header-search",
+      "login",
+      "minicart.v2"
+    ]
   },
   "login": {
     "props": {
@@ -80,23 +88,59 @@
     "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
     "children": ["flex-layout.row#mobile"]
   },
   "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "login",
-      "minicart.v2"
-    ],
     "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
+      "fullWidth": true,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "colSizing": "auto",
+      "horizontalAlign": "between"
+    },
+    "children": [
+      "flex-layout.col#header-left-column-mobile",
+      "flex-layout.col#header-right-column-mobile"
+    ]
+  },
+  "flex-layout.col#header-left-column-mobile": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["flex-layout.row#header-left-column-mobile"]
+  },
+  "flex-layout.col#header-right-column-mobile": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["flex-layout.row#header-right-column-mobile"]
+  },
+  "flex-layout.row#header-left-column-mobile": {
+    "children": ["logo#mobile"]
+  },
+  "logo#mobile": {
+    "props": {
+      "title": "People Plays",
+      "href": "/",
+      "url": "assets/mobile-logo.svg",
+      "width": "80"
     }
   },
-  "drawer": {
+  "flex-layout.row#header-right-column-mobile": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "menu#header-search",
+      "minicart.v2",
+      "drawer#header-menu-mobile"
+    ]
+  },
+  "drawer#header-menu-mobile": {
     "children": []
   }
 }

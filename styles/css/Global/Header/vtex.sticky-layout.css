@@ -4,8 +4,18 @@
   padding: 0 3.3%;
 }
 
+.vtex-sticky-layout-0-x-wrapper--sticky-header--stuck .container--sticky-header {
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+}
+
 @media (max-width: 1700px) {
   .container--sticky-header {
     padding: 0 2%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container--sticky-header {
+    padding: 0 5%;
   }
 }
