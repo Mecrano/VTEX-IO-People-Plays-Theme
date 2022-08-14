@@ -1,3 +1,7 @@
+.biggy-autocomplete-wrapper {
+  width: 100%;
+}
+
 .biggy-autocomplete,
 .biggy-autocomplete.biggy-js-container--hidden {
   position: relative;
@@ -21,4 +25,36 @@
 .biggy-autocomplete .itemListLinkTitle {
   font-size: 1.1rem;
   text-transform: capitalize;
+}
+
+.biggy-autocomplete .close-btn {
+  display: none;
+}
+
+.biggy-autocomplete
+
+.tileListSeeMore {
+  color: var(--primary-blue);
+}
+
+@media (max-width: 900px) {
+  .biggy-autocomplete,
+  .biggy-autocomplete.biggy-js-container--hidden {
+    padding: 20px 5px;
+  }
+
+  .biggy-autocomplete .itemListTitle,
+  .biggy-autocomplete .tileListTitle {
+    font-size: 1.1rem;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .biggy-autocomplete .itemListLinkTitle {
+    font-size: 1rem;
+  }
+
+  .biggy-autocomplete .tileList {
+    border: none;
+  }
 }

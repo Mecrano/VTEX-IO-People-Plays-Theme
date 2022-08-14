@@ -10,3 +10,104 @@
   display: flex;
   max-width: none;
 }
+
+.searchBarContainer {
+  max-width: none;
+}
+
+.searchBarInnerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.autoCompleteOuterContainer {
+  min-width: 750px;
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: none;
+  height: 60px;
+}
+
+.searchBarContainer :global(.vtex-input__prefix) {
+  color: var(--primary-blue);
+  border: 1px solid var(--primary-blue);
+  border-right: none;
+  border-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  color: var(--primary-blue);
+  border: 1px solid var(--primary-blue);
+  border-left: none;
+  border-radius: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 5px;
+  height: 60px;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: var(--primary-blue);
+}
+
+.searchBarContainer :global(.vtex-input__suffix) {
+  padding: 0;
+}
+
+.searchBarContainer .suffixWrapper {
+  margin-left: 5px;
+  border: none;
+}
+
+.searchBarContainer .searchBarIcon--search,
+  .searchBarContainer .searchBarIcon--clear {
+  background-color: var(--primary-orange);
+  margin: 0;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0 16px;
+}
+
+@media (min-width: 1200px) {
+  .searchBarContainer .searchBarIcon--search::before {
+    content: "Buscar";
+  }
+
+  .searchBarContainer :global(.vtex-input__suffix) .searchIcon {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .searchBarContainer :global(.vtex-input-prefix__group) {
+    height: 45px;
+  }
+
+  .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    border-left: 1px solid var(--primary-blue);
+    height: 45px;
+  }
+
+  .searchBarContainer .searchBarIcon {
+    padding: 0 8px;
+  }
+
+  .searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+    font-size: 1rem;
+  }
+
+  .searchBarContainer .suffixWrapper {
+    margin-left: 3px;
+  }
+}
+
+@media (max-width: 900px) {
+  .autoCompleteOuterContainer {
+    min-width: auto;
+    width: 100%;
+  }
+}
