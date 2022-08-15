@@ -1,0 +1,25 @@
+.wrapper--footer-row-1-text-1 .paragraph,
+.wrapper--footer-row-1-text-2 .paragraph {
+  color: #000;
+  font-size: 35px;
+  margin: 10px 0;
+  line-height: 1;
+}
+
+.wrapper--footer-row-1-text-1 .paragraph {
+  font-size: 35px;
+}
+
+.wrapper--footer-row-1-text-2 .paragraph {
+  font-size: 20px;
+}
+
+.wrapper--text-1-contact-lines .paragraph,
+.wrapper--text-2-contact-lines .paragraph {
+  font-size: 16px;
+  color: #fff;
+}
+
+.wrapper--text-1-contact-lines .paragraph{
+  font-weight: bold;
+}

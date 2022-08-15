@@ -2,20 +2,129 @@
   "footer": {
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
-  "footer-layout.desktop": { 
+  "footer-layout.desktop": {
     "children": [
-      "flex-layout.row#footer"
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop" /* ,
+      "flex-layout.row#footer-3-desktop",
+      "flex-layout.row#footer-4-desktop",
+      "flex-layout.row#footer-5-desktop" */
     ]
   },
-  "footer-layout.mobile": { 
+  "flex-layout.row#footer-1-desktop": {
+    "props": { "blockClass": "footer-1-desktop" },
     "children": [
-      "flex-layout.row#footer"
+      "rich-text#footer-row-1-text-1",
+      "rich-text#footer-row-1-text-2"
     ]
   },
-  "flex-layout.row#footer": { 
+  "rich-text#footer-row-1-text-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Soporte y atención al cliente",
+      "blockClass": "footer-row-1-text-1"
+    }
+  },
+  "rich-text#footer-row-1-text-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lunes a viernes: 8 am a 4 pm Sábados: 8:30 am a 11:30 am",
+      "blockClass": "footer-row-1-text-2"
+    }
+  },
+
+  "flex-layout.row#footer-2-desktop": {
+    "props": { "blockClass": "footer-2-desktop", "colSizing": "auto" },
     "children": [
-      "image"
+      "flex-layout.col#contact-lines-1",
+      "flex-layout.col#contact-lines-2",
+      "flex-layout.col#contact-lines-3"
     ]
+  },
+  "flex-layout.col#contact-lines-1": {
+    "props":{
+      "blockClass": "column-contact-line"
+    },
+    "children": ["flex-layout.row#container-contact-lines"]
+  },
+  "flex-layout.col#contact-lines-2": {
+    "props":{
+      "blockClass": "column-contact-line"
+    },
+    "children": ["flex-layout.row#container-contact-lines"]
+  },
+  "flex-layout.col#contact-lines-3": {
+    "props":{
+      "blockClass": "column-contact-line"
+    },
+    "children": ["flex-layout.row#container-contact-lines"]
+  },
+
+  "flex-layout.row#container-contact-lines": {
+    "props": { "blockClass": "container-contact-lines" },
+    "children": [
+      "image#img-1-contact-lines",
+      "image#img-2-contact-lines",
+      "flex-layout.col#text-contact-lines"
+    ]
+  },
+  "image#img-1-contact-lines": {
+    "props": {
+      "src": "assets/footer/squarePhoto.png",
+      "maxWidth": "129px",
+      "maxHeight": "128px",
+      "blockClass": "img-1-contact-lines"
+    }
+  },
+  "image#img-2-contact-lines": {
+    "props": {
+      "src": "assets/footer/rectangleLeft.png",
+      "maxWidth": "386px",
+      "maxHeight": "101px",
+      "blockClass": "img-2-contact-lines"
+    }
+  },
+  "flex-layout.col#text-contact-lines": {
+    "props": { "blockClass": "container-texts-contact-lines" },
+
+    "children": [
+      "flex-layout.row#text-1-contact-lines",
+      "flex-layout.row#text-2-contact-lines"
+    ]
+  },
+  "flex-layout.row#text-1-contact-lines": {
+    "props": { "blockClass": "container-text-1-contact-lines" },
+    "children": ["rich-text#text-1-contact-lines"]
+  },
+  "flex-layout.row#text-2-contact-lines": {
+    "props": { "blockClass": "container-text-2-contact-lines" },
+    "children": ["rich-text#text-2-contact-lines"]
+  },
+  "rich-text#text-1-contact-lines": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Línea de atención nacional",
+      "blockClass": "text-1-contact-lines"
+    }
+  },
+  "rich-text#text-2-contact-lines": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "(571)3-907-222 Ext. 1203",
+      "blockClass": "text-2-contact-lines"
+    }
+  },
+
+  /* *********Mobile********* */
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footer"]
+  },
+  "flex-layout.row#footer": {
+    "children": ["image"]
   },
   "image": {
     "props": {
