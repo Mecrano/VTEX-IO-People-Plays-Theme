@@ -3,12 +3,13 @@
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": {
+    "props": { "blockClass": "containerFooter" },
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop" /* ,
       "flex-layout.row#footer-3-desktop",
-      "flex-layout.row#footer-4-desktop",
-      "flex-layout.row#footer-5-desktop" */
+      "flex-layout.row#footer-4-desktop",*/,
+      "flex-layout.row#footer-5-desktop"
     ]
   },
   "flex-layout.row#footer-1-desktop": {
@@ -44,19 +45,19 @@
     ]
   },
   "flex-layout.col#contact-lines-1": {
-    "props":{
+    "props": {
       "blockClass": "column-contact-line"
     },
     "children": ["flex-layout.row#container-contact-lines"]
   },
   "flex-layout.col#contact-lines-2": {
-    "props":{
+    "props": {
       "blockClass": "column-contact-line"
     },
     "children": ["flex-layout.row#container-contact-lines"]
   },
   "flex-layout.col#contact-lines-3": {
-    "props":{
+    "props": {
       "blockClass": "column-contact-line"
     },
     "children": ["flex-layout.row#container-contact-lines"]
@@ -116,6 +117,54 @@
       "textPosition": "CENTER",
       "text": "(571)3-907-222 Ext. 1203",
       "blockClass": "text-2-contact-lines"
+    }
+  },
+
+  "flex-layout.row#footer-5-desktop": {
+    "props": { "blockClass": "footer-5-desktop" },
+    "children": [
+      "flex-layout.col#footer-5-copyright",
+      "flex-layout.col#footer-5-term-and-conditions"
+    ]
+  },
+  "flex-layout.col#footer-5-copyright": {
+    "children": ["rich-text#footer-5-desktop"]
+  },
+  "flex-layout.col#footer-5-term-and-conditions": {
+    "children": ["flex-layout.row#term-and-conditions"]
+  },
+  "flex-layout.row#term-and-conditions": {
+    "children": [
+      "flex-layout.col#term-and-conditions-1",
+      "flex-layout.col#term-and-conditions-2",
+      "flex-layout.col#term-and-conditions-3"
+    ]
+  },
+  "flex-layout.col#term-and-conditions-1": {
+    "props":{
+      "horizontalAlign": "left"
+    },
+    "children": ["rich-text#footer-5-desktop"]
+  },
+  "flex-layout.col#term-and-conditions-2": {
+    "props":{
+      "horizontalAlign": "left"
+    },
+    "children": ["rich-text#footer-5-desktop"]
+  },
+  "flex-layout.col#term-and-conditions-3": {
+    "props":{
+      "horizontalAlign": "left"
+    },
+    "children": ["rich-text#footer-5-desktop"]
+  },
+
+  "rich-text#footer-5-desktop": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Términos y condiciones",
+      "blockClass": "texts-footer-5"
     }
   },
 

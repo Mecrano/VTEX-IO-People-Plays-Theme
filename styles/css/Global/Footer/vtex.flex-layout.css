@@ -1,3 +1,9 @@
+/* Fondo provisional */
+:global(.vtex-store-footer-2-x-footerLayout--containerFooter) {
+  background: #e7e7e7;
+}
+/* ******************* */
+
 .flexRowContent--footer-1-desktop {
   flex-direction: column;
   align-items: center;
@@ -15,7 +21,6 @@
 .flexRow--footer-2-desktop {
   height: 180px;
   padding: 60px 0;
-  background: #e7e7e7;
 }
 
 /* Card contact */
@@ -38,9 +43,14 @@
   left: 0;
 }
 
+
+.flexRowContent--footer-5-desktop{
+  border-top: 2px solid #adadad;
+  width: 100%;
+}
+
 .flexCol--container-texts-contact-lines {
   position: absolute;
   width: 200px !important;
   right: 20px;
-  top: 5px;
 }
