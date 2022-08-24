@@ -1,0 +1,28 @@
+.wishlistIconContainer--shelf__wishlist-button{
+    position: relative;
+}
+
+.wishlistIconContainer--shelf__wishlist-button :global(.vtex-button){
+    position: absolute;
+    z-index: 2;
+    right: 0;
+}
+
+.wishlistIconContainer--shelf__wishlist-button :global(.vtex-button):hover{
+    background-color: transparent !important;
+}
+
+.wishlistIconContainer--shelf__wishlist-button :global(.vtex-button__label){
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
+    .iconSize{
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+
+}

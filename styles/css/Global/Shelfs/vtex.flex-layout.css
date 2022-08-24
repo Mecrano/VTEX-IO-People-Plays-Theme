@@ -1,0 +1,81 @@
+.flexColChild--shelf__add-to-cart__container{
+    display: flex;
+    align-items: center;
+}
+
+.flexCol--shelf__name-and-savings-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.flexRowContent--shelf__pricesyadd-to-cart-button__container{
+    height: 85px;
+}
+
+.flexCol--shelf__prices__container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/* .flexColChild--shelf__add-to-cart__container :global(.vtex-button__label)::before{
+    background: url(#hpa-cart);
+    content: 'c';
+} */
+
+.flexColChild--shelf__name-and-savings-container{
+    display: flex;
+    align-items: flex-start;
+}
+
+.flexColChild--shelf__add-to-cart__container :global(.vtex-button){
+    background: #fff;
+    border-radius: 4px;
+    border: 3px solid #062F87;
+}
+
+.flexColChild--shelf__add-to-cart__container :global(.vtex-button__label){
+    color: #062F87;
+    font-size: 21px;
+    font-family: Roboto;
+    font-style: italic;
+    padding-top: 5px !important;
+    text-transform: none;
+}
+
+@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
+
+    .flexColChild--shelf__add-to-cart__container :global(.vtex-button__label){
+        font-size: 12px;
+        padding-inline: 0;
+    }    
+
+    .flexColChild--shelf__prices__container{
+        display: flex;
+        align-items: center;
+    }
+
+    .flexCol--shelf__prices__container .flexColChild--shelf__prices__container:first-child{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+    .flexRowContent--shelf__pricesyadd-to-cart-button__container{
+        height: 63px;
+    }
+
+    .flexRow--shelfComplete :global(.vtex-store-components-3-x-container){
+        padding-inline: 0;
+    }
+
+    .flexColChild--shelf__add-to-cart__container :global(.vtex-button__label){
+        font-size: 11px;
+    }
+
+    .flexColChild--shelf__add-to-cart__container :global(.vtex-button__label){
+        padding-top: 0.25em !important;
+    }
+}

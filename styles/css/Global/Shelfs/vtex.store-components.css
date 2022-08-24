@@ -1,0 +1,14 @@
+:global(.vtex-product-summary-2-x-imageWrapper--shelf__image) .discountContainer .discountInsideContainer{
+    bottom: -56px;
+    right: -99px;
+}
+
+@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
+    :global(.vtex-product-summary-2-x-imageWrapper--shelf__image) .discountContainer .discountInsideContainer{
+        right: -28px;
+    }
+}
+
+@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+
+}

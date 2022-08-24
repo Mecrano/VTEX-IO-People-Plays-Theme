@@ -5,7 +5,7 @@
     ]
   },
   "flex-layout.row#shelf1": {
-    "children": ["list-context.product-list#productSlider"],
+    "children": ["list-context.product-list#shelf"],
     "props": {
       "blockClass": "shelfComplete"
     }
