@@ -55,10 +55,10 @@
 			"list-context.product-list#demo1",
 			"flex-layout.row#department-two-banners",
 			"rich-text#search-category-title-2",
-			//list-context-infocard
+			"list-context.info-card-list#promociones",
 			"flex-layout.row#department-newsletter-banner",
-			"rich-text#search-category-title"/* ,
-			"product-summary.shelf" */
+			"rich-text#search-category-title",
+			"list-context.product-list#demo2"
 		],
 		"props": {
 			"blockClass": "department-main-container-col"
@@ -249,13 +249,81 @@
 	  "slider-layout#demo-products": {
 		"props": {
 		  "itemsPerPage": {
-			"desktop": 4,
-			"tablet": 3,
+			"desktop": 3,
+			"tablet": 2,
 			"phone": 1
 		  },
 		  "infinite": true,
 		  "fullWidth": false,
 		  "blockClass": "shelf"
 		}
-	  }
+	},
+	"list-context.product-list#demo2": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#demo-products"],
+		"props": {
+		  "orderBy": "OrderByTopSaleDESC"
+		}
+	},
+	"list-context.info-card-list#promociones":{
+		"children":[
+			"slider-layout#infocard-slider-prom"
+		],
+		"props":{
+			"infoCards": [
+				{
+					"textPosition": "center",
+					"textAlignment": "center",
+					"imageUrl": "https://ximg.es/439x461/eee/000",
+					"headline": "Calzado",
+					"callToActionText": "test",
+					"callToActionUrl": "/",
+					"linkTarget": "/"
+
+				},
+				{
+					"textPosition": "center",
+					"textAlignment": "center",
+					"imageUrl": "https://ximg.es/439x461/eee/000",
+					"headline": "Accesorios",
+					"callToActionText": "test",
+					"callToActionUrl": "/",
+					"linkTarget": "/"
+
+				},
+				{
+					"textPosition": "center",
+					"textAlignment": "center",
+					"imageUrl": "https://ximg.es/439x461/eee/000",
+					"headline": "Ropa",
+					"callToActionText": "test",
+					"callToActionUrl": "/",
+					"linkTarget": "/"
+
+				},
+				{
+					"textPosition": "center",
+					"textAlignment": "center",
+					"imageUrl": "https://ximg.es/439x461/eee/000",
+					"headline": "Promociones",
+					"callToActionText": "test",
+					"callToActionUrl": "/",
+					"linkTarget": "/"
+
+				}
+			]
+		}
+	},
+	"slider-layout#infocard-slider-prom":{
+		"props":{
+			"blockClass": "prom-slider-infocard",
+			"itemsPerPage": {
+				"desktop": 4,
+				"tablet": 3,
+				"phone": 1
+			},
+			"showNavigationArrows": "mobileOnly",
+			"showPaginationDots": "never"
+		}
+	}
 }

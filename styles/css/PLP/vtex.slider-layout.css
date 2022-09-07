@@ -2,6 +2,43 @@
     justify-content: space-between;
 }
 
+.infoCardContainer--prom-slider-infocard{
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+.slide--prom-slider-infocard--visible{
+    padding-inline: 18px;
+}
+
+.infoCardImageContainer--prom-slider-infocard {
+    width: 100%;
+}
+
+.infoCardHeadline--prom-slider-infocard{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #000;
+}
+
+.infoCardTextContainer--prom-slider-infocard{
+    width: 100%;
+    position: relative;
+}
+
+.infoCardCallActionContainer--prom-slider-infocard{
+    position: absolute;
+    right: 20px;
+    top: -63px;
+    margin: 0;
+}
+
+.infoCardCallActionContainer--prom-slider-infocard :global(.vtex-button){
+    border-radius: 50px;
+}
+
 @media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
 }
 

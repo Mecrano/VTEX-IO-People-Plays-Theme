@@ -1,3 +1,7 @@
 .flexRowContent--department-two-banners-container-row{
     justify-content: space-between;
 }
+.flexRow--department-two-banners-container-row,
+.flexRow--department-newsletter-banner-row{
+    margin-top: 20px;
+}
