@@ -2,6 +2,7 @@
 :global(.vtex-store-footer-2-x-footerLayout--containerFooter) {
   background: #e7e7e7;
 }
+
 /* ******************* */
 
 .flexRowContent--footer-1-desktop {
@@ -11,6 +12,8 @@
 
 .flexRowContent--footer-2-desktop {
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 10px
 }
 
 .flexColChild--container-texts-contact-lines {
@@ -19,8 +22,7 @@
 }
 
 .flexRow--footer-2-desktop {
-  height: 180px;
-  padding: 60px 0;
+  padding: 0px 0 20px;
 }
 
 /* Card contact */
@@ -28,7 +30,8 @@
   position: relative;
   width: 388px;
   z-index: 50;
-  height: 96px;
+  height: 97px;
+  margin-top: 60px;
 }
 
 :global(.vtex-store-components-3-x-imageElement--img-1-contact-lines) {
@@ -38,15 +41,28 @@
   top: -40px;
 }
 
-:global(.vtex-store-components-3-x-imageElement--img-2-contact-lines) {
+.flexCol--background-1-contact-lines,
+.flexCol--background-2-contact-lines {
+  background: #000;
+  height: 97px;
+  border-radius: 4px;
   position: absolute;
-  left: 0;
 }
 
+.flexCol--background-1-contact-lines {
+  width: 60px !important;
+  left: 17px;
+  transform: skew(27deg);
+}
 
-.flexRowContent--footer-5-desktop{
+.flexCol--background-2-contact-lines {
+  width: 344px !important;
+  right: 0;
+}
+
+.flexRowContent--footer-4-desktop,
+.flexRowContent--footer-5-desktop {
   border-top: 2px solid #adadad;
-  width: 100%;
 }
 
 .flexCol--container-texts-contact-lines {

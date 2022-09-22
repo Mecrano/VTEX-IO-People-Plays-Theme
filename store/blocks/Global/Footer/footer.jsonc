@@ -67,7 +67,7 @@
     "props": { "blockClass": "container-contact-lines" },
     "children": [
       "image#img-1-contact-lines",
-      "image#img-2-contact-lines",
+      "flex-layout.col#background-contact-lines",
       "flex-layout.col#text-contact-lines"
     ]
   },
@@ -79,14 +79,28 @@
       "blockClass": "img-1-contact-lines"
     }
   },
-  "image#img-2-contact-lines": {
+  "flex-layout.col#background-contact-lines": {
+    "children": ["flex-layout.row#container-background-contact-lines"]
+  },
+  "flex-layout.row#container-background-contact-lines": {
+    "props": {},
+    "children": [
+      "flex-layout.col#background-1-contact-lines",
+      "flex-layout.col#background-2-contact-lines"
+    ]
+  },
+
+  "flex-layout.col#background-1-contact-lines": {
     "props": {
-      "src": "assets/footer/rectangleLeft.png",
-      "maxWidth": "386px",
-      "maxHeight": "101px",
-      "blockClass": "img-2-contact-lines"
+      "blockClass": "background-1-contact-lines"
     }
   },
+  "flex-layout.col#background-2-contact-lines": {
+    "props": {
+      "blockClass": "background-2-contact-lines"
+    }
+  },
+
   "flex-layout.col#text-contact-lines": {
     "props": { "blockClass": "container-texts-contact-lines" },
 
@@ -120,6 +134,19 @@
     }
   },
 
+  "flex-layout.row#footer-4-desktop": {
+    "props": { "blockClass": "footer-4-desktop" },
+    "children": [
+      /* "flex-layout.col#footer-4-desktop-brands",
+      "flex-layout.col#footer-4-desktop-brands",
+      "flex-layout.col#footer-4-desktop-brands",
+      "flex-layout.col#footer-4-desktop-brands",
+      "flex-layout.col#footer-4-desktop-brands",
+      "flex-layout.col#footer-4-desktop-brands",
+      "flex-layout.col#footer-4-desktop-brands",
+      "flex-layout.col#footer-4-desktop-brands" */
+    ]
+  },
   "flex-layout.row#footer-5-desktop": {
     "props": { "blockClass": "footer-5-desktop" },
     "children": [
@@ -141,19 +168,19 @@
     ]
   },
   "flex-layout.col#term-and-conditions-1": {
-    "props":{
+    "props": {
       "horizontalAlign": "left"
     },
     "children": ["rich-text#footer-5-desktop"]
   },
   "flex-layout.col#term-and-conditions-2": {
-    "props":{
+    "props": {
       "horizontalAlign": "left"
     },
     "children": ["rich-text#footer-5-desktop"]
   },
   "flex-layout.col#term-and-conditions-3": {
-    "props":{
+    "props": {
       "horizontalAlign": "left"
     },
     "children": ["rich-text#footer-5-desktop"]
