@@ -1,0 +1,18 @@
+.link{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    color: #000;
+}
+
+.caretIcon{
+    display: none;
+}
+
+.arrow::before{
+    content: "|";
+    padding-inline: 5px;
+    color: #000;
+    font-size: 29px;
+}

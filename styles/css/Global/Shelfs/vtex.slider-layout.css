@@ -1,0 +1,11 @@
+.slide--shelf-slider--visible{
+    padding-inline: 15px;
+}
+
+@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
+
+}
+
+@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+
+}

@@ -1,0 +1,22 @@
+.gallery{
+    padding-inline: 15px;
+}
+
+.searchResultContainer--mobile-plp--main-container{
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.searchResultContainer--desktop-plp--main-container{
+    padding: 0;
+    max-width: unset;
+}
+
+@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
+    .gallery{
+        padding-inline: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+}
