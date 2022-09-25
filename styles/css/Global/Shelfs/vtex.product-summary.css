@@ -1,0 +1,121 @@
+.containerNormal--principal__shelf{
+    max-width: unset !important;
+}
+
+.productBrandContainer--shelf__brand{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+
+.productBrandName--shelf__brand{
+    font-family: 'Roboto';
+    font-size: 15.3px;
+    line-height: 17.93px;
+    font-weight: 500;
+    color: #000;
+}
+
+.brandName--shelf__name{
+    display: flex;
+}
+
+.nameContainer--shelf__name{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.productBrand--shelf__name{
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 500;
+    text-align: left;
+    color: #000;
+    height: 57px;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.price_listPriceLabel--shelf__price,
+.price_sellingPriceLabel--shelf__price{
+    display: none;
+}
+
+.price_className--shelf__price{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.price_sellingPriceContainer--shelf__price,
+.price_listPriceContainer--shelf__price{
+    padding: 0;
+} 
+
+.price_className--shelf__price{
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.priceContainer--shelf__price{
+    align-items: flex-start;
+}
+
+.price_sellingPrice--shelf__price{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+}
+
+.price_listPrice--shelf__price{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nameContainer--shelf__name{
+    padding: 0;
+}
+
+@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
+    .productBrandName--shelf__brand{
+        font-size: 10px;
+    }
+
+    .productBrand--shelf__name,
+    .price_sellingPrice--shelf__price{
+        font-size: 17px;
+    }
+
+    .price_listPrice--shelf__price{
+        font-size: 12px;
+    }
+
+    .price_className--shelf__price{
+        line-height: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+    .productBrandName--shelf__brand{
+        font-size: 8.67px;
+    }
+
+    .productBrand--shelf__name,
+    .price_sellingPrice--shelf__price{
+        font-size: 15.13px;
+    }
+
+    .price_listPrice--shelf__price{
+        font-size: 10.58px;
+    }
+
+    .productBrand--shelf__name{
+        height: 36px;
+    }
+
+    .price_className--shelf__price{
+        line-height: 13px;
+    }
+}
