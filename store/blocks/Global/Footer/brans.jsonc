@@ -1,11 +1,47 @@
 {
-  "flex-layout.col#footer-4-desktop-brands":{
-    "children":["image#example"]
+  "flex-layout.col#footer-4-desktop-brands-1": {
+    "props": { "blockClass": "container-footer-4-image-brand" },
+    "children": ["rich-text#footer-4-desktop-brands"]
   },
-  "image#example": {
+  "flex-layout.col#footer-4-desktop-brands-2": {
+    "props": { "blockClass": "container-footer-4-image-brand" },
+    "children": ["image#footer-4-image-brand"]
+  },
+  "flex-layout.col#footer-4-desktop-brands-3": {
+    "props": { "blockClass": "container-footer-4-image-brand" },
+    "children": ["image#footer-4-image-brand"]
+  },
+  "flex-layout.col#footer-4-desktop-brands-4": {
+    "props": { "blockClass": "container-footer-4-image-brand" },
+    "children": ["image#footer-4-image-brand"]
+  },
+  "flex-layout.col#footer-4-desktop-brands-5": {
+    "props": { "blockClass": "container-footer-4-image-brand" },
+    "children": ["image#footer-4-image-brand"]
+  },
+  "flex-layout.col#footer-4-desktop-brands-6": {
+    "props": { "blockClass": "container-footer-4-image-brand" },
+    "children": ["image#footer-4-image-brand"]
+  },
+  "flex-layout.col#footer-4-desktop-brands-7": {
+    "props": { "blockClass": "container-footer-4-image-brand" },
+    "children": ["image#footer-4-image-brand"]
+  },
+  "flex-layout.col#footer-4-desktop-brands-8": {
+    "props": { "blockClass": "container-footer-4-image-brand" },
+    "children": ["image#footer-4-image-brand"]
+  },
+  "rich-text#footer-4-desktop-brands":{
+    "props":{
+      "blockClass": "footer-4-text-brands",
+      "text": "Medios de pago"
+    }
+  },
+  "image#footer-4-image-brand": {
     "props": {
+      "blockClass": "footer-4-image-brand",
       "src": "assets/footer/logoMercadoPago.png",
-      "maxHeight": 34
+      "maxHeight": 28
     }
   }
 }

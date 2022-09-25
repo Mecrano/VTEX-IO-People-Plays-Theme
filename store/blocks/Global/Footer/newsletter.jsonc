@@ -9,12 +9,19 @@
   },
   "newsletter-input-email": {
     "props": {
+      "blockClass": "newsletter-input-email",
       "placeholderText": "Email"
+    }
+  },
+  "newsletter-submit": {
+    "props": {
+      "submitButtonLabel": "Enviar"
     }
   },
   "newsletter-checkbox-confirmation": {
     "props": {
       "checkboxLabel": "He leído y acepto las Políticas de Privacidad y Tratamiento de Datos Personales.",
+      "blockClass":"newsletter-checkbox-confirmation",
       "firstLabelLink": {
         "url": "/",
         "text": "Ver políticas aquí"
@@ -23,6 +30,7 @@
   },
   "rich-text#title-newsletter": {
     "props": {
+      "blockClass": "title-newsletter",
       "text": "### Suscríbete a nuestro newsletter. \nY entérate de primer mano lo que tenemos para ti"
     }
   }

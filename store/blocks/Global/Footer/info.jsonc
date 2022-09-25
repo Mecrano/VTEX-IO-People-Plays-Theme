@@ -1,6 +1,7 @@
 {
   "flex-layout.col#info-1": {
     "props": {
+      "blockClass": "container-newsletter-footer-3",
       "width": "40%"
     },
     "children": ["newsletter-form"]
@@ -9,27 +10,28 @@
     "props": {
       "width": "15%"
     },
-    "children": ["flex-layout.row#container-info"]
+    "children": ["flex-layout.row#container-info-1"]
   },
   "flex-layout.col#info-3": {
     "props": {
       "width": "15%"
     },
-    "children": ["flex-layout.row#container-info"]
+    "children": ["flex-layout.row#container-info-1"]
   },
   "flex-layout.col#info-4": {
     "props": {
       "width": "15%"
     },
-    "children": ["flex-layout.row#container-info", "link#info-brands-4"]
+    "children": ["flex-layout.row#container-info-1", "link#info-brands-4"]
   },
   "flex-layout.col#info-5": {
     "props": {
       "width": "15%"
     },
-    "children": ["flex-layout.row#container-info"]
+    "children": ["flex-layout.row#container-info-2"]
   },
-  "flex-layout.row#container-info": {
+
+  "flex-layout.row#container-info-1": {
     "children": ["flex-layout.col#continer-info-desktop"]
   },
   "flex-layout.col#continer-info-desktop": {
@@ -74,6 +76,42 @@
       "href": "/",
       "label": "Términos y condiciones de promociones",
       "blockClass": "info-brands"
+    }
+  },
+  "flex-layout.row#container-info-2": {
+    "children": ["flex-layout.col#continer-info-desktop-2"]
+  },
+  "flex-layout.col#continer-info-desktop-2": {
+    "children": [
+      "link#info-title-brands",
+      "flex-layout.row#container-socialNetwork-info"
+    ]
+  },
+  "flex-layout.row#container-socialNetwork-info": {
+    "props": { "blockClass": "container-socialNetwork-info" },
+    "children": [
+      "image#info-brands-socialNetwork-1",
+      "image#info-brands-socialNetwork-2",
+      "image#info-brands-socialNetwork-3"
+    ]
+  },
+
+  "image#info-brands-socialNetwork-1": {
+    "props": {
+      "blockClass": "info-brands-socialNetwork",
+      "src": "assets/footer/socialNetwork.png"
+    }
+  },
+  "image#info-brands-socialNetwork-2": {
+    "props": {
+      "blockClass": "info-brands-socialNetwork",
+      "src": "assets/footer/socialNetwork2.png"
+    }
+  },
+  "image#info-brands-socialNetwork-3": {
+    "props": {
+      "blockClass": "info-brands-socialNetwork",
+      "src": "assets/footer/socialNetwork3.png"
     }
   }
 }

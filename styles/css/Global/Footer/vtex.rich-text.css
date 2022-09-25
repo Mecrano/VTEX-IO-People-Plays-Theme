@@ -20,12 +20,33 @@
   color: #fff;
 }
 
-.wrapper--text-1-contact-lines .paragraph{
+.wrapper--text-1-contact-lines .paragraph {
   font-weight: bold;
 }
 
 
-:global(.vtex-flex-layout-0-x-flexRow--footer-5-desktop) .paragraph{
+:global(.vtex-flex-layout-0-x-flexRow--footer-5-desktop) .paragraph {
   font-size: 16px;
   color: #000;
+}
+
+.heading--title-newsletter {
+  color: #000;
+  font-size: 22px;
+  margin-bottom: 0;
+  margin-top: 28px;
+}
+
+.paragraph--title-newsletter {
+  color: #000;
+  font-size: 18px;
+  margin: 0;
+}
+
+.wrapper--footer-4-text-brands .paragraph{
+  color: #000;
+  margin: 0;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
 }
