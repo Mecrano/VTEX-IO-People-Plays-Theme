@@ -1,0 +1,29 @@
+{
+  "newsletter-form": {
+    "children": [
+      "rich-text#title-newsletter",
+      "newsletter-input-email",
+      "newsletter-submit",
+      "newsletter-checkbox-confirmation"
+    ]
+  },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Email"
+    }
+  },
+  "newsletter-checkbox-confirmation": {
+    "props": {
+      "checkboxLabel": "He leído y acepto las Políticas de Privacidad y Tratamiento de Datos Personales.",
+      "firstLabelLink": {
+        "url": "/",
+        "text": "Ver políticas aquí"
+      }
+    }
+  },
+  "rich-text#title-newsletter": {
+    "props": {
+      "text": "### Suscríbete a nuestro newsletter. \nY entérate de primer mano lo que tenemos para ti"
+    }
+  }
+}

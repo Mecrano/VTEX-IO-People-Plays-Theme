@@ -6,9 +6,9 @@
     "props": { "blockClass": "containerFooter" },
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-desktop" /* ,
+      "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop",
-      "flex-layout.row#footer-4-desktop",*/,
+      "flex-layout.row#footer-4-desktop",
       "flex-layout.row#footer-5-desktop"
     ]
   },
@@ -133,18 +133,27 @@
       "blockClass": "text-2-contact-lines"
     }
   },
+  "flex-layout.row#footer-3-desktop": {
+    "props": { "blockClass": "footer-3-desktop" },
+    "children": [
+      "flex-layout.col#info-1",
+      "flex-layout.col#info-2",
+      "flex-layout.col#info-3",
+      "flex-layout.col#info-4",
+      "flex-layout.col#info-5"
+    ]
+  },
 
   "flex-layout.row#footer-4-desktop": {
     "props": { "blockClass": "footer-4-desktop" },
     "children": [
-      /* "flex-layout.col#footer-4-desktop-brands",
       "flex-layout.col#footer-4-desktop-brands",
       "flex-layout.col#footer-4-desktop-brands",
       "flex-layout.col#footer-4-desktop-brands",
       "flex-layout.col#footer-4-desktop-brands",
       "flex-layout.col#footer-4-desktop-brands",
       "flex-layout.col#footer-4-desktop-brands",
-      "flex-layout.col#footer-4-desktop-brands" */
+      "flex-layout.col#footer-4-desktop-brands"
     ]
   },
   "flex-layout.row#footer-5-desktop": {

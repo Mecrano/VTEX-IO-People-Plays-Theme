@@ -1,0 +1,79 @@
+{
+  "flex-layout.col#info-1": {
+    "props": {
+      "width": "40%"
+    },
+    "children": ["newsletter-form"]
+  },
+  "flex-layout.col#info-2": {
+    "props": {
+      "width": "15%"
+    },
+    "children": ["flex-layout.row#container-info"]
+  },
+  "flex-layout.col#info-3": {
+    "props": {
+      "width": "15%"
+    },
+    "children": ["flex-layout.row#container-info"]
+  },
+  "flex-layout.col#info-4": {
+    "props": {
+      "width": "15%"
+    },
+    "children": ["flex-layout.row#container-info", "link#info-brands-4"]
+  },
+  "flex-layout.col#info-5": {
+    "props": {
+      "width": "15%"
+    },
+    "children": ["flex-layout.row#container-info"]
+  },
+  "flex-layout.row#container-info": {
+    "children": ["flex-layout.col#continer-info-desktop"]
+  },
+  "flex-layout.col#continer-info-desktop": {
+    "children": [
+      "link#info-title-brands",
+      "link#info-brands-1",
+      "link#info-brands-2",
+      "link#info-brands-3",
+      "link#info-brands-4"
+    ]
+  },
+  "link#info-title-brands": {
+    "props": {
+      "href": "/",
+      "label": "Nuestras Marcas",
+      "blockClass": "info-title-brands"
+    }
+  },
+  "link#info-brands-1": {
+    "props": {
+      "href": "/",
+      "label": "Acerca de la marca",
+      "blockClass": "info-brands"
+    }
+  },
+  "link#info-brands-2": {
+    "props": {
+      "href": "/",
+      "label": "Contáctanos",
+      "blockClass": "info-brands"
+    }
+  },
+  "link#info-brands-3": {
+    "props": {
+      "href": "/",
+      "label": "Preguntas frecuentes",
+      "blockClass": "info-brands"
+    }
+  },
+  "link#info-brands-4": {
+    "props": {
+      "href": "/",
+      "label": "Términos y condiciones de promociones",
+      "blockClass": "info-brands"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "flex-layout.col#footer-4-desktop-brands":{
+    "children":["image#example"]
+  },
+  "image#example": {
+    "props": {
+      "src": "assets/footer/logoMercadoPago.png",
+      "maxHeight": 34
+    }
+  }
+}
