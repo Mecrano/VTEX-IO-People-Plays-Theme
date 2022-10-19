@@ -12,6 +12,47 @@
     max-width: unset;
 }
 
+.filterMessage {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 49px;
+  color: #000000;
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.filterTitleSpan {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.filter__container--selectedFilters {
+  display: none;
+}
+
+.filterTitle, .filterTemplateOverflow {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.filters--layout {
+  background: #FFFFFF;
+}
+
+.filter__container--title {
+  background-color: #DFDFDF;
+  margin-left: -29px;
+  margin-right: -29px;
+  margin-top: -16px;
+}
+
+
 @media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
     .gallery{
         padding-inline: 5px;

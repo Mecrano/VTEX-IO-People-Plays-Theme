@@ -19,7 +19,8 @@
       "horizontalAlign": "between",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": "header-flex"
     },
     "children": [
       "flex-layout.col#header-left-column",

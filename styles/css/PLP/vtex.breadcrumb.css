@@ -13,6 +13,29 @@
 .arrow::before{
     content: "|";
     padding-inline: 5px;
-    color: #000;
+    color: #ABABAB;
     font-size: 29px;
+}
+
+.homeIcon--breadcrumb--plp {
+  display: none;
+}
+
+.homeLink--breadcrumb--plp::after {
+  content: url(/arquivos/Group.svg);
+  color: #FC701C;
+  width: 24.28px;
+}
+
+.link--breadcrumb--plp--1  {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #000000
+}
+
+.link--breadcrumb--plp--1:hover  {
+  color: #000000
 }

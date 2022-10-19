@@ -5,3 +5,38 @@
 .flexRow--department-newsletter-banner-row{
     margin-top: 20px;
 }
+
+.flexRow--header-flex {
+  width : calc(1300px - 22px * 2);
+  margin: 0 auto;
+}
+
+.flexRow--breadcrumb-plp--flex {
+  width : calc(1300px - 15px * 2);
+  margin: 0 auto;
+}
+
+.flexRow--container--search {
+  background-color: #DFDFDF;
+}
+
+.flexRow--container--search :global(.vtex-store-components-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+.flexRow--container--search :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  background-color: #DFDFDF;
+}
+
+.flexRowContent--content--container {
+  flex-direction: column;
+}
+
+.flexRowContent--content--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+
+

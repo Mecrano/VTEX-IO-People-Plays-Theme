@@ -1,5 +1,5 @@
 {
-	"search-result-layout": {
+  "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",
       "search-result-layout.mobile",
@@ -19,13 +19,134 @@
       "blockClass": "desktop-plp--main-container"
     },
     "children": [
-      "breadcrumb.search",
-      "list-context.image-list#plp--banner",
-			"search-content",
-			"search-fetch-more"
+      "notification.bar#plp",
+      "flex-layout.row#breadcrumbPlp",
+      "flex-layout.row#container-search"
+      /*  "list-context.image-list#plp--banner", categorias */
+      /* "search-content",
+			"search-fetch-more" */
     ]
   },
-	"search-result-layout.mobile": {
+  "notification.bar#plp": {
+    "props": {
+      "blockClass": "notification-plp",
+      "content": "Envíos gratuitos con compras desde $292.482"
+    }
+  },
+  "flex-layout.row#breadcrumbPlp": {
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "blockClass": "breadcrumb-plp--flex"
+    }
+  },
+  "breadcrumb.search": {
+    "title": "breadcrumb-plp",
+    "props": {
+      "blockClass": "breadcrumb--plp"
+    }
+  },
+  "flex-layout.row#container-search": {
+    "children": [
+      "flex-layout.row#filter",
+      "flex-layout.row#content"
+    ],
+    "props": {
+      /* "preventHorizontalStretch": true,
+      "fullWidth": true, */
+      "blockClass": "container--search"
+    }
+  },
+  "flex-layout.row#filter": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "flex-filter--col",
+      "width": "23%"
+    }
+  },
+
+  "filter-navigator.v3": {
+    "props": {
+      "initiallyCollapsed": true
+    }
+  },
+
+  "flex-layout.row#content": {
+    "children": [
+       "flex-layout.row#searchinfo",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#products",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "blockClass": "content--container",
+      "width": "77%"
+    }
+  },
+
+  "flex-layout.row#searchinfo": {
+    "children": ["flex-layout.row#orderBy"],
+    "props": {
+      "blockClass": "search-info--container"
+    }
+  },
+
+  "flex-layout.row#fetchprevious": {
+    "props": {
+      /* "marginBottom": 3, */
+      "blockClass": "fetch--previous"
+    },
+    "children": ["search-fetch-previous"]
+  },
+
+  "flex-layout.row#products": {
+    "children": ["search-content"],
+    "props": {
+      "blockClass": "products-container--search"
+    }
+  },
+
+  "flex-layout.row#fetchmore": {
+    "props": {
+      /* "marginTop": 3 */
+      "blockClass": "fetch--more"
+    },
+    "children": ["search-fetch-more"]
+  },
+
+  "flex-layout.row#orderBy": {
+    "children": ["order-by.v2"],
+    "props": {
+      /* "horizontalAlign": "right",
+      "preventHorizontalStretch": true, */
+      "blockClass": "order--by"
+      /* "colGap": 3 */
+    }
+  },
+
+  "search-fetch-previous": {
+    "props": {
+      "htmlElementForButton": "a"
+    }
+  },
+
+  "search-fetch-more": {
+    "props": {
+      "htmlElementForButton": "a"
+    }
+  },
+
+
+
+
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+
+  "search-result-layout.mobile": {
     "props": {
       "fullWidth": true,
       "preventRouteChange": true,
@@ -37,21 +158,21 @@
     "children": [
       "breadcrumb.search",
       "list-context.image-list#plp--banner",
-			"search-content",
-			"search-fetch-more"
+      "search-content",
+      "search-fetch-more"
     ]
   },
-  "list-context.image-list#plp--banner":{
-      "children": [
-        "slider-layout#plp--banner"
-      ],
-      "props": {
-        "images": [
-          {
-            "image": "https://ximg.es/1920x250/eee/000"
-          }
-        ]
-      }
+  "list-context.image-list#plp--banner": {
+    "children": [
+      "slider-layout#plp--banner"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "https://ximg.es/1920x250/eee/000"
+        }
+      ]
+    }
   },
   "slider-layout#plp--banner": {
     "title": "Banner",
@@ -64,25 +185,17 @@
       }
     }
   },
-	"search-content":{
-		"blocks":[
-			"gallery",
-			"not-found"
-		]
-	},
-	"gallery": {
-		"blocks":[
-			"product-summary.shelf"
-		],
-		"props": {
-			"maxItemsPerRow": {
-				"desktop": 3,
-				"tablet": 2,
-				"phone": 1
-			}
-		}
-	},
-	"search-fetch-more":{
 
-	}
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "maxItemsPerRow": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      }
+    }
+  }
 }
