@@ -1,0 +1,56 @@
+.productBrand--name--plp {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+
+}
+
+.nameWrapper--name--plp {
+  display: flex;
+  justify-content: left;
+  text-align: left;
+}
+
+.nameContainer--name--plp {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.productBrandName--brand--plp {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: #A0A0A0;
+  padding-bottom: 5px;
+}
+
+.element--shelf--plp {
+  background: #FFFFFF;
+  padding-bottom: 15px;
+}
+
+.element--shelf--plp :global(.vtex-button) {
+  width: 62%;
+  margin-left: 15px;
+}
+
+.element--shelf--plp :global(.vtex-button__label) {
+  padding: 0;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.nameContainer--name--plp,
+.productBrandContainer--brand--plp {
+  padding-left: 15px;
+  padding-right: 15px;
+}

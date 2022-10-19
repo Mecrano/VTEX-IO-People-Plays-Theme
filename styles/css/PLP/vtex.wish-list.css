@@ -1,0 +1,25 @@
+.wishlistIconContainer--wishlist---plp {
+  position: relative;
+}
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button) {
+  position: absolute;
+  z-index: 2;
+}
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button):hover {
+  background-color: transparent !important;
+}
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button__label) {
+  padding: 10px;
+}
+
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button)::before{
+  content: url(/arquivos/corazonplp.svg);
+}
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button__label) {
+  display: none;
+}

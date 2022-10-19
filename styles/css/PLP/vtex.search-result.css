@@ -52,6 +52,110 @@
   margin-top: -16px;
 }
 
+.filterIcon {
+  color: #000000;
+}
+
+.filterTemplateOverflow :global(.vtex-slider-container) {
+  padding-right: 20px;
+}
+
+.orderByText {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px !important;
+  line-height: 37px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.filterPopupTitle {
+  font-size: 0;
+}
+
+.filterContent :global(.vtex-checkbox__label) {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.orderByButton {
+  width: 210px !important;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  border: none
+}
+
+.filterPopupArrowIcon {
+  padding: 0;
+}
+
+.orderBy--layout {
+  width: 210px !important;
+  margin-top: 20px;
+  border-bottom: 1px solid #000000;
+  background: #FFFFFF;
+}
+
+.gallery {
+  padding-left: 0;
+}
+
+.galleryItem {
+  padding: 0;
+}
+
+.filterPopupArrowIcon .caretIcon {
+  color: #000000;
+}
+
+.orderByOptionItem {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  background: #FFFFFF;
+  border-bottom: 1px solid #CECECE;
+}
+
+.orderByOptionsContainer {
+  margin-top: 40px;
+  border: none;
+}
+
+.filterItem :global(.vtex-checkbox__line-container) {
+  align-items: center;
+}
+
+.galleryItem--normal {
+  padding-right: 10px;
+}
+
+.buttonShowMore :global(.vtex-button) {
+  background: #FC701C;
+  border-radius: 4px;
+  width: 270px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonShowMore :global(.vtex-button__label) {
+  padding: 0;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: capitalize;
+}
 
 @media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
     .gallery{

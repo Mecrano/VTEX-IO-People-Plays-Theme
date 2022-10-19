@@ -28,7 +28,7 @@
     "children": [
       "product-summary-brand",
       "add-to-list-btn",
-      "product-summary-image",/* 
+      "product-summary-image",/*
       "product-summary-space", */
       "flex-layout.row#shelf__name-discounts",
       "flex-layout.row#shelf__price-add-to-cart"
@@ -47,8 +47,7 @@
       "blockClass":["shelf__name-and-savings-container"]
     },
     "children": [
-      "product-summary-name",
-      "product-price-savings#summary"
+      "product-summary-name"
     ]
   },
   "flex-layout.row#shelf__price-add-to-cart": {

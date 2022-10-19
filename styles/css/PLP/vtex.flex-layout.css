@@ -18,6 +18,7 @@
 
 .flexRow--container--search {
   background-color: #DFDFDF;
+  padding-bottom: 40px;
 }
 
 .flexRow--container--search :global(.vtex-store-components-3-x-container) {
@@ -38,5 +39,36 @@
   width: 100% !important;
 }
 
+.flexRowContent--search-info--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+  display: flex;
+  justify-content: right;
+}
+
+.flexRow--content--container {
+  width : calc(1024px - 45px * 2) !important;
+  margin: 0 auto !important;
+}
+
+.flexRow--products-container--search {
+  margin-top: 20px;
+}
+
+.flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  background-color: transparent !important;
+}
+
+.flexRowContent--prices-plp {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--prices-plp {
+  border-top: 1.79173px solid #000000;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+
+}
 
 
