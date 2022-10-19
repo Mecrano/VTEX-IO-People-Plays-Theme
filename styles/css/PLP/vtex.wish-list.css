@@ -18,8 +18,14 @@
 
 .wishlistIconContainer--wishlist---plp :global(.vtex-button)::before{
   content: url(/arquivos/corazonplp.svg);
+  margin-left: 20px;
+}
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button)::before:hover{
+  background-color: transparent !important;
 }
 
 .wishlistIconContainer--wishlist---plp :global(.vtex-button__label) {
   display: none;
 }
+

@@ -16,6 +16,9 @@
 .nameContainer--name--plp {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  display: flex;
+  justify-content: left;
+  text-align: left;
 }
 
 .productBrandName--brand--plp {
@@ -27,6 +30,7 @@
   align-items: center;
   color: #A0A0A0;
   padding-bottom: 5px;
+  text-transform: capitalize;
 }
 
 .element--shelf--plp {
@@ -37,6 +41,10 @@
 .element--shelf--plp :global(.vtex-button) {
   width: 62%;
   margin-left: 15px;
+}
+
+.clearLink--shelf--plp {
+  border-radius: none;
 }
 
 .element--shelf--plp :global(.vtex-button__label) {

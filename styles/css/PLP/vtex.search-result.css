@@ -137,6 +137,7 @@
 
 .galleryItem--normal {
   padding-right: 10px;
+  margin-bottom: 15px;
 }
 
 .buttonShowMore :global(.vtex-button) {
@@ -155,6 +156,42 @@
   font-weight: 500;
   font-size: 24px;
   text-transform: capitalize;
+}
+
+.totalProducts--layout {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  padding: 0;
+  font-family: 'PT Sans';
+  text-transform: lowercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.totalProductsMessage {
+  font-size: 0;
+}
+
+.totalProductsMessage::before {
+  content: "resultados";
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.galleryTitle--layout {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 165.5%;
+  color: #000000;
+  padding: 0;
 }
 
 @media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */

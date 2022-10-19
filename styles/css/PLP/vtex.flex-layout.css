@@ -51,7 +51,7 @@
 }
 
 .flexRow--products-container--search {
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -68,7 +68,30 @@
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
-
 }
+
+ .flexRow--fetch--more {
+margin-top: 15px;
+}
+
+.flexRowContent--order--by {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexRowContent--total-plp  {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexRowContent--total-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child  {
+ width: 55% !important;
+}
+
+.flexRowContent--total-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child  {
+  width: 20% !important;
+ }
 
 
