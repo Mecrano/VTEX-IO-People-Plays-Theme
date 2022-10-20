@@ -88,3 +88,13 @@
   }
 
 }
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+
+  .nameContainer--name--plp,
+  .productBrandContainer--brand--plp {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}

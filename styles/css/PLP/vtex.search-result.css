@@ -1,7 +1,3 @@
-.gallery{
-    padding-inline: 15px;
-}
-
 .searchResultContainer--mobile-plp--main-container{
     padding: 0;
     margin-bottom: 25px;
@@ -195,10 +191,16 @@
   margin-top: 0;
 }
 
-@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
-    .gallery{
-        padding-inline: 5px;
-    }
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .galleryItem--normal {
+    max-width: 44% !important;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .galleryItem--normal {
+    max-width: 45% !important;
+  }
 }
 
 
@@ -301,16 +303,18 @@
     height: 60px;
     margin-top: 30px;
   }
-}
 
-/* @media screen and (min-width: 300px) and (max-width: 425px) {
-  .gallery--grid {
-    padding: 0;
+  /* .gallery--grid {
+    padding-inline: 0;
+    padding-left: 0;
+    padding-right: 0;
+  } */
+
+  .galleryItem--normal {
+    padding: 0.5rem;
+    margin-bottom: 0;
+    box-sizing: content-box;
   }
 
-  .gallery--grid {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
 }
- */
+

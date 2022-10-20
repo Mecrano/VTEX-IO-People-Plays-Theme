@@ -123,6 +123,16 @@ margin-top: 15px;
     margin: 0 auto;
    }
 
+   .flexRow--prices-plp {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .flexRowContent--products-container--mobile {
+    width: calc(400px - 5px * 2);
+    margin: 0 auto;
+  }
+
  }
 
  @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -180,4 +190,13 @@ margin-top: 15px;
    }
  }
 
+
+
+ @media screen and (min-width: 300px) and (max-width: 375px) {
+  .flexRow--prices-plp {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+ }
 
