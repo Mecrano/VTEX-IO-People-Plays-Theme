@@ -62,3 +62,29 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .productBrand--name--plp {
+    font-size: 13px;
+  }
+
+  .productBrandName--brand--plp {
+    font-size: 11px;
+  }
+
+  .nameContainer--name--plp {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .element--shelf--plp :global(.vtex-button__label) {
+    font-size: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .element--shelf--plp :global(.vtex-button) {
+    width: 70%;
+  }
+
+}

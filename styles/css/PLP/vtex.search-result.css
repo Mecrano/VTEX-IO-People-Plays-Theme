@@ -254,6 +254,10 @@
     padding-right: 0.5rem;
   }
 
+  .totalProducts--layout {
+    border-top: none;
+  }
+
 }
 
 @media screen and (min-width: 425px) and (max-width: 1024px) {
@@ -263,6 +267,10 @@
 
   .orderByButton {
     width: 192px !important;
+  }
+
+  .buttonShowMore :global(.vtex-button) {
+    margin-top: 30px;
   }
 }
 
@@ -275,10 +283,6 @@
     width: 120px !important;
   }
 
-  .totalProducts--layout {
-    border-top: none;
-  }
-
   .filterPopupButton::after, .orderByText  {
     font-size: 17px !important;
   }
@@ -287,4 +291,26 @@
     padding-left: 0.2rem;
     padding-right: 0.2rem;
   }
+
+  .buttonShowMore :global(.vtex-button__label) {
+    font-size: 16px;
+  }
+
+  .buttonShowMore :global(.vtex-button) {
+    width: 237px;
+    height: 60px;
+    margin-top: 30px;
+  }
 }
+
+/* @media screen and (min-width: 300px) and (max-width: 425px) {
+  .gallery--grid {
+    padding: 0;
+  }
+
+  .gallery--grid {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+ */

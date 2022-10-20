@@ -29,3 +29,10 @@
   display: none;
 }
 
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .wishlistIconContainer--wishlist---plp :global(.vtex-button)::before{
+    margin-left: 0;
+  }
+
+}
+

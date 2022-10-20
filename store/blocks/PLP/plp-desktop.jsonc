@@ -129,17 +129,22 @@
   },
 
   "gallery": {
-    "blocks": [
-      "product-summary.shelf#plp"
-    ],
     "props": {
-      "maxItemsPerRow": {
-        "desktop": 4,
-        "tablet": 2,
-        "phone": 2
-      }
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "desktop": 4,
+            "tablet": 2,
+            "phone": 2
+          }
+        }
+      ],
+      "GridSummary": "product-summary.shelf#plp"
     }
   },
+
   "product-summary.shelf#plp": {
     "props": {
       "blockClass": "shelf--plp"
