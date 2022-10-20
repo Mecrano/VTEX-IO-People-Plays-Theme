@@ -50,8 +50,8 @@
 			"breadcrumb.search",
 			"responsive-layout.desktop#department-image",
 			"responsive-layout.tablet#department-image",
-			"responsive-layout.phone#department-image",			
-			"rich-text#search-category-title",			
+			"responsive-layout.phone#department-image",
+			"rich-text#search-category-title",
 			"list-context.product-list#demo1",
 			"flex-layout.row#department-two-banners",
 			"rich-text#search-category-title-2",
@@ -72,6 +72,31 @@
 			"list-context.image-list#plp--banner"
 		]
 	},
+
+  "list-context.image-list#plp--banner": {
+    "children": [
+      "slider-layout#plp--banner"
+    ],
+    "props": {
+      "images": [
+        {
+          "image": "https://ximg.es/1920x250/eee/000"
+        }
+      ]
+    }
+  },
+  "slider-layout#plp--banner": {
+    "title": "Banner",
+    "props": {
+      "blockClass": "plp--banner",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      }
+    }
+  },
+
 	"responsive-layout.tablet#department-image":{
 		"props":{
 			"blockClass": ["banner-container-department", "banner-container-department-tablet"]
@@ -188,7 +213,7 @@
 			"blockClass": ["department-title", "department-title-2"],
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER"
-			
+
 		}
 	},
 	"flex-layout.row#department-newsletter-banner": {
@@ -236,7 +261,7 @@
 	"rich-text#newsletter-test": {
 		"props": {
 			"text": "newsletter"
-			
+
 		}
 	},
 	"list-context.product-list#demo1": {

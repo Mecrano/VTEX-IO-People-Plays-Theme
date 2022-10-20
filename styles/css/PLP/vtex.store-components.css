@@ -1,0 +1,17 @@
+.notificationBarContainer--notification-plp {
+  background-color:  #1D3557;
+}
+
+.notificationBarInner--notification-plp {
+  width : calc(1320px - 10px * 2);
+  margin: 0 auto;
+}
+
+.notificationContent--notification-plp {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #93ECFF;
+}

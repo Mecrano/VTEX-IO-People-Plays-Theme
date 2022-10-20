@@ -12,11 +12,305 @@
     max-width: unset;
 }
 
+.filterMessage {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 49px;
+  color: #000000;
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+.filterTitleSpan {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.filter__container--selectedFilters {
+  display: none;
+}
+
+.filterTitle, .filterTemplateOverflow {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.filters--layout {
+  background: #FFFFFF;
+}
+
+.filter__container--title {
+  background-color: #DFDFDF;
+  margin-left: -29px;
+  margin-right: -29px;
+  margin-top: -16px;
+}
+
+.filterIcon {
+  color: #000000;
+}
+
+.filterTemplateOverflow :global(.vtex-slider-container) {
+  padding-right: 20px;
+}
+
+.orderByText {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px !important;
+  line-height: 37px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.filterPopupTitle {
+  font-size: 0;
+}
+
+.filterContent :global(.vtex-checkbox__label) {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.orderByButton {
+  width: 210px !important;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  border: none
+}
+
+.filterPopupArrowIcon {
+  padding: 0;
+}
+
+.orderBy--layout {
+  width: 210px !important;
+  border-bottom: 1px solid #000000;
+  background: #FFFFFF;
+}
+
+.gallery {
+  padding-left: 0;
+}
+
+.galleryItem {
+  padding: 0;
+}
+
+.filterPopupArrowIcon .caretIcon {
+  color: #000000;
+}
+
+.orderByOptionItem {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000000;
+  background: #FFFFFF;
+  border-bottom: 1px solid #CECECE;
+}
+
+.orderByOptionsContainer {
+  margin-top: 40px;
+  border: none;
+}
+
+.filterItem :global(.vtex-checkbox__line-container) {
+  align-items: center;
+}
+
+.galleryItem--normal {
+  padding-right: 10px;
+  margin-bottom: 15px;
+}
+
+.buttonShowMore :global(.vtex-button) {
+  background: #FC701C;
+  border-radius: 4px;
+  width: 270px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonShowMore :global(.vtex-button__label) {
+  padding: 0;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.totalProducts--layout {
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  padding: 0;
+  font-family: 'PT Sans';
+  text-transform: lowercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.totalProductsMessage {
+  font-size: 0;
+}
+
+.totalProductsMessage::before {
+  content: "resultados";
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.galleryTitle--layout {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 165.5%;
+  color: #000000;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 @media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
     .gallery{
         padding-inline: 5px;
     }
 }
 
-@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .galleryTitle--layout {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .totalProducts--layout {
+    justify-content: right;
+  }
+
+  .filterPopupButton::after {
+    content: "Mostrar filtros";
+    margin-left: 10px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  .filtersWrapperMobile {
+    display: flex;
+    justify-content: left;
+  }
+
+  .filterPopupButton {
+    padding: 0;
+  }
+
+  .orderByButton {
+    /* padding-left: 0; */
+    padding-right: 0;
+  }
+
+  .filters--layout, .orderByButton {
+    background-color: transparent;
+  }
+
+  .orderBy--layout, .orderByButton {
+    border-bottom: none;
+
+  }
+
+  .filterPopupButton {
+    height: auto;
+  }
+
+  .orderByButton .filterPopupArrowIcon {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .totalProducts--layout {
+    border-top: none;
+  }
+
 }
+
+@media screen and (min-width: 425px) and (max-width: 1024px) {
+  .orderBy--layout {
+    width: 192px !important;
+  }
+
+  .orderByButton {
+    width: 192px !important;
+  }
+
+  .buttonShowMore :global(.vtex-button) {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .orderBy--layout {
+    width: 120px !important;
+  }
+
+  .orderByButton {
+    width: 120px !important;
+  }
+
+  .filterPopupButton::after, .orderByText  {
+    font-size: 17px !important;
+  }
+
+  .orderByButton .filterPopupArrowIcon {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+
+  .buttonShowMore :global(.vtex-button__label) {
+    font-size: 16px;
+  }
+
+  .buttonShowMore :global(.vtex-button) {
+    width: 237px;
+    height: 60px;
+    margin-top: 30px;
+  }
+}
+
+/* @media screen and (min-width: 300px) and (max-width: 425px) {
+  .gallery--grid {
+    padding: 0;
+  }
+
+  .gallery--grid {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+ */

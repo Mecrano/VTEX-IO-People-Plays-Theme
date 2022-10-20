@@ -1,0 +1,38 @@
+.wishlistIconContainer--wishlist---plp {
+  position: relative;
+}
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button) {
+  position: absolute;
+  z-index: 2;
+}
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button):hover {
+  background-color: transparent !important;
+}
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button__label) {
+  padding: 10px;
+}
+
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button)::before{
+  content: url(/arquivos/corazonplp.svg);
+  margin-left: 20px;
+}
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button)::before:hover{
+  background-color: transparent !important;
+}
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button__label) {
+  display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .wishlistIconContainer--wishlist---plp :global(.vtex-button)::before{
+    margin-left: 0;
+  }
+
+}
+

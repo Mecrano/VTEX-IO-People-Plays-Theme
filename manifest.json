@@ -39,7 +39,9 @@
     "vtex.search-result": "3.x",
     "vtex.breadcrumb": "1.x",
     "vtex.responsive-layout": "0.x",
-    "vtex.info-card-list": "0.x"
+    "vtex.info-card-list": "0.x",
+    "vtex.stack-layout": "0.x",
+    "vtex.product-highlights": "2.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

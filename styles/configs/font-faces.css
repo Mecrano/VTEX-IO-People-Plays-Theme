@@ -17,3 +17,13 @@
     url("assets/fonts/roboto-500.woff2") format("woff2"),
     url("assets/fonts/roboto-500.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Titillium Web";
+  src: url(assets/fonts/TitilliumWeb-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Mukta";
+  src: url(assets/fonts/Mukta-Regular.ttf) format("ttf");
+}

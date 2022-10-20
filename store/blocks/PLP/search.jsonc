@@ -83,5 +83,15 @@
         "simulationBehavior": "default"
       }
     }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "blockClass": "plp--main"
+    }
   }
 }
