@@ -1,6 +1,6 @@
 /* Fondo provisional */
 :global(.vtex-store-footer-2-x-footerLayout--containerFooter) {
-  background: #e7e7e7;
+  background: #F1F3F9;
 }
 
 /* ******************* */
@@ -43,7 +43,7 @@
 
 .flexCol--background-1-contact-lines,
 .flexCol--background-2-contact-lines {
-  background: #000;
+  background: #002f87;
   height: 97px;
   border-radius: 4px;
   position: absolute;
@@ -60,12 +60,6 @@
   right: 0;
 }
 
-.flexRow--footer-3-desktop,
-.flexRow--footer-4-desktop,
-.flexRow--footer-5-desktop {
-  border-top: 2px solid #adadad;
-}
-
 .flexCol--container-texts-contact-lines {
   position: absolute;
   width: 200px !important;
@@ -73,9 +67,8 @@
 }
 
 /* *********** Footer 3 ************* */
-.flexRowContent--footer-3-desktop {
-  gap: 10px;
-  margin-bottom: 28px;
+.flexRow--footer-3-desktop{
+  background: #FFF;
 }
 
 .flexCol--container-newsletter-footer-3 {
@@ -111,3 +104,8 @@
   justify-content: center;
 }
 
+/* *********** Footer 5 ************* */
+
+.flexRow--footer-5-desktop {
+  background-color: #002F87;
+}

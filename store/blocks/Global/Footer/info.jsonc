@@ -1,34 +1,28 @@
 {
   "flex-layout.col#info-1": {
     "props": {
-      "blockClass": "container-newsletter-footer-3",
-      "width": "40%"
+      "width": "equal"
     },
-    "children": ["newsletter-form"]
+    "children": ["flex-layout.row#container-info-1"]
   },
   "flex-layout.col#info-2": {
     "props": {
-      "width": "15%"
+      "width": "equal"
     },
     "children": ["flex-layout.row#container-info-1"]
   },
   "flex-layout.col#info-3": {
     "props": {
-      "width": "15%"
+      "width": "equal"
     },
-    "children": ["flex-layout.row#container-info-1"]
+    "children": ["flex-layout.row#container-info-2"]
   },
   "flex-layout.col#info-4": {
     "props": {
-      "width": "15%"
+      "blockClass": "container-newsletter-footer-3",
+      "width": "40%"
     },
-    "children": ["flex-layout.row#container-info-1", "link#info-brands-4"]
-  },
-  "flex-layout.col#info-5": {
-    "props": {
-      "width": "15%"
-    },
-    "children": ["flex-layout.row#container-info-2"]
+    "children": ["newsletter-form"]
   },
 
   "flex-layout.row#container-info-1": {

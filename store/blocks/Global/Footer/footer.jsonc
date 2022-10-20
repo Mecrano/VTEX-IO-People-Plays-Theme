@@ -8,7 +8,6 @@
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop",
-      "flex-layout.row#footer-4-desktop",
       "flex-layout.row#footer-5-desktop"
     ]
   },
@@ -23,7 +22,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Soporte y atención al cliente",
+      "text": "Horario de Soporte y Atención al Cliente",
       "blockClass": "footer-row-1-text-1"
     }
   },
@@ -136,18 +135,39 @@
   "flex-layout.row#footer-3-desktop": {
     "props": { "blockClass": "footer-3-desktop" },
     "children": [
-      "flex-layout.col#info-1",
-      "flex-layout.col#info-2",
-      "flex-layout.col#info-3",
-      "flex-layout.col#info-4",
-      "flex-layout.col#info-5"
+      "flex-layout.col#footer-3-desktop-col-1",
+      "flex-layout.col#footer-3-desktop-col-2"
     ]
   },
-
+  "flex-layout.col#footer-3-desktop-col-1": {
+    "props": {
+      "width": "60%"
+    },
+    "children": [
+      "flex-layout.row#footer-3-desktop-col-1a",
+      "flex-layout.row#footer-3-desktop-col-1b",
+      "flex-layout.row#footer-4-desktop"
+    ]
+  },
+  "flex-layout.col#footer-3-desktop-col-2": {
+    "props": {
+      "width": "40%"
+    },
+    "children": ["flex-layout.col#info-4"]
+  },
+  "flex-layout.row#footer-3-desktop-col-1a": {
+    "children": [
+      "flex-layout.col#info-1",
+      "flex-layout.col#info-2",
+      "flex-layout.col#info-3"
+    ]
+  },
+  "flex-layout.row#footer-3-desktop-col-1b": {
+    "children": ["flex-layout.col#footer-4-desktop-brands-1"]
+  },
   "flex-layout.row#footer-4-desktop": {
     "props": { "blockClass": "footer-4-desktop" },
     "children": [
-      "flex-layout.col#footer-4-desktop-brands-1",
       "flex-layout.col#footer-4-desktop-brands-2",
       "flex-layout.col#footer-4-desktop-brands-3",
       "flex-layout.col#footer-4-desktop-brands-4",
