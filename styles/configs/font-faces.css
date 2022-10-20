@@ -27,3 +27,13 @@
   font-family: "Mukta";
   src: url(assets/fonts/Mukta-Regular.ttf) format("ttf");
 }
+
+@font-face {
+  font-family: "Mukta SemiBold";
+  src: url(assets/fonts/Mukta-SemiBold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(assets/fonts/Rubik-Regular.ttf);
+}

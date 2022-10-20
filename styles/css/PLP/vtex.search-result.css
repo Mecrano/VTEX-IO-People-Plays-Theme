@@ -131,8 +131,7 @@
 }
 
 .galleryItem--normal {
-  padding-right: 10px;
-  margin-bottom: 15px;
+  padding: 0.7rem;
 }
 
 .buttonShowMore :global(.vtex-button) {
@@ -203,6 +202,12 @@
   }
 }
 
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .galleryItem--normal {
+    max-width: 70% !important;
+  }
+}
+
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
   .galleryTitle--layout {
@@ -234,7 +239,6 @@
   }
 
   .orderByButton {
-    /* padding-left: 0; */
     padding-right: 0;
   }
 
@@ -303,12 +307,6 @@
     height: 60px;
     margin-top: 30px;
   }
-
-  /* .gallery--grid {
-    padding-inline: 0;
-    padding-left: 0;
-    padding-right: 0;
-  } */
 
   .galleryItem--normal {
     padding: 0.5rem;
