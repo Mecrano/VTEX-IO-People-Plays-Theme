@@ -201,5 +201,90 @@
     }
 }
 
-@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .galleryTitle--layout {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .totalProducts--layout {
+    justify-content: right;
+  }
+
+  .filterPopupButton::after {
+    content: "Mostrar filtros";
+    margin-left: 10px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  .filtersWrapperMobile {
+    display: flex;
+    justify-content: left;
+  }
+
+  .filterPopupButton {
+    padding: 0;
+  }
+
+  .orderByButton {
+    /* padding-left: 0; */
+    padding-right: 0;
+  }
+
+  .filters--layout, .orderByButton {
+    background-color: transparent;
+  }
+
+  .orderBy--layout, .orderByButton {
+    border-bottom: none;
+
+  }
+
+  .filterPopupButton {
+    height: auto;
+  }
+
+  .orderByButton .filterPopupArrowIcon {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 1024px) {
+  .orderBy--layout {
+    width: 192px !important;
+  }
+
+  .orderByButton {
+    width: 192px !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .orderBy--layout {
+    width: 120px !important;
+  }
+
+  .orderByButton {
+    width: 120px !important;
+  }
+
+  .totalProducts--layout {
+    border-top: none;
+  }
+
+  .filterPopupButton::after, .orderByText  {
+    font-size: 17px !important;
+  }
+
+  .orderByButton .filterPopupArrowIcon {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
 }

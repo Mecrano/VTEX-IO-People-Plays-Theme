@@ -1,14 +1,4 @@
 {
-  "search-result-layout": {
-    "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
-    ],
-    "props": {
-      "blockClass": "plp--main"
-    }
-  },
   "search-result-layout.desktop": {
     "props": {
       "fullWidth": true,
@@ -30,20 +20,21 @@
       "content": "Envíos gratuitos con compras desde $292.482"
     }
   },
+
   "flex-layout.row#breadcrumbPlp": {
-    "children": [
-      "breadcrumb.search"
-    ],
+    "children": ["breadcrumb.search"],
     "props": {
       "blockClass": "breadcrumb-plp--flex"
     }
   },
+
   "breadcrumb.search": {
     "title": "breadcrumb-plp",
     "props": {
       "blockClass": "breadcrumb--plp"
     }
   },
+
   "flex-layout.row#container-search": {
     "children": [
       "flex-layout.row#filter",
@@ -53,6 +44,7 @@
       "blockClass": "container--search"
     }
   },
+
   "flex-layout.row#filter": {
     "children": [
       "filter-navigator.v3"
@@ -62,6 +54,7 @@
       "width": "23%"
     }
   },
+
   "filter-navigator.v3": {
     "props": {
       "initiallyCollapsed": true
@@ -134,45 +127,7 @@
       "not-found"
     ]
   },
-  "search-result-layout.mobile": {
-    "props": {
-      "fullWidth": true,
-      "preventRouteChange": true,
-      "showFacetQuantity": true,
-      "brands": true,
-      "priceRange": true,
-      "blockClass": "mobile-plp--main-container"
-    },
-    "children": [
-      "breadcrumb.search",
-      "list-context.image-list#plp--banner",
-      "search-content",
-      "search-fetch-more"
-    ]
-  },
-  "list-context.image-list#plp--banner": {
-    "children": [
-      "slider-layout#plp--banner"
-    ],
-    "props": {
-      "images": [
-        {
-          "image": "https://ximg.es/1920x250/eee/000"
-        }
-      ]
-    }
-  },
-  "slider-layout#plp--banner": {
-    "title": "Banner",
-    "props": {
-      "blockClass": "plp--banner",
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      }
-    }
-  },
+
   "gallery": {
     "blocks": [
       "product-summary.shelf#plp"
@@ -181,7 +136,7 @@
       "maxItemsPerRow": {
         "desktop": 4,
         "tablet": 2,
-        "phone": 1
+        "phone": 2
       }
     }
   },

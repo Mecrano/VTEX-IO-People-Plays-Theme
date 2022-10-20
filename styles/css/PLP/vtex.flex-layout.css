@@ -95,4 +95,70 @@ margin-top: 15px;
   width: 20% !important;
  }
 
+ @media screen and (min-width: 300px) and (max-width: 320px) {
+  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container) {
+    width: calc(300px - 15px * 2);
+    margin: 0 auto;
+   }
+
+ }
+
+ @media screen and (min-width: 321px) and (max-width: 375px) {
+  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container) {
+    width: calc(360px - 15px * 2);
+    margin: 0 auto;
+   }
+
+ }
+
+ @media screen and (min-width: 376px) and (max-width: 425px) {
+  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container) {
+    width: calc(420px - 20px * 2);
+    margin: 0 auto;
+   }
+
+ }
+
+ @media screen and (min-width: 426px) and (max-width: 768px) {
+  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container) {
+    width: calc(730px - 20px * 2);
+    margin: 0 auto;
+   }
+
+ }
+
+ @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container) {
+    width: calc(999px - 40px * 2);
+    margin: 0 auto;
+   }
+ }
+
+ @media screen and (min-width: 300px) and (max-width: 1024px) {
+   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
+   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container) {
+    padding-left: 0;
+    padding-right: 0;
+   }
+
+   .flexRowContent--search-info--container-mobile, .flexRowContent--container--search-mobiles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+
+   .flexRowContent--container--search-mobiles :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    justify-content: right;
+   }
+
+   .flexRow--search-info--container-mobile, .flexRow--container--search-mobiles {
+    background-color: #DFDFDF;;
+   }
+ }
+
 
