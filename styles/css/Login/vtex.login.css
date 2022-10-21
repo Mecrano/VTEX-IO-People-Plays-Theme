@@ -70,6 +70,41 @@
 }
 
 
+@media screen and (min-width: 300px) and (max-width: 320px) {
+   .loginOptionsContainer, .contentForm {
+    width: calc(300px - 15px * 2);
+    margin: 0 auto;
+  }
+
+  .accessCodeOptionBtn :global(.vtex-button__label) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .optionsSticky {
+    min-width: 10rem;
+  }
+
+  /* .options {
+    min-width: none;
+  } */
+ }
+
+ @media screen and (min-width: 321px) and (max-width: 375px) {
+  .loginOptionsContainer, .contentForm {
+    width: calc(360px - 15px * 2);
+    margin: 0 auto;
+  }
+ }
+
+ @media screen and (min-width: 321px) and (max-width: 425px) {
+  .contentForm  {
+    padding-left: 0;
+    padding-right: 0;
+  }
+ }
+
+
 /* .content::before {
   content: url("/arquivos/logincms.png");
   top: 0;
