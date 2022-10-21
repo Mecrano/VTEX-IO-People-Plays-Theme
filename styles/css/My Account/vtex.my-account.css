@@ -1,0 +1,168 @@
+.menu {
+  width: 425px;
+  /* background: #FFFFFF; */
+  background-color: aqua;
+}
+
+.userGreeting {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.2228px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.menuLinks :global(.vtex-account_menu-link), .menuLink {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 165.5%;
+  color: #000000;
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .menu, :global(.vtex-account__page) {
+    width: calc(300px - 15px * 2);
+    margin: 0 auto;
+   }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .menu, :global(.vtex-account__page) {
+    width: calc(360px - 15px * 2);
+    margin: 0 auto;
+   }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .menu, :global(.vtex-account__page) {
+    width: calc(420px - 20px * 2);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+  .menu {
+   padding-left: 0;
+   padding-right: 0;
+  }
+/* perfil */
+  .userGreeting {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+  }
+
+  .menuLinks :global(.vtex-account_menu-link), .menuLink {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 165.5%;
+    color: #000000;
+    padding: 0;
+  }
+
+  :global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__title) {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+  }
+
+  :global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-button) {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    color: #000000;
+  }
+
+  :global(.vtex-pageHeader__container), :global(.vtex-account__page-body) {
+    padding: 0;
+  }
+
+  :global(.vtex-pageHeader__container), :global(.vtex-account__page-body) {
+    padding-top: 20px;
+  }
+
+  .dataEntryLabel, .newsletterContainerTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+  }
+
+  .dataEntryChildren {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .newsletterContainerMessage, .boxContainerBody :global(.vtex-checkbox__label) {
+    font-family: 'Titillium Web';
+  }
+
+  .profileBoxContainer .boxContainerFooter :global(.vtex-button) {
+    background-color: #FC701C;
+    border-radius: 4px;
+  }
+
+  .profileBoxContainer .boxContainerFooter :global(.vtex-button__label) {
+    font-family: 'Mukta';
+    font-weight: 400;
+    font-size: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: capitalize;
+  }
+
+  .boxContainerBody :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input__label),
+  .boxContainerBody :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-dropdown__label)  {
+    font-family: 'Titillium Web';
+    font-size: 1rem;
+  }
+
+  .boxContainerBody :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button){
+    font-family: 'Titillium Web';
+    color:#FC701C;
+    border: 1px solid #FC701C;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+  }
+
+  .boxContainerBody :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.lh-title),
+  .boxContainerBody :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input-prefix__group) :global(.w-100),
+  .boxContainerBody :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-dropdown__button) {
+    font-family: 'Titillium Web';
+  }
+
+  .boxContainerBody :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input-prefix__group) {
+    border-radius: 4px;
+  }
+
+  /* perfil */
+}
+
+/* @media screen and (min-width: 426px) and (max-width: 768px) {
+  .menu {
+    width: calc(730px - 20px * 2);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .menu {
+    width: calc(999px - 40px * 2);
+    margin: 0 auto;
+  }
+} */
