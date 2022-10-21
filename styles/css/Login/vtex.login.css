@@ -1,6 +1,8 @@
 .accessCodeOptionBtn :global(.vtex-button__label),
 .emailPasswordOptionBtn :global(.vtex-button__label),
-.sendButton :global(.vtex-button__label) :global(.t-small):first-child {
+.sendButton :global(.vtex-button__label) :global(.t-small):first-child,
+.accountOptions :global(.vtex-button__label) :global(.t-action--small):first-child,
+.accountOptions .button :global(.t-action--small):first-child {
   font-family: 'Mukta';
   font-weight: 400;
   font-size: 19px;
@@ -8,7 +10,6 @@
   color: #FFFFFF;
   text-transform: capitalize;
 }
-
 
 .accessCodeOptionBtn :global(.vtex-button),
 .emailPasswordOptionBtn :global(.vtex-button),
@@ -31,6 +32,22 @@
   background: #DFDFDF;
   box-sizing: content-box;
   max-width: 100%;
+}
+
+.content--loginOptions,
+.content--emailVerification,
+.content--codeConfirmation,
+.content--accountOptions  {
+  background-color: #FFFFFF;
+}
+
+.accountOptions :global(.vtex-button) {
+   background-color: #002F87;
+}
+
+.accountOptions .button {
+  background-color: #FC701C;
+  color: #FFFFFF;
 }
 
 .loginOptionsContainer, .contentForm {
@@ -69,7 +86,6 @@
   border-radius: 4px;
 }
 
-
 @media screen and (min-width: 300px) and (max-width: 320px) {
    .loginOptionsContainer, .contentForm {
     width: calc(300px - 15px * 2);
@@ -84,10 +100,6 @@
   .optionsSticky {
     min-width: 10rem;
   }
-
-  /* .options {
-    min-width: none;
-  } */
  }
 
  @media screen and (min-width: 321px) and (max-width: 375px) {
@@ -102,10 +114,11 @@
     padding-left: 0;
     padding-right: 0;
   }
+
  }
 
 
-/* .content::before {
+/* añadir imagen al login .content::before {
   content: url("/arquivos/logincms.png");
   top: 0;
   left: 0;
