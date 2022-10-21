@@ -190,6 +190,10 @@
   margin-top: 0;
 }
 
+.galleryItem--normal {
+  max-width: 50% !important;
+}
+
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .galleryItem--normal {
     max-width: 44% !important;
