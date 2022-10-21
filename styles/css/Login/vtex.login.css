@@ -1,0 +1,77 @@
+.accessCodeOptionBtn :global(.vtex-button__label),
+.emailPasswordOptionBtn :global(.vtex-button__label),
+.sendButton :global(.vtex-button__label) :global(.t-small):first-child {
+  font-family: 'Mukta';
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+
+.accessCodeOptionBtn :global(.vtex-button),
+.emailPasswordOptionBtn :global(.vtex-button),
+.sendButton :global(.vtex-button)  {
+  background: #002F87;
+  border-radius: 4px;
+  border-color: #002F87;
+}
+
+.formTitle {
+  font-family: 'Mukta';
+  font-weight: 400;
+  font-size: 19px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  background: #DFDFDF;
+  box-sizing: content-box;
+  max-width: 100%;
+}
+
+.loginOptionsContainer, .contentForm {
+  width: calc(450px - 36px * 2);
+  margin: 0 auto;
+}
+
+.termsAndConditions {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 166.41%;
+  text-align: center;
+  color: #000000;
+}
+
+.dontHaveAccount, .forgotPasswordLink {
+  font-family: 'Mukta';
+  color: #000000;
+}
+
+.inputContainer :global(.vtex-styleguide-9-x-input) {
+  font-family: 'Mukta';
+  color: #000000;
+}
+
+.formError {
+  font-family: 'Mukta';
+  background-color: transparent;
+  color: #FC701C;
+}
+
+.backButton {
+  background-color: #FC701C;
+  border-radius: 4px;
+}
+
+
+/* .content::before {
+  content: url("/arquivos/logincms.png");
+  top: 0;
+  left: 0;
+} */
