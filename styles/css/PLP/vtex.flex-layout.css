@@ -196,6 +196,21 @@ margin-top: 15px;
   }
  }
 
+ @media screen and (min-width: 1400px) {
+  .flexRow--breadcrumb-plp--flex,
+  .flexRow--header-flex,
+  .flexRow--container--search :global(.vtex-store-components-3-x-container) {
+    width: calc(1540px - 36px * 2);
+    margin: 0 auto;
+  }
+
+  .flexRowContent--breadcrumb-plp--flex,
+  .flexRowContent--header-flex {
+    padding-left: 28px;
+  }
+}
+
+
 
 
 
