@@ -72,7 +72,7 @@
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 30px;
     color: #000000;
   }
 
@@ -83,6 +83,7 @@
     font-size: 21px;
     color: #000000;
   }
+
 
   :global(.vtex-pageHeader__container), :global(.vtex-account__page-body) {
     padding: 0;
@@ -151,6 +152,71 @@
   }
 
   /* perfil */
+
+  /* direccion */
+  :global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.newAddressButton) :global(.vtex-button) {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 25px;
+  }
+
+  .addressList :global(.t-heading-4) {
+    font-family: 'Titillium Web';
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .boxContainerBody :global(.vtex-address-form-4-x-dropdown) :global(.vtex-dropdown__label),
+  .boxContainerBody :global(.vtex-address-form__addressQuery) :global(.vtex-input__label) {
+    font-family: 'Titillium Web';
+    font-size: 15px;
+    color: #000000;
+  }
+
+  :global(.vtex-address-form-4-x-dropdown) :global(.vtex-address-form-4-x-container) :global(.vtex-dropdown__button),
+  .boxContainerBody :global(.vtex-address-form__addressQuery) :global(.vtex-input-prefix__group) :global(.vtex-address-form-4-x-input) {
+    font-family: 'Titillium Web';
+    font-size: 15px;
+    color: #000000;
+  }
+
+  :global(.vtex-address-form-4-x-dropdown) :global(.vtex-address-form-4-x-container) :global(.vtex-dropdown__button) :global(.vtex-dropdown__arrow) {
+    color: #000000;
+  }
+  /* direccion */
+  /* pedidos */
+  :global(.vtex-account__page) :global(.vtex-my-orders-app-3-x-ordersList) :global(.c-on-base),
+  :global(.vtex-account__cards-list) :global(.c-on-base) {
+    font-family: 'Titillium Web';
+    color: #000000;
+  }
+  /* pedidos */
+
+  /* Tarjeta de credito */
+:global(.vtex-pageHeader__container) :global(.vtex-my-cards-1-x-newCardButton) :global(.vtex-button) :global(.vtex-button__label) {
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+:global(.vtex-pageHeader__container) :global(.vtex-my-cards-1-x-newCardButton) :global(.vtex-button) {
+  margin-top: 25px;
+}
+
+/* :global(.vtex-account__create-card) iframe html:global(.vtex-input) :global(.vtex-input__label) {
+  font-family: 'Titillium Web' !important;
+  color: #000000 !important;
+  background-color: red;
+} */
+
+/* :global(.vtex-account__create-card) :global(.vtex-input-prefix__group) {
+
+}
+
+:global(.vtex-account__create-card) :global(.vtex-input-prefix__group) :global(.vtex-input__error) {
+
+} */
+
+  /* trajeta de credito */
 }
 
 /* @media screen and (min-width: 426px) and (max-width: 768px) {
