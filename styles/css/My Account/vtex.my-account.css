@@ -1,13 +1,34 @@
-.menu {
-  width: 425px;
-  /* background: #FFFFFF; */
-  background-color: aqua;
+:global(.vtex-account) :global(.w-100) {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.userGreeting {
+.menu {
+  width: 425px;
+  background: #FFFFFF;
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+:global(.vtex-account__page) {
+  background-color: #DFDFDF;
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+  padding-left: 4rem;
+}
+
+.userGreeting{
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
+  font-size: 19.2228px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.userName{
+  font-family: 'Titillium Web';
+  font-style: normal;
   font-size: 19.2228px;
   line-height: 29px;
   color: #000000;
@@ -21,7 +42,25 @@
   font-size: 20px;
   line-height: 165.5%;
   color: #000000;
+
 }
+
+.menuLinks :global(.vtex-account_menu-link) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Perfil */
+
+:global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__title) {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+}
+
+/* Perfil */
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
 
@@ -54,11 +93,22 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
+
+  :global(.vtex-account__page) {
+    background-color: #FFFFFF;
+    padding-bottom: 2rem !important;
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+  }
+
   .menu {
     margin-top: -1rem;
   }
 
   .menu {
+    margin-top: 1rem;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     padding-left: 0;
     padding-right: 0;
   }
@@ -95,11 +145,7 @@
   }
 
   :global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__title) {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    color: #000000;
+    margin-bottom: 10px;
   }
 
   :global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-button) {
