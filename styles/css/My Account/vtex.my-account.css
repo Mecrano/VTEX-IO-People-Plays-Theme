@@ -60,10 +60,82 @@
   color: #000000;
 }
 
+:global(.vtex-my-account-1-x-profile) main {
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.vtex-my-account-1-x-profile) main :global(.w-60-ns),
+:global(.vtex-my-account-1-x-profile) main :global(.w-40-ns) {
+  width: 100% !important;
+}
+
+.boxContainer {
+  border: none;
+}
+
+.boxContainerFooter :global(.vtex-button) {
+  background-color: #ED752D;
+}
+
+.boxContainerFooter :global(.vtex-button) :global(.vtex-button__label) {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 165.5%;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.dataEntryLabel {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.dataEntryChildren {
+  font-family: 'Mukta';
+}
+
+.passwordBox :global(.vtex-checkbox__container) :global(.vtex-checkbox__inner-container) {
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.passwordBox :global(.vtex-checkbox__line-container) {
+  display: flex;
+  align-items: center;
+}
+
+.passwordBox :global(.vtex-checkbox__label), .newsletterContainerMessage {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+
+.newsletterContainerTitle {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 165.5%;
+  color: #000000;
+}
+
 /* Perfil */
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .menu {
+    width: 350px;
+  }
 
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
   .menu,
   :global(.vtex-account__page),
   :global(.vtex-account) {
@@ -73,7 +145,6 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
-
   .menu,
   :global(.vtex-account__page),
   :global(.vtex-account) {
@@ -93,7 +164,6 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
-
   :global(.vtex-account__page) {
     background-color: #FFFFFF;
     padding-bottom: 2rem !important;
@@ -167,15 +237,6 @@
     padding-top: 20px;
   }
 
-  .dataEntryLabel,
-  .newsletterContainerTitle {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    color: #000000;
-  }
-
   .dataEntryChildren {
     font-family: 'Titillium Web';
     font-style: normal;
@@ -184,23 +245,17 @@
     color: #000000;
   }
 
-  .newsletterContainerMessage,
-  .boxContainerBody :global(.vtex-checkbox__label) {
+  .newsletterContainerMessage {
+    font-size: 15px;
     font-family: 'Titillium Web';
   }
 
-  .profileBoxContainer .boxContainerFooter :global(.vtex-button) {
-    background-color: #FC701C;
-    border-radius: 4px;
+  .boxContainerBody :global(.vtex-checkbox__label) {
+    font-size: 16px;
   }
 
-  .profileBoxContainer .boxContainerFooter :global(.vtex-button__label) {
-    font-family: 'Mukta';
-    font-weight: 400;
-    font-size: 19px;
-    text-align: center;
-    color: #FFFFFF;
-    text-transform: capitalize;
+  .profileBoxContainer .boxContainerFooter :global(.vtex-button) {
+    border-radius: 4px;
   }
 
   .boxContainerBody :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input__label),
@@ -211,8 +266,8 @@
 
   .boxContainerBody :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
     font-family: 'Titillium Web';
-    color: #FC701C;
-    border: 1px solid #FC701C;
+    color: #ED752D;
+    border: 1px solid #ED752D;
     border-radius: 4px;
     background-color: #FFFFFF;
   }
