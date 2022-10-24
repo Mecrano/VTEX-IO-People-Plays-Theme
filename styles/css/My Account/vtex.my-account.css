@@ -126,11 +126,77 @@
   color: #000000;
 }
 
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input) :global(.vtex-input__label),
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-genderInput) :global(.vtex-dropdown) :global(.vtex-dropdown__label) {
+  display: none;
+}
+
+.profileFormBoxContainer :global(.mw6-ns) {
+  max-width: 75%;
+}
+
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-personalFields) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) {
+  width: 270px;
+}
+
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) input,
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-genderInput) :global(.vtex-dropdown) :global(.vtex-dropdown__button) {
+  background: #FFFFFF;
+  padding: 15px;
+  border: 1px solid rgba(72, 84, 103, 0.6);
+  border-radius: 4px;
+  gap: 216px;
+}
+
+.c .boxContainer .boxContainerBody {
+  padding-left: 1.5rem;
+}
+
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input-prefix__group) input,
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-genderInput) :global(.vtex-dropdown) :global(.br2) :global(.o-0) {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 165.5%;
+  color: #000000;
+}
+
+
+
 /* Perfil */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) {
+    width: 200px !important;
+  }
+
+  .profileFormBoxContainer :global(.mw6-ns) {
+    max-width: 90%;
+  }
+}
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .menu {
     width: 350px;
+  }
+
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) {
+    width: 150px !important;
+  }
+
+  .profileFormBoxContainer :global(.mw6-ns) {
+    max-width: 100%;
+  }
+
+  :global(.vtex-account__page) {
+    padding-left: 3rem;
   }
 
 }
@@ -164,6 +230,11 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
+
+  .profileFormBoxContainer .boxContainer .boxContainerBody {
+    padding-left: 0;
+  }
+
   :global(.vtex-account__page) {
     background-color: #FFFFFF;
     padding-bottom: 2rem !important;
@@ -448,16 +519,9 @@
   /* autenticacion */
 }
 
-/* @media screen and (min-width: 426px) and (max-width: 768px) {
+/*  @media screen and (min-width: 426px) and (max-width: 768px) {
   .menu {
     width: calc(730px - 20px * 2);
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .menu {
-    width: calc(999px - 40px * 2);
     margin: 0 auto;
   }
 } */
