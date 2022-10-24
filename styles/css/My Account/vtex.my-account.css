@@ -16,6 +16,7 @@
   padding-bottom: 4rem !important;
   padding-left: 4rem;
   width: 100% !important;
+  height: 100% !important;
 }
 
 .userGreeting {
@@ -307,7 +308,8 @@
 :global(.vtex-account) :global(.flex) form :global(.pa5) :global(.styleguide__box) :global(.mb7) :global(.vtex-button) :global(.vtex-button__label),
 :global(.vtex-account) :global(.flex) form :global(.pa5) :global(.w-100) :global(.mt7) :global(.vtex-button) :global(.vtex-button__label),
 :global(.vtex-account) form :global(.styleguide__box) :global(.t-body) :global(.vtex-button) :global(.vtex-button__label),
-:global(.vtex-account) form :global(.styleguide__box) :global(.mt3) :global(.vtex-button) :global(.vtex-button__label) {
+:global(.vtex-account) form :global(.styleguide__box) :global(.mt3) :global(.vtex-button) :global(.vtex-button__label),
+:global(.vtex-my-authentication-1-x-resendCodeButton_container) :global(.vtex-button) :global(.vtex-button__label) {
   text-transform: capitalize;
 }
 
@@ -361,7 +363,8 @@
 }
 
 :global(.vtex-account) form :global(.styleguide__box) :global(.t-body) :global(.vtex-button),
-:global(.vtex-account) form :global(.styleguide__box) :global(.mt3) :global(.vtex-button) {
+:global(.vtex-account) form :global(.styleguide__box) :global(.mt3) :global(.vtex-button),
+:global(.vtex-my-authentication-1-x-resendCodeButton_container) :global(.vtex-button) {
   background-color: #ED752D;
 }
 
@@ -409,10 +412,41 @@
 }
 
 :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button) {
-   background-color: #ED752D;
-   color: #FFFFFF;
+  background-color: #ED752D;
+  color: #FFFFFF;
 }
 
+:global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-authenticationScreen_passBox) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-createPassword_text) {
+  color: #000000;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+:global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-authenticationScreen_passBox) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-createPassword_text) :global(.c-muted-1) {
+  color: #ED752D;
+}
+
+:global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-authenticationScreen_passBox) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-codeInput_container) :global(.vtex-input__label),
+:global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-authenticationScreen_passBox) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-newPassInput_container) :global(.vtex-input__label),
+:global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-authenticationScreen_passBox) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-passValidation_container) :global(.vtex-my-authentication-1-x-passValidation_title) {
+  color: #000000;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+:global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-authenticationScreen_passBox) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-passValidation_container) :global(.vtex-my-authentication-1-x-passValidation_content) {
+  font-family: 'Mukta';
+}
+
+:global(.vtex-my-authentication-1-x-newPassInput_container) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input),
+:global(.vtex-my-authentication-1-x-codeInput_container) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  color: #000000;
+  font-family: 'Mukta';
+}
 
 /* autenticacion */
 
@@ -666,6 +700,6 @@
   :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) {
     border: none;
   }
+
   /* autenticacion */
 }
-
