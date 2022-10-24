@@ -158,14 +158,62 @@
   padding-left: 1.5rem;
 }
 
-.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input-prefix__group) input,
-.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-genderInput) :global(.vtex-dropdown) :global(.br2) :global(.o-0) {
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input-prefix__group) input {
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 165.5%;
   color: #000000;
+}
+
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-genderInput) :global(.vtex-dropdown) :global(.br2) :global(.f6) {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button)  {
+  width: 100%;
+}
+
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-button) {
+  width: 270px;
+  padding: 15px 15px;
+}
+
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-button) :global(.vtex-button__label) {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.boxContainerBody :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+  font-family: 'Lato';
+  font-size: 20px;
+  color: #ED752D;
+  border: 1px solid rgba(72, 84, 103, 0.6);
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.boxContainerBody :global(.vtex-profile-form-3-x-businessFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input) :global(.vtex-input__label) {
+  display: flex !important;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.boxContainerBody :global(.vtex-profile-form-3-x-businessFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input) :global(.vtex-input-prefix__group) input {
+  border: 1px solid rgba(72, 84, 103, 0.6);
+  padding: 15px;
 }
 
 
@@ -177,18 +225,36 @@
     width: 200px !important;
   }
 
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-button) {
+    width: 200px;
+    padding: 0;
+  }
+
   .profileFormBoxContainer :global(.mw6-ns) {
     max-width: 90%;
+  }
+
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button)  {
+    padding: 15px;
   }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button)  {
+    padding: 15px;
+  }
+
   .menu {
     width: 350px;
   }
 
   .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) {
     width: 150px !important;
+  }
+
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-button) {
+    width: 150px;
+    padding: 0;
   }
 
   .profileFormBoxContainer :global(.mw6-ns) {
@@ -231,8 +297,22 @@
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
 
+
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-button) {
+    width: 100%;
+  }
+
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) {
+    width: 100% !important;
+  }
+
+  .profileFormBoxContainer :global(.mw6-ns) {
+    max-width: 100%;
+  }
+
   .profileFormBoxContainer .boxContainer .boxContainerBody {
     padding-left: 0;
+    padding-right: 0;
   }
 
   :global(.vtex-account__page) {
@@ -335,16 +415,7 @@
     font-size: 1rem;
   }
 
-  .boxContainerBody :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
-    font-family: 'Titillium Web';
-    color: #ED752D;
-    border: 1px solid #ED752D;
-    border-radius: 4px;
-    background-color: #FFFFFF;
-  }
-
   .boxContainerBody :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.lh-title),
-  .boxContainerBody :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input-prefix__group) :global(.w-100),
   .boxContainerBody :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-dropdown__button) {
     font-family: 'Titillium Web';
   }
