@@ -15,9 +15,10 @@
   padding-top: 4rem !important;
   padding-bottom: 4rem !important;
   padding-left: 4rem;
+  width: 100% !important;
 }
 
-.userGreeting{
+.userGreeting {
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
@@ -26,7 +27,7 @@
   color: #000000;
 }
 
-.userName{
+.userName {
   font-family: 'Titillium Web';
   font-style: normal;
   font-size: 19.2228px;
@@ -104,12 +105,14 @@
   border: 1px solid #000000;
   border-radius: 5px;
 }
+
 .passwordBox :global(.vtex-checkbox__line-container) {
   display: flex;
   align-items: center;
 }
 
-.passwordBox :global(.vtex-checkbox__label), .newsletterContainerMessage {
+.passwordBox :global(.vtex-checkbox__label),
+.newsletterContainerMessage {
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
@@ -174,7 +177,7 @@
   color: #000000;
 }
 
-.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button)  {
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
   width: 100%;
 }
 
@@ -211,14 +214,207 @@
   font-size: 20px;
   color: #000000;
 }
+
 .boxContainerBody :global(.vtex-profile-form-3-x-businessFields) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input) :global(.vtex-input-prefix__group) input {
   border: 1px solid rgba(72, 84, 103, 0.6);
   padding: 15px;
 }
 
-
-
 /* Perfil */
+/* direccion */
+:global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.newAddressButton) :global(.vtex-button) {
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-top: 25px;
+}
+
+.addressList :global(.t-heading-4) {
+  font-family: 'Mukta';
+  font-size: 20px;
+  color: #000000;
+  margin-top: 20px;
+}
+
+:global(.vtex-pageHeader-link__container) :global(.vtex-button) {
+  font-family: 'Mukta';
+  font-size: 20px;
+  margin-top: 20px;
+  text-transform: capitalize;
+  background-color: #ED752D;
+  padding: 5px;
+}
+
+:global(.vtex-pageHeader-link__container) :global(.vtex-button) :global(.t-action--small),
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button) :global(.vtex-button__label) {
+  text-transform: capitalize;
+}
+
+.boxContainerBody :global(.vtex-address-form-4-x-dropdown) :global(.vtex-dropdown__label),
+.boxContainerBody :global(.vtex-address-form__addressQuery) :global(.vtex-input__label) {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  font-size: 20px;
+  color: #000000;
+}
+
+:global(.vtex-address-form-4-x-dropdown) :global(.vtex-address-form-4-x-container) :global(.vtex-dropdown__button) :global(.vtex-dropdown__arrow) {
+  color: #000000;
+}
+
+:global(.vtex-address-form-4-x-dropdown) :global(.vtex-address-form-4-x-container) :global(.vtex-dropdown__button),
+.boxContainerBody :global(.vtex-address-form__addressQuery) :global(.vtex-input-prefix__group) :global(.vtex-address-form-4-x-input) {
+  font-family: 'Titillium Web';
+  font-size: 19px;
+  color: #000000;
+}
+
+.addressCreate .boxContainerBody :global(.vtex-button),
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button) :global(.vtex-button__label) {
+  text-transform: capitalize;
+}
+
+/* direccion */
+/* pedidos */
+:global(.vtex-account__page) :global(.vtex-my-orders-app-3-x-ordersList) :global(.c-on-base),
+:global(.vtex-account__cards-list) :global(.c-on-base) {
+  font-family: 'Mukta';
+  color: #000000;
+  font-size: 20px;
+}
+
+/* pedidos */
+/* tarjetas de credito */
+:global(.vtex-pageHeader__container) :global(.vtex-my-cards-1-x-newCardButton) :global(.vtex-button) :global(.vtex-button__label) {
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+/* tarjetas de credito */
+
+/* suscripcion */
+
+:global(.vtex-pageHeader__container) :global(.c-on-base) :global(.vtex-pageHeader__title) :global(.normal) {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000000;
+}
+
+:global(.vtex-account) :global(.flex) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.vtex-button) :global(.vtex-button__label),
+:global(.vtex-account) :global(.flex) form :global(.pa5) :global(.styleguide__box) :global(.mb7) :global(.vtex-button) :global(.vtex-button__label),
+:global(.vtex-account) :global(.flex) form :global(.pa5) :global(.w-100) :global(.mt7) :global(.vtex-button) :global(.vtex-button__label),
+:global(.vtex-account) form :global(.styleguide__box) :global(.t-body) :global(.vtex-button) :global(.vtex-button__label),
+:global(.vtex-account) form :global(.styleguide__box) :global(.mt3) :global(.vtex-button) :global(.vtex-button__label) {
+  text-transform: capitalize;
+}
+
+:global(.vtex-account) :global(.flex) form :global(.pa5) :global(.styleguide__box) :global(.t-heading-4),
+:global(.vtex-account) :global(.flex) form :global(.pa5) :global(.styleguide__box) :global(.pa7) :global(.t-small) {
+  color: #000000;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+}
+
+:global(.vtex-account) :global(.flex) :global(.pa5) :global(.w5) :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-dropdown__label) {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+:global(.vtex-account) :global(.flex) :global(.pa5) :global(.w5) :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-dropdown__button) {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  color: #000000;
+}
+
+:global(.vtex-account) :global(.flex) :global(.pa5) :global(.flex) :global(.w-80) :global(.t-body) {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+}
+
+:global(.vtex-account) :global(.flex) :global(.pa5) :global(.flex) :global(.w-80) :global(.t-heading-4) {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  color: #000000;
+}
+
+:global(.vtex-styleguide-9-x-shadowTransition) :global(.f3),
+:global(.styles_modal__gNwvD) :global(.vtex-styleguide-9-x-scrollBar) :global(.vtex-input) :global(.vtex-input__label),
+:global(.styles_modal__gNwvD) :global(.vtex-styleguide-9-x-scrollBar) :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input),
+:global(.styles_modal__gNwvD) :global(.vtex-styleguide-9-x-scrollBar) :global(.mt8) :global(.flex) :global(.w-80) :global(.t-body) :global(.mt5) {
+  font-family: 'Titillium Web';
+  color: #000000;
+}
+
+:global(.vtex-account) form :global(.styleguide__box) :global(.t-body) :global(.vtex-button),
+:global(.vtex-account) form :global(.styleguide__box) :global(.mt3) :global(.vtex-button) {
+  background-color: #ED752D;
+}
+
+/* suscripcion */
+/* autenticacion */
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex_my-authentication_box_content) :global(.vtex_my-authentication_maskedPassword_title),
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex_my-authentication_box_content) :global(.vtex_my-authentication_loginSessionsBox_title) {
+  font-family: 'Titillium Web';
+  color: #000000;
+}
+
+
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex_my-authentication_box_content) :global(.vtex_my-authentication_maskedPassword_content),
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex_my-authentication_box_content) :global(.vtex_my-authentication_loginSessionsBox_content) {
+  font-family: 'Titillium Web';
+  color: #000000;
+  font-size: 20px;
+}
+
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button) {
+  background-color: #ED752D;
+}
+
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) {
+  margin-right: 0;
+}
+
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex-my-authentication-1-x-box_header) :global(.vtex-my-authentication-1-x-loginSession_currSessionText),
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-loginSession_device) {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-loginSession_lastAccess),
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-loginSession_originDetails),
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-loginSession_firstAccess) {
+  color: #000000;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+:global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button) {
+   background-color: #ED752D;
+   color: #FFFFFF;
+}
+
+
+/* autenticacion */
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) {
@@ -234,13 +430,13 @@
     max-width: 90%;
   }
 
-  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button)  {
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
     padding: 15px;
   }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
-  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button)  {
+  .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
     padding: 15px;
   }
 
@@ -268,6 +464,7 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
+
   .menu,
   :global(.vtex-account__page),
   :global(.vtex-account) {
@@ -277,6 +474,7 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
+
   .menu,
   :global(.vtex-account__page),
   :global(.vtex-account) {
@@ -370,11 +568,9 @@
   }
 
   :global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-button) {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-    color: #000000;
+    color: #FFFFFF !important;
+    font-family: 'Mukta' !important;
+    font-size: 20px !important;
   }
 
 
@@ -427,53 +623,18 @@
   /* perfil */
 
   /* direccion */
-  :global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.newAddressButton) :global(.vtex-button) {
-    text-transform: capitalize;
-    color: #FFFFFF;
-    margin-top: 25px;
+
+  .addressList :global(.w-80) {
+    margin-top: 20px;
   }
 
   .addressList :global(.t-heading-4) {
-    font-family: 'Titillium Web';
     font-size: 15px;
-    color: #000000;
-  }
-
-  .boxContainerBody :global(.vtex-address-form-4-x-dropdown) :global(.vtex-dropdown__label),
-  .boxContainerBody :global(.vtex-address-form__addressQuery) :global(.vtex-input__label) {
-    font-family: 'Titillium Web';
-    font-size: 15px;
-    color: #000000;
-  }
-
-  :global(.vtex-address-form-4-x-dropdown) :global(.vtex-address-form-4-x-container) :global(.vtex-dropdown__button),
-  .boxContainerBody :global(.vtex-address-form__addressQuery) :global(.vtex-input-prefix__group) :global(.vtex-address-form-4-x-input) {
-    font-family: 'Titillium Web';
-    font-size: 15px;
-    color: #000000;
-  }
-
-  :global(.vtex-address-form-4-x-dropdown) :global(.vtex-address-form-4-x-container) :global(.vtex-dropdown__button) :global(.vtex-dropdown__arrow) {
-    color: #000000;
   }
 
   /* direccion */
 
-  /* pedidos */
-  :global(.vtex-account__page) :global(.vtex-my-orders-app-3-x-ordersList) :global(.c-on-base),
-  :global(.vtex-account__cards-list) :global(.c-on-base) {
-    font-family: 'Titillium Web';
-    color: #000000;
-    font-size: 15px;
-  }
-
-  /* pedidos */
-
   /* Tarjeta de credito */
-  :global(.vtex-pageHeader__container) :global(.vtex-my-cards-1-x-newCardButton) :global(.vtex-button) :global(.vtex-button__label) {
-    text-transform: capitalize;
-    color: #FFFFFF;
-  }
 
   :global(.vtex-pageHeader__container) :global(.vtex-my-cards-1-x-newCardButton) :global(.vtex-button) {
     margin-top: 25px;
@@ -489,110 +650,22 @@
 
   /* suscripciones */
 
-  :global(.vtex-pageHeader__container) :global(.c-on-base) :global(.vtex-pageHeader__title) :global(.normal) {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    color: #000000;
-
-  }
-
   :global(.vtex-account) :global(.flex) :global(.pa5) {
     padding: 0;
     margin-top: 20px;
-  }
-
-  :global(.vtex-account) :global(.flex) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader-link__container) :global(.vtex-button) {
-    color: #000000;
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
   }
 
   :global(.vtex-account) :global(.flex) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.vtex-button) {
     margin-top: 20px;
   }
 
-  :global(.vtex-account) :global(.flex) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.vtex-button) :global(.vtex-button__label),
-  :global(.vtex-account) :global(.flex) form :global(.pa5) :global(.styleguide__box) :global(.mb7) :global(.vtex-button) :global(.vtex-button__label),
-  :global(.vtex-account) :global(.flex) form :global(.pa5) :global(.w-100) :global(.mt7) :global(.vtex-button) :global(.vtex-button__label) {
-    text-transform: capitalize;
-  }
-
-  :global(.vtex-account) :global(.flex) form :global(.pa5) :global(.styleguide__box) :global(.t-heading-4),
-  :global(.vtex-account) :global(.flex) form :global(.pa5) :global(.styleguide__box) :global(.pa7) :global(.t-small) {
-    color: #000000;
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 21px;
-  }
-
-  :global(.vtex-account) :global(.flex) :global(.pa5) :global(.w5) :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-dropdown__label) {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    color: #000000;
-  }
-
-  :global(.vtex-account) :global(.flex) :global(.pa5) :global(.w5) :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-dropdown__button) {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: #000000;
-  }
-
-  :global(.vtex-account) :global(.flex) :global(.pa5) :global(.flex) :global(.w-80) :global(.t-body) {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    color: #000000;
-  }
-
-  :global(.vtex-account) :global(.flex) :global(.pa5) :global(.flex) :global(.w-80) :global(.t-heading-4) {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: #000000;
-  }
-
-  :global(.vtex-styleguide-9-x-shadowTransition) :global(.f3),
-  :global(.styles_modal__gNwvD) :global(.vtex-styleguide-9-x-scrollBar) :global(.vtex-input) :global(.vtex-input__label),
-  :global(.styles_modal__gNwvD) :global(.vtex-styleguide-9-x-scrollBar) :global(.vtex-input) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input),
-  :global(.styles_modal__gNwvD) :global(.vtex-styleguide-9-x-scrollBar) :global(.mt8) :global(.flex) :global(.w-80) :global(.t-body) :global(.mt5) {
-    font-family: 'Titillium Web';
-    color: #000000;
-  }
 
   /* suscripciones */
 
   /* autenticacion */
-  :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex_my-authentication_box_content) :global(.vtex_my-authentication_maskedPassword_title),
-  :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex_my-authentication_box_content) :global(.vtex_my-authentication_loginSessionsBox_title) {
-    font-family: 'Titillium Web';
-    color: #000000;
+  :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) {
+    border: none;
   }
-
-
-  :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex_my-authentication_box_content) :global(.vtex_my-authentication_maskedPassword_content),
-  :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex_my-authentication_box_content) :global(.vtex_my-authentication_loginSessionsBox_content) {
-    font-family: 'Titillium Web';
-    color: #000000;
-    font-size: 15px;
-  }
-
   /* autenticacion */
 }
 
-/*  @media screen and (min-width: 426px) and (max-width: 768px) {
-  .menu {
-    width: calc(730px - 20px * 2);
-    margin: 0 auto;
-  }
-} */
