@@ -132,7 +132,12 @@
 
 .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input) :global(.vtex-input__label),
 .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-genderInput) :global(.vtex-dropdown) :global(.vtex-dropdown__label) {
-  display: none;
+  /* display: none; */
+  font-family: 'Mukta';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #000000;
 }
 
 .profileFormBoxContainer :global(.mw6-ns) {
@@ -291,6 +296,10 @@
   text-transform: capitalize;
   color: #FFFFFF;
 }
+
+/* :global(.vtex-account__create-card) {
+
+} */
 
 /* tarjetas de credito */
 
@@ -673,12 +682,6 @@
   :global(.vtex-pageHeader__container) :global(.vtex-my-cards-1-x-newCardButton) :global(.vtex-button) {
     margin-top: 25px;
   }
-
-  /* :global(.vtex-account__create-card) iframe html:global(.vtex-input) :global(.vtex-input__label) {
-  font-family: 'Titillium Web' !important;
-  color: #000000 !important;
-  background-color: red;
-} */
 
   /* trajeta de credito */
 
