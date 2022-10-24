@@ -42,7 +42,7 @@
 }
 
 .filter__container--title {
-  background-color: #DFDFDF;
+  background-color: #f1f3f9;
   margin-left: -29px;
   margin-right: -29px;
   margin-top: -16px;
@@ -217,13 +217,17 @@
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
-  .galleryItem--normal {
+  /* .galleryItem--normal {
     max-width: 70% !important;
-  }
+  } */
 }
 
-
 @media screen and (min-width: 300px) and (max-width: 1024px) {
+  /* .galleryItem--normal {
+    padding-left: 0;
+
+  } */
+
   .galleryTitle--layout {
     font-size: 22px;
     line-height: 33px;

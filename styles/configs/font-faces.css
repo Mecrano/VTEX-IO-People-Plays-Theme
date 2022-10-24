@@ -37,3 +37,8 @@
   font-family: "Rubik";
   src: url(assets/fonts/Rubik-Regular.ttf);
 }
+
+@font-face {
+  font-family: "Lato";
+  src: url(assets/fonts/Lato-Regular.ttf);
+}

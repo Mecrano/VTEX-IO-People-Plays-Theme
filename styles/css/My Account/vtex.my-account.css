@@ -7,11 +7,16 @@
   width: 425px;
   background: #FFFFFF;
   padding-top: 4rem !important;
-  padding-bottom: 4rem !important;
+  /* padding-bottom: 4rem !important; */
 }
 
+/* :global(.vtex-account) :global(.w-100) div:first-child {
+background-color: red;
+height: auto;
+} */
+
 :global(.vtex-account__page) {
-  background-color: #DFDFDF;
+  background-color: #f1f3f9;
   padding-top: 4rem !important;
   padding-bottom: 4rem !important;
   padding-left: 4rem;
