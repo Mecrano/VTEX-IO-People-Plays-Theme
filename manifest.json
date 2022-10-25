@@ -42,7 +42,8 @@
     "vtex.info-card-list": "0.x",
     "vtex.stack-layout": "0.x",
     "vtex.product-highlights": "2.x",
-    "vtex.tab-layout": "0.x"
+    "vtex.tab-layout": "0.x",
+    "vtex.disclosure-layout": "1.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

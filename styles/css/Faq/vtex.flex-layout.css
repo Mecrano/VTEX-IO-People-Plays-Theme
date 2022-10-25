@@ -1,9 +1,16 @@
-.flexRow--faq-container :global(.vtex-store-components-3-x-container) {
-  width: calc(1300px - 15px * 2);
+.flexRow--faq-container :global(.vtex-store-components-3-x-container),
+.flexRow--preguntas :global(.vtex-store-components-3-x-container) {
+  width: calc(1280px - 15px * 2);
   margin: 0 auto;
 }
 
-.flexRow--faq-container {
-  background-color: #f1f3f9;
+.flexRow--faq-container, .flexRow--preguntas {
+  background-color: #ffffff;
 }
+
+.flexRowContent--preguntas :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  justify-content: left;
+}
+
+
 
