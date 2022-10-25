@@ -7,7 +7,6 @@
   width: 425px;
   background: #FFFFFF;
   padding-top: 4rem !important;
-  /* padding-bottom: 4rem !important; */
 }
 
 
@@ -140,6 +139,13 @@ font-size: 20px;
 color: #000000;
 }
 
+.profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input-prefix__group) input[name="firstName"]::placeholder::before {
+  background-color: red;
+  content: "prueba";
+  font-size: 15px;
+
+}
+
 .profileFormBoxContainer :global(.mw6-ns) {
   max-width: 75%;
 }
@@ -227,6 +233,7 @@ color: #000000;
 }
 
 /* Perfil */
+
 /* direccion */
 :global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-pageHeader__children) :global(.newAddressButton) :global(.vtex-button) {
   text-transform: capitalize;
@@ -282,6 +289,7 @@ color: #000000;
 }
 
 /* direccion */
+
 /* pedidos */
 :global(.vtex-account__page) :global(.vtex-my-orders-app-3-x-ordersList) :global(.c-on-base),
 :global(.vtex-account__cards-list) :global(.c-on-base) {
@@ -291,16 +299,12 @@ color: #000000;
 }
 
 /* pedidos */
+
 /* tarjetas de credito */
 :global(.vtex-pageHeader__container) :global(.vtex-my-cards-1-x-newCardButton) :global(.vtex-button) :global(.vtex-button__label) {
   text-transform: capitalize;
   color: #FFFFFF;
 }
-
-/* :global(.vtex-account__create-card) {
-
-} */
-
 /* tarjetas de credito */
 
 /* suscripcion */
@@ -376,8 +380,8 @@ color: #000000;
 :global(.vtex-my-authentication-1-x-resendCodeButton_container) :global(.vtex-button) {
   background-color: #ED752D;
 }
-
 /* suscripcion */
+
 /* autenticacion */
 :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex_my-authentication_box_content) :global(.vtex_my-authentication_maskedPassword_title),
 :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex_my-authentication_box_content) :global(.vtex_my-authentication_loginSessionsBox_title) {
@@ -458,6 +462,11 @@ color: #000000;
 }
 
 /* autenticacion */
+/* wishlist */
+/* :global(.vtex-account__page) header main :global(.wish-list) {
+  background-color: red;
+} */
+/* wishlist */
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-personalFields) :global(.vtex-profile-form-3-x-styleguideInput) {
