@@ -1,15 +1,14 @@
 {
   "store.custom#landing-faq": {
-    "blocks": [
-      "tab-layout#faq"
-    ]
+    "blocks": ["flex-layout.row#faq-container"]
   },
-  /* "flex-layout.row#faq-container": {
+
+  "flex-layout.row#faq-container": {
     "children": ["tab-layout#faq"],
     "props": {
       "blockClass": "faq-container"
     }
-  }, */
+  },
 
   "tab-layout#faq": {
     "children":[

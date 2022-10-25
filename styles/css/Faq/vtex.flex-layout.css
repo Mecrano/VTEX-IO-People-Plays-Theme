@@ -1,0 +1,9 @@
+.flexRow--faq-container :global(.vtex-store-components-3-x-container) {
+  width: calc(1300px - 15px * 2);
+  margin: 0 auto;
+}
+
+.flexRow--faq-container {
+  background-color: #f1f3f9;
+}
+
