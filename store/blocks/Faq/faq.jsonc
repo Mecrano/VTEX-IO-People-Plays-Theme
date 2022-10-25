@@ -1,0 +1,159 @@
+{
+  "store.custom#landing-faq": {
+    "blocks": [
+      "tab-layout#faq"
+    ]
+  },
+  /* "flex-layout.row#faq-container": {
+    "children": ["tab-layout#faq"],
+    "props": {
+      "blockClass": "faq-container"
+    }
+  }, */
+
+  "tab-layout#faq": {
+    "children":[
+      "tab-list#faq",
+      "tab-content#faq"
+    ],
+    "props":{
+      "blockClass": "faq",
+      "defaultActiveTabId": "faq-ayuda--rapida"
+    }
+  },
+
+  "flex-layout.col#faq-box--one": {
+    "children": ["rich-text#prueba-texto"],
+    "props": {
+      "blockClass": "faq-box--one"
+    }
+  },
+
+  /*
+  "flex-layout.col#faq-box--two": {
+    "children": ["tab-content#faq"],
+    "props": {
+      "blockClass": "faq-box--two"
+    }
+  }, */
+
+  "tab-list#faq": {
+    "children": [
+      "tab-list.item#tab0",
+      "tab-list.item#tab1",
+      "tab-list.item#tab2",
+      "tab-list.item#tab3",
+      "tab-list.item#tab4",
+      "tab-list.item#tab5"
+    ],
+    "props": {
+     "blockClass": "faq-tab--list"
+    }
+  },
+  "tab-list.item#tab0": {
+    "props": {
+      "label": "Preguntas frecuentes",
+      "blockClass": "tab-prueba"
+    }
+  },
+  "tab-list.item#tab1": {
+    "props": {
+      "tabId": "faq-ayuda--rapida",
+      "label": "Ayuda rápida",
+      "defaultActiveTab": true,
+      "blockClass": "tab-list"
+    }
+  },
+
+  "tab-list.item#tab2": {
+   "props": {
+     "tabId": "faq-miembros",
+     "label": "Miembros",
+     "blockClass": "tab-list"
+    }
+  },
+
+  "tab-list.item#tab3": {
+   "props": {
+     "tabId": "faq-corporativo",
+     "label": "Corporativo",
+     "blockClass": "tab-list"
+    }
+  },
+
+  "tab-list.item#tab4": {
+    "props": {
+      "tabId": "faq-informacion-lanzamientos",
+      "label": "Informacion de lanzamientos",
+      "blockClass": "tab-list"
+     }
+   },
+
+   "tab-list.item#tab5": {
+    "props": {
+      "tabId": "faq-pedidos",
+      "label": "Pedidos",
+      "blockClass": "tab-list"
+     }
+   },
+
+   "tab-content#faq": {
+    "children": [
+      "tab-content.item#tab1",
+      "tab-content.item#tab2",
+      "tab-content.item#tab3",
+      "tab-content.item#tab4",
+      "tab-content.item#tab5"
+    ],
+    "props":{
+      "blockClass": "faq-content"
+    }
+  },
+
+  "tab-content.item#tab1": {
+    "children": ["rich-text#prueba-texto"],
+    "props": {
+      "tabId": "faq-ayuda--rapida",
+      "blockClass": "tab1"
+    }
+  },
+
+  "tab-content.item#tab2": {
+    "children": ["rich-text#prueba-texto"],
+    "props": {
+      "tabId": "faq-miembros",
+      "blockClass": "tab2"
+    }
+  },
+
+  "tab-content.item#tab3": {
+    "children": ["rich-text#prueba-texto"],
+    "props": {
+      "tabId": "faq-corporativo",
+      "blockClass": "tab3"
+    }
+  },
+
+  "tab-content.item#tab4": {
+    "children": ["rich-text#prueba-texto"],
+    "props": {
+      "tabId": "faq-informacion-lanzamientos",
+      "blockClass": "tab4"
+    }
+  },
+
+  "tab-content.item#tab5": {
+    "children": ["rich-text#prueba-texto"],
+    "props": {
+      "tabId": "faq-pedidos",
+      "blockClass": "tab5"
+    }
+  },
+
+  "rich-text#prueba-texto": {
+    "props": {
+      "text": "pruebas",
+      "blockClass": "pruebas"
+    }
+  }
+}
