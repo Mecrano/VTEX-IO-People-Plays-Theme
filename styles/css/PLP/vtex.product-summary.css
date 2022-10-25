@@ -21,18 +21,6 @@
   text-align: left;
 }
 
-.productBrandName--brand--plp {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  color: #A0A0A0;
-  padding-bottom: 5px;
-  text-transform: capitalize;
-}
-
 .element--shelf--plp {
   background: #FFFFFF;
   padding-bottom: 15px;
@@ -80,10 +68,6 @@
 @media screen and (min-width: 300px) and (max-width: 425px) {
   .productBrand--name--plp {
     font-size: 13.4857px;
-  }
-
-  .productBrandName--brand--plp {
-    font-size: 11.5592px;
   }
 
   .nameContainer--name--plp {
