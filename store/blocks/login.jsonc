@@ -5,9 +5,13 @@
 
   "login-content#default": {
     "props": {
-      "isInitialScreenOptionOnly": false,
+       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
-      "showPasswordVerificationIntoTooltip": true
+      "showPasswordVerificationIntoTooltip": true,
+      "termsAndConditions": "Términos de Servicio y Política de Privacidad",
+      "hasGoogleOneTap": true,
+      "emailAndPasswordTitle": "Inicia sesion con mail y contraseña",
+      "accessCodeTitle": "Recibir clave de acceso rapido por mail"
     }
   }
 }

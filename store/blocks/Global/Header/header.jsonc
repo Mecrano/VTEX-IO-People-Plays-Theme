@@ -88,7 +88,8 @@
       "fullWidth": true,
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
-      "horizontalAlign": "between"
+      "horizontalAlign": "between",
+      "blockClass": "header-mobile"
     },
     "children": [
       "flex-layout.col#header-left-column-mobile",

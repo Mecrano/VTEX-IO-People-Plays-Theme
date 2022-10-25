@@ -1,3 +1,10 @@
+.sellingPrice--selling-price--plp,
+.listPrice--list-price--plp {
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
 .sellingPriceValue--selling-price--plp {
   font-family: 'Mukta';
   font-style: normal;
@@ -19,14 +26,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 8.89995px;
-  gap: 9.89px;
   background: #EB0606;
   border: 0.988883px solid #EB0606;
   color: #FFFFFF;
   width: 78.12px !important;
-height: 37.58px;
-padding: 0 !important;
+  height: 37.58px;
+  padding: 0 !important;
 }
 
 .savingsPercentage--summary--plp {
@@ -36,24 +41,67 @@ padding: 0 !important;
   font-size: 20px;
 }
 
-@media screen and (min-width: 300px) and (max-width: 425px) {
-  .sellingPriceValue--selling-price--plp {
-    font-size: 15px;
-  }
+.sellingPrice--selling-price--plp,
+.listPrice--list-price--plp {
+  text-align: left;
+}
 
-  .listPriceValue--list-price--plp {
-    font-size: 11px;
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .savings--summary--plp {
+    width: 35px !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 33% !important;
   }
 
   .savings--summary--plp {
     background: transparent;
-    border: 0.988883px solid transparent;
+    border: 0.988883px solid #EB0606;
     color: #EB0606;
-    width: 29px !important;
     height: 22px;
   }
 
+  .sellingPriceValue--selling-price--plp {
+    font-size: 15.4122px;
+  }
+
+  .listPriceValue--list-price--plp {
+    font-size: 11.5592px;
+  }
+
   .savingsPercentage--summary--plp {
+    font-size: 13.1261px;
+  }
+
+  .savings--summary--plp {
     font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  /* .sellingPriceValue--selling-price--plp {
+    font-size: 13px;
+  }
+
+  .listPriceValue--list-price--plp {
+    font-size: 11.5592px;
+  } */
+
+  /* .savingsPercentage--summary--plp {
+    font-size: 10.5px;
+  } */
+
+  .savings--summary--plp {
+    font-size: 10.5px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 425px) {
+  .savings--summary--plp {
+    width: 40px !important;
   }
 }

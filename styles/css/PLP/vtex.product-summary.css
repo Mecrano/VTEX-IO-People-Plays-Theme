@@ -4,7 +4,7 @@
   font-weight: 700;
   font-size: 20px;
   color: #000000;
-
+  height: 45px;
 }
 
 .nameWrapper--name--plp {
@@ -63,18 +63,32 @@
   padding-right: 15px;
 }
 
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .nameContainer--name--plp,
+  .productBrandContainer--brand--plp {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .element--shelf--plp :global(.vtex-button) {
+    margin-left: 5px;
+    width: 70% !important;
+  }
+}
+
 @media screen and (min-width: 300px) and (max-width: 425px) {
   .productBrand--name--plp {
-    font-size: 13px;
+    font-size: 13.4857px;
   }
 
   .productBrandName--brand--plp {
-    font-size: 11px;
+    font-size: 11.5592px;
   }
 
   .nameContainer--name--plp {
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0;
   }
 
   .element--shelf--plp :global(.vtex-button__label) {
@@ -87,4 +101,34 @@
     width: 70%;
   }
 
+  .element--shelf--plp :global(.vtex-button__label) {
+    font-size: 15.4122px;
+  }
+
 }
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .nameContainer--name--plp,
+  .productBrandContainer--brand--plp {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .element--shelf--plp :global(.vtex-button) {
+    width: 60%;
+  }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 425px) {
+  .nameContainer--name--plp,
+  .productBrandContainer--brand--plp {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .element--shelf--plp :global(.vtex-button) {
+    margin-left: 10px;
+  }
+}
+
