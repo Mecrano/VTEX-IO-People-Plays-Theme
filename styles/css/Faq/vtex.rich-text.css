@@ -61,3 +61,10 @@
   }
 }
 
+@media screen and (min-width: 1400px) {
+  .container--preguntas  {
+    margin-left: -252px;
+    width: 44.1% !important;
+    padding-left: 200px;
+  }
+}

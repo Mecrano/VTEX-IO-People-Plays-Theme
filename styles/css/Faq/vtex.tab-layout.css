@@ -79,6 +79,16 @@
   }
 }
 
+@media screen and (min-width: 1400px) {
+
+  .listContainer--faq-tab--list {
+    margin-left: -252px;
+    width: 44.1% !important;
+    padding-left: 245px;
+  }
+
+}
+
 @media screen and (min-width: 376px) and (max-width: 425px) {
   .contentContainer--faq-content {
     width: calc(450px - 40px * 2);
