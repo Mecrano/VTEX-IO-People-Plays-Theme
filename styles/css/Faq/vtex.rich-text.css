@@ -25,3 +25,39 @@
   line-height: 55px;
   color: #000000;
 }
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .paragraph--one {
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .paragraph--preguntas  {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .container--preguntas  {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .container--preguntas  {
+    width: 100% !important;
+    margin-left: 0;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container--preguntas  {
+    width: 40% !important;
+  }
+}
+
