@@ -1,8 +1,8 @@
 .sellingPrice--selling-price--plp,
 .listPrice--list-price--plp {
-white-space: nowrap;
+/* white-space: nowrap;
 overflow: hidden;
-text-overflow: ellipsis;
+text-overflow: ellipsis; */
 }
 
 .sellingPriceValue--selling-price--plp {

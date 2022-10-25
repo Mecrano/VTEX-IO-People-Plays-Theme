@@ -3,6 +3,10 @@
     margin-bottom: 25px;
 }
 
+.searchResultContainer {
+  padding: 0;
+}
+
 .searchResultContainer--desktop-plp--main-container{
     padding: 0;
     max-width: unset;
@@ -19,7 +23,7 @@
   padding-left: 60px;
 }
 
-.filterTitleSpan {
+.filterTitleSpan, .filterTitle {
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 500;
@@ -32,7 +36,7 @@
   display: none;
 }
 
-.filterTitle, .filterTemplateOverflow {
+.filterTitle, .filterTemplateOverflow, .categoryGroup {
   padding-left: 30px;
   padding-right: 10px;
 }
@@ -70,12 +74,25 @@
   font-size: 0;
 }
 
-.filterContent :global(.vtex-checkbox__label) {
+.filterContent :global(.vtex-checkbox__label), .categoryItemChildren {
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   color: #000000;
+}
+
+.categoryItemName {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+}
+
+.selectedCategoryName {
+  font-family: 'Mukta';
+  font-style: normal;
 }
 
 .orderByButton {
@@ -223,10 +240,6 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
-  /* .galleryItem--normal {
-    padding-left: 0;
-
-  } */
 
   .galleryTitle--layout {
     font-size: 22px;
@@ -364,7 +377,7 @@
 
 }
 
-@media screen and (min-width: 425px) and (max-width: 1024px) {
+@media screen and (min-width: 426px) and (max-width: 1024px) {
   .orderBy--layout {
     width: 192px !important;
   }
@@ -377,6 +390,7 @@
     margin-top: 30px;
   }
 }
+
 @media screen and (min-width: 300px) and (max-width: 425px) {
   .filterBreadcrumbsItemName {
     font-size: 20px;

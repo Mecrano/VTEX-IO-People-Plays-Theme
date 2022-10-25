@@ -86,6 +86,42 @@
   border-radius: 4px;
 }
 
+.googleOptionBtn :global(.vtex-button) {
+  background-color: #FFFFFF;
+  border: 1px solid #485467;
+  border-radius: 4px;
+}
+
+.googleOptionBtn :global(.vtex-button) :global(.vtex-button__label) {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: #485467;
+  text-transform: capitalize;
+}
+
+.facebookOptionBtn :global(.vtex-button)  {
+  background-color: #3C5A9A;
+  border-radius: 4px;
+  border: 1px solid #3C5A9A;
+}
+
+.facebookOptionBtn :global(.vtex-button) :global(.vtex-button__label) svg path {
+  fill: #FFFFFF !important;
+}
+
+.facebookOptionBtn :global(.vtex-button) :global(.vtex-button__label) {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
 @media screen and (min-width: 300px) and (max-width: 320px) {
    .loginOptionsContainer, .contentForm {
     width: calc(300px - 15px * 2);
