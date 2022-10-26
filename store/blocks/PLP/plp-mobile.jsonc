@@ -7,14 +7,20 @@
       "flex-layout.row#content-mobile"
     ],
     "props": {
+    "pagination": "show-more",
+    "mobileLayout": {
+      "mode1": "small",
+      "mode2": "normal"
+    },
       "preventRouteChange": true,
-      "fullWidth": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
       "showFacetQuantity": true,
-      "brands": true,
+      "defaultGalleryLayout": "grid",
+      /* "fullWidth": true, */
+      /* "brands": true, */
       "priceRange": true,
-      "blockClass": "mobile-plp--main-container",
-       "thresholdForFacetSearch": 10,
-       "showProductsCount": true
+      "blockClass": "mobile-plp--main-container"
     }
   },
   "flex-layout.row#searchinfo-mobile": {

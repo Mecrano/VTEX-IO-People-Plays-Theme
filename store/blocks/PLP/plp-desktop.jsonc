@@ -1,12 +1,13 @@
 {
   "search-result-layout.desktop": {
     "props": {
-      "fullWidth": true,
-      "preventRouteChange": true,
-      "showFacetQuantity": true,
+      /* "fullWidth": true, */
       "thresholdForFacetSearch": 10,
       "showProductsCount": true,
-      "brands": true,
+      "showFacetQuantity": true,
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid",
+     /*  "brands": true, */
       "priceRange": true,
       "blockClass": "desktop-plp--main-container"
     },
@@ -61,15 +62,12 @@
   "filter-navigator.v3": {
     "blocks": ["sidebar-close-button"],
     "props": {
-      "initiallyCollapsed": true
-     /*  "truncateFilters": true,
-     "showClearByFilter": true,
+      "initiallyCollapsed": true,
+      /* "truncateFilters": true, */
      "fullWidthOnMobile": true,
      "navigationTypeOnMobile": "collapsible",
-     "appliedFiltersOverview": "show",
-     "totalProductsOnMobile": "show",
      "updateOnFilterSelectionOnMobile": true,
-     "priceRangeLayout": "inputAndSlider" */
+     "priceRangeLayout": "inputAndSlider"
     }
   },
 
