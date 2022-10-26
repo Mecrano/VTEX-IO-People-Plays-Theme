@@ -412,7 +412,7 @@
 
   "rich-text#eight": {
     "props": {
-      "text": "¿Tiene garantía los accesorios?",
+      "text": "¿Puedo hacer cambios en el domicilio de entrega de mi orden?",
       "blockClass": "one"
     }
   },

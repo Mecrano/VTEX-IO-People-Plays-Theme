@@ -29,7 +29,7 @@
 
   "flex-layout.row#container-search-mobile": {
     "children": [
-      /* "filter-navigator.v3", */
+      "filter-navigator.v3",
       "order-by.v2"
     ],
     "props": {
