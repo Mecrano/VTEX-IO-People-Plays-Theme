@@ -1,23 +1,9 @@
 {
   "store.custom#landing-faq": {
     "blocks": [
-      /* "responsive-layout.desktop",
-      "responsive-layout.phone" */
       "flex-layout.row#faq-box--one",
-    "flex-layout.row#faq-container"
+      "flex-layout.row#faq-container"
     ]
-  },
-
-  "responsive-layout.desktop": {
-    "children": [
-      "flex-layout.row#faq-box--one",
-    "flex-layout.row#faq-container"
-    ]
-  },
-
-  "responsive-layout.phone": {
-    "children": ["flex-layout.row#faq-box--one",
-    "flex-layout.row#faq-container"]
   },
 
   "flex-layout.row#faq-container": {

@@ -1,0 +1,82 @@
+.paragraph--size-guide--title {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 49px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.paragraph--size-guide--text {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.461px;
+  line-height: 34px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.paragraph--group-number-one {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.paragraph--group-text-one {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.461px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.paragraph--group-number-one {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.container--padding {
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .paragraph--size-guide--title {
+    font-size: 22px;
+    line-height: 33px;
+  }
+
+  .paragraph--size-guide--text {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .paragraph--group-text-one {
+    font-size: 12.2312px;
+    line-height: 20px;
+  }
+
+  .paragraph--group-number-one{
+    font-size: 19.1289px;
+    line-height: 29px;
+  }
+
+  .container--padding {
+    margin-top: 30px;
+  }
+}

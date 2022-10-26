@@ -1,5 +1,8 @@
 {
   "store.custom#landing-faq": {
     "path": "/faq"
+  },
+  "store.custom#landing-size-guide": {
+    "path": "/size-guide"
   }
 }
