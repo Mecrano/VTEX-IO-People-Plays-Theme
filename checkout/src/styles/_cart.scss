@@ -1,0 +1,298 @@
+.container-main.container-cart {
+  @media (min-width: 1200px) {
+    width: 1170px;
+  }
+
+  #cart-title {
+    font-size: 0;
+
+    &::before {
+      content: 'Tu Carrito';
+      font-size: 2rem;
+      font-weight: 700;
+      color: black;
+      display: block;
+    }
+
+    &::after {
+      content: 'Envíos a domicilio en todo Colombia';
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: black;
+    }
+  }
+
+  .cart-template {
+    #cartLoadedDiv {
+      width: 70%;
+      float: left;
+    }
+
+    .summary-template-holder {
+      width: 28%;
+      float: right;
+
+      &::before {
+        content: 'Resumen';
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: black;
+        margin-bottom: 15px;
+        display: block;
+      }
+    }
+
+    .summary > .coupon-column.summary-coupon-wrap,
+    .cart-more-options {
+      display: none !important;
+    }
+
+    .totalizers.summary-totalizers.cart-totalizers {
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+
+      & > div:last-child {
+        padding: 12px 20px;
+        width: 100%;
+        border: 1px solid rgba(72, 84, 103, 0.6);
+        border-radius: 4px;
+      }
+
+      table.table {
+        display: block;
+
+        .empty {
+          display: none;
+        }
+
+        tbody.totalizers-list {
+          display: block;
+
+          tr {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            td.info,
+            td.monetary {
+              font-family: 'Mukta';
+              color: #000000;
+              font-size: 1.25rem;
+              white-space: nowrap;
+              width: auto;
+            }
+          }
+        }
+
+        tfoot {
+          display: block;
+
+          tr {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            td.info,
+            td.monetary {
+              font-family: 'Mukta';
+              color: #002f87;
+              font-size: 1.5rem;
+              white-space: nowrap;
+              width: auto;
+            }
+          }
+        }
+      }
+
+      .forms.coupon-column.summary-coupon-wrap {
+        margin-top: 20px;
+        width: 100%;
+
+        .coupon.summary-coupon {
+          margin: 0;
+        }
+
+        label {
+          text-align: left;
+          font-weight: 700;
+          font-size: 1.25rem;
+          color: black;
+          margin-bottom: 15px;
+        }
+
+        input#cart-coupon {
+          width: calc(100% - 95px);
+          height: 40px;
+        }
+
+        button#cart-coupon-add {
+          width: 85px;
+          margin-left: 5px;
+          height: 40px;
+          background: none;
+          background-color: black;
+          color: white;
+          text-shadow: none;
+          border: none;
+          border-radius: 0;
+        }
+
+        a#cart-link-coupon-add {
+          background: black;
+          padding: 10px 20px;
+          width: 100%;
+          display: block;
+          color: white;
+          font-weight: 500;
+          text-decoration: none;
+          font-size: 1rem;
+        }
+      }
+    }
+
+    & > .cart-links-bottom {
+      width: 28%;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+
+      .link-print-cart-wrapper,
+      .link-choose-more-products {
+        display: none !important;
+      }
+
+      .btn-place-order-wrapper {
+        width: 100%;
+
+        a#cart-to-orderform {
+          display: block;
+          font-size: 0;
+
+          &::before {
+            content: 'Continuar';
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .cart {
+    border: none;
+
+    .cart-items {
+      .shipping-date {
+        display: none;
+      }
+
+      thead {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        width: 100%;
+
+        th {
+          color: black;
+          font-size: 1rem;
+        }
+      }
+
+      tr.product-item {
+        .product-image img {
+          border: 1px solid #c2c2c2;
+          border-radius: 4px;
+          width: 70px;
+          height: 70px;
+          max-width: none;
+        }
+
+        .product-name {
+          width: auto;
+
+          a {
+            font-weight: 700;
+            color: black;
+            font-family: 'Mukta';
+            font-size: 1rem;
+            width: 180px;
+            max-height: 60px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+          }
+
+          .brand,
+          .seller {
+            display: none;
+          }
+        }
+
+        .product-price {
+          .old-product-price-label,
+          .new-product-price-label {
+            display: none;
+          }
+
+          .new-product-price {
+            font-size: 1rem;
+            color: black;
+            font-family: 'Mukta';
+            font-weight: 600;
+            white-space: nowrap;
+          }
+        }
+
+        .quantity {
+          .item-quantity-change {
+            padding: 5px;
+            border: 1px solid rgba(72, 84, 103, 0.6);
+            border-radius: 4px;
+            height: 40px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .item-quantity-change-decrement {
+            border-right: none;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+          }
+
+          .item-quantity-change-increment {
+            border-left: none;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+          }
+
+          input {
+            margin: 0;
+            height: 40px;
+            border: 1px solid rgba(72, 84, 103, 0.6);
+            border-inline: none;
+            border-radius: 0;
+            margin-inline: -3px;
+            padding-inline: 3px;
+            width: 30px;
+          }
+        }
+
+        .quantity-price {
+          .total-selling-price {
+            font-size: 1rem;
+            color: black;
+            font-family: 'Mukta';
+            font-weight: 600;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+  }
+}
