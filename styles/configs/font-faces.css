@@ -1,19 +1,61 @@
+/* Titillium Web */
 @font-face {
-  font-family: "Roboto";
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Roboto"), local("Roboto-Regular"),
-    url("assets/fonts/roboto-regular.woff2") format("woff2"),
-    url("assets/fonts/roboto-regular.woff") format("woff");
+  src: local("Titillium-Web"), local("Titillium-Web-Regular"),
+    url("assets/fonts/titillium-web-regular.woff2") format("woff2"),
+    url("assets/fonts/titillium-web-regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("Roboto Medium"), local("Roboto-Medium"),
-    url("assets/fonts/roboto-500.woff2") format("woff2"),
-    url("assets/fonts/roboto-500.woff") format("woff");
+  src: local("Titillium-Web"), local("Titillium-Web-Medium"),
+    url("assets/fonts/titillium-web-600.woff2") format("woff2"),
+    url("assets/fonts/titillium-web-600.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Titillium-Web"), local("Titillium-Web-Bold"),
+    url("assets/fonts/titillium-web-700.woff2") format("woff2"),
+    url("assets/fonts/titillium-web-700.woff") format("woff");
+}
+
+/* Mukta */
+@font-face {
+  font-family: "Mukta";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Mukta"), local("Mukta-Regular"),
+    url("assets/fonts/mukta-regular.woff2") format("woff2"),
+    url("assets/fonts/mukta-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mukta";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Mukta"), local("Mukta-Medium"),
+    url("assets/fonts/mukta-500.woff2") format("woff2"),
+    url("assets/fonts/mukta-500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mukta";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Mukta"), local("Mukta-Bold"),
+    url("assets/fonts/mukta-700.woff2") format("woff2"),
+    url("assets/fonts/mukta-700.woff") format("woff");
 }
