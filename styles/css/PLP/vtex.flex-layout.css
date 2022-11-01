@@ -89,7 +89,7 @@
 }
 
 .flexRowContent--total-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
-  width: 55% !important;
+  width: 65% !important;
 }
 
 .flexRowContent--total-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
@@ -108,7 +108,8 @@
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
-  .flexRow--header-mobile {
+  .flexRow--header-mobile,
+  .flexRow--breadcrumb-plp--flex {
     width: calc(300px - 15px * 2);
     margin: 0 auto;
   }
@@ -134,7 +135,8 @@
   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
   .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--header-mobile {
+  .flexRow--header-mobile,
+  .flexRow--breadcrumb-plp--flex {
     width: calc(360px - 15px * 2);
     margin: 0 auto;
   }
@@ -145,7 +147,8 @@
   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
   .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--header-mobile {
+  .flexRow--header-mobile,
+  .flexRow--breadcrumb-plp--flex {
     width: calc(420px - 20px * 2);
     margin: 0 auto;
   }
@@ -157,22 +160,22 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
-
   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
   .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--header-mobile {
+  .flexRow--header-mobile,
+  .flexRow--breadcrumb-plp--flex {
     width: calc(730px - 20px * 2);
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
   .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--header-mobile {
+  .flexRow--header-mobile,
+  .flexRow--breadcrumb-plp--flex {
     width: calc(999px - 40px * 2);
     margin: 0 auto;
   }
@@ -186,7 +189,8 @@
 
   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
-  .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container) {
+  .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container)  {
     padding-left: 0;
     padding-right: 0;
   }

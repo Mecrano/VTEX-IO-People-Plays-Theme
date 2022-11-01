@@ -1,0 +1,216 @@
+{
+  "store.custom#landing-size-guide":{
+    "blocks": [
+      "flex-layout.row#size-guide"
+    ]
+  },
+
+  "flex-layout.row#size-guide": {
+    "children":[
+      "rich-text#title-size-one",
+      "rich-text#text-size-one",
+      /* "overlay-trigger", */
+      "rich-text#title-size-two",
+      "rich-text#text-size-two",
+      "flex-layout.row#size-guide-group-images"
+    ],
+    "props": {
+      "blockClass": "container-size--guide"
+    }
+  },
+
+  "overlay-trigger": {
+    "children": [
+      "rich-text#overlay",
+      "overlay-layout"
+    ],
+    "props":{
+      "trigger": "click"
+    }
+  },
+
+  "overlay-layout": {
+    "props": {
+      "placement": "bottom",
+      "showArrow": true,
+      "offsets": {
+        "skidding": 2,
+        "distance": 2
+
+      }
+    },
+    "children": [
+      "rich-text#link",
+      "rich-text#link",
+      "rich-text#link"
+    ]
+  },
+  "rich-text#link": {
+    "props": {
+      "text": "uno"
+    }
+  },
+
+  "rich-text#overlay": {
+    "props": {
+      "text": "Seleccione una marca",
+      "blockClass": "overlay"
+    }
+  },
+
+  "rich-text#title-size-one": {
+    "props": {
+      "text": "Guía de Tallas",
+      "blockClass": "size-guide--title"
+    }
+  },
+
+  "rich-text#text-size-one": {
+    "props": {
+      "text": "Calzado para hombre y mujer por marcas",
+      "blockClass": "size-guide--text"
+    }
+  },
+
+  "rich-text#title-size-two": {
+    "props": {
+      "text": "¿Cómo medir?",
+      "blockClass": ["size-guide--title", "padding"]
+    }
+  },
+
+  "rich-text#text-size-two": {
+    "props": {
+      "text": "Sigue esto pasos para encontrar tu talla adecuada si queres que tu calzado te quede <br/> justo pide la talla exacta si quieres que sea mas amplio pide una talla más",
+      "blockClass": "size-guide--text"
+    }
+  },
+
+  "flex-layout.row#size-guide-group-images": {
+    "children":[
+      "flex-layout.col#group-image-one",
+      "flex-layout.col#group-image-two",
+      "flex-layout.col#group-image-three"
+    ],
+    "props": {
+      "blockClass": "group-size--guide"
+    }
+  },
+
+  /* block-one-image */
+
+  "flex-layout.col#group-image-one": {
+    "children":[
+      "rich-text#group-number-one",
+      "flex-layout.col#group-images-one",
+      "rich-text#group-text-one"
+    ],
+    "props": {
+      "blockClass": "group-image--one"
+    }
+  },
+
+  "rich-text#group-number-one": {
+    "props": {
+      "text": "01",
+      "blockClass": "group-number-one"
+    }
+  },
+
+  "flex-layout.col#group-images-one": {
+    "children":[
+      "image#image-group-one",
+      "image#image-group-two"
+    ],
+    "props": {
+      "blockClass": "group-images"
+    }
+  },
+  "image#image-group-one": {
+    "props": {
+      "src": "/arquivos/talla-2.png",
+      "blockClass": "talla-one"
+    }
+  },
+  "image#image-group-two": {
+    "props": {
+      "src": "/arquivos/talla-1.png",
+      "blockClass": "talla-two"
+    }
+  },
+
+  "rich-text#group-text-one": {
+    "props": {
+      "text": "Posiciona el pie en una superficie plana y mide desde el inicio del talón hasta la punta de los dedos.",
+      "blockClass": "group-text-one"
+    }
+  },
+
+  /* block-image-two */
+
+  "flex-layout.col#group-image-two": {
+    "children":[
+      "rich-text#group-number-two",
+      "image#image-group-one-two",
+      "rich-text#group-text-two"
+    ],
+    "props": {
+      "blockClass": "group-image--one"
+    }
+  },
+
+  "rich-text#group-number-two": {
+    "props": {
+      "text": "02",
+      "blockClass": "group-number-one"
+    }
+  },
+
+  "image#image-group-one-two": {
+    "props": {
+      "src": "/arquivos/pies.png",
+      "blockClass": "group-two"
+    }
+  },
+
+  "rich-text#group-text-two": {
+    "props": {
+      "text": "Marca con un lápiz desde tu talón hasta dónde llega tu dedo más largo",
+      "blockClass": "group-text-one"
+    }
+  },
+
+  /* block-image-three */
+
+  "flex-layout.col#group-image-three": {
+    "children":[
+      "rich-text#group-number-three",
+      "image#image-group-one-three",
+      "rich-text#group-text-three"
+    ],
+    "props": {
+      "blockClass": "group-image--one"
+    }
+  },
+
+  "rich-text#group-number-three": {
+    "props": {
+      "text": "03",
+      "blockClass": "group-number-one"
+    }
+  },
+
+  "image#image-group-one-three": {
+    "props": {
+      "src": "/arquivos/plantilla.png",
+      "blockClass": "image-three"
+    }
+  },
+
+  "rich-text#group-text-three": {
+    "props": {
+      "text": "Mide la distancia de tu pie marcada en la hoja, desde el borde de la hoja hasta la punta del pie en centímetros (cm).",
+      "blockClass": "group-text-one"
+    }
+  }
+}

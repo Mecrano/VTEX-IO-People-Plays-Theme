@@ -2,8 +2,11 @@
   "search-result-layout.desktop": {
     "props": {
       "fullWidth": true,
-      "preventRouteChange": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
       "showFacetQuantity": true,
+      "preventRouteChange": true,
+      "defaultGalleryLayout": "grid",
       "brands": true,
       "priceRange": true,
       "blockClass": "desktop-plp--main-container"
@@ -31,7 +34,8 @@
   "breadcrumb.search": {
     "title": "breadcrumb-plp",
     "props": {
-      "blockClass": "breadcrumb--plp"
+      "blockClass": "breadcrumb--plp",
+      "showOnMobile": true
     }
   },
 
@@ -58,13 +62,15 @@
   "filter-navigator.v3": {
     "blocks": ["sidebar-close-button"],
     "props": {
-      "initiallyCollapsed": true,
-      "truncateFilters": true,
-      "fullWidthOnMobile": true/* ,
-      "priceRangeLayout": "inputAndSlider" */,
-      "updateOnFilterSelectionOnMobile": true
+      "initiallyCollapsed": true
+      /* "truncateFilters": true, */
+     /* "fullWidthOnMobile": true,
+     "navigationTypeOnMobile": "collapsible",
+     "updateOnFilterSelectionOnMobile": true,
+     "priceRangeLayout": "inputAndSlider" */
     }
   },
+
   "flex-layout.row#content": {
     "children": [
       "flex-layout.row#searchinfo",
@@ -160,7 +166,6 @@
       "product-summary-image#shelf",
       "flex-layout.row#prices-listprice-discount",
       "product-summary-name#plp",
-      "product-summary-brand#plp",
       "add-to-cart-button#shelf"
     ]
   },
@@ -248,3 +253,29 @@
     }
   }
 }
+
+
+ /* {
+  "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "fullWidth": true,
+      "showFacetQuantity": true,
+      "thresholdForFacetSearch": 10,
+      "showProductsCount": true,
+      "brands": true,
+      "priceRange": true,
+      "blockClass": "desktop-plp--main-container"
+    }
+  },
+  "breadcrumb.search": {
+    "title": "breadcrumb-plp",
+    "props": {
+      "blockClass": "breadcrumb--plp",
+      "showOnMobile": true
+    }
+  }
+ } */

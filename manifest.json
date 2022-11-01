@@ -1,5 +1,5 @@
 {
-  "vendor": "eobando",
+  "vendor": "peopleplays",
   "name": "eobando-theme",
   "version": "1.0.1",
   "builders": {
@@ -41,7 +41,10 @@
     "vtex.responsive-layout": "0.x",
     "vtex.info-card-list": "0.x",
     "vtex.stack-layout": "0.x",
-    "vtex.product-highlights": "2.x"
+    "vtex.product-highlights": "2.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.disclosure-layout": "1.x",
+    "vtex.overlay-layout": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

@@ -1,0 +1,37 @@
+.imageElement--group-two {
+  width: 391px;
+  height: 180px;
+  margin-top: -60px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .imageElement--group-two {
+    height: 120px;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .imageElement--group-two {
+    height: 100px;
+    margin-top: -20px;
+  }
+
+  .imageElement--image-three {
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .imageElement--group-two {
+    height: 120px;
+    margin-top: -20px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .imageElement--group-two {
+    height: 100px;
+    margin-top: -20px;
+  }
+}

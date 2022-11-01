@@ -39,3 +39,25 @@
 .link--breadcrumb--plp:hover  {
   color: #000000
 }
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .link--breadcrumb--plp  {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .container--breadcrumb--plp {
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .homeLink--breadcrumb--plp {
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

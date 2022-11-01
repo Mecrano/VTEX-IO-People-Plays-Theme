@@ -1,0 +1,508 @@
+{
+  "store.custom#landing-faq": {
+    "blocks": [
+      "flex-layout.row#faq-box--one",
+      "flex-layout.row#faq-container"
+    ]
+  },
+
+  "flex-layout.row#faq-container": {
+    "children": ["tab-layout#faq"],
+    "props": {
+      "blockClass": "faq-container"
+    }
+  },
+
+  "flex-layout.row#faq-box--one": {
+    "children": ["rich-text#preguntas"],
+    "props": {
+      "blockClass": "preguntas"
+    }
+  },
+
+  "rich-text#preguntas": {
+    "props": {
+      "text": "Preguntas Frecuentes",
+      "blockClass": "preguntas"
+    }
+  },
+
+  "tab-layout#faq": {
+    "children":[
+      "tab-list#faq",
+      "tab-content#faq"
+    ],
+    "props":{
+      "blockClass": "faq",
+      "defaultActiveTabId": "faq-ayuda--rapida"
+    }
+  },
+
+  "tab-list#faq": {
+    "children": [
+      "tab-list.item#tab1",
+      "tab-list.item#tab2",
+      "tab-list.item#tab3",
+      "tab-list.item#tab4",
+      "tab-list.item#tab5"
+    ],
+    "props": {
+     "blockClass": "faq-tab--list"
+    }
+  },
+
+  "tab-list.item#tab1": {
+    "props": {
+      "tabId": "faq-ayuda--rapida",
+      "label": "Ayuda rápida",
+      "defaultActiveTab": true,
+      "blockClass": "tab-list"
+    }
+  },
+
+  "tab-list.item#tab2": {
+   "props": {
+     "tabId": "faq-miembros",
+     "label": "Miembros",
+     "blockClass": "tab-list"
+    }
+  },
+
+  "tab-list.item#tab3": {
+   "props": {
+     "tabId": "faq-corporativo",
+     "label": "Corporativo",
+     "blockClass": "tab-list"
+    }
+  },
+
+  "tab-list.item#tab4": {
+    "props": {
+      "tabId": "faq-informacion-lanzamientos",
+      "label": "Informacion de lanzamientos",
+      "blockClass": "tab-list"
+     }
+   },
+
+   "tab-list.item#tab5": {
+    "props": {
+      "tabId": "faq-pedidos",
+      "label": "Pedidos",
+      "blockClass": "tab-list"
+     }
+   },
+
+   "tab-content#faq": {
+    "children": [
+      "tab-content.item#tab1",
+      "tab-content.item#tab2",
+      "tab-content.item#tab3",
+      "tab-content.item#tab4",
+      "tab-content.item#tab5"
+    ],
+    "props":{
+      "blockClass": "faq-content"
+    }
+  },
+
+  "tab-content.item#tab1": {
+    "children": ["disclosure-layout-group#content-faq"],
+    "props": {
+      "tabId": "faq-ayuda--rapida",
+      "blockClass": "tab1"
+    }
+  },
+
+  "tab-content.item#tab2": {
+    "children": ["disclosure-layout-group#content-faq"],
+    "props": {
+      "tabId": "faq-miembros",
+      "blockClass": "tab2"
+    }
+  },
+
+  "tab-content.item#tab3": {
+    "children": ["disclosure-layout-group#content-faq"],
+    "props": {
+      "tabId": "faq-corporativo",
+      "blockClass": "tab3"
+    }
+  },
+
+  "tab-content.item#tab4": {
+    "children": ["disclosure-layout-group#content-faq"],
+    "props": {
+      "tabId": "faq-informacion-lanzamientos",
+      "blockClass": "tab4"
+    }
+  },
+
+  "tab-content.item#tab5": {
+    "children": ["disclosure-layout-group#content-faq"],
+    "props": {
+      "tabId": "faq-pedidos",
+      "blockClass": "tab5"
+    }
+  },
+
+  "disclosure-layout-group#content-faq": {
+    "children": [
+      "disclosure-layout#one",
+      "disclosure-layout#two",
+      "disclosure-layout#three",
+      "disclosure-layout#four" ,
+      "disclosure-layout#five",
+      "disclosure-layout#six",
+      "disclosure-layout#seven",
+      "disclosure-layout#eight",
+      "disclosure-layout#nine",
+      "disclosure-layout#ten",
+      "disclosure-layout#eleven"
+    ],
+    "props":{
+      "blockClass": "content-faq"
+    }
+  },
+
+  /* primero */
+
+  "disclosure-layout#one": {
+    "children": ["disclosure-trigger#one", "disclosure-content#one"],
+    "props": {
+      "blockClass": "disclosure-layout-one"
+    }
+  },
+
+  "disclosure-trigger#one": {
+    "children": ["rich-text#one", "disclosure-state-indicator"],
+    "props":{
+      "as": "div",
+      "blockClass": "trigger-one"
+    }
+  },
+  "disclosure-content#one": {
+    "children": ["rich-text#one"],
+    "props": {
+      "blockClass": "content-one"
+    }
+  },
+
+  "rich-text#one": {
+    "props": {
+      "text": "¿Por qué me cobraron el envío?",
+      "blockClass": "one"
+    }
+  },
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-caret#down",
+      "Hide": "icon-caret#up"
+    }
+  },
+  "icon-caret#down": {
+    "props": {
+      "orientation": "down"
+    }
+  },
+  "icon-caret#up": {
+    "props": {
+      "orientation": "up"
+    }
+  },
+
+/* segundo */
+  "disclosure-layout#two": {
+    "children": ["disclosure-trigger#two", "disclosure-content#two"],
+    "props": {
+      "blockClass": "disclosure-layout-one"
+    }
+  },
+
+  "disclosure-trigger#two": {
+    "children": ["rich-text#two", "disclosure-state-indicator"],
+    "props":{
+      "as": "div",
+      "blockClass": "trigger-one"
+    }
+  },
+  "disclosure-content#two": {
+    "children": ["rich-text#two"],
+    "props": {
+      "blockClass": "content-two"
+    }
+  },
+
+  "rich-text#two": {
+    "props": {
+      "text": "¿Puedo envíar mi pedido a otro país?",
+      "blockClass": "one"
+    }
+  },
+
+/* tercero */
+  "disclosure-layout#three": {
+    "children": ["disclosure-trigger#three", "disclosure-content#three"],
+    "props": {
+      "blockClass": "disclosure-layout-one"
+    }
+  },
+
+  "disclosure-trigger#three": {
+    "children": ["rich-text#three", "disclosure-state-indicator"],
+    "props":{
+      "as": "div",
+      "blockClass": "trigger-one"
+    }
+  },
+  "disclosure-content#three": {
+    "children": ["rich-text#three"],
+    "props": {
+      "blockClass": "content-three"
+    }
+  },
+
+  "rich-text#three": {
+    "props": {
+      "text": "¿Cuál es la política de devolución?",
+      "blockClass": "one"
+    }
+  },
+
+  /* cuarto */
+  "disclosure-layout#four": {
+    "children": ["disclosure-trigger#four", "disclosure-content#four"],
+    "props": {
+      "blockClass": "disclosure-layout-one"
+    }
+  },
+
+  "disclosure-trigger#four": {
+    "children": ["rich-text#four", "disclosure-state-indicator"],
+    "props":{
+      "as": "div",
+      "blockClass": "trigger-one"
+    }
+  },
+  "disclosure-content#four": {
+    "children": ["rich-text#four"],
+    "props": {
+      "blockClass": "content-four"
+    }
+  },
+
+  "rich-text#four": {
+    "props": {
+      "text": "¿Dónde está mi reembolso?",
+      "blockClass": "one"
+    }
+  },
+
+  /* quinto */
+
+  "disclosure-layout#five": {
+    "children": ["disclosure-trigger#five", "disclosure-content#five"],
+    "props": {
+      "blockClass": "disclosure-layout-one"
+    }
+  },
+
+  "disclosure-trigger#five": {
+    "children": ["rich-text#five", "disclosure-state-indicator"],
+    "props":{
+      "as": "div",
+      "blockClass": "trigger-one"
+    }
+  },
+  "disclosure-content#five": {
+    "children": ["rich-text#five"],
+    "props": {
+      "blockClass": "content-five"
+    }
+  },
+
+  "rich-text#five": {
+    "props": {
+      "text": "¿Tiene garantía la ropa?",
+      "blockClass": "one"
+    }
+  },
+
+  /* six */
+
+  "disclosure-layout#six": {
+    "children": ["disclosure-trigger#six", "disclosure-content#six"],
+    "props": {
+      "blockClass": "disclosure-layout-one"
+    }
+  },
+
+  "disclosure-trigger#six": {
+    "children": ["rich-text#six", "disclosure-state-indicator"],
+    "props":{
+      "as": "div",
+      "blockClass": "trigger-one"
+    }
+  },
+  "disclosure-content#six": {
+    "children": ["rich-text#six"],
+    "props": {
+      "blockClass": "content-six"
+    }
+  },
+
+  "rich-text#six": {
+    "props": {
+      "text": "¿Tiene garantía el calzado?",
+      "blockClass": "one"
+    }
+  },
+
+  /* seven */
+
+  "disclosure-layout#seven": {
+    "children": ["disclosure-trigger#seven", "disclosure-content#seven"],
+    "props": {
+      "blockClass": "disclosure-layout-one"
+    }
+  },
+
+  "disclosure-trigger#seven": {
+    "children": ["rich-text#seven", "disclosure-state-indicator"],
+    "props":{
+      "as": "div",
+      "blockClass": "trigger-one"
+    }
+  },
+  "disclosure-content#seven": {
+    "children": ["rich-text#seven"],
+    "props": {
+      "blockClass": "content-seven"
+    }
+  },
+
+  "rich-text#seven": {
+    "props": {
+      "text": "¿Tiene garantía los accesorios?",
+      "blockClass": "one"
+    }
+  },
+
+  /* eight */
+
+  "disclosure-layout#eight": {
+    "children": ["disclosure-trigger#eight", "disclosure-content#eight"],
+    "props": {
+      "blockClass": "disclosure-layout-one"
+    }
+  },
+
+  "disclosure-trigger#eight": {
+    "children": ["rich-text#eight", "disclosure-state-indicator"],
+    "props":{
+      "as": "div",
+      "blockClass": "trigger-one"
+    }
+  },
+  "disclosure-content#eight": {
+    "children": ["rich-text#eight"],
+    "props": {
+      "blockClass": "content-eight"
+    }
+  },
+
+  "rich-text#eight": {
+    "props": {
+      "text": "¿Puedo hacer cambios en el domicilio de entrega de mi orden?",
+      "blockClass": "one"
+    }
+  },
+
+  /* nine */
+  "disclosure-layout#nine": {
+    "children": ["disclosure-trigger#nine", "disclosure-content#nine"],
+    "props": {
+      "blockClass": "disclosure-layout-one"
+    }
+  },
+
+  "disclosure-trigger#nine": {
+    "children": ["rich-text#nine", "disclosure-state-indicator"],
+    "props":{
+      "as": "div",
+      "blockClass": "trigger-one"
+    }
+  },
+  "disclosure-content#nine": {
+    "children": ["rich-text#nine"],
+    "props": {
+      "blockClass": "content-nine"
+    }
+  },
+
+  "rich-text#nine": {
+    "props": {
+      "text": "¿Que pasa si mi reembolso fue rechazado?",
+      "blockClass": "one"
+    }
+  },
+
+  /* ten */
+
+  "disclosure-layout#ten": {
+    "children": ["disclosure-trigger#ten", "disclosure-content#ten"],
+    "props": {
+      "blockClass": "disclosure-layout-one"
+    }
+  },
+
+  "disclosure-trigger#ten": {
+    "children": ["rich-text#ten", "disclosure-state-indicator"],
+    "props":{
+      "as": "div",
+      "blockClass": "trigger-one"
+    }
+  },
+  "disclosure-content#ten": {
+    "children": ["rich-text#ten"],
+    "props": {
+      "blockClass": "content-ten"
+    }
+  },
+
+  "rich-text#ten": {
+    "props": {
+      "text": "¿Puedo realizar cambios en Tienda?",
+      "blockClass": "one"
+    }
+  },
+
+  /* eleven */
+
+  "disclosure-layout#eleven": {
+    "children": ["disclosure-trigger#eleven", "disclosure-content#eleven"],
+    "props": {
+      "blockClass": "disclosure-layout-one"
+    }
+  },
+
+  "disclosure-trigger#eleven": {
+    "children": ["rich-text#eleven", "disclosure-state-indicator"],
+    "props":{
+      "as": "div",
+      "blockClass": "trigger-one"
+    }
+  },
+  "disclosure-content#eleven": {
+    "children": ["rich-text#eleven"],
+    "props": {
+      "blockClass": "content-eleven"
+    }
+  },
+
+  "rich-text#eleven": {
+    "props": {
+      "text": "¿Que puedo hacer si no recibi mi factura?",
+      "blockClass": "one"
+    }
+  }
+}
