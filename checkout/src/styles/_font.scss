@@ -5,17 +5,17 @@
   font-weight: 400;
   font-display: swap;
   src: local("Titillium-Web"), local("Titillium-Web-Regular"),
-    url("assets/fonts/titillium-web-regular.woff2") format("woff2"),
+    url("https://eobando.vtexassets.com/assets/vtex/assets-builder/eobando.eobando-theme/1.0.1/fonts/titillium-web-regular___0ef99cf07a2a261ab43d5dc1937ffb27.woff2") format("woff2"),
     url("assets/fonts/titillium-web-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Titillium Web";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500 600;
   font-display: swap;
   src: local("Titillium-Web"), local("Titillium-Web-Medium"),
-    url("assets/fonts/titillium-web-600.woff2") format("woff2"),
+    url("https://eobando.vtexassets.com/assets/vtex/assets-builder/eobando.eobando-theme/1.0.1/fonts/titillium-web-600___5d7c6bb8fd4fc992c54e596ab7433d5d.woff2") format("woff2"),
     url("assets/fonts/titillium-web-600.woff") format("woff");
 }
 
@@ -25,7 +25,7 @@
   font-weight: 700;
   font-display: swap;
   src: local("Titillium-Web"), local("Titillium-Web-Bold"),
-    url("assets/fonts/titillium-web-700.woff2") format("woff2"),
+    url("https://eobando.vtexassets.com/assets/vtex/assets-builder/eobando.eobando-theme/1.0.1/fonts/titillium-web-700___8d4079c3aa4f01e6d9bbd4f1bbcdf114.woff2") format("woff2"),
     url("assets/fonts/titillium-web-700.woff") format("woff");
 }
 
@@ -36,7 +36,7 @@
   font-weight: 400;
   font-display: swap;
   src: local("Mukta"), local("Mukta-Regular"),
-    url("assets/fonts/mukta-regular.woff2") format("woff2"),
+    url("https://eobando.vtexassets.com/assets/vtex/assets-builder/eobando.eobando-theme/1.0.1/fonts/mukta-regular___d99795212c7f43e8650770f064849417.woff2") format("woff2"),
     url("assets/fonts/mukta-regular.woff") format("woff");
 }
 
@@ -46,7 +46,7 @@
   font-weight: 500;
   font-display: swap;
   src: local("Mukta"), local("Mukta-Medium"),
-    url("assets/fonts/mukta-500.woff2") format("woff2"),
+    url("https://eobando.vtexassets.com/assets/vtex/assets-builder/eobando.eobando-theme/1.0.1/fonts/mukta-500___63ea13af5013dfd2566cdda4f167b187.woff2") format("woff2"),
     url("assets/fonts/mukta-500.woff") format("woff");
 }
 
@@ -56,31 +56,6 @@
   font-weight: 700;
   font-display: swap;
   src: local("Mukta"), local("Mukta-Bold"),
-    url("assets/fonts/mukta-700.woff2") format("woff2"),
+    url("https://eobando.vtexassets.com/assets/vtex/assets-builder/eobando.eobando-theme/1.0.1/fonts/mukta-700___9dae32dd3bac26b45dc021e906eda22c.woff2") format("woff2"),
     url("assets/fonts/mukta-700.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Titillium Web";
-  src: url(assets/fonts/TitilliumWeb-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: "Mukta";
-  src: url(assets/fonts/Mukta-Regular.ttf);
-}
-
-@font-face {
-  font-family: "Mukta SemiBold";
-  src: url(assets/fonts/Mukta-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: "Rubik";
-  src: url(assets/fonts/Rubik-Regular.ttf);
-}
-
-@font-face {
-  font-family: "Lato";
-  src: url(assets/fonts/Lato-Regular.ttf);
 }
