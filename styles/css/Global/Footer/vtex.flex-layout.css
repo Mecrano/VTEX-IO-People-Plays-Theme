@@ -1,9 +1,6 @@
-/* Fondo provisional */
-:global(.vtex-store-footer-2-x-footerLayout--containerFooter) {
-  background: #F1F3F9;
+.flexRow--footer-1-desktop{
+  padding-top: 50px;
 }
-
-/* ******************* */
 
 .flexRowContent--footer-1-desktop {
   flex-direction: column;
@@ -22,7 +19,7 @@
 }
 
 .flexRow--footer-2-desktop {
-  padding: 0px 0 20px;
+  padding: 50px 0;
 }
 
 /* Card contact */
@@ -67,8 +64,13 @@
 }
 
 /* *********** Footer 3 ************* */
-.flexRow--footer-3-desktop{
+.flexRowContent--footer-3-desktop {
+  justify-content: center;
+}
+
+.flexRow--footer-3-desktop {
   background: #FFF;
+  padding: 50px 0 50px 30px;
 }
 
 .flexCol--container-newsletter-footer-3 {
@@ -92,19 +94,17 @@
   cursor: pointer;
 }
 
-/* *********** Footer 4 ************* */
+.flexCol--container-footer-4-image-brand {
+  margin-top: 28px
+}
+
 .flexRowContent--footer-4-desktop {
-  padding: 30px 0;
-  justify-content: center;
   align-items: center;
 }
 
-.flexColChild--container-footer-4-image-brand{
+.flexColChild--container-footer-4-image-brand {
   display: flex;
-  justify-content: center;
 }
-
-/* *********** Footer 5 ************* */
 
 .flexRow--footer-5-desktop {
   background-color: #002F87;

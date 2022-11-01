@@ -5,6 +5,7 @@
 
 .emailInputContainer--newsletter-input-email :global(.vtex-styleguide-9-x-input) {
   border: 1px solid #9198a4;
+  background-color: #fff;
 }
 
 .formSubmitContainer {
@@ -33,4 +34,8 @@
 .confirmationCheckboxContainer :global(.vtex-checkbox__label) {
   color: #000;
   font-size: 18px;
+}
+
+.confirmationCheckboxContainer--newsletter-checkbox-confirmation {
+  margin-top: 50px;
 }
