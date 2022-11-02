@@ -181,7 +181,7 @@
     }
   },
   "disclosure-content#one": {
-    "children": ["rich-text#one"],
+    "children": ["rich-text#texto"],
     "props": {
       "blockClass": "content-one"
     }
@@ -226,7 +226,7 @@
     }
   },
   "disclosure-content#two": {
-    "children": ["rich-text#two"],
+    "children": ["rich-text#texto"],
     "props": {
       "blockClass": "content-two"
     }
@@ -255,7 +255,7 @@
     }
   },
   "disclosure-content#three": {
-    "children": ["rich-text#three"],
+    "children": ["rich-text#texto"],
     "props": {
       "blockClass": "content-three"
     }
@@ -284,7 +284,7 @@
     }
   },
   "disclosure-content#four": {
-    "children": ["rich-text#four"],
+    "children": ["rich-text#texto"],
     "props": {
       "blockClass": "content-four"
     }
@@ -314,7 +314,7 @@
     }
   },
   "disclosure-content#five": {
-    "children": ["rich-text#five"],
+    "children": ["rich-text#texto"],
     "props": {
       "blockClass": "content-five"
     }
@@ -344,7 +344,7 @@
     }
   },
   "disclosure-content#six": {
-    "children": ["rich-text#six"],
+    "children": ["rich-text#texto"],
     "props": {
       "blockClass": "content-six"
     }
@@ -374,7 +374,7 @@
     }
   },
   "disclosure-content#seven": {
-    "children": ["rich-text#seven"],
+    "children": ["rich-text#texto"],
     "props": {
       "blockClass": "content-seven"
     }
@@ -404,7 +404,7 @@
     }
   },
   "disclosure-content#eight": {
-    "children": ["rich-text#eight"],
+    "children": ["rich-text#texto"],
     "props": {
       "blockClass": "content-eight"
     }
@@ -433,7 +433,7 @@
     }
   },
   "disclosure-content#nine": {
-    "children": ["rich-text#nine"],
+    "children": ["rich-text#texto"],
     "props": {
       "blockClass": "content-nine"
     }
@@ -463,7 +463,7 @@
     }
   },
   "disclosure-content#ten": {
-    "children": ["rich-text#ten"],
+    "children": ["rich-text#texto"],
     "props": {
       "blockClass": "content-ten"
     }
@@ -493,7 +493,7 @@
     }
   },
   "disclosure-content#eleven": {
-    "children": ["rich-text#eleven"],
+    "children": ["rich-text#texto"],
     "props": {
       "blockClass": "content-eleven"
     }
@@ -503,6 +503,13 @@
     "props": {
       "text": "¿Que puedo hacer si no recibi mi factura?",
       "blockClass": "one"
+    }
+  },
+
+  "rich-text#texto": {
+    "props": {
+      "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "blockClass": "texto-prueba"
     }
   }
 }
