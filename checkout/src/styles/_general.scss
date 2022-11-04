@@ -1,6 +1,17 @@
 body {
   font-family: 'Titillium Web';
   padding: 0 !important;
+
+  .container {
+    @media (max-width: 980px) {
+      width: 100%;
+      padding-inline: 15px !important;
+    }
+
+    @media (max-width: 350px) {
+      padding-inline: 10px !important;
+    }
+  }
 }
 
 * {
@@ -32,8 +43,17 @@ body {
         }
       }
 
-      .logo svg {
-        max-height: 30px;
+      .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+          max-height: 30px;
+          height: auto;
+          width: 90%;
+          max-width: 500px;
+        }
       }
     }
   }
@@ -56,6 +76,10 @@ body {
 
       @media (max-width: 980px) {
         width: 100%;
+        padding-inline: 15px !important;
+      }
+
+      @media (max-width: 650px) {
         padding-inline: 10px !important;
       }
 
@@ -241,10 +265,18 @@ body {
     align-items: center;
     justify-content: center;
     width: 30px;
-    border-radius: 100%;
+    border-radius: 100% !important;
     opacity: 1;
     height: 30px;
     padding: 0;
     padding-left: 2px;
   }
+}
+
+#vtexIdContainer {
+  position: fixed !important;
+}
+
+.vtexIdUI .modal-header .close {
+  position: initial !important;
 }

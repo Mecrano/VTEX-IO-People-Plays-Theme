@@ -17,10 +17,18 @@ div#payment-data {
   fieldset.payment-group {
     min-width: 180px;
     width: 30%;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
   }
 
   .steps-view {
     width: 70%;
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
   }
 
   .required.payment-group-list-btn {
