@@ -4,7 +4,7 @@
     "props": { "blockClass": "containerFooter-mobile" },
     "children": [
       "flex-layout.row#footer-1-desktop",
-     /*  "flex-layout.row#footer-2-mobile", */
+      "flex-layout.row#footer-2-mobile",
       "flex-layout.row#footer-3-mobile",
       "flex-layout.row#footer-4-mobile",
       "flex-layout.row#footer-5-mobile",
@@ -16,9 +16,9 @@
     "title": "segundo bloque",
     "props": { "blockClass": ["footer-2-desktop", "mobile-flex"], "colSizing": "auto" },
     "children": [
-      "flex-layout.col#contact-lines-1",
-      "flex-layout.col#contact-lines-2-mobile",
-      "flex-layout.col#contact-lines-3"
+      /* "flex-layout.col#contact-lines-1", */
+      "flex-layout.col#contact-lines-2-mobile"
+     /*  "flex-layout.col#contact-lines-3" */
     ]
   },
   "flex-layout.col#contact-lines-2-mobile": {

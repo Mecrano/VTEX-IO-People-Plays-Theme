@@ -11,9 +11,46 @@
   .flexRowContent--footer-4-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     width: 80% !important;
   }
+/* estilos azul footer */
+  .flexRowContent--container-contact-lines {
+    width: 310px !important;
+  }
+
+  .flexCol--background-1-contact-lines-mobile {
+    left:220px;
+    right: 0 !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .flexCol--background-2-contact-lines-mobile {
+    width: 250px!important;
+  }
+
+  .flexCol--container-texts-contact-lines-mobile {
+    left: -20px !important;
+  }
+  /* estilos azul footer */
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
+/* estilos azul footer */
+  .flexRowContent--container-contact-lines {
+    width: 365px !important;
+  }
+
+  .flexCol--background-1-contact-lines-mobile {
+    left:280px;
+    right: 0 !important;
+  }
+
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .flexCol--background-2-contact-lines-mobile {
+    width: 310px!important;
+  }
+
+  .flexCol--container-texts-contact-lines-mobile {
+    left: 5px !important;
+  }
+  /* estilos azul footer */
+
   .flexRow--footer-1-desktop,
   .flexRow--footer-3-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
@@ -102,7 +139,6 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
-
   .flexRow--footer-3-mobile,
   .flexRow--footer-4-mobile,
   .flexRow--footer-5-mobile,
@@ -210,6 +246,7 @@
 
   .flexRow--footer-5-mobile {
     padding-bottom: 20px;
+    padding-top: 20px;
   }
 
   .flexRowContent--footer-6-mobile {

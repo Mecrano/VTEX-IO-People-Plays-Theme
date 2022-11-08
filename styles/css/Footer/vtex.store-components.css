@@ -4,3 +4,15 @@
   z-index: 10;
   top: -40px;
 }
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .imageElement--img-1-contact-lines-mobile {
+    right: 50px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .imageElement--img-1-contact-lines-mobile {
+    right: 50px;
+  }
+}

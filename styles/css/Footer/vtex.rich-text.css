@@ -1,3 +1,43 @@
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .paragraph--text-one-footer {
+    font-size: 10px !important;
+  }
+
+  .wrapper--mobile-rich .paragraph--mobile-rich,
+  .wrapper--mobile-rich-one .paragraph--mobile-rich-one {
+    font-size: 10px !important;
+    margin-bottom: 0;
+  }
+
+  .wrapper--mobile-rich .paragraph--mobile-rich{
+    margin-top: 25px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .paragraph--textcopy {
+    font-size: 10px !important;
+  }
+
+  .paragraph--text-one-footer {
+    font-size: 11px;
+  }
+
+  .paragraph--mobile-rich, .paragraph--mobile-rich-one {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 1024px) {
+  .paragraph--text-one-footer, .paragraph--textcopy {
+    line-height: 22px;
+  }
+
+  .paragraph--text-one-footer {
+    font-size: 13px;
+  }
+}
+
 @media screen and (min-width: 300px) and (max-width: 1024px) {
   .paragraph--footer-row-1-text-1 {
     font-family: 'Titillium Web';
@@ -59,31 +99,5 @@
     color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 0;
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 320px) {
-  .paragraph--text-one-footer {
-    font-size: 10px !important;
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 375px) {
-  .paragraph--textcopy {
-    font-size: 10px !important;
-  }
-
-  .paragraph--text-one-footer {
-    font-size: 11px;
-  }
-}
-
-@media screen and (min-width: 376px) and (max-width: 1024px) {
-  .paragraph--text-one-footer, .paragraph--textcopy {
-    line-height: 22px;
-  }
-
-  .paragraph--text-one-footer {
-    font-size: 13px;
   }
 }
