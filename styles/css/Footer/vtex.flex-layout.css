@@ -21,12 +21,17 @@
     right: 0 !important;
   }
 
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .flexCol--background-2-contact-lines-mobile {
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .flexCol--background-2-contact-lines-mobile,
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .flexCol--background-2-contact-lines  {
     width: 250px!important;
   }
 
   .flexCol--container-texts-contact-lines-mobile {
     left: -20px !important;
+  }
+
+  .flexCol--container-texts-contact-lines {
+    right: -20px !important;
   }
   /* estilos azul footer */
 }
@@ -42,12 +47,17 @@
     right: 0 !important;
   }
 
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .flexCol--background-2-contact-lines-mobile {
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .flexCol--background-2-contact-lines-mobile,
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .flexCol--background-2-contact-lines {
     width: 310px!important;
   }
 
   .flexCol--container-texts-contact-lines-mobile {
     left: 5px !important;
+  }
+
+  .flexCol--container-texts-contact-lines {
+    right: 5px !important;
   }
   /* estilos azul footer */
 
@@ -58,10 +68,6 @@
   .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container)  {
     width: calc(360px - 15px * 2);
     margin: 0 auto;
-  }
-
-  .flexRow--mobile-flex {
-    background-color: rebeccapurple;
   }
 
   .flexRowContent--footer-4-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {

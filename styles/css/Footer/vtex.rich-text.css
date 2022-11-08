@@ -12,6 +12,16 @@
   .wrapper--mobile-rich .paragraph--mobile-rich{
     margin-top: 25px;
   }
+
+  .paragraph--marginTop {
+    margin-top: 20px !important;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .paragraph--text-1-contact-lines {
+    margin-top: 1rem !important;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 375px) {

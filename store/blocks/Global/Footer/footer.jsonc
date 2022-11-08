@@ -121,7 +121,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Línea de atención nacional",
-      "blockClass": "text-1-contact-lines"
+      "blockClass": ["text-1-contact-lines", "mobile-rich"]
     }
   },
   "rich-text#text-2-contact-lines": {
@@ -129,7 +129,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "(571)3-907-222 Ext. 1203",
-      "blockClass": "text-2-contact-lines"
+      "blockClass": ["text-1-contact-lines", "mobile-rich-one", "marginTop"]
     }
   },
   "flex-layout.row#footer-3-desktop": {
