@@ -1,0 +1,376 @@
+{
+  "responsive-layout.desktop#home": {
+    "title": "container home desktop",
+    "children": [
+      "flex-layout.row#home-seccion-one",
+      "flex-layout.row#home-seccion-two",
+      "flex-layout.row#home-seccion-three",
+      "flex-layout.row#home-seccion-four",
+      "flex-layout.row#home-seccion-five",
+      "flex-layout.row#home-seccion-six",
+      "flex-layout.row#home-seccion-seven",
+      "flex-layout.row#home-seccion-three"
+    ]
+  },
+  /* seccion one */
+  "flex-layout.row#home-seccion-one": {
+    "title": "block one",
+    "props":{
+      "blockClass": "home-seccion-one"
+    },
+    "children":["list-context.image-list#demo"]
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "/arquivos/Desktop.png",
+          "description": "banner one"
+        },
+        {
+          "image": "/arquivos/Desktop.png",
+          "description": "banner two"
+        },
+        {
+          "image": "/arquivos/Desktop.png",
+          "description": "banner three"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+    }
+  },
+  /* seccion two */
+  "flex-layout.row#home-seccion-two": {
+    "title": "block two",
+    "props":{
+      "blockClass": "home-seccion-two"
+    },
+    "children":["rich-text#home-text-seccion-two", "tab-layout#home-seccion-two"]
+  },
+  "rich-text#home-text-seccion-two": {
+    "title": "title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Compras para grandes y pequeños en un mismo lugar",
+      "blockClass": "text-seccion-two"
+    }
+  },
+  "tab-layout#home-seccion-two": {
+    "title": "contenido  tab",
+   "children": [
+     "tab-list#home-seccion-two",
+     "tab-content#home-seccion-two"
+   ],
+   "props": {
+     "blockClass": "home1",
+     "defaultActiveTabId": "home-seccion-two"
+   }
+ },
+ "tab-list#home-seccion-two": {
+   "children": [
+     "tab-list.item#home-seccion1",
+     "tab-list.item#home-seccion2",
+     "tab-list.item#home-seccion3"
+   ]
+ },
+ "tab-list.item#home-seccion1": {
+   "props": {
+     "tabId": "home1",
+     "label": "Hombre",
+     "defaultActiveTab": true
+   }
+ },
+ "tab-list.item#home-seccion2": {
+   "props": {
+     "tabId": "home2",
+     "label": "Mujer"
+   }
+ },
+ "tab-list.item#home-seccion3": {
+    "props": {
+      "tabId": "home3",
+      "label": "Niños"
+    }
+  },
+  "tab-content#home-seccion-two": {
+     "children": [
+       "tab-content.item#home-1",
+       "tab-content.item#home-2",
+       "tab-content.item#home-3"
+     ]
+   },
+   "tab-content.item#home-1": {
+     "children": [
+      "rich-text#home-text-seccion-two"
+     ],
+     "props": {
+       "tabId": "home1"
+     }
+   },
+   "tab-content.item#home-2": {
+     "children": [
+      "rich-text#home-text-seccion-two"
+     ],
+     "props": {
+       "tabId": "home2"
+     }
+   },
+   "tab-content.item#home-3": {
+    "children": [
+     "rich-text#home-text-seccion-two"
+    ],
+    "props": {
+      "tabId": "home3"
+    }
+  },
+  /* seccion three */
+  "flex-layout.row#home-seccion-three": {
+    "title": "block three",
+    "props":{
+      "blockClass": "home-seccion-three"
+    },
+    "children":["rich-text#promociones", "flex-layout.row#shelf1" ]
+  },
+  "rich-text#promociones": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Promociones",
+      "blockClass": "promocion"
+    }
+  },
+  "flex-layout.row#shelf1": {
+    "title": "contenido vitrina",
+    "children": ["list-context.product-list#shelf"],
+    "props": {
+      "blockClass": "shelfComplete"
+    }
+  },
+  "list-context.product-list#productSlider": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": false,
+      "fullWidth": true,
+      "showPaginationDots": "desktopOnly",
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "shelfStyle1"
+    }
+  },
+  /* seccion four */
+  "flex-layout.row#home-seccion-four": {
+    "title": "block four",
+    "props":{
+      "blockClass": "home-seccion-four"
+    },
+    "children":["slider-layout#text-home", "flex-layout.row#group-images-text"]
+  },
+  "slider-layout#text-home": {
+    "title": "contenido slider texto",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["rich-text#home1", "rich-text#home2", "rich-text#home3"]
+  },
+  "rich-text#home1": {
+    "props": {
+      "text": "¿Por qué comprar en People Plays?"
+    }
+  },
+  "rich-text#home2": {
+    "props": {
+      "text": "¿Por qué comprar en People Plays?"
+    }
+  },
+  "rich-text#home3": {
+    "props": {
+      "text": "¿Por qué comprar en People Plays?"
+    }
+  },
+  "flex-layout.row#group-images-text": {
+    "title": "contenido grupo images texto",
+    "props":{
+      "blockClass": "group-images-text"
+    },
+    "children":[
+      "flex-layout.row#group-images-text-one",
+      "flex-layout.row#group-images-text-one",
+      "flex-layout.row#group-images-text-one",
+      "flex-layout.row#group-images-text-one",
+      "flex-layout.row#group-images-text-one"
+    ]
+  },
+  "flex-layout.row#group-images-text-one": {
+    "title": "contenido item images texto",
+    "props":{
+      "blockClass": "group-images-text-one"
+    },
+    "children":[
+      "image#example",
+      "rich-text#text-group"
+    ]
+  },
+  "image#example": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "rich-text#text-group": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Pagos con Tarjeta de Débito, Crédito , Sistecredito y PSE",
+      "blockClass": "text-group"
+    }
+  },
+  /* seccion five */
+  "flex-layout.row#home-seccion-five": {
+    "title": "block five",
+    "props":{
+      "blockClass": "home-seccion-five"
+    },
+    "children":["rich-text#siempre-listos", "flex-layout.row#group-images"]
+  },
+  "rich-text#siempre-listos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Siempre listos para cada ocasión",
+      "blockClass": "siempre-listos"
+    }
+  },
+  "flex-layout.row#group-images": {
+    "title": "block five",
+    "props":{
+      "blockClass": "group-images"
+    },
+    "children":[
+      "image#seccion-5-one",
+      "image#seccion-5-two",
+      "image#seccion-5-three"
+    ]
+  },
+  "image#seccion-5-one": {
+    "props": {
+      "src": "/arquivos/seccion5.png"
+    }
+  },
+  "image#seccion-5-two": {
+    "props": {
+      "src": "/arquivos/seccion5-1.png"
+    }
+  },
+  "image#seccion-5-three": {
+    "props": {
+      "src": "/arquivos/seccion-5-2.png"
+    }
+  },
+  /* seccion six */
+  "flex-layout.row#home-seccion-six": {
+    "title": "block six",
+    "props":{
+      "blockClass": "home-seccion-six"
+    },
+    "children":["flex-layout.row#infocard-home"]
+  },
+  "flex-layout.row#infocard-home": {
+    "title": "contenido infocard",
+    "props":{
+      "blockClass": "home-seccion-six"
+    },
+    "children":["image#seccion6", "flex-layout.row#infocard-lin-text"]
+  },
+  "image#seccion6": {
+    "title": "imagen infocard",
+    "props": {
+      "src": "/arquivos/seccion6.png"
+    }
+  },
+  "flex-layout.row#infocard-lin-text": {
+    "title": "container link text",
+    "props":{
+      "blockClass": "infocard"
+    },
+    "children":["rich-text#infotext", "link#infolink"]
+  },
+  "rich-text#infotext": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Explora la guía de tallas por marca",
+      "blockClass": "infotext"
+    }
+  },
+  "link#infolink": {
+    "props": {
+      "href": "/",
+      "label": "Guia de tallas para calzado"
+    }
+  },
+  /* seccion seven */
+  "flex-layout.row#home-seccion-seven": {
+    "title": "block seven",
+    "props":{
+      "blockClass": "home-seccion-seven"
+    },
+    "children":["rich-text#marcas", "flex-layout.row#marcas-group"]
+  },
+  "rich-text#marcas": {
+    "title": "title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Encuentra tus productos por marca",
+      "blockClass": "infotext"
+    }
+  },
+  "flex-layout.row#marcas-group": {
+    "title": "contenido marcas group",
+    "props":{
+      "blockClass": "marcas-group"
+    },
+    "children":[
+      "image#example",
+      "image#example",
+      "image#example",
+      "image#example",
+      "image#example",
+      "image#example",
+      "image#example",
+      "image#example"
+    ]
+  }
+
+}

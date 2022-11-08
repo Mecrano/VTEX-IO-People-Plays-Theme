@@ -1,34 +1,8 @@
 {
   "store.home": {
     "blocks": [
-      "flex-layout.row#shelf1"
+      "responsive-layout.desktop#home",
+      "responsive-layout.phone#home"
     ]
-  },
-  "flex-layout.row#shelf1": {
-    "children": ["list-context.product-list#shelf"],
-    "props": {
-      "blockClass": "shelfComplete"
-    }
-  },
-  "list-context.product-list#productSlider": {
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#products"],
-    "props": {
-      "orderBy": "OrderByTopSaleDESC"
-    }
-  },
-  "slider-layout#products": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 6,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": false,
-      "fullWidth": true,
-      "showPaginationDots": "desktopOnly",
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "shelfStyle1"
-    }
   }
 }

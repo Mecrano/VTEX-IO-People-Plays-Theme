@@ -1,0 +1,27 @@
+.flexRowContent--home-seccion-two,
+.flexRowContent--home-seccion-three,
+.flexRowContent--home-seccion-four,
+.flexRowContent--home-seccion-five,
+.flexRowContent--infocard,
+.flexRowContent--home-seccion-seven {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--home-seccion-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--home-seccion-three :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--home-seccion-four :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--home-seccion-five :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--home-seccion-seven :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+.flexRowContent--group-images-text-one {
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--group-images    {
+  display: flex;
+  flex-direction: row;
+}
