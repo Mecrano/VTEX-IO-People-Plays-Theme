@@ -1,0 +1,27 @@
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .paragraph--footer-row-1-text-1 {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px !important;
+    line-height: 33px !important;
+    color: #000000 !important;
+  }
+
+  .paragraph--footer-row-1-text-2 {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px !important;
+    text-align: center;
+    color: #000000 !important;
+  }
+
+  .paragraph--mobile-rich {
+    margin-bottom: 0;
+  }
+
+  .paragraph--mobile-rich-one {
+    margin-top: 0;
+  }
+}

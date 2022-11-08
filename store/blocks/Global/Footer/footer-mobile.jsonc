@@ -1,0 +1,313 @@
+{
+  "footer-layout.mobile": {
+    "title": "footer mobile",
+    "props": { "blockClass": "containerFooter-mobile" },
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-mobile",
+      "flex-layout.row#footer-3-mobile",
+      "flex-layout.row#footer-4-mobile",
+      "flex-layout.row#footer-5-mobile",
+      "flex-layout.row#footer-6-mobile",
+      "flex-layout.row#footer-7-mobile"
+    ]
+  },
+  "flex-layout.row#footer-2-mobile": {
+    "title": "segundo bloque",
+    "props": { "blockClass": ["footer-2-desktop", "mobile-flex"], "colSizing": "auto" },
+    "children": [
+      "flex-layout.col#contact-lines-1",
+      "flex-layout.col#contact-lines-2-mobile",
+      "flex-layout.col#contact-lines-3"
+    ]
+  },
+  "flex-layout.col#contact-lines-2-mobile": {
+    "props": {
+      "blockClass": "column-contact-line"
+    },
+    "children": ["flex-layout.row#container-contact-lines-mobile"]
+  },
+  "flex-layout.row#container-contact-lines-mobile": {
+    "props": { "blockClass": "container-contact-lines" },
+    "children": [
+      "image#img-1-contact-lines-mobile",
+      "flex-layout.col#background-contact-lines-mobile",
+      "flex-layout.col#text-contact-lines-mobile"
+    ]
+  },
+  "flex-layout.col#text-contact-lines-mobile": {
+    "props": { "blockClass": "container-texts-contact-lines-mobile" },
+
+    "children": [
+      "rich-text#text-1-contact-lines-mobile",
+      "rich-text#text-2-contact-lines-mobile"
+    ]
+  },
+  "rich-text#text-1-contact-lines-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Línea de atención nacional",
+      "blockClass": ["text-1-contact-lines", "mobile-rich"]
+    }
+  },
+  "rich-text#text-2-contact-lines-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "(571)3-907-222 Ext. 1203",
+      "blockClass": ["text-2-contact-lines", "mobile-rich-one"]
+    }
+  },
+  "image#img-1-contact-lines-mobile": {
+    "props": {
+      "src": "assets/footer/squarePhoto.png",
+      "maxWidth": "129px",
+      "maxHeight": "128px",
+      "blockClass": "img-1-contact-lines-mobile"
+    }
+  },
+  "flex-layout.col#background-contact-lines-mobile": {
+    "children": ["flex-layout.row#container-background-contact-lines-mobile"]
+  },
+  "flex-layout.row#container-background-contact-lines-mobile": {
+    "props": {},
+    "children": [
+      "flex-layout.col#background-1-contact-lines-mobile",
+      "flex-layout.col#background-2-contact-lines-mobile"
+    ]
+  },
+  "flex-layout.col#background-1-contact-lines-mobile": {
+    "props": {
+      "blockClass": "background-1-contact-lines-mobile"
+    }
+  },
+  "flex-layout.col#background-2-contact-lines-mobile": {
+    "props": {
+      "blockClass": "background-2-contact-lines-mobile"
+    }
+  },
+  "flex-layout.row#footer-3-mobile": {
+    "title": "tercer bloque",
+    "children":[
+      "flex-layout.col#text-1-mobile",
+      "flex-layout.col#text-2-mobile"
+    ],
+    "props":{
+      "blockClass": "footer-3--mobile"
+    }
+  },
+  "flex-layout.col#text-1-mobile": {
+    "title": "container link uno",
+    "children":[
+      "link#info-title-brands-mobile",
+      "link#info-brands-1-mobile",
+      "link#info-brands-2-mobile",
+      "link#info-brands-3-mobile",
+      "link#info-brands-4-mobile"
+    ],
+    "props":{
+      "blockClass": "text-1-mobile"
+    }
+  },
+  "flex-layout.col#text-2-mobile": {
+    "title": "container link dos",
+    "children":[
+      "link#info-title-brands-mobile-2",
+      "link#info-brands-1-mobile-2",
+      "link#info-brands-2-mobile-2",
+      "link#info-brands-3-mobile-2",
+      "link#info-brands-4-mobile-2"
+    ],
+    "props":{
+      "blockClass": "text-2-mobile"
+    }
+  },
+  "link#info-title-brands-mobile": {
+    "title": "titulo link",
+    "props": {
+      "href": "/",
+      "label": "LINKS DE INTERES",
+      "blockClass": "info-title-brands"
+    }
+  },
+  "link#info-brands-1-mobile": {
+    "title": "texto link 1",
+    "props": {
+      "href": "/",
+      "label": "Envios y devoluciones",
+      "blockClass": "info-brands"
+    }
+  },
+  "link#info-brands-2-mobile": {
+    "title": "texto link 2",
+    "props": {
+      "href": "/",
+      "label": "Terminos y condiciones",
+      "blockClass": "info-brands"
+    }
+  },
+  "link#info-brands-3-mobile": {
+    "title": "texto link 3",
+    "props": {
+      "href": "/",
+      "label": "Rastrea tu pedido",
+      "blockClass": "info-brands"
+    }
+  },
+  "link#info-brands-4-mobile": {
+    "title": "texto link 4",
+    "props": {
+      "href": "/",
+      "label": "Nuestra Marca",
+      "blockClass": "info-brands"
+    }
+  },
+  "link#info-title-brands-mobile-2": {
+    "title": "titulo link",
+    "props": {
+      "href": "/",
+      "label": "GENEROS",
+      "blockClass": "info-title-brands"
+    }
+  },
+  "link#info-brands-1-mobile-2": {
+    "title": "texto link 1",
+    "props": {
+      "href": "/",
+      "label": "Mujer",
+      "blockClass": "info-brands"
+    }
+  },
+  "link#info-brands-2-mobile-2": {
+    "title": "texto link 2",
+    "props": {
+      "href": "/",
+      "label": "Hombre",
+      "blockClass": "info-brands"
+    }
+  },
+  "link#info-brands-3-mobile-2": {
+    "title": "texto link 3",
+    "props": {
+      "href": "/",
+      "label": "Junior",
+      "blockClass": "info-brands"
+    }
+  },
+  "link#info-brands-4-mobile-2": {
+    "title": "texto link 4",
+    "props": {
+      "href": "/",
+      "label": "Accesorios",
+      "blockClass": "info-brands"
+    }
+  },
+  "flex-layout.row#footer-4-mobile": {
+    "children":[
+      "link#info-title-socialNetwork",
+      "flex-layout.row#container-socialNetwork-info"
+    ],
+    "props":{
+      "blockClass": "footer-4-mobile"
+    }
+  },
+  "link#info-title-socialNetwork": {
+    "title": "titulo socialNetwork",
+    "props": {
+      "href": "/",
+      "label": "REDES SOCIALES",
+      "blockClass": "info-title-brands"
+    }
+  },
+  "flex-layout.row#footer-5-mobile": {
+    "children":["newsletter-form"],
+    "props":{
+      "blockClass": "footer-5-mobile"
+    }
+  },
+  "flex-layout.row#footer-6-mobile": {
+    "children":["link#info-title-mediosDePago", "flex-layout.row#medios-pago-logos"],
+    "props":{
+      "blockClass": "footer-6-mobile"
+    }
+  },
+  "link#info-title-mediosDePago": {
+    "title": "titulo socialNetwork",
+    "props": {
+      "href": "/",
+      "label": "MEDIOS DE PAGO",
+      "blockClass": "info-title-brands"
+    }
+  },
+  "flex-layout.row#medios-pago-logos": {
+    "props": { "blockClass": "footer-logos" },
+    "children": [
+      "flex-layout.col#medios-pago-1",
+      "flex-layout.col#medios-pago-2"
+    ]
+  },
+  "flex-layout.col#medios-pago-1": {
+    "props": { "blockClass": "medios-pago-1" },
+    "children": [
+      "image#footer-4-image-brand",
+      "image#footer-4-image-brand",
+      "image#footer-4-image-brand",
+      "image#footer-4-image-brand",
+      "image#footer-4-image-brand",
+      "image#footer-4-image-brand"
+    ]
+  },
+  "flex-layout.col#medios-pago-2": {
+    "props": { "blockClass": "medios-pago-2" },
+    "children": [
+      "image#footer-4-image-brand"
+    ]
+  },
+  "flex-layout.row#footer-7-mobile": {
+    "children":["rich-text#textcopy", "flex-layout.col#group-text"],
+    "props":{
+      "blockClass": "footer-7-mobile"
+    }
+  },
+  "rich-text#textcopy": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "© COPYRIGHT 2022 PEOPLE PLAYS TODOS LOS DERECHOS RESERVADOS.",
+      "blockClass": "textcopy"
+    }
+  },
+  "flex-layout.col#group-text": {
+    "props": { "blockClass": "group-text" },
+    "children": [
+      "rich-text#text-one-footer",
+      "rich-text#text-two-footer",
+      "rich-text#text-three-footer"
+    ]
+  },
+  "rich-text#text-one-footer": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Términos y condiciones",
+      "blockClass": "text-one-footer"
+    }
+  },
+  "rich-text#text-two-footer": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Condiciones de campañas",
+      "blockClass": "text-one-footer"
+    }
+  },
+  "rich-text#text-three-footer": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Politicas de privacidad",
+      "blockClass": "text-one-footer"
+    }
+  }
+}

@@ -63,7 +63,7 @@
   },
 
   "flex-layout.row#container-contact-lines": {
-    "props": { "blockClass": "container-contact-lines" },
+    "props": { "blockClass": ["container-contact-lines"] },
     "children": [
       "image#img-1-contact-lines",
       "flex-layout.col#background-contact-lines",
@@ -96,7 +96,7 @@
   },
   "flex-layout.col#background-2-contact-lines": {
     "props": {
-      "blockClass": "background-2-contact-lines"
+      "blockClass": ["background-2-contact-lines", "mobile-back"]
     }
   },
 
@@ -222,20 +222,6 @@
       "textPosition": "CENTER",
       "text": "Términos y condiciones",
       "blockClass": "texts-footer-5"
-    }
-  },
-
-  /* *********Mobile********* */
-  "footer-layout.mobile": {
-    "children": ["flex-layout.row#footer"]
-  },
-  "flex-layout.row#footer": {
-    "children": ["image"]
-  },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
     }
   }
 }
