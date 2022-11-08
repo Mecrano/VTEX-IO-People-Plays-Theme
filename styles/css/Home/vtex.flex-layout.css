@@ -3,7 +3,9 @@
 .flexRowContent--home-seccion-four,
 .flexRowContent--home-seccion-five,
 .flexRowContent--infocard,
-.flexRowContent--home-seccion-seven {
+.flexRowContent--home-seccion-seven,
+.flexRowContent--home-seccion-one,
+.flexRowContent--content-tab-item {
   display: flex;
   flex-direction: column;
 }
@@ -12,7 +14,8 @@
 .flexRowContent--home-seccion-three :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 .flexRowContent--home-seccion-four :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 .flexRowContent--home-seccion-five :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
-.flexRowContent--home-seccion-seven :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--home-seccion-seven :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--home-seccion-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100% !important;
 }
 
@@ -21,7 +24,19 @@
   align-items: center;
 }
 
-.flexRowContent--group-images    {
+.flexRowContent--group-images {
   display: flex;
   flex-direction: row;
 }
+
+.flexRowContent--home-seccion-one {
+  position: relative;
+}
+
+.flexRow--content-tab-item-figura {
+  background: red;
+  width: 500px;
+  height: 300px;
+
+}
+

@@ -1,0 +1,14 @@
+.sliderLeftArrow--slider-home, .sliderRightArrow--slider-home {
+  width: 64px;
+  height: 64px;
+  background: #FFFFFF !important;
+  border-radius: 37.5px;
+}
+
+.sliderLeftArrow--slider-home {
+ margin-left: 20px;
+}
+
+.sliderRightArrow--slider-home {
+  margin-right: 20px;
+}

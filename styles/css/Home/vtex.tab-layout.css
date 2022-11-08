@@ -1,3 +1,31 @@
-.container--home1 {
-  background-color: red;
+.listItemActive--home1 :global(.vtex-button__label) {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+  color: #062F87 !important;
+  text-decoration: underline;
 }
+
+.listItemActive--home1 :global(.vtex-button) {
+  background-color: transparent;
+  border: transparent;
+}
+
+.listItemActive--home1 :global(.vtex-button):hover,
+.listItem--home1 :global(.vtex-button):hover {
+  background-color: transparent;
+  border: transparent;
+}
+
+.listItem--home1 :global(.vtex-button__label) {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+  color: rgba(0, 47, 135, 0.5);
+}
+
+

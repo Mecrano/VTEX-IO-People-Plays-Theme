@@ -1,0 +1,24 @@
+.label--slider-link {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #FFFFFF;
+}
+
+.link--slider-link {
+  text-decoration: none;
+  width: 343.68px !important;
+  height: 78px;
+  background: #FC701C;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.link--slider-link {
+  position: absolute;
+  top: 240px;
+  left: 890px;
+}

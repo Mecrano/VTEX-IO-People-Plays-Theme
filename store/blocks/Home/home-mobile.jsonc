@@ -1,6 +1,6 @@
 {
   "responsive-layout.phone#home": {
-    "title": "container home mobile",
-    "children": ["list-context.image-list#demo"]
+    "title": "home mobile",
+    "children": ["list-context.image-list#people-plays"]
   }
 }

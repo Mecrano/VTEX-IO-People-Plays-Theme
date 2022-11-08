@@ -1,6 +1,6 @@
 {
   "responsive-layout.desktop#home": {
-    "title": "container home desktop",
+    "title": "home desktop",
     "children": [
       "flex-layout.row#home-seccion-one",
       "flex-layout.row#home-seccion-two",
@@ -18,10 +18,10 @@
     "props":{
       "blockClass": "home-seccion-one"
     },
-    "children":["list-context.image-list#demo"]
+    "children":["list-context.image-list#people-plays", /* "rich-text#slider-text", */ "link#slider-link"]
   },
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "list-context.image-list#people-plays": {
+    "children": ["slider-layout#slider-home"],
     "props": {
       "height": 650,
       "images": [
@@ -40,7 +40,8 @@
       ]
     }
   },
-  "slider-layout#demo-images": {
+  "slider-layout#slider-home": {
+    "title": "slider",
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -48,7 +49,25 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly"
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "slider-home"
+    }
+  },
+  /* "rich-text#slider-text": {
+    "title": "title text",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "People Plays se mueve contigo, <br/> a cualquier lugar",
+      "blockClass": "slider-text"
+    }
+  }, */
+  "link#slider-link": {
+    "title": "title link",
+    "props": {
+      "href": "/",
+      "label": "Únete a People Plays",
+      "blockClass": "slider-link"
     }
   },
   /* seccion two */
@@ -84,25 +103,31 @@
      "tab-list.item#home-seccion1",
      "tab-list.item#home-seccion2",
      "tab-list.item#home-seccion3"
-   ]
+   ],
+   "props":{
+    "blockClass": "home1"
+   }
  },
  "tab-list.item#home-seccion1": {
    "props": {
      "tabId": "home1",
      "label": "Hombre",
-     "defaultActiveTab": true
+     "defaultActiveTab": true,
+     "blockClass": "home1"
    }
  },
  "tab-list.item#home-seccion2": {
    "props": {
      "tabId": "home2",
-     "label": "Mujer"
+     "label": "Mujer",
+     "blockClass": "home1"
    }
  },
  "tab-list.item#home-seccion3": {
     "props": {
       "tabId": "home3",
-      "label": "Niños"
+      "label": "Niños",
+      "blockClass": "home1"
     }
   },
   "tab-content#home-seccion-two": {
@@ -110,32 +135,131 @@
        "tab-content.item#home-1",
        "tab-content.item#home-2",
        "tab-content.item#home-3"
-     ]
+     ],
+     "props": {
+      "blockClass": "home1"
+    }
    },
    "tab-content.item#home-1": {
-     "children": [
-      "rich-text#home-text-seccion-two"
-     ],
-     "props": {
-       "tabId": "home1"
-     }
+     "children": ["flex-layout.row#content-tab"],
+     "props": { "tabId": "home1", "blockClass": "home1" }
    },
    "tab-content.item#home-2": {
-     "children": [
-      "rich-text#home-text-seccion-two"
-     ],
-     "props": {
-       "tabId": "home2"
-     }
+     "children": ["flex-layout.row#content-tab"],
+     "props": { "tabId": "home2", "blockClass": "home1" }
    },
    "tab-content.item#home-3": {
-    "children": [
-     "rich-text#home-text-seccion-two"
-    ],
-    "props": {
-      "tabId": "home3"
+    "children": ["flex-layout.row#content-tab"],
+    "props": { "tabId": "home3", "blockClass": "home1" }
+  },
+  "flex-layout.row#content-tab": {
+    "title": "contenido tab",
+    "props":{
+      "blockClass": "content-tab"
+    },
+    "children":[
+      "flex-layout.row#content-tab-one",
+      "flex-layout.row#content-tab-two",
+      "flex-layout.row#content-tab-three",
+      "flex-layout.row#content-tab-four",
+      "flex-layout.row#content-tab-five"
+    ]
+  },
+  "flex-layout.row#content-tab-five": {
+    "title": "libre figura",
+    "props":{
+      "blockClass": "content-tab-item-figura"
     }
   },
+  "flex-layout.row#content-tab-one": {
+    "title": "contenido tab",
+    "props":{
+      "blockClass": "content-tab-item"
+    },
+    "children":["image#image-tab-one", "rich-text#text-tab-one"]
+  },
+  "rich-text#text-tab-one": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Ropa",
+      "blockClass": "ropa"
+    }
+  },
+  "image#image-tab-one": {
+    "props": {
+      "src": "/arquivos/ropa.png"
+    }
+  },
+
+  "flex-layout.row#content-tab-two": {
+    "title": "contenido tab",
+    "props":{
+      "blockClass": "content-tab-item"
+    },
+    "children":["image#image-tab-two", "rich-text#text-tab-two"]
+  },
+  "rich-text#text-tab-two": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Calzado",
+      "blockClass": "ropa"
+    }
+  },
+  "image#image-tab-two": {
+    "props": {
+      "src": "/arquivos/calzado.png"
+    }
+  },
+
+  "flex-layout.row#content-tab-three": {
+    "title": "contenido tab",
+    "props":{
+      "blockClass": "content-tab-item"
+    },
+    "children":["image#image-tab-three", "rich-text#text-tab-three"]
+  },
+  "rich-text#text-tab-three": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Accesorios",
+      "blockClass": "ropa"
+    }
+  },
+  "image#image-tab-three": {
+    "props": {
+      "src": "/arquivos/accesorios.png"
+    }
+  },
+
+  "flex-layout.row#content-tab-four": {
+    "title": "contenido tab",
+    "props":{
+      "blockClass": "content-tab-item"
+    },
+    "children":["image#image-tab-four", "rich-text#text-tab-four"]
+  },
+  "rich-text#text-tab-four": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Sale",
+      "blockClass": "ropa"
+    }
+  },
+  "image#image-tab-four": {
+    "props": {
+      "src": "/arquivos/sale.png"
+    }
+  },
+
+
   /* seccion three */
   "flex-layout.row#home-seccion-three": {
     "title": "block three",

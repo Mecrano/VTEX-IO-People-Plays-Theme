@@ -6,3 +6,19 @@
   line-height: 136.7%;
   color: #000000;
 }
+
+.paragraph--slider-text {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #002F87;
+}
+
+.paragraph--text-seccion-two {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #062F87;
+}
