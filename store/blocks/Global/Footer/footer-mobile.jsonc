@@ -1,6 +1,6 @@
 {
   "footer-layout.mobile": {
-    "title": "footer mobile",
+    "title": "footer mobile container",
     "props": { "blockClass": "containerFooter-mobile" },
     "children": [
       "flex-layout.row#footer-1-desktop",
@@ -204,6 +204,7 @@
     }
   },
   "flex-layout.row#footer-4-mobile": {
+    "title": "cuarto bloque",
     "children":[
       "link#info-title-socialNetwork",
       "flex-layout.row#container-socialNetwork-info"
@@ -221,12 +222,14 @@
     }
   },
   "flex-layout.row#footer-5-mobile": {
+    "title": "quinto bloque",
     "children":["newsletter-form"],
     "props":{
       "blockClass": "footer-5-mobile"
     }
   },
   "flex-layout.row#footer-6-mobile": {
+    "title": "sexto bloque",
     "children":["link#info-title-mediosDePago", "flex-layout.row#medios-pago-logos"],
     "props":{
       "blockClass": "footer-6-mobile"
@@ -277,6 +280,7 @@
     ]
   },
   "flex-layout.row#footer-7-mobile": {
+    "title": "septimo bloque",
     "children":["rich-text#textcopy", "flex-layout.col#group-text"],
     "props":{
       "blockClass": "footer-7-mobile"

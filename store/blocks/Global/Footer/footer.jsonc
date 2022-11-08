@@ -3,6 +3,7 @@
     "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
   },
   "footer-layout.desktop": {
+    "title": "footer desktop container",
     "props": { "blockClass": "containerFooter" },
     "children": [
       "flex-layout.row#footer-1-desktop",
@@ -12,6 +13,7 @@
     ]
   },
   "flex-layout.row#footer-1-desktop": {
+    "title": "primer bloque",
     "props": { "blockClass": "footer-1-desktop" },
     "children": [
       "rich-text#footer-row-1-text-1",
@@ -36,6 +38,7 @@
   },
 
   "flex-layout.row#footer-2-desktop": {
+    "title": "segundo bloque",
     "props": { "blockClass": "footer-2-desktop", "colSizing": "auto" },
     "children": [
       "flex-layout.col#contact-lines-1",
@@ -133,6 +136,7 @@
     }
   },
   "flex-layout.row#footer-3-desktop": {
+    "title": "tercer bloque",
     "props": { "blockClass": "footer-3-desktop" },
     "children": [
       "flex-layout.col#footer-3-desktop-col-1",
@@ -178,6 +182,7 @@
     ]
   },
   "flex-layout.row#footer-5-desktop": {
+    "title": "cuarto bloque",
     "props": { "blockClass": "footer-5-desktop" },
     "children": [
       "flex-layout.col#footer-5-copyright",
