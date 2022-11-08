@@ -1,55 +1,92 @@
-
-
 @media screen and (min-width: 300px) and (max-width: 320px) {
-  .flexRow--footer-1-desktop {
+  .flexRow--footer-1-desktop,
+  .flexRow--footer-3-mobile,
+  .flexRow--footer-4-mobile,
+  .flexRow--footer-5-mobile,
+  .flexRow--footer-6-mobile  {
     width: calc(300px - 15px * 2);
     margin: 0 auto;
-    background-color: red;
+  }
+
+  .flexRowContent--footer-4-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 80% !important;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
-  .flexRow--footer-1-desktop {
+  .flexRow--footer-1-desktop,
+  .flexRow--footer-3-mobile,
+  .flexRow--footer-4-mobile,
+  .flexRow--footer-5-mobile,
+  .flexRow--footer-6-mobile  {
     width: calc(360px - 15px * 2);
     margin: 0 auto;
-    background-color: red;
   }
 
   .flexRow--mobile-flex {
     background-color: rebeccapurple;
   }
+
+  .flexRowContent--footer-4-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 60% !important;
+  }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
-  .flexRow--footer-1-desktop {
+  .flexRow--footer-1-desktop,
+  .flexRow--footer-3-mobile,
+  .flexRow--footer-4-mobile,
+  .flexRow--footer-5-mobile,
+  .flexRow--footer-6-mobile  {
     width: calc(420px - 20px * 2);
     margin: 0 auto;
-    background-color: red;
   }
 
   .flexRowContent--container-contact-lines {
     width: 100% !important;
   }
+
+  .flexRowContent--footer-4-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 50% !important;
+  }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
-  .flexRow--footer-1-desktop {
+  .flexRow--footer-1-desktop,
+  .flexRow--footer-3-mobile,
+  .flexRow--footer-4-mobile,
+  .flexRow--footer-5-mobile,
+  .flexRow--footer-6-mobile  {
     width: calc(730px - 20px * 2);
     margin: 0 auto;
-    background-color: red;
+  }
+
+  .flexRowContent--footer-4-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 40% !important;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .flexRow--footer-1-desktop {
+  .flexRow--footer-1-desktop,
+  .flexRow--footer-3-mobile,
+  .flexRow--footer-4-mobile,
+  .flexRow--footer-5-mobile,
+  .flexRow--footer-6-mobile {
     width: calc(999px - 40px * 2);
     margin: 0 auto;
-    background-color: red;
+  }
+
+  .flexRowContent--footer-4-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 30% !important;
   }
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
-  .flexRow--footer-1-desktop :global(.vtex-store-components-3-x-container) {
+  .flexRow--footer-1-desktop :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-3-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
     padding-left: 0;
     padding-right: 0;
   }
@@ -89,5 +126,58 @@
     position: absolute;
     width: 200px!important;
     left: 20px;
+  }
+
+  .flexRowContent--footer-3-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flexRowContent--footer-3-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 60% !important;
+  }
+
+  .flexRowContent--footer-3-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 40% !important;
+  }
+
+  .flexRowContent--footer-4-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--container-socialNetwork-info {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0 !important;
+    margin-top: -5px;
+  }
+
+  .flexRow--footer-5-mobile {
+    padding-bottom: 20px;
+  }
+
+  .flexRowContent--footer-6-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--footer-6-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 100% !important;
+  }
+
+  .flexRowContent--footer-logos :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 80% !important;
+  }
+
+  .flexRowContent--footer-logos :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 20% !important;
+  }
+
+  .flexCol--medios-pago-1 {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
   }
 }

@@ -24,4 +24,21 @@
   .paragraph--mobile-rich-one {
     margin-top: 0;
   }
+
+  .heading--title-newsletter {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px !important;
+    text-transform: uppercase;
+    color: #000000 !important;
+  }
+
+  .paragraph--title-newsletter {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px !important;
+    color: #000000 !important;
+  }
 }

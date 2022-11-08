@@ -1,0 +1,39 @@
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .emailInputContainer--newsletter-input-email :global(.vtex-styleguide-9-x-input) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(72, 84, 103, 0.49) !important;
+  }
+
+  .formSubmitContainer :global(.vtex-button__label) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+
+  .confirmationCheckboxContainer--newsletter-checkbox-confirmation :global(.vtex-checkbox__label) {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px !important;
+    color: #000000 !important;
+  }
+
+  .confirmationCheckboxContainer--newsletter-checkbox-confirmation :global(.vtex-checkbox__label)::after {
+    content: "Ver políticas aqui";
+    color: #ED752D;
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+
+  .confirmationCheckboxContainer--newsletter-checkbox-confirmation :global(.vtex-checkbox__line-container) {
+    align-items: center;
+  }
+}

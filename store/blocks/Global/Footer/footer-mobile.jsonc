@@ -4,7 +4,7 @@
     "props": { "blockClass": "containerFooter-mobile" },
     "children": [
       "flex-layout.row#footer-1-desktop",
-      "flex-layout.row#footer-2-mobile",
+     /*  "flex-layout.row#footer-2-mobile", */
       "flex-layout.row#footer-3-mobile",
       "flex-layout.row#footer-4-mobile",
       "flex-layout.row#footer-5-mobile",
@@ -94,7 +94,7 @@
       "flex-layout.col#text-2-mobile"
     ],
     "props":{
-      "blockClass": "footer-3--mobile"
+      "blockClass": "footer-3-mobile"
     }
   },
   "flex-layout.col#text-1-mobile": {
@@ -128,7 +128,7 @@
     "props": {
       "href": "/",
       "label": "LINKS DE INTERES",
-      "blockClass": "info-title-brands"
+      "blockClass": ["info-title-brands", "link-mobile-title"]
     }
   },
   "link#info-brands-1-mobile": {
@@ -136,7 +136,7 @@
     "props": {
       "href": "/",
       "label": "Envios y devoluciones",
-      "blockClass": "info-brands"
+      "blockClass": ["info-brands", "link-mobile-text"]
     }
   },
   "link#info-brands-2-mobile": {
@@ -144,7 +144,7 @@
     "props": {
       "href": "/",
       "label": "Terminos y condiciones",
-      "blockClass": "info-brands"
+      "blockClass": ["info-brands", "link-mobile-text"]
     }
   },
   "link#info-brands-3-mobile": {
@@ -152,7 +152,7 @@
     "props": {
       "href": "/",
       "label": "Rastrea tu pedido",
-      "blockClass": "info-brands"
+      "blockClass": ["info-brands", "link-mobile-text"]
     }
   },
   "link#info-brands-4-mobile": {
@@ -160,7 +160,7 @@
     "props": {
       "href": "/",
       "label": "Nuestra Marca",
-      "blockClass": "info-brands"
+      "blockClass": ["info-brands", "link-mobile-text"]
     }
   },
   "link#info-title-brands-mobile-2": {
@@ -168,7 +168,7 @@
     "props": {
       "href": "/",
       "label": "GENEROS",
-      "blockClass": "info-title-brands"
+      "blockClass": ["info-title-brands", "link-mobile-title"]
     }
   },
   "link#info-brands-1-mobile-2": {
@@ -176,7 +176,7 @@
     "props": {
       "href": "/",
       "label": "Mujer",
-      "blockClass": "info-brands"
+      "blockClass": ["info-brands", "link-mobile-text"]
     }
   },
   "link#info-brands-2-mobile-2": {
@@ -184,7 +184,7 @@
     "props": {
       "href": "/",
       "label": "Hombre",
-      "blockClass": "info-brands"
+      "blockClass": ["info-brands", "link-mobile-text"]
     }
   },
   "link#info-brands-3-mobile-2": {
@@ -192,7 +192,7 @@
     "props": {
       "href": "/",
       "label": "Junior",
-      "blockClass": "info-brands"
+      "blockClass": ["info-brands", "link-mobile-text"]
     }
   },
   "link#info-brands-4-mobile-2": {
@@ -200,7 +200,7 @@
     "props": {
       "href": "/",
       "label": "Accesorios",
-      "blockClass": "info-brands"
+      "blockClass": ["info-brands", "link-mobile-text"]
     }
   },
   "flex-layout.row#footer-4-mobile": {
@@ -217,7 +217,7 @@
     "props": {
       "href": "/",
       "label": "REDES SOCIALES",
-      "blockClass": "info-title-brands"
+      "blockClass": ["info-title-brands", "link-mobile-title"]
     }
   },
   "flex-layout.row#footer-5-mobile": {
@@ -237,7 +237,7 @@
     "props": {
       "href": "/",
       "label": "MEDIOS DE PAGO",
-      "blockClass": "info-title-brands"
+      "blockClass": ["info-title-brands", "link-mobile-title"]
     }
   },
   "flex-layout.row#medios-pago-logos": {
