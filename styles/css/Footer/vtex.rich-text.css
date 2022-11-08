@@ -41,4 +41,49 @@
     font-size: 17px !important;
     color: #000000 !important;
   }
+
+  .paragraph--textcopy {
+    font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  color: #FFFFFF;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+  .paragraph--text-one-footer {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .paragraph--text-one-footer {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 375px) {
+  .paragraph--textcopy {
+    font-size: 10px !important;
+  }
+
+  .paragraph--text-one-footer {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 1024px) {
+  .paragraph--text-one-footer, .paragraph--textcopy {
+    line-height: 22px;
+  }
+
+  .paragraph--text-one-footer {
+    font-size: 13px;
+  }
 }

@@ -250,18 +250,30 @@
   "flex-layout.col#medios-pago-1": {
     "props": { "blockClass": "medios-pago-1" },
     "children": [
-      "image#footer-4-image-brand",
-      "image#footer-4-image-brand",
-      "image#footer-4-image-brand",
-      "image#footer-4-image-brand",
-      "image#footer-4-image-brand",
-      "image#footer-4-image-brand"
+      "flex-layout.col#medios-pago-1-box-one",
+      "flex-layout.col#medios-pago-2-box-two"
+    ]
+  },
+  "flex-layout.col#medios-pago-1-box-one": {
+    "props": { "blockClass": "medios-pago-1-box" },
+    "children": [
+      "image#mercadolibre",
+      "image#baloto",
+      "image#pse"
+    ]
+  },
+  "flex-layout.col#medios-pago-2-box-two": {
+    "props": { "blockClass": "medios-pago-1-box" },
+    "children": [
+      "image#mastercard",
+      "image#american",
+      "image#visa"
     ]
   },
   "flex-layout.col#medios-pago-2": {
     "props": { "blockClass": "medios-pago-2" },
     "children": [
-      "image#footer-4-image-brand"
+      "image#whatsapp"
     ]
   },
   "flex-layout.row#footer-7-mobile": {
@@ -308,6 +320,55 @@
       "textPosition": "CENTER",
       "text": "Politicas de privacidad",
       "blockClass": "text-one-footer"
+    }
+  },
+  "image#mercadolibre": {
+    "props": {
+      "blockClass": "footer-4-image-brand",
+      "src": "/arquivos/mercadolibre.png",
+      "maxHeight": 28
+    }
+  },
+  "image#pse": {
+    "props": {
+      "blockClass": "footer-4-image-brand",
+      "src": "/arquivos/pse.png",
+      "maxHeight": 28
+    }
+  },
+  "image#baloto": {
+    "props": {
+      "blockClass": "footer-4-image-brand",
+      "src": "/arquivos/baloto.png",
+      "maxHeight": 28
+    }
+  },
+  "image#mastercard": {
+    "props": {
+      "blockClass": "footer-4-image-brand",
+      "src": "/arquivos/mastercard.png",
+      "maxHeight": 28
+    }
+  },
+  "image#american": {
+    "props": {
+      "blockClass": "footer-4-image-brand",
+      "src": "/arquivos/american.png",
+      "maxHeight": 28
+    }
+  },
+  "image#visa": {
+    "props": {
+      "blockClass": "footer-4-image-brand",
+      "src": "/arquivos/visa.png",
+      "maxHeight": 28
+    }
+  },
+  "image#whatsapp": {
+    "props": {
+      "blockClass": "footer-4-image-brand",
+      "src": "/arquivos/whatsapp.png",
+      "maxHeight": 60
     }
   }
 }

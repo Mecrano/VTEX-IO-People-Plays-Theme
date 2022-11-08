@@ -1,9 +1,9 @@
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .flexRow--footer-1-desktop,
-  .flexRow--footer-3-mobile,
-  .flexRow--footer-4-mobile,
-  .flexRow--footer-5-mobile,
-  .flexRow--footer-6-mobile  {
+  .flexRow--footer-3-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
     width: calc(300px - 15px * 2);
     margin: 0 auto;
   }
@@ -15,10 +15,10 @@
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
   .flexRow--footer-1-desktop,
-  .flexRow--footer-3-mobile,
-  .flexRow--footer-4-mobile,
-  .flexRow--footer-5-mobile,
-  .flexRow--footer-6-mobile  {
+  .flexRow--footer-3-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container)  {
     width: calc(360px - 15px * 2);
     margin: 0 auto;
   }
@@ -30,14 +30,19 @@
   .flexRowContent--footer-4-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     width: 60% !important;
   }
+
+  .flexRow--footer-7-mobile :global(.vtex-store-components-3-x-container) {
+    width: calc(360px - 10px * 2);
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
   .flexRow--footer-1-desktop,
-  .flexRow--footer-3-mobile,
-  .flexRow--footer-4-mobile,
-  .flexRow--footer-5-mobile,
-  .flexRow--footer-6-mobile  {
+  .flexRow--footer-3-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
     width: calc(420px - 20px * 2);
     margin: 0 auto;
   }
@@ -49,14 +54,19 @@
   .flexRowContent--footer-4-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     width: 50% !important;
   }
+
+  .flexRow--footer-7-mobile :global(.vtex-store-components-3-x-container) {
+    width: calc(480px - 40px * 2);
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .flexRow--footer-1-desktop,
-  .flexRow--footer-3-mobile,
-  .flexRow--footer-4-mobile,
-  .flexRow--footer-5-mobile,
-  .flexRow--footer-6-mobile  {
+  .flexRow--footer-3-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
     width: calc(730px - 20px * 2);
     margin: 0 auto;
   }
@@ -64,15 +74,25 @@
   .flexRowContent--footer-4-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     width: 40% !important;
   }
+
+  .flexRow--footer-7-mobile :global(.vtex-store-components-3-x-container) {
+    width: calc(800px - 40px * 2);
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .flexRow--footer-1-desktop,
-  .flexRow--footer-3-mobile,
-  .flexRow--footer-4-mobile,
-  .flexRow--footer-5-mobile,
-  .flexRow--footer-6-mobile {
+  .flexRow--footer-3-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
     width: calc(999px - 40px * 2);
+    margin: 0 auto;
+  }
+
+  .flexRow--footer-7-mobile :global(.vtex-store-components-3-x-container) {
+    width: calc(1080px - 40px * 2);
     margin: 0 auto;
   }
 
@@ -82,11 +102,45 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
+
+  .flexRow--footer-3-mobile,
+  .flexRow--footer-4-mobile,
+  .flexRow--footer-5-mobile,
+  .flexRow--footer-6-mobile {
+    background-color: #FFFFFF;
+  }
+
+.flexRow--footer-6-mobile {
+  padding-bottom: 20px;
+}
+
+  .flexCol--group-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .flexRow--footer-7-mobile {
+    padding-top: 20px;
+    background: #002F87;
+    padding-bottom: 10px;
+  }
+
+  .flexRowContent--footer-7-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--footer-7-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+    width: 100% !important;
+  }
+
   .flexRow--footer-1-desktop :global(.vtex-store-components-3-x-container),
   .flexRow--footer-3-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
+  .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--footer-7-mobile :global(.vtex-store-components-3-x-container){
     padding-left: 0;
     padding-right: 0;
   }
@@ -167,6 +221,24 @@
     width: 100% !important;
   }
 
+  .flexRowContent--footer-logos {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flexCol--medios-pago-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexCol--medios-pago-1-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 425px) {
   .flexRowContent--footer-logos :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     width: 80% !important;
   }
@@ -175,9 +247,21 @@
     width: 20% !important;
   }
 
-  .flexCol--medios-pago-1 {
-    display: flex;
-    flex-direction: row;
-    background-color: red;
+  .flexCol--medios-pago-1 .flexColChild--medios-pago-1:last-child {
+    width: 70% !important;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .flexRowContent--footer-logos :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+    width: 90% !important;
+  }
+
+  .flexRowContent--footer-logos :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+    width: 10% !important;
+  }
+
+  .flexCol--medios-pago-1 .flexColChild--medios-pago-1:last-child {
+    width: 58% !important;
   }
 }
