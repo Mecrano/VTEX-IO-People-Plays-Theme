@@ -33,10 +33,42 @@
   position: relative;
 }
 
-.flexRow--content-tab-item-figura {
-  background: red;
-  width: 500px;
-  height: 300px;
-
+.flexRowContent--content-tab {
+  position: relative;
 }
+
+.flexRow--content-tab-item-figura {
+  background:#002F87;
+  width: 100% !important;
+  height: 160px;
+  position: absolute;
+  bottom: -430px;
+  left: 0;
+}
+
+.flexRow--content-tab-item {
+  z-index: 1;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+
+@media screen and (min-width: 1400px) {
+
+  .flexRow--content-tab-item-figura {
+    background:#002F87;
+    width: 80.4%;
+    height: 160px;
+    position: absolute;
+    bottom: -250px;
+    left: 186px;
+  }
+
+  .flexRow--content-tab-item {
+    z-index: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 
