@@ -31,3 +31,20 @@
   line-height: 33px;
   color: #FFFFFF;
 }
+
+.paragraph--siempre-listos,
+.paragraph--infotext,
+.paragraph--slider-text,
+.paragraph--promocion {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+
+.paragraph--infotext {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+

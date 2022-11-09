@@ -15,7 +15,8 @@
 .flexRowContent--home-seccion-four :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 .flexRowContent--home-seccion-five :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 .flexRowContent--home-seccion-seven :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
-.flexRowContent--home-seccion-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+.flexRowContent--home-seccion-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+.flexRowContent--infocard :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: 100% !important;
 }
 
@@ -38,7 +39,7 @@
 }
 
 .flexRow--content-tab-item-figura {
-  background:#002F87;
+  background: #002F87;
   width: 100% !important;
   height: 160px;
   position: absolute;
@@ -52,11 +53,90 @@
   margin-right: 35px;
 }
 
+.flexRow--home-seccion-three,
+.flexRow--home-seccion-five {
+  margin-top: 30px;
+}
+
+.flexRow--home-seccion-five {
+  margin-bottom: 50px;
+}
+
+.flexRow--home-seccion-four {
+  padding-top: 20px;
+}
+
+.flexRowContent--group-images-text-one {
+  width: 300px;
+  height: 117.22px;
+  background: #FFFFFF;
+  border-radius: 6.40298px;
+  margin-right: 20px;
+}
+
+.flexRowContent--group-images-text-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+width: 30% !important;
+}
+
+.flexRowContent--group-images-text-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 70% !important;
+}
+
+.flexRow--home-seccion-seven {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  padding-bottom: 1.5rem;
+  clip-path: polygon(0 0, 100% 1%, 100% 100%, 5% 100%);
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.flexRowContent--home-seccion-six {
+  background-color: #FFFFFF;
+  align-items: center;
+}
+
+.flexRowContent--info-images :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 100% !important;
+}
+.flexRowContent--info-images :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 0% !important;
+}
+
+.flexRowContent--info-images :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 0% !important;
+}
+
+.flexRow--info-images-figura-one {
+  width: 873px;
+height: 350px;
+background: #062F87;
+border-radius: 4px;
+clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
+position: absolute;
+left:20px;
+bottom: 0;
+z-index: 1;
+}
+.flexRow--info-images-figura-two {
+  width: 814px;
+  height: 350px;
+  background: #FC701C;
+  border-radius: 4px;
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
+  position: absolute;
+left:50px;
+bottom: 0;
+}
+
+.flexRowContent--info-images {
+  position: relative;
+}
 
 @media screen and (min-width: 1400px) {
 
   .flexRow--content-tab-item-figura {
-    background:#002F87;
+    background: #002F87;
     width: 80.4% !important;
     height: 160px;
     position: absolute;
@@ -69,6 +149,8 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  .flexRow--home-seccion-seven {
+    margin-left: 190px;
+  }
 }
-
-

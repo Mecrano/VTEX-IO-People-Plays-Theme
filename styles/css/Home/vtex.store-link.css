@@ -23,10 +23,29 @@
   left: 783px;
 }
 
+.link--infotext {
+  text-decoration: none;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.label--infotext {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 42px;
+  color: #002F87;
+}
+
 @media screen and (min-width: 1400px) {
   .link--slider-link {
     position: absolute;
     top: 240px;
     left: 890px;
+  }
+
+  .link--infotext {
+    margin-left: 119px;
   }
 }

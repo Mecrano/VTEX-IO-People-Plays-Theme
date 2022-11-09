@@ -95,7 +95,7 @@
    ],
    "props": {
      "blockClass": "home1",
-     "defaultActiveTabId": "home-seccion-two"
+     "defaultActiveTabId": "home1"
    }
  },
  "tab-list#home-seccion-two": {
@@ -191,7 +191,6 @@
       "src": "/arquivos/ropa.png"
     }
   },
-
   "flex-layout.row#content-tab-two": {
     "title": "contenido tab",
     "props":{
@@ -213,7 +212,6 @@
       "src": "/arquivos/calzado.png"
     }
   },
-
   "flex-layout.row#content-tab-three": {
     "title": "contenido tab",
     "props":{
@@ -235,7 +233,6 @@
       "src": "/arquivos/accesorios.png"
     }
   },
-
   "flex-layout.row#content-tab-four": {
     "title": "contenido tab",
     "props":{
@@ -257,8 +254,6 @@
       "src": "/arquivos/sale.png"
     }
   },
-
-
   /* seccion three */
   "flex-layout.row#home-seccion-three": {
     "title": "block three",
@@ -278,22 +273,23 @@
   },
   "flex-layout.row#shelf1": {
     "title": "contenido vitrina",
-    "children": ["list-context.product-list#shelf"],
+    "children": ["list-context.product-list#productSlider"],
     "props": {
       "blockClass": "shelfComplete"
     }
   },
   "list-context.product-list#productSlider": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": ["product-summary.shelf#plp"],
     "children": ["slider-layout#products"],
     "props": {
+      "category": "9285",
       "orderBy": "OrderByTopSaleDESC"
     }
   },
   "slider-layout#products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 6,
+        "desktop": 3,
         "tablet": 3,
         "phone": 1
       },
@@ -310,7 +306,7 @@
     "props":{
       "blockClass": "home-seccion-four"
     },
-    "children":["slider-layout#text-home", "flex-layout.row#group-images-text"]
+    "children":["slider-layout#text-home", "slider-layout#text-slider"]
   },
   "slider-layout#text-home": {
     "title": "contenido slider texto",
@@ -321,38 +317,54 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "slider-text"
     },
     "children": ["rich-text#home1", "rich-text#home2", "rich-text#home3"]
   },
   "rich-text#home1": {
     "props": {
-      "text": "¿Por qué comprar en People Plays?"
+      "text": "¿Por qué comprar en People Plays?",
+      "blockClass": "slider-text"
     }
   },
   "rich-text#home2": {
     "props": {
-      "text": "¿Por qué comprar en People Plays?"
+      "text": "Beneficios en People Plays",
+      "blockClass": "slider-text"
     }
   },
   "rich-text#home3": {
     "props": {
-      "text": "¿Por qué comprar en People Plays?"
+      "text": "¿Por qué comprar en People Plays?",
+      "blockClass": "slider-text"
     }
   },
-  "flex-layout.row#group-images-text": {
-    "title": "contenido grupo images texto",
-    "props":{
-      "blockClass": "group-images-text"
+  "slider-layout#text-slider": {
+    "title": "text slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "slider-text-two",
+      "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": false
+      }
     },
-    "children":[
+    "children": [
       "flex-layout.row#group-images-text-one",
       "flex-layout.row#group-images-text-one",
       "flex-layout.row#group-images-text-one",
       "flex-layout.row#group-images-text-one",
       "flex-layout.row#group-images-text-one"
-    ]
+  ]
   },
   "flex-layout.row#group-images-text-one": {
     "title": "contenido item images texto",
@@ -433,12 +445,29 @@
     "props":{
       "blockClass": "home-seccion-six"
     },
-    "children":["image#seccion6", "flex-layout.row#infocard-lin-text"]
+    "children":["flex-layout.row#infocard-lin-text-one", "flex-layout.row#infocard-lin-text"]
+  },
+  "flex-layout.row#infocard-lin-text-one": {
+    "props":{
+      "blockClass": "info-images"
+    },
+    "children":["image#seccion6", "flex-layout.row#figura-one", "flex-layout.row#figura-two"]
+  },
+  "flex-layout.row#figura-one": {
+    "props":{
+      "blockClass": "info-images-figura-one"
+    }
+  },
+  "flex-layout.row#figura-two": {
+    "props":{
+      "blockClass": "info-images-figura-two"
+    }
   },
   "image#seccion6": {
     "title": "imagen infocard",
     "props": {
-      "src": "/arquivos/seccion6.png"
+      "src": "/arquivos/seccion6.png",
+      "blockClass": "image-explora"
     }
   },
   "flex-layout.row#infocard-lin-text": {
@@ -459,7 +488,8 @@
   "link#infolink": {
     "props": {
       "href": "/",
-      "label": "Guia de tallas para calzado"
+      "label": "Guia de tallas para calzado",
+      "blockClass": "infotext"
     }
   },
   /* seccion seven */
