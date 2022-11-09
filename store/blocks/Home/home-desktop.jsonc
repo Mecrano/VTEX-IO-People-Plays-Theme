@@ -26,15 +26,15 @@
       "height": 650,
       "images": [
         {
-          "image": "/arquivos/Desktop.png",
+          "image": "assets/home/Desktop.png",
           "description": "banner one"
         },
         {
-          "image": "/arquivos/Desktop.png",
+          "image": "assets/home/Desktop.png",
           "description": "banner two"
         },
         {
-          "image": "/arquivos/Desktop.png",
+          "image": "assets/home/Desktop.png",
           "description": "banner three"
         }
       ]
@@ -188,7 +188,7 @@
   },
   "image#image-tab-one": {
     "props": {
-      "src": "/arquivos/ropa.png",
+      "src": "assets/home/ropa.png",
       "blockClass": "image-tab-home"
     }
   },
@@ -210,7 +210,7 @@
   },
   "image#image-tab-two": {
     "props": {
-      "src": "/arquivos/calzado.png",
+      "src": "assets/home/calzado.png",
       "blockClass": "image-tab-home"
     }
   },
@@ -232,7 +232,7 @@
   },
   "image#image-tab-three": {
     "props": {
-      "src": "/arquivos/accesorios.png",
+      "src": "assets/home/accesorios.png",
       "blockClass": "image-tab-home"
     }
   },
@@ -254,7 +254,7 @@
   },
   "image#image-tab-four": {
     "props": {
-      "src": "/arquivos/sale.png",
+      "src": "assets/home/sale.png",
       "blockClass": "image-tab-home"
     }
   },
@@ -426,19 +426,19 @@
   },
   "image#seccion-5-one": {
     "props": {
-      "src": "/arquivos/seccion5.png",
+      "src": "assets/home/seccion5.png",
       "blockClass": "seccionFive"
     }
   },
   "image#seccion-5-two": {
     "props": {
-      "src": "/arquivos/seccion5-1.png",
+      "src": "assets/home/seccion5-1.png",
       "blockClass": "seccionFive"
     }
   },
   "image#seccion-5-three": {
     "props": {
-      "src": "/arquivos/seccion-5-2.png",
+      "src": "assets/home/seccion-5-2.png",
       "blockClass": "seccionFive"
     }
   },
@@ -476,7 +476,7 @@
   "image#seccion6": {
     "title": "imagen infocard",
     "props": {
-      "src": "/arquivos/seccion6.png",
+      "src": "assets/home/seccion6.png",
       "blockClass": "image-explora"
     }
   },
@@ -538,56 +538,56 @@
   "image#lotto": {
     "title": "imagen lotto",
     "props": {
-      "src": "/arquivos/lotto.png",
+      "src": "assets/home/lotto.png",
       "blockClass": "image-lotto"
     }
   },
   "image#adidas": {
     "title": "imagen lotto",
     "props": {
-      "src": "/arquivos/adidas.png",
+      "src": "assets/home/adidas.png",
       "blockClass": "image-lotto"
     }
   },
   "image#se": {
     "title": "imagen lotto",
     "props": {
-      "src": "/arquivos/se.png",
+      "src": "assets/home/se.png",
       "blockClass": "image-lotto"
     }
   },
   "image#fila": {
     "title": "imagen lotto",
     "props": {
-      "src": "/arquivos/fila.png",
+      "src": "assets/home/fila.png",
       "blockClass": "image-lotto"
     }
   },
   "image#rebook": {
     "title": "imagen lotto",
     "props": {
-      "src": "/arquivos/rebook.png",
+      "src": "assets/home/rebook.png",
       "blockClass": "image-lotto"
     }
   },
   "image#converse": {
     "title": "imagen lotto",
     "props": {
-      "src": "/arquivos/converse.png",
+      "src": "assets/home/converse.png",
       "blockClass": "image-lotto"
     }
   },
   "image#nike": {
     "title": "imagen lotto",
     "props": {
-      "src": "/arquivos/nile.png",
+      "src": "assets/home/nile.png",
       "blockClass": "image-lotto"
     }
   },
   "image#people": {
     "title": "imagen lotto",
     "props": {
-      "src": "/arquivos/peoples.png",
+      "src": "assets/home/peoples.png",
       "blockClass": "image-lotto"
     }
   }

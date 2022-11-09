@@ -329,49 +329,49 @@
   "image#mercadolibre": {
     "props": {
       "blockClass": "footer-4-image-brand",
-      "src": "/arquivos/mercadolibre.png",
+      "src": "assets/home/mercadolibre.png",
       "maxHeight": 28
     }
   },
   "image#pse": {
     "props": {
       "blockClass": "footer-4-image-brand",
-      "src": "/arquivos/pse.png",
+      "src": "assets/home/pse.png",
       "maxHeight": 28
     }
   },
   "image#baloto": {
     "props": {
       "blockClass": "footer-4-image-brand",
-      "src": "/arquivos/baloto.png",
+      "src": "assets/home/baloto.png",
       "maxHeight": 28
     }
   },
   "image#mastercard": {
     "props": {
       "blockClass": "footer-4-image-brand",
-      "src": "/arquivos/mastercard.png",
+      "src": "assets/home/mastercard.png",
       "maxHeight": 28
     }
   },
   "image#american": {
     "props": {
       "blockClass": "footer-4-image-brand",
-      "src": "/arquivos/american.png",
+      "src": "assets/home/american.png",
       "maxHeight": 28
     }
   },
   "image#visa": {
     "props": {
       "blockClass": "footer-4-image-brand",
-      "src": "/arquivos/visa.png",
+      "src": "assets/home/visa.png",
       "maxHeight": 28
     }
   },
   "image#whatsapp": {
     "props": {
       "blockClass": "footer-4-image-brand",
-      "src": "/arquivos/whatsapp.png",
+      "src": "assets/home/whatsapp.png",
       "maxHeight": 60
     }
   }
