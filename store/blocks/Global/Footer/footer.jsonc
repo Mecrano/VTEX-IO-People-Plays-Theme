@@ -160,6 +160,7 @@
     "children": ["flex-layout.col#info-4"]
   },
   "flex-layout.row#footer-3-desktop-col-1a": {
+    "props": { "blockClass": "footer-3-desktop-col-1a" },
     "children": [
       "flex-layout.col#info-1",
       "flex-layout.col#info-2",
