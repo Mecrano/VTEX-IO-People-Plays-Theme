@@ -419,17 +419,20 @@
   },
   "image#seccion-5-one": {
     "props": {
-      "src": "/arquivos/seccion5.png"
+      "src": "/arquivos/seccion5.png",
+      "blockClass": "seccionFive"
     }
   },
   "image#seccion-5-two": {
     "props": {
-      "src": "/arquivos/seccion5-1.png"
+      "src": "/arquivos/seccion5-1.png",
+      "blockClass": "seccionFive"
     }
   },
   "image#seccion-5-three": {
     "props": {
-      "src": "/arquivos/seccion-5-2.png"
+      "src": "/arquivos/seccion-5-2.png",
+      "blockClass": "seccionFive"
     }
   },
   /* seccion six */
@@ -515,15 +518,70 @@
       "blockClass": "marcas-group"
     },
     "children":[
-      "image#example",
-      "image#example",
-      "image#example",
-      "image#example",
-      "image#example",
-      "image#example",
-      "image#example",
-      "image#example"
+      "image#lotto",
+      "image#adidas",
+      "image#se",
+      "image#fila",
+      "image#rebook",
+      "image#converse",
+      "image#nike",
+      "image#people"
     ]
+  },
+  "image#lotto": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "/arquivos/lotto.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#adidas": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "/arquivos/adidas.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#se": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "/arquivos/se.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#fila": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "/arquivos/fila.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#rebook": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "/arquivos/rebook.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#converse": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "/arquivos/converse.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#nike": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "/arquivos/nile.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#people": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "/arquivos/peoples.png",
+      "blockClass": "image-lotto"
+    }
   }
-
 }

@@ -137,6 +137,13 @@ bottom: 0;
   z-index: 3;
 }
 
+.flexRowContent--marcas-group {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+
+}
+
 @media screen and (min-width: 1400px) {
 
   .flexRow--content-tab-item-figura {
@@ -156,5 +163,13 @@ bottom: 0;
 
   .flexRow--home-seccion-seven {
     margin-left: 190px;
+  }
+
+  .flexRow--info-images-figura-one {
+  height: 400px;
+  }
+
+  .flexRow--info-images-figura-two {
+    height: 370px;
   }
 }
