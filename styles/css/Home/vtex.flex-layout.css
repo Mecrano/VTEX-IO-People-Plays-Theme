@@ -57,7 +57,7 @@
 
   .flexRow--content-tab-item-figura {
     background:#002F87;
-    width: 80.4%;
+    width: 80.4% !important;
     height: 160px;
     position: absolute;
     bottom: -250px;

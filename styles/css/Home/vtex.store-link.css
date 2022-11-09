@@ -19,6 +19,14 @@
 
 .link--slider-link {
   position: absolute;
-  top: 240px;
-  left: 890px;
+  top: 210px;
+  left: 783px;
+}
+
+@media screen and (min-width: 1400px) {
+  .link--slider-link {
+    position: absolute;
+    top: 240px;
+    left: 890px;
+  }
 }
