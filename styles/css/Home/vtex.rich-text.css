@@ -52,3 +52,18 @@
   padding-left: 50px;
 }
 
+@media (max-width: 1024px) {
+  .paragraph--text-seccion-two {
+    font-size: 24px;
+  }
+
+  .paragraph--promocion,
+  .paragraph--slider-text,
+  .paragraph--siempre-listos {
+    font-size: 22px;
+  }
+
+  .paragraph--slider-text {
+    text-align: center;
+  }
+}

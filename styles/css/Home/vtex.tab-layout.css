@@ -28,4 +28,14 @@
   color: rgba(0, 47, 135, 0.5);
 }
 
+@media (max-width: 1024px) {
 
+  .listItemActive--home1 :global(.vtex-button__label),
+  .listItem--home1 :global(.vtex-button__label) {
+    font-size: 19px;
+  }
+
+  .listContainer--home1 {
+    flex-wrap: nowrap;
+  }
+}

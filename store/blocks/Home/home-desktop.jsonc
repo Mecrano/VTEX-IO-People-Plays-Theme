@@ -188,7 +188,8 @@
   },
   "image#image-tab-one": {
     "props": {
-      "src": "/arquivos/ropa.png"
+      "src": "/arquivos/ropa.png",
+      "blockClass": "image-tab-home"
     }
   },
   "flex-layout.row#content-tab-two": {
@@ -209,7 +210,8 @@
   },
   "image#image-tab-two": {
     "props": {
-      "src": "/arquivos/calzado.png"
+      "src": "/arquivos/calzado.png",
+      "blockClass": "image-tab-home"
     }
   },
   "flex-layout.row#content-tab-three": {
@@ -230,7 +232,8 @@
   },
   "image#image-tab-three": {
     "props": {
-      "src": "/arquivos/accesorios.png"
+      "src": "/arquivos/accesorios.png",
+      "blockClass": "image-tab-home"
     }
   },
   "flex-layout.row#content-tab-four": {
@@ -251,7 +254,8 @@
   },
   "image#image-tab-four": {
     "props": {
-      "src": "/arquivos/sale.png"
+      "src": "/arquivos/sale.png",
+      "blockClass": "image-tab-home"
     }
   },
   /* seccion three */
@@ -260,7 +264,10 @@
     "props":{
       "blockClass": "home-seccion-three"
     },
-    "children":["rich-text#promociones", "flex-layout.row#shelf1" ]
+    "children":["flex-layout.row#titles-promociones", "flex-layout.row#shelf1" ]
+  },
+  "flex-layout.row#titles-promociones":{
+    "children":["rich-text#promociones"]
   },
   "rich-text#promociones": {
     "title": "title",

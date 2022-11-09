@@ -2,3 +2,11 @@
   max-width: 40%;
 }
 
+@media (max-width: 1024px) {
+  .imageElement--image-tab-home,
+  .imageElement--seccionFive {
+    min-width: 328px !important;
+    max-width: 328px !important;
+  }
+
+}
