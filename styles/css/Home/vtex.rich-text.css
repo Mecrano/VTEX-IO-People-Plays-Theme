@@ -71,4 +71,8 @@
   .paragraph--slider-text {
     text-align: center;
   }
+
+  .paragraph--promocion {
+    padding-left: 0;
+  }
 }

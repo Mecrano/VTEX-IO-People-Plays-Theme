@@ -82,4 +82,8 @@
     width: 90%;
     margin: auto;
   }
+
+  .slide--shelfStyle1--visible{
+    margin-right: 20px;
+  }
 }

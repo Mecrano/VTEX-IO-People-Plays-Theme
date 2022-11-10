@@ -50,11 +50,11 @@
       "infinite": true,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
-      "blockClass": "slider-text-two",
+      "blockClass": "slider-text-two"/* ,
       "autoplay": {
-        "timeout": 2000,
+        "timeout": 5000,
         "stopOnHover": false
-      }
+      } */
     },
     "children": [
       "flex-layout.row#group-images-text-one",
