@@ -22,50 +22,54 @@
     "children": ["rich-text#home1", "rich-text#home2", "rich-text#home3"]
   },
   "rich-text#home1": {
+    "title": "title text 1",
     "props": {
       "text": "¿Por qué comprar en People Plays?",
       "blockClass": "slider-text"
     }
   },
   "rich-text#home2": {
+    "title": "title text 2",
     "props": {
       "text": "Beneficios en People Plays",
       "blockClass": "slider-text"
     }
   },
   "rich-text#home3": {
+    "title": "title text 3",
     "props": {
       "text": "¿Por qué comprar en People Plays?",
       "blockClass": "slider-text"
     }
   },
   "slider-layout#text-slider": {
-    "title": "text slider",
+    "title": "slider",
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 4,
-        "phone": 2
+        "tablet": 3,
+        "phone": 1
       },
       "infinite": true,
+      "navigationStep": 1,
       "showNavigationArrows": "never",
       "showPaginationDots": "never",
-      "blockClass": "slider-text-two"/* ,
+      "blockClass": "slider-text-two",
       "autoplay": {
         "timeout": 5000,
         "stopOnHover": false
-      } */
+      }
     },
     "children": [
       "flex-layout.row#group-images-text-one",
-      "flex-layout.row#group-images-text-one",
-      "flex-layout.row#group-images-text-one",
-      "flex-layout.row#group-images-text-one",
-      "flex-layout.row#group-images-text-one"
+      "flex-layout.row#group-images-text-two",
+      "flex-layout.row#group-images-text-three",
+      "flex-layout.row#group-images-text-four",
+      "flex-layout.row#group-images-text-five"
   ]
   },
   "flex-layout.row#group-images-text-one": {
-    "title": "contenido item images texto",
+    "title": "contenido item images texto 1",
     "props":{
       "blockClass": "group-images-text-one"
     },
@@ -75,17 +79,59 @@
     ]
   },
   "image#example": {
+    "title": "image",
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
       "maxHeight": 24
     }
   },
   "rich-text#text-group": {
+    "title": "title",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Pagos con Tarjeta de Débito, Crédito , Sistecredito y PSE",
       "blockClass": "text-group"
     }
+  },
+  "flex-layout.row#group-images-text-two": {
+    "title": "contenido item images texto 2",
+    "props":{
+      "blockClass": "group-images-text-one"
+    },
+    "children":[
+      "image#example",
+      "rich-text#text-group"
+    ]
+  },
+  "flex-layout.row#group-images-text-three": {
+    "title": "contenido item images texto 3",
+    "props":{
+      "blockClass": "group-images-text-one"
+    },
+    "children":[
+      "image#example",
+      "rich-text#text-group"
+    ]
+  },
+  "flex-layout.row#group-images-text-four": {
+    "title": "contenido item images texto 4",
+    "props":{
+      "blockClass": "group-images-text-one"
+    },
+    "children":[
+      "image#example",
+      "rich-text#text-group"
+    ]
+  },
+  "flex-layout.row#group-images-text-five": {
+    "title": "contenido item images texto 5",
+    "props":{
+      "blockClass": "group-images-text-one"
+    },
+    "children":[
+      "image#example",
+      "rich-text#text-group"
+    ]
   }
 }
