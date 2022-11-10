@@ -1,0 +1,90 @@
+{
+  "flex-layout.row#home-seccion-seven": {
+    "title": "block seven",
+    "props":{
+      "blockClass": "home-seccion-seven"
+    },
+    "children":["rich-text#marcas", "flex-layout.row#marcas-group"]
+  },
+  "rich-text#marcas": {
+    "title": "title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Encuentra tus productos por marca",
+      "blockClass": "infotext"
+    }
+  },
+  "flex-layout.row#marcas-group": {
+    "title": "contenido marcas group",
+    "props":{
+      "blockClass": "marcas-group"
+    },
+    "children":[
+      "image#lotto",
+      "image#adidas",
+      "image#se",
+      "image#fila",
+      "image#rebook",
+      "image#converse",
+      "image#nike",
+      "image#people"
+    ]
+  },
+  "image#lotto": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "assets/home/lotto.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#adidas": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "assets/home/adidas.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#se": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "assets/home/se.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#fila": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "assets/home/fila.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#rebook": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "assets/home/rebook.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#converse": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "assets/home/converse.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#nike": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "assets/home/nile.png",
+      "blockClass": "image-lotto"
+    }
+  },
+  "image#people": {
+    "title": "imagen lotto",
+    "props": {
+      "src": "assets/home/peoples.png",
+      "blockClass": "image-lotto"
+    }
+  }
+}

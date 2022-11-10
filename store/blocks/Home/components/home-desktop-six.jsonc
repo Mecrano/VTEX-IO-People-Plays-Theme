@@ -1,0 +1,61 @@
+{
+  "flex-layout.row#home-seccion-six": {
+    "title": "block six",
+    "props":{
+      "blockClass": "home-seccion-six"
+    },
+    "children":["flex-layout.row#infocard-home"]
+  },
+  "flex-layout.row#infocard-home": {
+    "title": "contenido infocard",
+    "props":{
+      "blockClass": "home-seccion-six"
+    },
+    "children":["flex-layout.row#infocard-lin-text-one", "flex-layout.row#infocard-lin-text"]
+  },
+  "flex-layout.row#infocard-lin-text-one": {
+    "props":{
+      "blockClass": "info-images"
+    },
+    "children":["image#seccion6", "flex-layout.row#figura-one", "flex-layout.row#figura-two"]
+  },
+  "flex-layout.row#figura-one": {
+    "props":{
+      "blockClass": "info-images-figura-one"
+    }
+  },
+  "flex-layout.row#figura-two": {
+    "props":{
+      "blockClass": "info-images-figura-two"
+    }
+  },
+  "image#seccion6": {
+    "title": "imagen infocard",
+    "props": {
+      "src": "assets/home/seccion6.png",
+      "blockClass": "image-explora"
+    }
+  },
+  "flex-layout.row#infocard-lin-text": {
+    "title": "container link text",
+    "props":{
+      "blockClass": "infocard"
+    },
+    "children":["rich-text#infotext", "link#infolink"]
+  },
+  "rich-text#infotext": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Explora la guía de tallas por marca",
+      "blockClass": "infotext"
+    }
+  },
+  "link#infolink": {
+    "props": {
+      "href": "/",
+      "label": "Guia de tallas para calzado",
+      "blockClass": "infotext"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "flex-layout.row#home-seccion-five": {
+    "title": "block five",
+    "props":{
+      "blockClass": "home-seccion-five"
+    },
+    "children":["rich-text#siempre-listos", "flex-layout.row#group-images"]
+  },
+  "rich-text#siempre-listos": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Siempre listos para cada ocasión",
+      "blockClass": "siempre-listos"
+    }
+  },
+  "flex-layout.row#group-images": {
+    "title": "block five",
+    "props":{
+      "blockClass": "group-images"
+    },
+    "children":[
+      "flex-layout.row#images-one",
+      "flex-layout.row#images-two",
+      "flex-layout.row#images-three"
+    ]
+  },
+  "flex-layout.row#images-one": {
+    "title": "container image - figura",
+    "props":{
+      "blockClass": "container-images-figura"
+    },
+    "children":[
+      "flex-layout.row#container-image",
+      "flex-layout.row#images-one-figura"
+    ]
+  },
+  "flex-layout.row#container-image": {
+    "title": "container image",
+    "props":{
+      "blockClass": "container-orange-two"
+    },
+    "children":[
+      "image#seccion-5-one"
+    ]
+  },
+  "flex-layout.row#images-one-figura": {
+    "title": "container figura",
+    "props":{
+      "blockClass": "containerImages-figura"
+    },
+    "children":[
+      "rich-text#figura-text",
+      "flex-layout.row#figura",
+  "image#figura"
+    ]
+  },
+  "flex-layout.row#figura": {
+    "title": "figura",
+    "props":{
+      "blockClass": "figura-orange"
+    }
+  },
+  "rich-text#figura-text": {
+    "title": "title figura",
+    "props": {
+      "text": "Encuentra lo necesario para sus actividades",
+      "blockClass": "figura-text"
+    }
+  },
+  "image#figura": {
+    "title": "image figura",
+    "props": {
+      "src": "assets/home/figura-five.png",
+      "blockClass": "figura-Five"
+    }
+  },
+  "flex-layout.row#images-two": {
+    "title": "container image - figura",
+    "props":{
+      "blockClass": "container-images-figura"
+    },
+    "children":[
+       "image#seccion-5-two",
+       "flex-layout.row#images-one-figura"
+    ]
+  },
+  "flex-layout.row#images-three": {
+    "title": "container image - figura",
+    "props":{
+      "blockClass": "container-images-figura"
+    },
+    "children":[
+      "image#seccion-5-three",
+      "flex-layout.row#images-one-figura"
+    ]
+  },
+  "image#seccion-5-one": {
+    "props": {
+      "src": "assets/home/seccion5.png",
+      "blockClass": "seccionFive"
+    }
+  },
+  "image#seccion-5-two": {
+    "props": {
+      "src": "assets/home/seccion5-1.png",
+      "blockClass": "seccionFive"
+    }
+  },
+  "image#seccion-5-three": {
+    "props": {
+      "src": "assets/home/seccion-5-2.png",
+      "blockClass": "seccionFive"
+    }
+  }
+}

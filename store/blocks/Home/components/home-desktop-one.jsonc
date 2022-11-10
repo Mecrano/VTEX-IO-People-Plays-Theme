@@ -1,0 +1,51 @@
+{
+  "flex-layout.row#home-seccion-one": {
+    "title": "block one",
+    "props":{
+      "blockClass": "home-seccion-one"
+    },
+    "children":["list-context.image-list#people-plays", "link#slider-link"]
+  },
+  "list-context.image-list#people-plays": {
+    "children": ["slider-layout#slider-home"],
+    "props": {
+      "height": 650,
+      "images": [
+        {
+          "image": "assets/home/Desktop.png",
+          "description": "banner one"
+        },
+        {
+          "image": "assets/home/Desktop.png",
+          "description": "banner two"
+        },
+        {
+          "image": "assets/home/Desktop.png",
+          "description": "banner three"
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-home": {
+    "title": "slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "slider-home"
+    }
+  },
+
+  "link#slider-link": {
+    "title": "title link",
+    "props": {
+      "href": "/",
+      "label": "Únete a People Plays",
+      "blockClass": "slider-link"
+    }
+  }
+}

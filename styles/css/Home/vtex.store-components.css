@@ -2,6 +2,10 @@
   max-width: 40%;
 }
 
+.imageElement--seccionFive {
+  z-index: 1;
+}
+
 @media (max-width: 1024px) {
   .imageElement--image-tab-home,
   .imageElement--seccionFive {

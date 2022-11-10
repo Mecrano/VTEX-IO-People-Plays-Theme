@@ -1,0 +1,189 @@
+{
+  "flex-layout.row#home-seccion-two": {
+    "title": "block two",
+    "props":{
+      "blockClass": "home-seccion-two"
+    },
+    "children":["rich-text#home-text-seccion-two", "tab-layout#home-seccion-two"]
+  },
+  "rich-text#home-text-seccion-two": {
+    "title": "title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Compras para grandes y pequeños en un mismo lugar",
+      "blockClass": "text-seccion-two"
+    }
+  },
+  "tab-layout#home-seccion-two": {
+    "title": "contenido  tab",
+   "children": [
+     "tab-list#home-seccion-two",
+     "tab-content#home-seccion-two"
+   ],
+   "props": {
+     "blockClass": "home1",
+     "defaultActiveTabId": "home1"
+   }
+ },
+ "tab-list#home-seccion-two": {
+   "children": [
+     "tab-list.item#home-seccion1",
+     "tab-list.item#home-seccion2",
+     "tab-list.item#home-seccion3"
+   ],
+   "props":{
+    "blockClass": "home1"
+   }
+ },
+ "tab-list.item#home-seccion1": {
+   "props": {
+     "tabId": "home1",
+     "label": "Hombre",
+     "defaultActiveTab": true,
+     "blockClass": "home1"
+   }
+ },
+ "tab-list.item#home-seccion2": {
+   "props": {
+     "tabId": "home2",
+     "label": "Mujer",
+     "blockClass": "home1"
+   }
+ },
+ "tab-list.item#home-seccion3": {
+    "props": {
+      "tabId": "home3",
+      "label": "Niños",
+      "blockClass": "home1"
+    }
+  },
+  "tab-content#home-seccion-two": {
+     "children": [
+       "tab-content.item#home-1",
+       "tab-content.item#home-2",
+       "tab-content.item#home-3"
+     ],
+     "props": {
+      "blockClass": "home1"
+    }
+   },
+   "tab-content.item#home-1": {
+     "children": ["flex-layout.row#content-tab", "flex-layout.row#content-tab-five"],
+     "props": { "tabId": "home1", "blockClass": "home1" }
+   },
+   "tab-content.item#home-2": {
+     "children": ["flex-layout.row#content-tab","flex-layout.row#content-tab-five"],
+     "props": { "tabId": "home2", "blockClass": "home1" }
+   },
+   "tab-content.item#home-3": {
+    "children": ["flex-layout.row#content-tab", "flex-layout.row#content-tab-five"],
+    "props": { "tabId": "home3", "blockClass": "home1" }
+  },
+  "flex-layout.row#content-tab": {
+    "title": "contenido tab",
+    "props":{
+      "blockClass": "content-tab"
+    },
+    "children":[
+      "flex-layout.row#content-tab-one",
+      "flex-layout.row#content-tab-two",
+      "flex-layout.row#content-tab-three",
+      "flex-layout.row#content-tab-four"
+    ]
+  },
+  "flex-layout.row#content-tab-five": {
+    "title": "libre figura",
+    "props":{
+      "blockClass": "content-tab-item-figura"
+    }
+  },
+  "flex-layout.row#content-tab-one": {
+    "title": "contenido tab",
+    "props":{
+      "blockClass": "content-tab-item"
+    },
+    "children":["image#image-tab-one", "rich-text#text-tab-one"]
+  },
+  "rich-text#text-tab-one": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Ropa",
+      "blockClass": "ropa"
+    }
+  },
+  "image#image-tab-one": {
+    "props": {
+      "src": "assets/home/ropa.png",
+      "blockClass": "image-tab-home"
+    }
+  },
+  "flex-layout.row#content-tab-two": {
+    "title": "contenido tab",
+    "props":{
+      "blockClass": "content-tab-item"
+    },
+    "children":["image#image-tab-two", "rich-text#text-tab-two"]
+  },
+  "rich-text#text-tab-two": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Calzado",
+      "blockClass": "ropa"
+    }
+  },
+  "image#image-tab-two": {
+    "props": {
+      "src": "assets/home/calzado.png",
+      "blockClass": "image-tab-home"
+    }
+  },
+  "flex-layout.row#content-tab-three": {
+    "title": "contenido tab",
+    "props":{
+      "blockClass": "content-tab-item"
+    },
+    "children":["image#image-tab-three", "rich-text#text-tab-three"]
+  },
+  "rich-text#text-tab-three": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Accesorios",
+      "blockClass": "ropa"
+    }
+  },
+  "image#image-tab-three": {
+    "props": {
+      "src": "assets/home/accesorios.png",
+      "blockClass": "image-tab-home"
+    }
+  },
+  "flex-layout.row#content-tab-four": {
+    "title": "contenido tab",
+    "props":{
+      "blockClass": "content-tab-item"
+    },
+    "children":["image#image-tab-four", "rich-text#text-tab-four"]
+  },
+  "rich-text#text-tab-four": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Sale",
+      "blockClass": "ropa"
+    }
+  },
+  "image#image-tab-four": {
+    "props": {
+      "src": "assets/home/sale.png",
+      "blockClass": "image-tab-home"
+    }
+  }
+}

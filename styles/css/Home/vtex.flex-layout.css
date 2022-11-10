@@ -143,11 +143,26 @@
   padding-top: 20px;
   padding-bottom: 10px;
   padding-left: 20px;
+}
 
+.flexRowContent--container-images-figura {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--containerImages-figura {
+display: flex;
+flex-direction: row;
+}
+
+
+.flexRow--figura-orange {
+  background-color: #FC701C;
+  width: 100px !important;
+  height: 100px;
 }
 
 @media screen and (min-width: 1400px) {
-
   .flexRow--content-tab-item-figura {
     background: #002F87;
     width: 80.4% !important;
@@ -200,8 +215,8 @@
   }
 }
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
   .info-images-figura-one{
 
   }
-}
+} */

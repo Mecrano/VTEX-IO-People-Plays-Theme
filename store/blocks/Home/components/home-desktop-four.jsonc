@@ -1,0 +1,91 @@
+{
+  "flex-layout.row#home-seccion-four": {
+    "title": "block four",
+    "props":{
+      "blockClass": "home-seccion-four"
+    },
+    "children":["slider-layout#text-home", "slider-layout#text-slider"]
+  },
+  "slider-layout#text-home": {
+    "title": "contenido slider texto",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "blockClass": "slider-text"
+    },
+    "children": ["rich-text#home1", "rich-text#home2", "rich-text#home3"]
+  },
+  "rich-text#home1": {
+    "props": {
+      "text": "¿Por qué comprar en People Plays?",
+      "blockClass": "slider-text"
+    }
+  },
+  "rich-text#home2": {
+    "props": {
+      "text": "Beneficios en People Plays",
+      "blockClass": "slider-text"
+    }
+  },
+  "rich-text#home3": {
+    "props": {
+      "text": "¿Por qué comprar en People Plays?",
+      "blockClass": "slider-text"
+    }
+  },
+  "slider-layout#text-slider": {
+    "title": "text slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "blockClass": "slider-text-two",
+      "autoplay": {
+        "timeout": 2000,
+        "stopOnHover": false
+      }
+    },
+    "children": [
+      "flex-layout.row#group-images-text-one",
+      "flex-layout.row#group-images-text-one",
+      "flex-layout.row#group-images-text-one",
+      "flex-layout.row#group-images-text-one",
+      "flex-layout.row#group-images-text-one"
+  ]
+  },
+  "flex-layout.row#group-images-text-one": {
+    "title": "contenido item images texto",
+    "props":{
+      "blockClass": "group-images-text-one"
+    },
+    "children":[
+      "image#example",
+      "rich-text#text-group"
+    ]
+  },
+  "image#example": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "rich-text#text-group": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Pagos con Tarjeta de Débito, Crédito , Sistecredito y PSE",
+      "blockClass": "text-group"
+    }
+  }
+}
