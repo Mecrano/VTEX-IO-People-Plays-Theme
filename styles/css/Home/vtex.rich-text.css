@@ -77,9 +77,14 @@
   }
 }
 
+
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .paragraph--slider-text{
     font-size: 13px;
+  }
+
+  .paragraph--infotext {
+    font-size: 15px !important;
   }
 }
 
@@ -87,11 +92,19 @@
   .paragraph--slider-text{
     font-size: 17px;
   }
+
+  .paragraph--infotext {
+    font-size: 15px !important;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
   .paragraph--text-group {
     font-size: 15px;
+  }
+
+  .paragraph--infotext {
+    font-size: 20px;
   }
 }
 

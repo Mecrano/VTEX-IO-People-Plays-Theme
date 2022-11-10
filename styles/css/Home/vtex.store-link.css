@@ -38,8 +38,46 @@
   color: #002F87;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .label--infotext {
+    font-size: 10px !important;
+    line-height: 0;
+  }
 
+  .link--infotext {
+    margin-left: 5px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .label--infotext {
+    font-size: 12px !important;
+    line-height: 0;
+  }
+
+  .link--infotext {
+    margin-left: 10px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .label--infotext {
+    font-size: 13px !important;
+    line-height: 0;
+  }
+
+  .link--infotext {
+    margin-left: 10px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+  .label--infotext {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 1400px) {

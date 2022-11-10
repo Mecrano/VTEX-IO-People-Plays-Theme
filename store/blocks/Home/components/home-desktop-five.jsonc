@@ -31,8 +31,8 @@
       "blockClass": "container-images-figura"
     },
     "children":[
-      "flex-layout.row#container-image",
-      "flex-layout.row#images-one-figura"
+      "flex-layout.row#container-image"/* ,
+      "flex-layout.row#images-one-figura" */
     ]
   },
   "flex-layout.row#container-image": {
@@ -52,7 +52,7 @@
     "children":[
       "rich-text#figura-text",
       "flex-layout.row#figura",
-  "image#figura"
+      "image#figura"
     ]
   },
   "flex-layout.row#figura": {
@@ -81,8 +81,8 @@
       "blockClass": "container-images-figura"
     },
     "children":[
-       "image#seccion-5-two",
-       "flex-layout.row#images-one-figura"
+       "image#seccion-5-two"/* ,
+       "flex-layout.row#images-one-figura" */
     ]
   },
   "flex-layout.row#images-three": {
@@ -91,8 +91,8 @@
       "blockClass": "container-images-figura"
     },
     "children":[
-      "image#seccion-5-three",
-      "flex-layout.row#images-one-figura"
+      "image#seccion-5-three"/* ,
+      "flex-layout.row#images-one-figura" */
     ]
   },
   "image#seccion-5-one": {
