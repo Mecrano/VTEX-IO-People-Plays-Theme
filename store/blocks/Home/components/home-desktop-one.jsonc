@@ -13,14 +13,17 @@
       "images": [
         {
           "image": "assets/home/Desktop.png",
+          "mobileImage": "assets/home/banner-mobile.png",
           "description": "banner one"
         },
         {
           "image": "assets/home/Desktop.png",
+          "mobileImage": "assets/home/banner-mobile.png",
           "description": "banner two"
         },
         {
           "image": "assets/home/Desktop.png",
+          "mobileImage": "assets/home/banner-mobile.png",
           "description": "banner three"
         }
       ]
@@ -34,8 +37,9 @@
         "tablet": 1,
         "phone": 1
       },
+      "fullWidth": true,
       "infinite": true,
-      "showNavigationArrows": "desktopOnly",
+      "showNavigationArrows": "always",
       "blockClass": "slider-home"
     }
   },

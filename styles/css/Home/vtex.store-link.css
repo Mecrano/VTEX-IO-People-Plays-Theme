@@ -38,9 +38,12 @@
   color: #002F87;
 }
 
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+}
+
 @media screen and (min-width: 1400px) {
   .link--slider-link {
-    position: absolute;
     top: 240px;
     left: 890px;
   }

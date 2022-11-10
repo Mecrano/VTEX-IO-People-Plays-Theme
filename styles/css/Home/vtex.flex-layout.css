@@ -151,8 +151,8 @@
 }
 
 .flexRowContent--containerImages-figura {
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -160,6 +160,17 @@ flex-direction: row;
   background-color: #FC701C;
   width: 100px !important;
   height: 100px;
+}
+
+.flexRowContent--slider-mobile-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.flexRowContent--slider-mobile-home :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
 }
 
 @media screen and (min-width: 1400px) {
@@ -220,3 +231,38 @@ flex-direction: row;
 
   }
 } */
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .flexRow--home-seccion-two {
+    width: calc(300px - 15px * 2);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .flexRow--home-seccion-two {
+    width: calc(360px - 15px * 2);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .flexRow--home-seccion-two {
+    width: calc(420px - 20px * 2);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .flexRow--home-seccion-two {
+    width: calc(730px - 20px * 2);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .flexRow--home-seccion-two {
+    width: calc(999px - 40px * 2);
+    margin: 0 auto;
+  }
+}

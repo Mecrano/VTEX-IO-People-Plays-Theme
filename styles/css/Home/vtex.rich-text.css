@@ -52,6 +52,11 @@
   padding-left: 50px;
 }
 
+.container--slider-text {
+  display: flex;
+  justify-content: center;
+}
+
 @media (max-width: 1024px) {
   .paragraph--text-seccion-two {
     font-size: 24px;

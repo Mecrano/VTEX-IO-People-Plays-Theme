@@ -1,15 +1,48 @@
 {
-  "responsive-layout.phone#home": {
+  "responsive-layout.mobile#home": {
     "title": "home mobile",
     "children": [
-      "list-context.image-list#people-plays",
-      "flex-layout.row#home-seccion-two",
+      "flex-layout.row#home-seccion-one-mobile",
+      "flex-layout.row#home-seccion-two"/*,
       "flex-layout.row#home-seccion-three",
       "flex-layout.row#home-seccion-four",
       "flex-layout.row#home-seccion-five",
       "flex-layout.row#home-seccion-six",
       "flex-layout.row#home-seccion-seven",
-      "flex-layout.row#home-seccion-three"
+      "flex-layout.row#home-seccion-three" */
     ]
+  },
+  "flex-layout.row#home-seccion-one-mobile": {
+    "children": [
+      "list-context.image-list#people-plays",
+      "flex-layout.row#slider-mobile"
+    ],
+    "props": {
+      "blockClass": "slider-mobile-home"
+    }
+  },
+  "flex-layout.row#slider-mobile":{
+    "children": [
+      "rich-text#slider-text",
+      "link#slider-link-mobile"
+    ],
+    "props": {
+      "blockClass": "slider-mobile-home"
+    }
+  },
+  "link#slider-link-mobile": {
+    "title": "title link",
+    "props": {
+      "href": "/",
+      "label": "Únete a People Plays",
+      "blockClass": "slider-link-mobile"
+    }
+  },
+  "rich-text#slider-text": {
+    "title": "title text",
+    "props": {
+      "text": "People Plays se mueve contigo, <br/> a cualquier lugar",
+      "blockClass": "slider-text"
+    }
   }
 }
