@@ -148,6 +148,7 @@
 .flexRowContent--container-images-figura {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .flexRowContent--containerImages-figura {
@@ -155,11 +156,15 @@
   flex-direction: row;
 }
 
-
 .flexRow--figura-orange {
+  position: absolute;
+  bottom: 0;
+  right: 0;
   background-color: #FC701C;
-  width: 100px !important;
-  height: 100px;
+  clip-path: polygon(0 1%, 100% 0, 100% 100%, 15% 100%);
+  width: 95% !important;
+  height: 110px;
+  z-index: 1;
 }
 
 .flexRowContent--slider-mobile-home {
@@ -176,6 +181,23 @@
 .flexRowContent--home-seccion-six {
   display: flex;
   flex-direction: row;
+}
+
+.flexRow--home-seccion-five {
+  margin-left: 50px;
+    margin-right: 40px;
+}
+
+.flexRowContent--container-orange-two {
+  margin-right: 10px;
+}
+
+.flexRowContent--group-images :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  margin-right: 20px;
+}
+
+.flexRowContent--group-images :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  margin-right: 0;
 }
 
 @media screen and (min-width: 1400px) {
@@ -245,6 +267,11 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
+  .flexRow--figura-orange {
+    height: 85px;
+    right: -8px;
+  }
+
   .flexRowContent--marcas-group {
     width: 700px;
     display: flex;
@@ -289,6 +316,12 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
+
+  .flexRow--figura-orange {
+    height: 90px;
+    right: -8px;
+  }
+
   .flexRowContent--marcas-group {
     width: 800px;
     display: flex;
@@ -316,6 +349,12 @@
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
+  .flexRow--figura-orange {
+    width: 85% !important;
+    height: 85px;
+    right: 14px;
+  }
+
   .flexRow--home-seccion-two,
   .flexRow--home-seccion-three,
   .flexRow--mobile,
@@ -338,6 +377,11 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
+  .flexRow--figura-orange {
+    width: 89% !important;
+    height: 90px;
+    right: 11px;
+  }
   .flexRow--home-seccion-two,
   .flexRow--home-seccion-three,
   .flexRow--mobile,
@@ -365,6 +409,13 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .flexRow--figura-orange {
+    width: 87% !important;
+    height: 90px;
+    right: 12px;
+  }
+
+
   .flexRow--home-seccion-two,
   .flexRow--home-seccion-three,
   .flexRow--mobile,

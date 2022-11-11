@@ -69,6 +69,21 @@
   position: relative;
 }
 
+.paragraph--figura-text {
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 2;
+color: #FFFFFF;
+width: 200px;
+}
+
 @media (max-width: 1024px) {
   .paragraph--text-seccion-two {
     font-size: 24px;
@@ -104,6 +119,24 @@
   }
 }
 
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .paragraph--figura-text {
+    left: 50px;
+     font-size: 13px;
+     width: 150px;
+  }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .paragraph--figura-text {
+     left: 70px;
+     font-size: 16px;
+     width: 180px;
+  }
+}
+
+
 @media screen and (min-width: 321px) and (max-width: 425px) {
   .paragraph--slider-text{
     font-size: 17px;
@@ -111,6 +144,10 @@
 
   .paragraph--infotext {
     font-size: 15px !important;
+  }
+
+  .paragraph--figura-text {
+    bottom: 20px;
   }
 }
 
@@ -123,5 +160,20 @@
     font-size: 20px;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .paragraph--figura-text {
+    left: 120px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .paragraph--figura-text {
+    bottom: 20px;
+    left: 70px;
+  }
+}
+
+
 
 

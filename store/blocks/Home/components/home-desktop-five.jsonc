@@ -31,8 +31,10 @@
       "blockClass": "container-images-figura"
     },
     "children":[
-      "flex-layout.row#container-image"/* ,
-      "flex-layout.row#images-one-figura" */
+      "flex-layout.row#container-image",
+      "rich-text#figura-text",
+      "flex-layout.row#figura",
+      "image#figura"
     ]
   },
   "flex-layout.row#container-image": {
@@ -44,17 +46,7 @@
       "image#seccion-5-one"
     ]
   },
-  "flex-layout.row#images-one-figura": {
-    "title": "container figura",
-    "props":{
-      "blockClass": "containerImages-figura"
-    },
-    "children":[
-      "rich-text#figura-text",
-      "flex-layout.row#figura",
-      "image#figura"
-    ]
-  },
+
   "flex-layout.row#figura": {
     "title": "figura",
     "props":{
@@ -81,9 +73,18 @@
       "blockClass": "container-images-figura"
     },
     "children":[
-       "image#seccion-5-two"/* ,
-       "flex-layout.row#images-one-figura" */
+       "image#seccion-5-two",
+       "rich-text#figura-text-two",
+      "flex-layout.row#figura",
+      "image#figura"
     ]
+  },
+  "rich-text#figura-text-two": {
+    "title": "title figura",
+    "props": {
+      "text": "Tenemos todo para tus entrenamientos",
+      "blockClass": "figura-text"
+    }
   },
   "flex-layout.row#images-three": {
     "title": "container image - figura",
@@ -91,10 +92,20 @@
       "blockClass": "container-images-figura"
     },
     "children":[
-      "image#seccion-5-three"/* ,
-      "flex-layout.row#images-one-figura" */
+      "image#seccion-5-three",
+      "rich-text#figura-text-three",
+      "flex-layout.row#figura",
+      "image#figura"
     ]
   },
+  "rich-text#figura-text-three": {
+    "title": "title figura",
+    "props": {
+      "text": "Ropa de temporada para la familia al mejor precio",
+      "blockClass": "figura-text"
+    }
+  },
+
   "image#seccion-5-one": {
     "props": {
       "src": "assets/home/seccion5.png",
