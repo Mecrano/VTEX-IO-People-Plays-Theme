@@ -13,4 +13,7 @@
     max-width: 328px !important;
   }
 
+  .imageElement--image-lotto {
+    max-width: 60%;
+  }
 }

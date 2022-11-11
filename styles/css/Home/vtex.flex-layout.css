@@ -208,6 +208,13 @@
 }
 
 @media (max-width: 1024px) {
+
+  .flexRow--marcas-group {
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+  }
+
   .flexRow--content-tab {
     overflow-y: auto;
   }
@@ -232,6 +239,11 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
+  .flexRowContent--marcas-group {
+    width: 700px;
+    display: flex;
+  }
+
   .flexRowContent--home-seccion-five {
     padding-bottom: 40px;
   }
@@ -240,7 +252,8 @@
   .flexRow--home-seccion-three,
   .flexRow--home-seccion-four,
   .flexRow--home-seccion-five,
-  .flexRow--home-seccion-six  {
+  .flexRow--home-seccion-six,
+  .flexRow--home-seccion-seven  {
     width: calc(300px - 15px * 2);
     margin: 0 auto;
   }
@@ -270,11 +283,17 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
+  .flexRowContent--marcas-group {
+    width: 800px;
+    display: flex;
+  }
+
   .flexRow--home-seccion-two,
   .flexRow--home-seccion-three,
   .flexRow--home-seccion-four,
   .flexRow--home-seccion-five,
-  .flexRow--home-seccion-six  {
+  .flexRow--home-seccion-six,
+  .flexRow--home-seccion-seven   {
     width: calc(360px - 15px * 2);
     margin: 0 auto;
   }
@@ -295,7 +314,8 @@
   .flexRow--home-seccion-three,
   .flexRow--home-seccion-four,
   .flexRow--home-seccion-five,
-  .flexRow--home-seccion-six  {
+  .flexRow--home-seccion-six,
+  .flexRow--home-seccion-seven   {
     width: calc(420px - 20px * 2);
     margin: 0 auto;
   }
@@ -316,7 +336,8 @@
   .flexRow--home-seccion-three,
   .flexRow--home-seccion-four,
   .flexRow--home-seccion-five,
-  .flexRow--home-seccion-six  {
+  .flexRow--home-seccion-six,
+  .flexRow--home-seccion-seven   {
     width: calc(730px - 20px * 2);
     margin: 0 auto;
   }
@@ -342,7 +363,8 @@
   .flexRow--home-seccion-three,
   .flexRow--home-seccion-four,
   .flexRow--home-seccion-five,
-  .flexRow--home-seccion-six {
+  .flexRow--home-seccion-six,
+  .flexRow--home-seccion-seven  {
     width: calc(999px - 40px * 2);
     margin: 0 auto;
   }
@@ -378,3 +400,21 @@
   }
 }
 
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  /* slider css */
+  .flexRowContent--marcas-group {
+    width: 1000px;
+    display: flex;
+  }
+  /* slider css */
+  }
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+/* slider css */
+.flexRowContent--marcas-group {
+  width: 1800px;
+  display: flex;
+}
+/* slider css */
+}
