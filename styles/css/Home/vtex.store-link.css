@@ -6,6 +6,12 @@
   color: #FFFFFF;
 }
 
+.label--slider-link::after {
+  content: "→";
+  font-size: 35px;
+  margin-left: 10px;
+}
+
 .link--slider-link {
   text-decoration: none;
   width: 343.68px !important;
@@ -40,12 +46,12 @@
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .label--infotext {
-    font-size: 10px !important;
+    font-size: 8px !important;
     line-height: 0;
   }
 
   .link--infotext {
-    margin-left: 5px;
+    margin-left: 15px;
     margin-top: 0;
   }
 }
@@ -77,6 +83,31 @@
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .label--infotext {
     font-size: 18px;
+  }
+
+  .link--slider-link-mobile {
+    width: 244.9px !important;
+    height: 62px;
+    background: #FC701C;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  .label--slider-link-mobile {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 165.5%;
+    color: #FFFFFF;
+  }
+
+  .label--slider-link-mobile::after {
+    content: "→";
+    font-size: 35px;
+    margin-left: 10px;
   }
 }
 

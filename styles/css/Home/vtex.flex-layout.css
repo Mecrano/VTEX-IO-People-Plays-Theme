@@ -209,6 +209,12 @@
 
 @media (max-width: 1024px) {
 
+  .flexRow--orange-slider {
+    background-color: #FFFFFF;
+    margin-top: 60px;
+    padding-bottom: 20px;
+  }
+
   .flexRow--marcas-group {
     overflow-y: auto;
     width: 100%;
@@ -250,10 +256,10 @@
 
   .flexRow--home-seccion-two,
   .flexRow--home-seccion-three,
-  .flexRow--home-seccion-four,
+  .flexRow--mobile,
   .flexRow--home-seccion-five,
   .flexRow--home-seccion-six,
-  .flexRow--home-seccion-seven  {
+  .flexRow--orange-slider :global(.vtex-store-components-3-x-container) {
     width: calc(300px - 15px * 2);
     margin: 0 auto;
   }
@@ -290,10 +296,10 @@
 
   .flexRow--home-seccion-two,
   .flexRow--home-seccion-three,
-  .flexRow--home-seccion-four,
+  .flexRow--mobile,
   .flexRow--home-seccion-five,
   .flexRow--home-seccion-six,
-  .flexRow--home-seccion-seven   {
+  .flexRow--orange-slider :global(.vtex-store-components-3-x-container)  {
     width: calc(360px - 15px * 2);
     margin: 0 auto;
   }
@@ -312,10 +318,10 @@
 @media screen and (min-width: 376px) and (max-width: 425px) {
   .flexRow--home-seccion-two,
   .flexRow--home-seccion-three,
-  .flexRow--home-seccion-four,
+  .flexRow--mobile,
   .flexRow--home-seccion-five,
   .flexRow--home-seccion-six,
-  .flexRow--home-seccion-seven   {
+  .flexRow--orange-slider :global(.vtex-store-components-3-x-container)   {
     width: calc(420px - 20px * 2);
     margin: 0 auto;
   }
@@ -334,10 +340,10 @@
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .flexRow--home-seccion-two,
   .flexRow--home-seccion-three,
-  .flexRow--home-seccion-four,
+  .flexRow--mobile,
   .flexRow--home-seccion-five,
   .flexRow--home-seccion-six,
-  .flexRow--home-seccion-seven   {
+  .flexRow--orange-slider :global(.vtex-store-components-3-x-container)   {
     width: calc(730px - 20px * 2);
     margin: 0 auto;
   }
@@ -361,10 +367,10 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .flexRow--home-seccion-two,
   .flexRow--home-seccion-three,
-  .flexRow--home-seccion-four,
+  .flexRow--mobile,
   .flexRow--home-seccion-five,
   .flexRow--home-seccion-six,
-  .flexRow--home-seccion-seven  {
+  .flexRow--orange-slider :global(.vtex-store-components-3-x-container)  {
     width: calc(999px - 40px * 2);
     margin: 0 auto;
   }

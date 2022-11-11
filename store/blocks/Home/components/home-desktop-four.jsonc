@@ -2,7 +2,7 @@
   "flex-layout.row#home-seccion-four": {
     "title": "block four",
     "props":{
-      "blockClass": "home-seccion-four"
+      "blockClass": ["home-seccion-four", "mobile"]
     },
     "children":["slider-layout#text-home", "slider-layout#text-slider"]
   },

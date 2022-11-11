@@ -1,9 +1,21 @@
 {
   "flex-layout.row#home-seccion-eight": {
     "title": "block eight",
-    "children":["flex-layout.row#titles-promociones", "flex-layout.row#shelf1"],
+    "children":["flex-layout.row#titles-promociones-mobile", "flex-layout.row#shelf1"],
     "props": {
       "blockClass": "home-seccion-three"
+    }
+  },
+   "flex-layout.row#titles-promociones-mobile":{
+    "children":["rich-text#promociones-mobile"]
+  },
+  "rich-text#promociones-mobile": {
+    "title": "title",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Promociones",
+      "blockClass": "promocion"
     }
   }
 }

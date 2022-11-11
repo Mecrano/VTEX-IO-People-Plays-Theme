@@ -78,6 +78,35 @@
 }
 
 @media (max-width: 1024px) {
+
+  .sliderLeftArrow--slider-home {
+    margin-left: 0;
+  }
+
+  .sliderRightArrow--slider-home {
+    margin-right: 0;
+  }
+
+  .sliderLeftArrow--slider-home,
+  .sliderRightArrow--slider-home {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sliderLeftArrow--orange-slider,
+  .sliderRightArrow--orange-slider {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1.15152px solid #ED752D;
+  }
+
+  .caretIcon--orange-slider {
+    width: 7.13px;
+    height: 7.13px;
+    color: #ED752D;
+  }
+
   .slideChildrenContainer--slider-text {
     width: 90%;
     margin: auto;
