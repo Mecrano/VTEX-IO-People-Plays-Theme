@@ -1,0 +1,252 @@
+{
+  "stack-layout#product--images--container": {
+    "children": [
+			"product-images#product--images",
+		 	"product-price-savings"
+		]
+  },
+	"product-price-savings":{
+		"props":{
+			"message": "savingsPercentage"
+		}
+	},
+  "product-images#product--images": {
+    "props": {
+      "blockClass": ["product--images"],
+      "thumbnailsOrientation": "horizontal",
+      "displayThumbnailsArrows": true,
+      "showPaginationDots": false,
+      "showNavigationArrows": false,
+      "thumbnailAspectRatio": "1:1"
+    }
+  },
+  "product-selling-price#priduct--price--selling": {
+    "props": {
+      "blockClass": ["product--price--selling"]
+    }
+  },
+  "product-list-price#priduct--price--list": {
+    "props": {
+      "blockClass": ["product--price--list"]
+    }
+  },
+  "sku-selector#product": {
+    "props": {
+      "hideImpossibleCombinations": false,
+      "blockClass": "product--sku-selector"
+    }
+  },
+  "product-quantity#product--quantity-selector": {
+    "props": {
+      "warningQuantityThreshold": 9999999,
+      "showUnit": false
+
+    }
+  },
+  "product-availability#product--stock": {
+    "props": {
+      "blockClass": "product--stock",
+      "lowStockMessage": "{quantity} en Stock!",
+			"highStockMessage": "{quantity} en Stock!",
+			"showAvailability": "stock",
+			"showAvailabilityMessage": "{quantity} en Stock!"
+    }
+  },
+  "disclosure-layout-group#product--disclosure-group": {
+    "children": [
+      "disclosure-layout#product--description--disclosure",
+      "disclosure-layout#product--info--disclosure",
+      "disclosure-layout#product--warranty--disclosure",
+      "disclosure-layout#product--careful--disclosure",
+      "disclosure-layout#product--payment-methods--disclosure"
+    ],
+    "props": {
+      "blockClass": ["description-disclosure"]
+    }
+  },
+
+  "disclosure-layout#product--description--disclosure": {
+    "children": [
+      "disclosure-trigger#description",
+      "disclosure-content#description"
+    ],
+    "props": {
+      "blockClass": ["description-disclosure", "product--disclosure"]
+    }
+  },
+  "disclosure-trigger#description": {
+    "children": ["rich-text#product--disclosures--description-title"],
+    "props": {
+      "blockClass": ["description-disclosure", "product--disclosure--title"]
+    }
+  },
+  "disclosure-content#description": {
+    "children": ["product-description"],
+    "props": {
+      "blockClass": ["description-disclosure", "product--disclosure--content"]
+    }
+  },
+  "rich-text#product--disclosures--description-title": {
+    "props": {
+      "text": "Descripción"
+    }
+  },
+  "product-description": {
+    "props": {
+      "showTitle": false
+    }
+  },
+  "disclosure-layout#product--info--disclosure": {
+    "children": ["disclosure-trigger#info", "disclosure-content#info"],
+    "props": {
+      "blockClass": ["info-disclosure", "product--disclosure"]
+    }
+  },
+  "disclosure-trigger#info": {
+    "children": ["rich-text#product--disclosures--info-title"],
+    "props": {
+      "blockClass": ["info-disclosure", "product--disclosure--title"]
+    }
+  },
+  "disclosure-content#info": {
+    "children": ["rich-text#product--disclosures--info-title"],
+    "props": {
+      "blockClass": [
+        "product--disclosures--info",
+        "product--disclosure--content"
+      ]
+    }
+  },
+  "rich-text#product--disclosures--info-title": {
+    "props": {
+      "text": "Información de producto"
+    }
+  },
+  "disclosure-layout#product--warranty--disclosure": {
+    "children": ["disclosure-trigger#warranty", "disclosure-content#warranty"],
+    "props": {
+      "blockClass": ["warranty-disclosure", "product--disclosure"]
+    }
+  },
+  "disclosure-trigger#warranty": {
+    "children": ["rich-text#product--disclosures--warranty-title"],
+    "props": {
+      "blockClass": ["warranty-disclosure", "product--disclosure--title"]
+    }
+  },
+  "disclosure-content#warranty": {
+    "children": ["rich-text#product--disclosures--warranty-title"],
+    "props": {
+      "blockClass": [
+        "product--disclosures--warranty",
+        "product--disclosure--content"
+      ]
+    }
+  },
+  "rich-text#product--disclosures--warranty-title": {
+    "props": {
+      "text": "Garantía"
+    }
+  },
+  "disclosure-layout#product--payment-methods--disclosure": {
+    "children": [
+      "disclosure-trigger#payment-methods",
+      "disclosure-content#payment-methods"
+    ],
+    "props": {
+      "blockClass": ["payment-methods-disclosure", "product--disclosure"]
+    }
+  },
+  "disclosure-trigger#payment-methods": {
+    "children": ["rich-text#product--disclosures--payment-methods-title"],
+    "props": {
+      "blockClass": ["payment-methods-disclosure", "product--disclosure--title"]
+    }
+  },
+  "disclosure-content#payment-methods": {
+    "children": ["rich-text#product--disclosures--payment-methods-title"],
+    "props": {
+      "blockClass": [
+        "product--disclosures--payment-methods",
+        "product--disclosure--content"
+      ]
+    }
+  },
+  "rich-text#product--disclosures--payment-methods-title": {
+    "props": {
+      "text": "Métodos de pago"
+    }
+  },
+  "disclosure-layout#product--careful--disclosure": {
+    "children": ["disclosure-trigger#careful", "disclosure-content#careful"],
+    "props": {
+      "blockClass": ["careful-disclosure", "product--disclosure"]
+    }
+  },
+  "disclosure-trigger#careful": {
+    "children": ["rich-text#product--disclosures--careful-title"],
+    "props": {
+      "blockClass": ["careful-disclosure-title", "product--disclosure--title"]
+    }
+  },
+  "disclosure-content#careful": {
+    "children": ["rich-text#product--disclosures--careful-title"],
+    "props": {
+      "blockClass": [
+        "careful-disclosure-content",
+        "product--disclosure--content"
+      ]
+    }
+  },
+  "rich-text#product--disclosures--careful-title": {
+    "props": {
+      "text": "Cuidados"
+    }
+  },
+  "add-to-cart-button#product--add-to-cart": {
+    "props": {
+      "text": "Añadir al carrito"
+    }
+  },
+  "add-to-list-btn#product--favorites": {
+    "props": {
+      "blockClass": "product--favorites"
+    }
+  },
+  "image#newsletter-image": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
+      "maxHeight": 24
+    }
+  },
+  "rich-text#product--shelf-1--title": {
+    "props": {
+			"text": "Acompañalo con ",
+      "blockClass": "product--shelf--titles"
+    }
+  },
+  "rich-text#product--shelf--more": {
+    "props": {
+      "text": "Ver más",
+      "blockClass": "product--shelf--titles-ver-mas"
+    }
+  },
+  "rich-text#product--shelf-2--title": {
+    "props": {
+      "text": "productos relacionados",
+      "blockClass": "product--shelf--titles"
+    }
+  },
+	"breadcrumb#product--bradcrumb": {
+    "props": {
+      "showOnMobile": true,
+			"blockclass": "breadcrumb--plp"
+    }
+  },
+	"product-identifier.product":{
+		"props": {
+			"blockClass": ["product--identifier"],
+			"idField": "skuReferenceId"
+		}
+	}
+}

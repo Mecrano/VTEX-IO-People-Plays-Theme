@@ -1,0 +1,44 @@
+.quantitySelectorContainer{
+    padding-left: 30px;
+}
+
+.quantitySelectorContainer .availableQuantityContainer{
+    display: none;
+}
+
+.quantitySelectorTitle{
+    font-family: "Mukta";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    padding-block: 4px;
+}
+
+:global(.vtex-numeric-stepper__input){
+    border-inline: none;
+    color: #062F87;
+}
+
+:global(.vtex-numeric-stepper__plus-button),
+:global(.vtex-numeric-stepper__minus-button){
+    background-color: #fff;
+}
+
+:global(.vtex-numeric-stepper__plus-button-container) :global(.vtex-numeric-stepper__plus-button__text),
+:global(.vtex-numeric-stepper__minus-button-container) :global(.vtex-numeric-stepper__minus-button__text){
+    color: #062F87;
+}
+
+:global(.vtex-numeric-stepper__input),
+:global(.vtex-numeric-stepper__plus-button),
+:global(.vtex-numeric-stepper__minus-button){
+    border-color: #062F87;
+    height: 40px;
+}
+
+:global(.vtex-numeric-stepper__input ){
+    width: 30px;
+}

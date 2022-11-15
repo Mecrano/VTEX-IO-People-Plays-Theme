@@ -1,0 +1,25 @@
+.container{
+    background-color: #fff;
+}
+
+.homeIcon{
+    display: none;
+}
+
+.homeLink::after{
+    content: url(/arquivos/Group.svg);
+    color: #FC701C;
+    width: 24.28px;
+}
+
+.link,
+.term,
+.link:hover,
+.term:hover{
+    font-family: 'Mukta' !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+    line-height: 40px !important;
+    color: #000000;
+}

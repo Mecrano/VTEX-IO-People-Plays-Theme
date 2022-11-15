@@ -1,0 +1,27 @@
+.flexCol--product--details--container-col .flexColChild--product--details--container-col:last-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCol--product--details--container-col{
+    padding: 5vw;
+}
+
+.flexRowContent--product--prices--container .stretchChildrenWidth{
+    justify-content: flex-start;
+    width: max-content !important;
+}
+
+.sellingPrice--product--price--selling,
+.listPrice--product--price--list{
+    width: max-content;
+}
+
+.flexRow--product--details--container{
+    padding-bottom: 31px;
+    border-bottom: 1px solid #062F8740;
+}
+
+.flexCol--product--rating-price--container{
+    padding-left: 30px;
+}
