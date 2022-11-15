@@ -9,7 +9,9 @@
       "menu-item#category-mujer",
       "menu-item#category-hombre",
       "menu-item#category-ninos",
-      "menu-item#sales"
+      "menu-item#category-deportes",
+      "menu-item#sales",
+      "menu-item#hot"
     ]
   },
   "menu-item#category-marcas": {
@@ -27,52 +29,251 @@
         "text": "Marcas"
       }
     },
-    "blocks": ["submenu#header-doble-menu"]
+    "blocks": ["submenu#header_sub-menu"]
   },
-  "submenu#header-doble-menu": {
+
+  "menu-item#category-mujer": {
+    "props": {
+      "id": "menu-item-category-mujer",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/mujer",
+        "noFollow": false,
+        "tagTitle": "Mujer",
+        "text": "Mujer"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu"]
+  },
+
+  "menu-item#category-hombre": {
+    "props": {
+      "id": "menu-item-category-hombre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombre",
+        "noFollow": false,
+        "tagTitle": "Hombre",
+        "text": "Hombre"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu"]
+  },
+  "menu-item#category-ninos": {
+    "props": {
+      "id": "menu-item-category-ninos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/ninos",
+        "noFollow": false,
+        "tagTitle": "Niños",
+        "text": "Niños"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu"]
+  },
+  "menu-item#category-deportes": {
+    "props": {
+      "id": "menu-item-category-ninos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes",
+        "noFollow": false,
+        "tagTitle": "Deportes",
+        "text": "Deportes"
+      }
+    },
+    "blocks": ["submenu#header_sub-menu"]
+  },
+  "menu-item#sales": {
+    "props": {
+      "id": "menu-item-category-sales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["root", "blue-text"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/sales",
+        "noFollow": false,
+        "tagTitle": "Sale",
+        "text": "Sale"
+      }
+    }
+  },
+  "menu-item#hot": {
+    "props": {
+      "id": "menu-item-category-sales",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "blockClass": "root",
+      "itemProps": {
+        "type": "internal",
+        "href": "/hot",
+        "noFollow": false,
+        "tagTitle": "Hot",
+        "text": "Hot"
+      }
+    }
+  },
+  "submenu#header_sub-menu": {
     "props": {
       "width": "100%"
     },
-    "children": ["flex-layout.row#header-menu-content-doble-menu"]
+    "children": ["flex-layout.row#header-menu-content"]
   },
-  "flex-layout.row#header-menu-content-doble-menu": {
+  "flex-layout.row#header-menu-content": {
     "props": {
-      "blockClass": "header-menu-content",
       "fullWidth": true,
-      "horizontalAlign": "around",
+      "horizontalAlign": "between",
+      "blockClass": "header-menu-content",
       "colSizing": "auto"
     },
     "children": [
       "flex-layout.col#header-menu-content-menu-1",
-      "flex-layout.col#header-menu-content-menu-2",
-      "flex-layout.col#header-menu-content-menu-3",
-      "flex-layout.col#header-menu-content-menu-4",
-      "flex-layout.col#header-menu-content-menu-5",
-      "flex-layout.col#header-menu-content-menu-6"
+      "flex-layout.col#header_menu-content-menu-2",
+      "flex-layout.col#header_menu-content-menu-3",
+      "flex-layout.col#header_menu-content-menu-4",
+      "flex-layout.col#header_menu-content-menu-5"
     ]
   },
   "flex-layout.col#header-menu-content-menu-1": {
-    "children": ["menu#header-content"]
+    "props": {
+      "rowGap": 5
+    },
+    "children": ["image-new#header_menu-content", "menu#header_content"]
   },
-  "flex-layout.col#header-menu-content-menu-2": {
-    "children": ["menu#header-content"]
+  "flex-layout.col#header_menu-content-menu-2": {
+    "props": {
+      "rowGap": 5
+    },
+    "children": ["image-new#header_menu-content", "menu#header_content"]
   },
-  "flex-layout.col#header-menu-content-menu-3": {
-    "children": ["menu#header-content"]
+  "flex-layout.col#header_menu-content-menu-3": {
+    "props": {
+      "rowGap": 5
+    },
+    "children": ["image-new#header_menu-content", "menu#header_content"]
   },
-  "flex-layout.col#header-menu-content-menu-4": {
-    "children": ["menu#header-content"]
+  "flex-layout.col#header_menu-content-menu-4": {
+    "props": {
+      "rowGap": 5
+    },
+    "children": ["image-new#header_menu-content", "menu#header_content"]
   },
-  "flex-layout.col#header-menu-content-menu-5": {
-    "children": ["menu#header-content"]
+  "flex-layout.col#header_menu-content-menu-5": {
+    "props": {
+      "rowGap": 5
+    },
+    "children": ["image-new#header_menu-content", "menu#header_content"]
   },
-  "flex-layout.col#header-menu-content-menu-6": {
-    "children": ["menu#header-content"]
+  "image-new#header_menu-content": {
+    "props": {
+      "src": "assets/images/header/header_brand.jpg",
+      "link": {
+        "url": "/menu-image"
+      },
+      "alt": "Imagen de una marca",
+      "title": "Imagen de una marca"
+    }
   },
-  "menu#header-content": {
+  "menu#header_content": {
     "props": {
       "orientation": "vertical",
       "items": [
+        {
+          "id": "menu-item-content-1",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-2",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-1",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
+        {
+          "id": "menu-item-content-2",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/content",
+            "noFollow": false,
+            "tagTitle": "Content",
+            "text": "Content"
+          }
+        },
         {
           "id": "menu-item-content-1",
           "type": "custom",
@@ -100,142 +301,6 @@
           }
         }
       ]
-    }
-  },
-
-  "menu-item#category-mujer": {
-    "props": {
-      "id": "menu-item-category-mujer",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "root",
-      "itemProps": {
-        "type": "internal",
-        "href": "/mujer",
-        "noFollow": false,
-        "tagTitle": "Mujer",
-        "text": "Mujer"
-      }
-    },
-    "blocks": ["submenu#header-category-menu-images"]
-  },
-  "submenu#header-category-menu-images": {
-    "props": {
-      "width": "100%"
-    },
-    "children": ["flex-layout.row#header-menu-content-menu-images"]
-  },
-  "flex-layout.row#header-menu-content-menu-images": {
-    "props": {
-      "blockClass": "header-menu-content",
-      "fullWidth": true,
-      "horizontalAlign": "around",
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.col#header-menu-content-menu-1",
-      "flex-layout.col#header-menu-content-menu-2",
-      "flex-layout.col#header-menu-content-menu-3",
-      "flex-layout.col#header-menu-content-image-4",
-      "flex-layout.col#header-menu-content-image-5",
-      "flex-layout.col#header-menu-content-image-6"
-    ]
-  },
-  "flex-layout.col#header-menu-content-image-4": {
-    "props": {
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "rich-text#header-menu-content-title",
-      "image-new#header-menu-content-image"
-    ]
-  },
-  "flex-layout.col#header-menu-content-image-5": {
-    "props": {
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "rich-text#header-menu-content-title",
-      "image-new#header-menu-content-image"
-    ]
-  },
-  "flex-layout.col#header-menu-content-image-6": {
-    "props": {
-      "horizontalAlign": "center"
-    },
-    "children": [
-      "rich-text#header-menu-content-title",
-      "image-new#header-menu-content-image"
-    ]
-  },
-  "rich-text#header-menu-content-title": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "PROMOCIONES",
-      "blockClass": "header-menu-content-title"
-    }
-  },
-  "image-new#header-menu-content-image": {
-    "props": {
-      "src": "/arquivos/ids/155528-300-300?v=637680191285600000&width=200&height=200&aspect=true",
-      "link": "/promocion",
-      "maxWidth": 200,
-      "maxHeight": 200,
-      "minWidth": 200,
-      "minHeight": 200,
-      "blockClass": "header-menu-content-image"
-    }
-  },
-  "menu-item#category-hombre": {
-    "props": {
-      "id": "menu-item-category-hombre",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "root",
-      "itemProps": {
-        "type": "internal",
-        "href": "/hombre",
-        "noFollow": false,
-        "tagTitle": "Hombre",
-        "text": "Hombre"
-      }
-    },
-    "blocks": ["submenu#header-category-menu-images"]
-  },
-  "menu-item#category-ninos": {
-    "props": {
-      "id": "menu-item-category-ninos",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "root",
-      "itemProps": {
-        "type": "internal",
-        "href": "/ninos",
-        "noFollow": false,
-        "tagTitle": "Niños",
-        "text": "Niños"
-      }
-    },
-    "blocks": ["submenu#header-category-menu-images"]
-  },
-  "menu-item#sales": {
-    "props": {
-      "id": "menu-item-category-sales",
-      "type": "custom",
-      "iconId": null,
-      "highlight": true,
-      "blockClass": "root",
-      "itemProps": {
-        "type": "internal",
-        "href": "/sales",
-        "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
-      }
     }
   }
 }

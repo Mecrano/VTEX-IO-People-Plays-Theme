@@ -45,7 +45,7 @@
       "title": "People Plays",
       "href": "/",
       "url": "assets/desktop-logo.svg",
-      "width": "265"
+      "width": "120"
     }
   },
   "flex-layout.col#header-right-column": {
@@ -63,7 +63,7 @@
     },
     "children": [
       "menu#header-aux",
-      "menu#header-search",
+      "search-bar#desktop",
       "login#desktop",
       "minicart.v2"
     ]
@@ -128,11 +128,21 @@
       "verticalAlign": "middle"
     },
     "children": [
-      "menu#header-search-mobile",
+      "login#mobile",
       "minicart.v2",
       "drawer#header-menu-mobile"
     ]
   },
+
+  "login#mobile": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true,
+      "iconSize": 28,
+      "logInButtonBehavior": "link"
+    }
+  },
+
   "drawer#header-menu-mobile": {
     "props": {
       "isFullWidth": true,
@@ -147,25 +157,18 @@
       "blockClass": "header-menu-mobile"
     },
     "children": [
-      "flex-layout.col#header-drawer-login-mobile",
+      "flex-layout.col#header-drawer-search-mobile",
       "flex-layout.col#header-drawer-main-menu-mobile",
       "flex-layout.col#header-drawer-aux-menu-mobile"
     ]
   },
-  "flex-layout.col#header-drawer-login-mobile": {
+  "flex-layout.col#header-drawer-search-mobile": {
     "props": {
       "blockClass": "header-menu-mobile"
     },
-    "children": ["login#mobile"]
+    "children": ["search-bar#mobile"]
   },
-  "login#mobile": {
-    "props": {
-      "showIconProfile": true,
-      "iconSize": 30,
-      "iconLabel": "Iniciar sesión",
-      "logInButtonBehavior": "link"
-    }
-  },
+
   "flex-layout.col#header-drawer-main-menu-mobile": {
     "props": {
       "blockClass": "header-menu-mobile"

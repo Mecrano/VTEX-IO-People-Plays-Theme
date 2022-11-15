@@ -10,6 +10,7 @@
       "menu-item#category-mujer-mobile",
       "menu-item#category-hombre-mobile",
       "menu-item#category-ninos-mobile",
+      "menu-item#category-deportes-mobile",
       "menu-item#sales-mobile"
     ]
   },
@@ -28,13 +29,7 @@
         "text": "Marcas"
       }
     },
-    "blocks": ["submenu.accordion#header-doble-menu"]
-  },
-  "submenu.accordion#header-doble-menu": {
-    "props": {
-      "width": "100%"
-    },
-    "children": ["flex-layout.row#header-menu-content-doble-menu"]
+    "blocks": ["submenu#header_sub-menu"]
   },
   "menu-item#category-mujer-mobile": {
     "props": {
@@ -51,13 +46,7 @@
         "text": "Mujer"
       }
     },
-    "blocks": ["submenu.accordion#header-category-menu-images"]
-  },
-  "submenu.accordion#header-category-menu-images": {
-    "props": {
-      "width": "100%"
-    },
-    "children": ["flex-layout.row#header-menu-content-menu-images"]
+    "blocks": ["submenu.accordion#header-sub-menu"]
   },
   "menu-item#category-hombre-mobile": {
     "props": {
@@ -74,7 +63,7 @@
         "text": "Hombre"
       }
     },
-    "blocks": ["submenu.accordion#header-category-menu-images"]
+    "blocks": ["submenu.accordion#header-sub-menu"]
   },
   "menu-item#category-ninos-mobile": {
     "props": {
@@ -91,7 +80,24 @@
         "text": "Niños"
       }
     },
-    "blocks": ["submenu.accordion#header-category-menu-images"]
+    "blocks": ["submenu.accordion#header-sub-menu"]
+  },
+
+  "menu-item#category-deportes-mobile": {
+    "props": {
+      "id": "menu-item-category-deportes-mobile",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "root",
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/deportes",
+        "noFollow": false,
+        "tagTitle": "Deportes",
+        "text": "Deportes"
+      }
+    }
   },
   "menu-item#sales-mobile": {
     "props": {
@@ -99,6 +105,7 @@
       "type": "custom",
       "iconId": null,
       "blockClass": "root",
+      "highlight": true,
       "itemProps": {
         "type": "internal",
         "href": "/sales",
@@ -109,32 +116,18 @@
     }
   },
 
-  "menu#header-aux-menu-mobile": {
-    "props": {
-      "experimentalOptimizeRendering": true,
-      "blockClass": "header-menu",
-      "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#link-stores",
-      "menu-item#link-find-orders",
-      "menu-item#link-whatsapp",
-      "menu-item#link-contact-us"
-    ]
-  },
   "menu-item#link-whatsapp": {
     "props": {
       "id": "menu-item-category-whatsapp",
       "type": "custom",
       "iconId": null,
-      "highlight": true,
       "blockClass": ["root", "whatsapp"],
       "itemProps": {
         "type": "external",
         "href": "https://wa.me/573208786617",
         "noFollow": false,
-        "tagTitle": "Venta por WhatsApp\n 312 316 9884",
-        "text": "Venta por WhatsApp\n 312 316 9884"
+        "tagTitle": "",
+        "text": ""
       },
       "iconProps": {
         "id": "bnd-whatsapp",
@@ -143,20 +136,41 @@
       }
     }
   },
-  "menu-item#link-contact-us": {
+
+  "submenu.accordion#header-sub-menu": {
     "props": {
-      "id": "menu-item-category-contact-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "root",
-      "itemProps": {
-        "type": "internal",
-        "href": "/contactanos",
-        "noFollow": false,
-        "tagTitle": "Línea de atención:\n BOG 390.72.22 - Ext. 1203",
-        "text": "Línea de atención:\n BOG 390.72.22 - Ext. 1203"
-      }
-    }
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#header-menu-content-mobile"]
+  },
+  "flex-layout.row#header-menu-content-mobile": {
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "blockClass": "header-menu-content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#header-menu-content-menu-mobile-1",
+      "flex-layout.col#header_menu-content-menu-mobile-2",
+      "flex-layout.col#header_menu-content-menu-mobile-3",
+      "flex-layout.col#header_menu-content-menu-mobile-4",
+      "flex-layout.col#header_menu-content-menu-mobile-5"
+    ]
+  },
+  "flex-layout.col#header-menu-content-menu-mobile-1": {
+    "children": ["menu#header_content"]
+  },
+  "flex-layout.col#header_menu-content-menu-mobile-2": {
+    "children": ["menu#header_content"]
+  },
+  "flex-layout.col#header_menu-content-menu-mobile-3": {
+    "children": ["menu#header_content"]
+  },
+  "flex-layout.col#header_menu-content-menu-mobile-4": {
+    "children": ["menu#header_content"]
+  },
+  "flex-layout.col#header_menu-content-menu-mobile-5": {
+    "children": ["menu#header_content"]
   }
 }

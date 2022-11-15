@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.biggy-autocomplete,
+/* .biggy-autocomplete,
 .biggy-autocomplete.biggy-js-container--hidden {
   position: relative;
   opacity: 1;
@@ -10,7 +10,7 @@
   transition: none;
   box-shadow: none;
   padding: 40px 20px;
-}
+} */
 
 .biggy-autocomplete .itemListTitle,
 .biggy-autocomplete .tileListTitle {
@@ -38,8 +38,8 @@
 }
 
 @media (max-width: 900px) {
-  .biggy-autocomplete,
-  .biggy-autocomplete.biggy-js-container--hidden {
+  .biggy-autocomplete {
+  /* .biggy-autocomplete.biggy-js-container--hidden { */
     padding: 20px 5px;
   }
 

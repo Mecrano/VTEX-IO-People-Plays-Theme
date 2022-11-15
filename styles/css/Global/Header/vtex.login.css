@@ -4,7 +4,6 @@
 
 .container {
   margin: 10px 0;
-  border-right: 2px solid var(--secondary-orange);
 }
 
 .container :global(.vtex-button) {
@@ -15,9 +14,15 @@
 .container :global(.vtex-button__label) {
   padding: 0 !important;
   width: 28px;
-  margin: 0 25px;
+  margin: 0 20px;
 }
 
 .container :global(.vtex-button):hover .profileIcon {
   color: var(--primary-blue);
+}
+
+@media (max-width: 1025px) {
+  .container :global(.vtex-button__label) {
+    margin: 0 15px;
+  }
 }
