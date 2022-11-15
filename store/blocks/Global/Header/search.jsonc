@@ -1,44 +1,7 @@
 {
-  "menu#header-search": {
-    "props": {
-      "blockClass": ["header-menu", "header-menu--search"]
-    },
-    "children": [
-      "menu-item#header-search"
-    ]
-  },
-  "menu-item#header-search": {
-    "props": {
-      "id": "menu-item-header-search",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "root",
-      "itemProps": {
-        "type": "internal",
-        "href": "#"
-      },
-      "iconProps": {
-        "id": "hpa-search",
-        "size": 28,
-        "viewBox": "0 0 16 16"
-      }
-    },
-    "blocks": ["submenu#header-search"]
-  },
-  "submenu#header-search": {
-    "props": {
-      "width": "100%"
-    },
-    "children": [
-      "search-bar#desktop"
-    ]
-  },
   "search-bar#desktop": {
     "props": {
-      "displayMode": "search-button",
-      "hasIconLeft": true,
-      "placeholder": "Busca productos dentro de People Plays",
+      "placeholder": "Busca en People Plays",
       "disableBlurAndTouchEndHandler": true,
       "containerMode": "container",
       "autocompleteAlignment": "center"
@@ -56,41 +19,6 @@
     "blocks": ["product-summary"]
   },
 
-  "menu#header-search-mobile": {
-    "props": {
-      "blockClass": ["header-menu", "header-menu--search"]
-    },
-    "children": [
-      "menu-item#header-search-mobile"
-    ]
-  },
-  "menu-item#header-search-mobile": {
-    "props": {
-      "id": "menu-item-header-search-mobile",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "blockClass": "root",
-      "itemProps": {
-        "type": "internal",
-        "href": "#"
-      },
-      "iconProps": {
-        "id": "hpa-search",
-        "size": 28,
-        "viewBox": "0 0 16 16"
-      }
-    },
-    "blocks": ["submenu#header-search-mobile"]
-  },
-  "submenu#header-search-mobile": {
-    "props": {
-      "width": "100%"
-    },
-    "children": [
-      "search-bar#mobile"
-    ]
-  },
   "search-bar#mobile": {
     "props": {
       "placeholder": "Busca productos dentro de People Plays",
