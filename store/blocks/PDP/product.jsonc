@@ -35,15 +35,6 @@
     "props": {
       "blockClass": "product--images-details--container"
     }
-  },  
-  "flex-layout.row#product--details--container": {
-    "children": [
-      "flex-layout.col#product--name-reference--container",
-      "flex-layout.col#product--rating-price--container"
-    ],
-    "props": {
-      "blockClass": ["product--details--container"]
-    }
   },
   "flex-layout.row#product--name-ratings--container": {
     "children": [
@@ -65,7 +56,6 @@
   },
   "flex-layout.col#product--details--container": {
     "children": [
-      // "flex-layout.row#product--details--container",
       "flex-layout.row#product--name-ratings--container",
       "flex-layout.row#product--reference-prices--container",
       "flex-layout.row#product--sku-quantity--container",
