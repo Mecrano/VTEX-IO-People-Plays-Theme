@@ -22,6 +22,92 @@
     border-bottom: 1px solid #062F8740;
 }
 
+
+.flexRowContent--product--details--container{
+    align-items: center;
+}
+
+.flexRowContent--product--details1--container{
+    align-items: flex-start;
+}
+
 .flexCol--product--rating-price--container{
     padding-left: 30px;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-star){
+    color: #000;
+}
+
+.flexRowContent--product--details1--container :global(.vtex-reviews-and-ratings-2-x-summaryContainer){
+    margin-top: 17px;
+}
+
+.flexRowContent--product--details1--container :global(.vtex-reviews-and-ratings-2-x-summaryButtonContainer){
+    display: none;
+}
+
+.flexRowContent--product--addto-cart-and-list--container .stretchChildrenWidth:first-child{
+    width: 100% !important;
+}
+
+.flexRowContent--product--addto-cart-and-list--container .stretchChildrenWidth:first-child :global(.vtex-button) :global(.vtex-button__label){
+    padding: 0 !important;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer--product--favorites){
+    margin-left: 15px;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer--product--favorites) :global(.vtex-button){
+    border-radius: 4px;
+    border: 2px solid #000;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer--product--favorites) :global(.vtex-button):hover{
+    background-color: transparent;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer--product--favorites) :global(.vtex-button__label){
+    padding-block: 9px !important;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer--product--favorites) :global(.vtex-button__label)::after{
+    content: "Guardar";
+    font-family: "Mukta";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    text-transform: none;
+}
+
+.flexRowContent--product--addto-cart-and-list--container{
+    margin-bottom: 70px;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIcon--product--favorites){
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjkiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyOSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE1LjI0ODEgMjIuNTk2MUwyNS4zNzcyIDEyLjQ2NzFDMjcuODY2IDkuOTc4MzEgMjguMjMzMSA1Ljg4Mzg2IDI1Ljg3NzkgMy4yNjgzMkMyNS4yODc5IDIuNjExMjggMjQuNTcwMyAyLjA4MTMyIDIzLjc2ODggMS43MTA3OUMyMi45NjcyIDEuMzQwMjYgMjIuMDk4NiAxLjEzNjkzIDIxLjIxNTkgMS4xMTMxOUMyMC4zMzMyIDEuMDg5NDUgMTkuNDU0OSAxLjI0NTgxIDE4LjYzNDYgMS41NzI3M0MxNy44MTQzIDEuODk5NjUgMTcuMDY5MiAyLjM5MDI3IDE2LjQ0NDggMy4wMTQ2NUwxNC41NDEgNC45MTg0NUwxMi44OTczIDMuMjc0NzFDMTAuNDA4NSAwLjc4NTkwOCA2LjMxNDAzIDAuNDE4NzI0IDMuNjk4NSAyLjc3Mzk3QzMuMDQxNDUgMy4zNjM5MyAyLjUxMTUgNC4wODE1NiAyLjE0MDk3IDQuODgzMDlDMS43NzA0NCA1LjY4NDYzIDEuNTY3MSA2LjU1MzI1IDEuNTQzMzYgNy40MzU5NkMxLjUxOTYzIDguMzE4NjggMS42NzU5OSA5LjE5Njk3IDIuMDAyOTEgMTAuMDE3M0MyLjMyOTgyIDEwLjgzNzUgMi44MjA0NCAxMS41ODI2IDMuNDQ0ODMgMTIuMjA3TDEzLjgzMzkgMjIuNTk2MUMxNC4wMjE1IDIyLjc4MzcgMTQuMjc1OCAyMi44ODkgMTQuNTQxIDIyLjg4OUMxNC44MDYyIDIyLjg4OSAxNS4wNjA2IDIyLjc4MzcgMTUuMjQ4MSAyMi41OTYxVjIyLjU5NjFaIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K");
+    width: 29px;
+    height: 24px;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.flexRow--product--newsletter--container{
+    margin-block: 50px;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-reviewCommentsContainer) :global(.vtex-dropdown__button){
+    color: #000 !important;
+}
+
+:global(.vtex-reviews-and-ratings-2-x-reviewCommentRating) :global(.vtex-reviews-and-ratings-2-x-star){
+    color: #ED752D;
+}
+
+.flexRowContent--product--shelf--titles{
+    padding-inline: 50px;
 }

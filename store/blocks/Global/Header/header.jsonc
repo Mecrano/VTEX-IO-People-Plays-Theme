@@ -179,6 +179,6 @@
     "props": {
       "blockClass": "header-menu-mobile"
     },
-    "children": ["menu#header-aux-menu-mobile"]
+    "children": [/* "menu#header-aux-menu-mobile" */]
   }
 }

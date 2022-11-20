@@ -2,7 +2,7 @@
   "stack-layout#product--images--container": {
     "children": [
 			"product-images#product--images",
-		 	"product-price-savings"
+      "product-price-savings#pdp"
 		]
   },
 	"product-price-savings":{
@@ -93,7 +93,8 @@
   },
   "product-description": {
     "props": {
-      "showTitle": false
+      "showTitle": false,
+      "blockClass": "product--disclosures--description-content"
     }
   },
   "disclosure-layout#product--info--disclosure": {
@@ -164,12 +165,39 @@
     }
   },
   "disclosure-content#payment-methods": {
-    "children": ["rich-text#product--disclosures--payment-methods-title"],
+    "children": ["list-context.image-list#product--payment-method--content"],
     "props": {
       "blockClass": [
         "product--disclosures--payment-methods",
         "product--disclosure--content"
       ]
+    }
+  },
+  "list-context.image-list#product--payment-method--content": {
+    "children": ["slider-layout#first__banner"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/images/product/payment-methods.jpg",
+          "description": "Métodos de Pago",
+          "link": {
+            "url": "#"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#first__banner": {
+    "title": "Banner",
+    "props": {
+      "blockClass": ["carousel__home", "carousel__home-1", "product--payment--images"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "never"
     }
   },
   "rich-text#product--disclosures--payment-methods-title": {
@@ -215,8 +243,7 @@
   },
   "image#newsletter-image": {
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": 24
+      "src": "assets/images/product/product-newsletter.jpg"
     }
   },
   "rich-text#product--shelf-1--title": {
@@ -227,7 +254,7 @@
   },
   "rich-text#product--shelf--more": {
     "props": {
-      "text": "Ver más",
+      "text": "[Ver más ➜](#)",
       "blockClass": "product--shelf--titles-ver-mas"
     }
   },
@@ -248,5 +275,20 @@
 			"blockClass": ["product--identifier"],
 			"idField": "skuReferenceId"
 		}
-	}
+	},
+  "rich-text#product--size-guide--content": {
+    "props": {
+      "text": "[Guia de Tallas](/size-guide)",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "product--size-guide--text"
+    }
+  },
+  "product-price-savings#pdp":{
+    "title": "Descuento",
+    "props": {
+        "blockClass": ["discountpdp", "discountpdp2"],
+        "message": " -{savingsPercentage}"
+    }
+  }
 }
