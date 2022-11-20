@@ -1,0 +1,15 @@
+.showAvailableText--product--stock,
+.showAvailableTextHighlight--product--stock{
+    font-family: "Mukta";
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.container--product--stock{
+    border-bottom: 1px solid #062F8740;
+    margin-bottom: 15px;
+}

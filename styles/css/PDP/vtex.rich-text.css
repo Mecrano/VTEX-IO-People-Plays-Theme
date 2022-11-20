@@ -1,0 +1,71 @@
+.container--product--size-guide--text{
+    padding-left: 30px;
+    margin-top: 26px;
+    border-top: 1px solid #062F8740;
+    padding-top: 10px;
+}
+
+.paragraph--product--size-guide--text{
+    margin: 0;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--product--disclosure--title) .paragraph{
+    font-family: "Mukta";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--product--disclosure--title--hidden) .container::after {
+    content: ".....";
+    color: transparent;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAyMCAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5LjI1NDQgMS4xMjc0MkwxMC4xMjcgMTAuMjU0OEwwLjk5OTUzMyAxLjEyNzQyIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz4KPC9zdmc+Cg==);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--product--disclosure--title--hidden) .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+:global(.vtex-disclosure-layout-1-x-content--product--disclosure--content--visible) .paragraph{
+    color: #000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product--shelf--titles) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) .container--product--shelf--titles-ver-mas{
+    justify-content: flex-end;
+}
+
+.paragraph--product--shelf--titles{
+    font-family: "Titillium Web";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    margin: 0;
+}
+
+.paragraph--product--shelf--titles-ver-mas,
+.link--product--shelf--titles-ver-mas{
+    font-family: "Mukta";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FC701C;
+    margin-block: 10px;
+    text-decoration: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--product--newsletter--container) .headingLevel3--title-newsletter{
+    font-weight: bold;
+}

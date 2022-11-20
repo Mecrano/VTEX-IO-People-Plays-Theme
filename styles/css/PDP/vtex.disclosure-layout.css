@@ -1,0 +1,14 @@
+.trigger--product--disclosure--title{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #062F8740
+    ;
+}
+
+.trigger--product--disclosure--title--hidden::after{
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAyMCAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5LjI1NDQgMS4xMjc0MkwxMC4xMjcgMTAuMjU0OEwwLjk5OTUzMyAxLjEyNzQyIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz4KPC9zdmc+Cg==")
+}
+
+.content--product--disclosure--content--visible{
+    padding: 15px;
+}
