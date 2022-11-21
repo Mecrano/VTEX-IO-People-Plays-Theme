@@ -1,0 +1,44 @@
+.flexRow--container-nuestra-marca :global(.vtex-store-components-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.flexRow--container-nuestra-marca{
+  background-color: #FFFFFF;
+}
+
+.flexRowContent--container-nuestra-marca {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexCol--block-right-marca {
+  background-color: #FFFFFF;
+  padding-left: 40px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .flexRowContent--container-nuestra-marca {
+    flex-direction: column;
+  }
+
+  .flexRowContent--container-nuestra-marca .stretchChildrenWidth {
+    width: 100% !important;
+  }
+
+  .flexCol--block-right-marca {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .flexCol--block-right-marca {
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+}

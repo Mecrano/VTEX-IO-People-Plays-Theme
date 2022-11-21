@@ -4,5 +4,8 @@
   },
   "store.custom#landing-size-guide": {
     "path": "/size-guide"
+  },
+  "store.custom#landing-nuestra-marca": {
+    "path": "/nuestra-marca"
   }
 }

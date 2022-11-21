@@ -1,0 +1,71 @@
+.paragraph--title-marca {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.paragraph--text-marca {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 155.69%;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container--title-marca {
+  margin-bottom: 10px;
+}
+
+.link--text-marca {
+  color: #000000;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .paragraph--title-marca {
+    font-size: 20px;
+  }
+
+  .paragraph--text-marca {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 425px) {
+  .paragraph--text-mobile-marca {
+    font-size: 15px !important;
+  }
+  .container--title-marca {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .paragraph--title-marca {
+    font-size: 14px;
+  }
+  .paragraph--text-mobile-marca {
+    font-size: 13px !important;
+  }
+
+  .paragraph--text-marca {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 320px) {
+  .paragraph--title-marca {
+    font-size: 12px;
+  }
+  .paragraph--text-mobile-marca {
+    font-size: 11px !important;
+  }
+}
