@@ -1,0 +1,31 @@
+.imageElement--image3 {
+  max-width: 50% !important;
+  position: absolute;
+  left: 10px;
+  z-index: 10;
+  top: -83px;
+}
+
+.imageElement--image2 {
+  max-width: 65% !important;
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  top: -72px;
+}
+
+.imageElement--image1 {
+  max-width: 60% !important;
+  position: absolute;
+  left: 0px;
+  z-index: 10;
+  top: -56px;
+}
+
+.imageElement--image4 {
+  max-width: 60% !important;
+  position: absolute;
+  left: 180px !important;
+  z-index: 10;
+  top: -59px;
+}

@@ -122,6 +122,7 @@
     }
   },
   "flex-layout.row#header-right-column-mobile": {
+    "title": "container login - minicart - menu",
     "props": {
       "preserveLayoutOnMobile": true,
       "colSizing": "auto",
@@ -163,6 +164,7 @@
     ]
   },
   "flex-layout.col#header-drawer-search-mobile": {
+    "title": "search mobile",
     "props": {
       "blockClass": "header-menu-mobile"
     },
@@ -170,9 +172,8 @@
   },
 
   "flex-layout.col#header-drawer-main-menu-mobile": {
-    "props": {
-      "blockClass": "header-menu-mobile"
-    },
+    "title": "menu mobile",
+    "props": {"blockClass": "header-menu-mobile"},
     "children": ["menu#header-main-menu-mobile"]
   },
   "flex-layout.col#header-drawer-aux-menu-mobile": {

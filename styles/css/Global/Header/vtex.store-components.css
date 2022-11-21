@@ -33,3 +33,19 @@
   height: 25px;
   color: #002F87;
 }
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input),
+.searchBarContainer :global(.vtex-input__suffix) {
+background-color: #FFFFFF;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+font-size: 0.9rem;
+}
+
+
+@media (min-width: 1400px) {
+  .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    font-size: 1.25rem;
+    }
+}

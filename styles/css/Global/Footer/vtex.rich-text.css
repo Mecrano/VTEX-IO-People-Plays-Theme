@@ -16,7 +16,7 @@
 
 .wrapper--text-1-contact-lines .paragraph,
 .wrapper--text-2-contact-lines .paragraph {
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
 }
 
@@ -51,4 +51,16 @@
   margin: 0;
   font-size: 18px;
   font-weight: bold;
+}
+
+.link--font {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.link--mobile-rich-one {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 12px;
 }

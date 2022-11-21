@@ -3,3 +3,24 @@
   align-items: stretch;
   display: flex;
 }
+
+.flexColChild--submenu-header {
+  height: auto !important;
+}
+
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+
+  .flexRowContent--header-menu-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexRowContent--header-menu-mobile .stretchChildrenWidth {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+.flexCol--header-menu-mobile {
+  padding-left: 0 !important;
+}
+}

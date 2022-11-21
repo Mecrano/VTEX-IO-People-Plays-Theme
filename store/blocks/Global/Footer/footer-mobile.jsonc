@@ -47,7 +47,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Línea de atención nacional",
+      "text": "Servicio al cliente",
       "blockClass": ["text-1-contact-lines", "mobile-rich"]
     }
   },
@@ -55,16 +55,14 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "(571)3-907-222 Ext. 1203",
-      "blockClass": ["text-2-contact-lines", "mobile-rich-one"]
+      "text": "servicioalcliente@peopleplays.com",
+      "blockClass": ["text-2-contact-lines", "mobile-rich-one", "font"]
     }
   },
   "image#img-1-contact-lines-mobile": {
     "props": {
-      "src": "assets/footer/squarePhoto.png",
-      "maxWidth": "129px",
-      "maxHeight": "128px",
-      "blockClass": "img-1-contact-lines-mobile"
+      "src": "assets/footer/footer2.png",
+      "blockClass": ["img-1-contact-lines", "image4", "img-1-contact-lines-mobile"]
     }
   },
   "flex-layout.col#background-contact-lines-mobile": {

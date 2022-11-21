@@ -1,5 +1,6 @@
 {
   "menu#header-main-menu-mobile": {
+    "title": "container",
     "props": {
       "experimentalOptimizeRendering": true,
       "blockClass": "header-menu",
@@ -15,12 +16,13 @@
     ]
   },
   "menu-item#category-marcas-mobile": {
+    "title": "marcas",
     "props": {
       "id": "menu-item-category-marcas-mobile",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "root",
+      "blockClass": ["root", "mobile"],
       "itemProps": {
         "type": "internal",
         "href": "/brands/",
@@ -32,12 +34,13 @@
     "blocks": ["submenu#header_sub-menu"]
   },
   "menu-item#category-mujer-mobile": {
+    "title": "mujer",
     "props": {
       "id": "menu-item-category-mujer",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "root",
+      "blockClass": ["root", "mobile"],
       "itemProps": {
         "type": "internal",
         "href": "/mujer",
@@ -49,12 +52,13 @@
     "blocks": ["submenu.accordion#header-sub-menu"]
   },
   "menu-item#category-hombre-mobile": {
+    "title": "hombre",
     "props": {
       "id": "menu-item-category-hombre-mobile",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "root",
+      "blockClass": ["root", "mobile"],
       "itemProps": {
         "type": "internal",
         "href": "/hombre",
@@ -66,12 +70,13 @@
     "blocks": ["submenu.accordion#header-sub-menu"]
   },
   "menu-item#category-ninos-mobile": {
+    "title": "niños",
     "props": {
       "id": "menu-item-category-ninos-mobile",
       "type": "custom",
       "iconId": null,
       "highlight": false,
-      "blockClass": "root",
+      "blockClass": ["root", "mobile"],
       "itemProps": {
         "type": "internal",
         "href": "/ninos",
@@ -84,11 +89,12 @@
   },
 
   "menu-item#category-deportes-mobile": {
+    "title": "deportes",
     "props": {
       "id": "menu-item-category-deportes-mobile",
       "type": "custom",
       "iconId": null,
-      "blockClass": "root",
+      "blockClass": ["root", "mobile"],
       "highlight": true,
       "itemProps": {
         "type": "internal",
@@ -100,11 +106,12 @@
     }
   },
   "menu-item#sales-mobile": {
+    "title": "sale",
     "props": {
       "id": "menu-item-category-sales-mobile",
       "type": "custom",
       "iconId": null,
-      "blockClass": "root",
+      "blockClass": ["root", "mobile", "orange-mobile"],
       "highlight": true,
       "itemProps": {
         "type": "internal",

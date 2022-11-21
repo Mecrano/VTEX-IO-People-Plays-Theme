@@ -69,23 +69,22 @@
   ]
   },
   "flex-layout.row#group-images-text-one": {
-    "title": "contenido item images texto 1",
+    "title": "contenido 1",
     "props":{
       "blockClass": "group-images-text-one"
     },
     "children":[
-      "image#example",
-      "rich-text#text-group"
+      "image#paga",
+      "rich-text#text-group-one"
     ]
   },
-  "image#example": {
+  "image#paga": {
     "title": "image",
     "props": {
-      "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": 24
+      "src": "assets/home/paga.png"
     }
   },
-  "rich-text#text-group": {
+  "rich-text#text-group-one": {
     "title": "title",
     "props": {
       "textAlignment": "CENTER",
@@ -95,43 +94,103 @@
     }
   },
   "flex-layout.row#group-images-text-two": {
-    "title": "contenido item images texto 2",
+    "title": "contenido 2",
     "props":{
       "blockClass": "group-images-text-one"
     },
     "children":[
-      "image#example",
-      "rich-text#text-group"
+      "image#compra",
+      "rich-text#text-group-two"
     ]
+  },
+  "image#compra": {
+    "title": "image",
+    "props": {
+      "src": "assets/home/compra.png"
+    }
+  },
+  "rich-text#text-group-two": {
+    "title": "title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Compra fácil y seguro despachos en todo colombia",
+      "blockClass": "text-group"
+    }
   },
   "flex-layout.row#group-images-text-three": {
-    "title": "contenido item images texto 3",
+    "title": "contenido 3",
     "props":{
       "blockClass": "group-images-text-one"
     },
     "children":[
-      "image#example",
-      "rich-text#text-group"
+      "image#precios",
+      "rich-text#text-group-three"
     ]
+  },
+  "image#precios": {
+    "title": "image",
+    "props": {
+      "src": "assets/home/precios.png"
+    }
+  },
+  "rich-text#text-group-three": {
+    "title": "title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Precios exclusivos solo en compras online",
+      "blockClass": "text-group"
+    }
   },
   "flex-layout.row#group-images-text-four": {
-    "title": "contenido item images texto 4",
+    "title": "contenido 4",
     "props":{
       "blockClass": "group-images-text-one"
     },
     "children":[
-      "image#example",
-      "rich-text#text-group"
+      "image#productos",
+      "rich-text#text-group-four"
     ]
   },
+  "image#productos": {
+    "title": "image",
+    "props": {
+      "src": "assets/home/productos.png"
+    }
+  },
+  "rich-text#text-group-four": {
+    "title": "title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Productos originales",
+      "blockClass": "text-group"
+    }
+  },
   "flex-layout.row#group-images-text-five": {
-    "title": "contenido item images texto 5",
+    "title": "contenido 5",
     "props":{
       "blockClass": "group-images-text-one"
     },
     "children":[
-      "image#example",
-      "rich-text#text-group"
+      "image#ventas",
+      "rich-text#text-group-five"
     ]
+  },
+  "image#ventas": {
+    "title": "image",
+    "props": {
+      "src": "assets/home/ventas.png"
+    }
+  },
+  "rich-text#text-group-five": {
+    "title": "title",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Ventas por Whatsapp 312318",
+      "blockClass": "text-group"
+    }
   }
 }

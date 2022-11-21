@@ -200,6 +200,10 @@
   margin-right: 0;
 }
 
+.flexRowContent--group-images-text-one {
+  padding: 10px;
+}
+
 @media screen and (min-width: 1400px) {
   .flexRow--content-tab-item-figura {
     background: #002F87;
