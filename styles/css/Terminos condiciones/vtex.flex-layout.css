@@ -1,0 +1,89 @@
+.flexRow--container-terminos-condiciones :global(.vtex-store-components-3-x-container) {
+  padding-left: 70px;
+  padding-right: 60px;
+}
+
+.flexRow--container-terminos-condiciones {
+  background-color: #ffffff;
+}
+
+.flexRowContent--container-terminos-condiciones {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--container-terminos-condiciones .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+.flexColChild--block-three-terminos {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRowContent--block-two-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexRowContent--block-two-one .stretchChildrenWidth:first-child {
+  width: 30% !important;
+}
+
+.flexRowContent--block-two-one .stretchChildrenWidth:last-child {
+  width: 70% !important;
+}
+
+.flexRowContent--group-text-terminos {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexCol--block-three-terminos {
+  padding-bottom: 20px;
+}
+
+.flexRowContent--group-text-terminos .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+@media (max-width: 425px) {
+  .flexRow--container-terminos-condiciones :global(.vtex-store-components-3-x-container) {
+    padding-left: 30px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .flexRow--container-terminos-condiciones :global(.vtex-store-components-3-x-container) {
+    padding-left: 40px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flexRow--container-terminos-condiciones :global(.vtex-store-components-3-x-container) {
+    padding-left: 60px;
+  }
+
+  .flexRowContent--block-two-one {
+    flex-direction: column;
+  }
+
+  .flexRowContent--block-two-one .stretchChildrenWidth:first-child {
+    width: 100% !important;
+  }
+
+  .flexRowContent--block-two-one .stretchChildrenWidth:last-child {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .flexRowContent--block-two-one .stretchChildrenWidth:first-child {
+    width: 30% !important;
+  }
+
+  .flexRowContent--block-two-one .stretchChildrenWidth:last-child {
+    width: 70% !important;
+  }
+}

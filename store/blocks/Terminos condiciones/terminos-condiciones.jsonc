@@ -1,0 +1,8 @@
+{
+  "store.custom#landing-terminos-condiciones":{
+    "blocks": [
+      "responsive-layout.desktop#terminos",
+      "responsive-layout.mobile#terminos"
+    ]
+  }
+}

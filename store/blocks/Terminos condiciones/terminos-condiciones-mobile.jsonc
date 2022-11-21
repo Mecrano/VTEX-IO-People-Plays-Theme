@@ -1,0 +1,181 @@
+{
+  "responsive-layout.mobile#terminos": {
+    "title": "Terminos mobile",
+    "children": ["flex-layout.row#terminos-condiciones-mobile"]
+  },
+  "flex-layout.row#terminos-condiciones-mobile": {
+    "title": "container",
+    "children":[
+      "flex-layout.col#block-one-terminos",
+      "flex-layout.col#block-two-terminos",
+      "flex-layout.col#block-three-terminos-mobile"
+    ],
+    "props": {"blockClass": "container-terminos-condiciones"}
+  },
+  "flex-layout.col#block-three-terminos-mobile": {
+    "title": "block 3",
+    "children":["disclosure-layout-group#terminos-condiciones-mobile"],
+    "props": {"blockClass": "block-three-terminos"}
+  },
+  "disclosure-layout-group#terminos-condiciones-mobile": {
+    "title": "container",
+    "children": [
+      "disclosure-layout#one-terminos-mobile",
+      "disclosure-layout#two-terminos-mobile",
+      "disclosure-layout#three-terminos-mobile",
+      "disclosure-layout#four-terminos-mobile",
+      "disclosure-layout#five-terminos-mobile"
+    ],
+    "props": {"blockClass": "container-terminos"}
+  },
+  /* one */
+  "disclosure-layout#one-terminos-mobile": {
+    "title": "container",
+    "children": ["disclosure-trigger#one-terminos-mobile", "disclosure-content#one-terminos-mobile"],
+    "props": {"blockClass": "layout-terminos"}
+  },
+  "disclosure-trigger#one-terminos-mobile": {
+    "title": "content title",
+    "children": ["rich-text#one-terminos-mobile", "disclosure-state-indicator"],
+    "props": {"blockClass": "trigger-terminos"}
+  },
+  "rich-text#one-terminos-mobile": {
+    "title": "title",
+    "props": {
+      "text": "RESTRICCIÓN DE USO",
+      "blockClass": "group-title-terminos"
+    }
+  },
+  "disclosure-content#one-terminos-mobile": {
+    "title": "content text",
+    "children": ["rich-text#title-text-01-terminos-mobile"],
+    "props": {"blockClass": "content-terminos"}
+  },
+  "rich-text#title-text-01-terminos-mobile": {
+    "title": "text 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-one"
+    }
+  },
+  /* two */
+  "disclosure-layout#two-terminos-mobile": {
+    "title": "container",
+    "children": ["disclosure-trigger#two-terminos-mobile", "disclosure-content#two-terminos-mobile"],
+    "props": {"blockClass": "layout-terminos"}
+  },
+  "disclosure-trigger#two-terminos-mobile": {
+    "title": "content title",
+    "children": ["rich-text#two-terminos-mobile", "disclosure-state-indicator"],
+    "props": {"blockClass": "trigger-terminos"}
+  },
+  "rich-text#two-terminos-mobile": {
+    "title": "title",
+    "props": {
+      "text": "COLORES",
+      "blockClass": "group-title-terminos"
+    }
+  },
+  "disclosure-content#two-terminos-mobile": {
+    "title": "content text",
+    "children": ["rich-text#title-text-02-terminos-mobile"],
+    "props": {"blockClass": "content-terminos"}
+  },
+  "rich-text#title-text-02-terminos-mobile": {
+    "title": "text 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-one"
+    }
+  },
+  /* three */
+  "disclosure-layout#three-terminos-mobile": {
+    "title": "container",
+    "children": ["disclosure-trigger#three-terminos-mobile", "disclosure-content#three-terminos-mobile"],
+    "props": {"blockClass": "layout-terminos"}
+  },
+  "disclosure-trigger#three-terminos-mobile": {
+    "title": "content title",
+    "children": ["rich-text#three-terminos-mobile", "disclosure-state-indicator"],
+    "props": {"blockClass": "trigger-terminos"}
+  },
+  "rich-text#three-terminos-mobile": {
+    "title": "title",
+    "props": {
+      "text": "ERRORES TIPOGRAFÍA",
+      "blockClass": "group-title-terminos"
+    }
+  },
+  "disclosure-content#three-terminos-mobile": {
+    "title": "content text",
+    "children": ["rich-text#title-text-03-terminos-mobile"],
+    "props": {"blockClass": "content-terminos"}
+  },
+  "rich-text#title-text-03-terminos-mobile": {
+    "title": "text 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-one"
+    }
+  },
+   /* four */
+   "disclosure-layout#four-terminos-mobile": {
+    "title": "container",
+    "children": ["disclosure-trigger#four-terminos-mobile", "disclosure-content#four-terminos-mobile"],
+    "props": {"blockClass": "layout-terminos"}
+  },
+  "disclosure-trigger#four-terminos-mobile": {
+    "title": "content title",
+    "children": ["rich-text#four-terminos-mobile", "disclosure-state-indicator"],
+    "props": {"blockClass": "trigger-terminos"}
+  },
+  "rich-text#four-terminos-mobile": {
+    "title": "title",
+    "props": {
+      "text": "ACEPTACIÓN DE TÉRMINOS Y CONDICIONES",
+      "blockClass": "group-title-terminos"
+    }
+  },
+  "disclosure-content#four-terminos-mobile": {
+    "title": "content text",
+    "children": ["rich-text#title-text-04-terminos-mobile"],
+    "props": {"blockClass": "content-terminos"}
+  },
+  "rich-text#title-text-04-terminos-mobile": {
+    "title": "text 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-one"
+    }
+  },
+  /* five */
+  "disclosure-layout#five-terminos-mobile": {
+    "title": "container",
+    "children": ["disclosure-trigger#five-terminos-mobile", "disclosure-content#five-terminos-mobile"],
+    "props": {"blockClass": "layout-terminos"}
+  },
+  "disclosure-trigger#five-terminos-mobile": {
+    "title": "content title",
+    "children": ["rich-text#five-terminos-mobile", "disclosure-state-indicator"],
+    "props": {"blockClass": "trigger-terminos"}
+  },
+  "rich-text#five-terminos-mobile": {
+    "title": "title",
+    "props": {
+      "text": "USO DEL SITIO",
+      "blockClass": "group-title-terminos"
+    }
+  },
+  "disclosure-content#five-terminos-mobile": {
+    "title": "content text",
+    "children": ["rich-text#title-text-05-terminos-mobile"],
+    "props": {"blockClass": "content-terminos"}
+  },
+  "rich-text#title-text-05-terminos-mobile": {
+    "title": "text 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-one"
+    }
+  }
+}

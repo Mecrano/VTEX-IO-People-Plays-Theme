@@ -1,0 +1,381 @@
+{
+  "responsive-layout.desktop#terminos": {
+    "title": "Terminos desktop",
+    "children": ["flex-layout.row#terminos-condiciones"]
+  },
+  "flex-layout.row#terminos-condiciones": {
+    "title": "container",
+    "children":[
+      "flex-layout.col#block-one-terminos",
+      "flex-layout.col#block-two-terminos",
+      "flex-layout.col#block-three-terminos"
+    ],
+    "props": {"blockClass": "container-terminos-condiciones"}
+  },
+  "flex-layout.col#block-one-terminos": {
+    "title": "block 1",
+    "children":["rich-text#title-terminos"],
+    "props": {"blockClass": "block-one-terminos"}
+  },
+  "rich-text#title-terminos": {
+    "title": "title 1",
+    "props": {
+      "text": "Términos y condiciones",
+      "blockClass": "title-termino"
+    }
+  },
+  "flex-layout.col#block-two-terminos": {
+    "title": "block 2",
+    "children":["flex-layout.row#block-two-one"],
+    "props": {"blockClass": "block-two-terminos"}
+  },
+  "flex-layout.row#block-two-one": {
+    "title": "container",
+    "children":[
+      "rich-text#block-2-text-1",
+      "rich-text#block-2-text-2"
+    ],
+    "props": {"blockClass": "block-two-one"}
+  },
+  "rich-text#block-2-text-1": {
+    "title": "text 1",
+    "props": {
+      "text": "Razón Social: ENEBE REPRESENTACIONES S.A.S.<br/> Nit: 800.229.885-8 <br/> Dirección: Carrera: 97 # 24C-51 muelle industrial 2 bodega 5 <br/> Teléfono: 3 907 222 Ext. 1203 <br/> Correo electrónico: info@peopleplays.com",
+      "blockClass": "border"
+    }
+  },
+  "rich-text#block-2-text-2": {
+    "title": "text 2",
+    "props": {
+      "text": "Estimado cliente y/o usuario, te recomendamos leer con cuidado el presente documento, dado que por el solo hecho de navegar por nuestra página web o adquirir cualquiera de nuestros productos por este medio, aceptas plenamente los términos y condiciones que se mencionan a continuación:",
+      "blockClass": "text-termino"
+    }
+  },
+  "flex-layout.col#block-three-terminos": {
+    "title": "block 3",
+    "children":["disclosure-layout-group#terminos-condiciones"],
+    "props": {"blockClass": "block-three-terminos"}
+  },
+  "disclosure-layout-group#terminos-condiciones": {
+    "title": "container",
+    "children": [
+      "disclosure-layout#one-terminos",
+      "disclosure-layout#two-terminos",
+      "disclosure-layout#three-terminos",
+      "disclosure-layout#four-terminos",
+      "disclosure-layout#five-terminos"
+    ],
+    "props": {"blockClass": "container-terminos"}
+  },
+
+  /* one */
+  "disclosure-layout#one-terminos": {
+    "title": "container",
+    "children": ["disclosure-trigger#one-terminos", "disclosure-content#one-terminos"],
+    "props": {"blockClass": "layout-terminos"}
+  },
+  "disclosure-trigger#one-terminos": {
+    "title": "content title",
+    "children": ["rich-text#one-terminos", "disclosure-state-indicator"],
+    "props": {"blockClass": "trigger-terminos"}
+  },
+  "rich-text#one-terminos": {
+    "title": "title",
+    "props": {
+      "text": "TÉRMINOS Y CONDICIONES ENTRADAS PARTIDO DEL ATLÉTICO BUCARAMANGA VS ONCE CALDAS",
+      "blockClass": "group-title-terminos"
+    }
+  },
+  "disclosure-content#one-terminos": {
+    "title": "content text",
+    "children": ["flex-layout.row#group-text-terminos"],
+    "props": {"blockClass": "content-terminos"}
+  },
+  "flex-layout.row#group-text-terminos": {
+    "title": "container text",
+    "children":[
+      "rich-text#title-text-01-terminos",
+      "rich-text#title-text-02-terminos",
+      "rich-text#title-text-03-terminos",
+      "rich-text#title-text-04-terminos"
+    ],
+    "props": {"blockClass": "group-text-terminos"}
+  },
+  "rich-text#title-text-01-terminos": {
+    "title": "title 1",
+    "props": {
+      "text": "¿Cómo participar?",
+      "blockClass": "title-one"
+    }
+  },
+  "rich-text#title-text-02-terminos": {
+    "title": "text 1",
+    "props": {
+      "text": "Sigue las cuentas @tiendaspeopleplays y @bucaramangaoficial. <br/> Dale like y etiqueta en el post a la persona con quien te gustaría ir (esa persona también debe seguir a @tiendaspeopleplays). <br/> Comparte el post en tus historias y etiquétanos. <br/> Recuerda seguir TODAS las instracciones. <br> El ganador recibirá una boleta doble para el partido Atlético Bucaramanga Vs Santa Fe. Serán 3 ganadores. <br/> Pueden participar hombres y mujeres mayores de 18 años, menores de edad supervisado por un adulto mayor de edad, el concurso es exclusivo para personas que vivan en Santander. <br/> Se va a escoger al ganador de manera aleatoria, verificando que la persona cumpla con todos los pasos de manera exitosa. La persona que gane será anunciada a través de Instagram. <br/> Existe la posibilidad de participar hasta el 24 de septiembre a las 8:00 am hora colombiana. <br/> Los concursantes que no cumplan la totalidad de los pasos o las condiciones mencionadas en estos términos serán descalificados y no podrán participar en el concurso. Además, las personas que se sospeche que hayan cometido fraude en el concurso serán descalificadas.  <br/> En caso de que el ganador no se logre contactar o no reclame su premio dentro de las 24 horas de elegido, se volverá a correr un aleatorio para determinar un nuevo ganador. Si el ganador se determina que hizo fraude perderá los beneficios automáticamente y se elegirá un nuevo ganador.  <br/> El premio es personal e intransferible",
+      "blockClass": "text-one"
+    }
+  },
+  "rich-text#title-text-03-terminos": {
+    "title": "title 2",
+    "props": {
+      "text": "¿En donde se hará el concurso?",
+      "blockClass": "title-one"
+    }
+  },
+  "rich-text#title-text-04-terminos": {
+    "title": "text 2",
+    "props": {
+      "text": "Funcionará en instagram por lo que solo se tendrán en cuenta los participantes de este medio",
+      "blockClass": "text-two"
+    }
+  },
+
+  /* two */
+  "disclosure-layout#two-terminos": {
+    "title": "container",
+    "children": ["disclosure-trigger#two-terminos", "disclosure-content#two-terminos"],
+    "props": {"blockClass": "layout-terminos"}
+  },
+  "disclosure-trigger#two-terminos": {
+    "title": "content title",
+    "children": ["rich-text#two-terminos", "disclosure-state-indicator"],
+    "props": {"blockClass": "trigger-terminos"}
+  },
+  "rich-text#two-terminos": {
+    "title": "title",
+    "props": {
+      "text": "TÉRMINOS Y CONDICIONES ENTRADAS DOBLES COPA DAVIS 2022",
+      "blockClass": "group-title-terminos"
+    }
+  },
+  "disclosure-content#two-terminos": {
+    "title": "content text",
+    "children": ["flex-layout.row#group-text-terminos-02"],
+    "props": {"blockClass": "content-terminos"}
+  },
+
+  "flex-layout.row#group-text-terminos-02": {
+    "title": "container text",
+    "children":[
+      "rich-text#title-text-01-02-terminos",
+      "rich-text#title-text-02-02-terminos",
+      "rich-text#title-text-03-02-terminos",
+      "rich-text#title-text-04-02-terminos"
+    ],
+    "props": {"blockClass": "group-text-terminos"}
+  },
+  "rich-text#title-text-01-02-terminos": {
+    "title": "title 1",
+    "props": {
+      "text": "¿Cómo participar?",
+      "blockClass": "title-one"
+    }
+  },
+  "rich-text#title-text-02-02-terminos": {
+    "title": "text 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-one"
+    }
+  },
+  "rich-text#title-text-03-02-terminos": {
+    "title": "title 2",
+    "props": {
+      "text": "¿En donde se hará el concurso?",
+      "blockClass": "title-one"
+    }
+  },
+  "rich-text#title-text-04-02-terminos": {
+    "title": "text 2",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-two"
+    }
+  },
+
+  /* three */
+  "disclosure-layout#three-terminos": {
+    "title": "container",
+    "children": ["disclosure-trigger#three-terminos", "disclosure-content#three-terminos"],
+    "props": {"blockClass": "layout-terminos"}
+  },
+  "disclosure-trigger#three-terminos": {
+    "title": "content title",
+    "children": ["rich-text#three-terminos", "disclosure-state-indicator"],
+    "props": {"blockClass": "trigger-terminos"}
+  },
+  "rich-text#three-terminos": {
+    "title": "title",
+    "props": {
+      "text": "TÉRMINOS Y CONDICIONES ENTRADAS PARTIDO DEL ATLÉTICO BUCARAMANGA VS SANTA FÉ",
+      "blockClass": "group-title-terminos"
+    }
+  },
+  "disclosure-content#three-terminos": {
+    "title": "content text",
+    "children": ["flex-layout.row#group-text-terminos-03"],
+    "props": {"blockClass": "content-terminos"}
+  },
+  "flex-layout.row#group-text-terminos-03": {
+    "title": "container text",
+    "children":[
+      "rich-text#title-text-01-03-terminos",
+      "rich-text#title-text-02-03-terminos",
+      "rich-text#title-text-03-03-terminos",
+      "rich-text#title-text-04-03-terminos"
+    ],
+    "props": {"blockClass": "group-text-terminos"}
+  },
+  "rich-text#title-text-01-03-terminos": {
+    "title": "title 1",
+    "props": {
+      "text": "¿Cómo participar?",
+      "blockClass": "title-one"
+    }
+  },
+  "rich-text#title-text-02-03-terminos": {
+    "title": "text 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-one"
+    }
+  },
+  "rich-text#title-text-03-03-terminos": {
+    "title": "title 2",
+    "props": {
+      "text": "¿En donde se hará el concurso?",
+      "blockClass": "title-one"
+    }
+  },
+  "rich-text#title-text-04-03-terminos": {
+    "title": "text 2",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-two"
+    }
+  },
+
+  /* four */
+  "disclosure-layout#four-terminos": {
+    "title": "container",
+    "children": ["disclosure-trigger#four-terminos", "disclosure-content#four-terminos"],
+    "props": {"blockClass": "layout-terminos"}
+  },
+  "disclosure-trigger#four-terminos": {
+    "title": "content title",
+    "children": ["rich-text#four-terminos", "disclosure-state-indicator"],
+    "props": {"blockClass": "trigger-terminos"}
+  },
+  "rich-text#four-terminos": {
+    "title": "title",
+    "props": {
+      "text": "TÉRMINOS Y CONDICIONES ENTRADAS DOBLES PARTIDO CLUB ATLÉTICO BUCARAMANGA VS ALIANZA PETROLERA",
+      "blockClass": "group-title-terminos"
+    }
+  },
+  "disclosure-content#four-terminos": {
+    "title": "content text",
+    "children": ["flex-layout.row#group-text-terminos-04"],
+    "props": {"blockClass": "content-terminos"}
+  },
+  "flex-layout.row#group-text-terminos-04": {
+    "title": "container text",
+    "children":[
+      "rich-text#title-text-01-04-terminos",
+      "rich-text#title-text-02-04-terminos",
+      "rich-text#title-text-03-04-terminos",
+      "rich-text#title-text-04-04-terminos"
+    ],
+    "props": {"blockClass": "group-text-terminos"}
+  },
+  "rich-text#title-text-01-04-terminos": {
+    "title": "title 1",
+    "props": {
+      "text": "¿Cómo participar?",
+      "blockClass": "title-one"
+    }
+  },
+  "rich-text#title-text-02-04-terminos": {
+    "title": "text 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-one"
+    }
+  },
+  "rich-text#title-text-03-04-terminos": {
+    "title": "title 2",
+    "props": {
+      "text": "¿En donde se hará el concurso?",
+      "blockClass": "title-one"
+    }
+  },
+  "rich-text#title-text-04-04-terminos": {
+    "title": "text 2",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-two"
+    }
+  },
+
+  /* five */
+  "disclosure-layout#five-terminos": {
+    "title": "container",
+    "children": ["disclosure-trigger#five-terminos", "disclosure-content#five-terminos"],
+    "props": {"blockClass": "layout-terminos"}
+  },
+  "disclosure-trigger#five-terminos": {
+    "title": "content title",
+    "children": ["rich-text#five-terminos", "disclosure-state-indicator"],
+    "props": {"blockClass": "trigger-terminos"}
+  },
+  "rich-text#five-terminos": {
+    "title": "title",
+    "props": {
+      "text": "TÉRMINOS Y CONDICIONES ENTRADAS DOBLES PARTIDO CLUB ATLÉTICO BUCARAMANGA VS AMÉRICA DE CALI",
+      "blockClass": "group-title-terminos"
+    }
+  },
+  "disclosure-content#five-terminos": {
+    "title": "content text",
+    "children": ["flex-layout.row#group-text-terminos-05"],
+    "props": {"blockClass": "content-terminos"}
+  },
+  "flex-layout.row#group-text-terminos-05": {
+    "title": "container text",
+    "children":[
+      "rich-text#title-text-01-05-terminos",
+      "rich-text#title-text-02-05-terminos",
+      "rich-text#title-text-03-05-terminos",
+      "rich-text#title-text-04-05-terminos"
+    ],
+    "props": {"blockClass": "group-text-terminos"}
+  },
+  "rich-text#title-text-01-05-terminos": {
+    "title": "title 1",
+    "props": {
+      "text": "¿Cómo participar?",
+      "blockClass": "title-one"
+    }
+  },
+  "rich-text#title-text-02-05-terminos": {
+    "title": "text 1",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-one"
+    }
+  },
+  "rich-text#title-text-03-05-terminos": {
+    "title": "title 2",
+    "props": {
+      "text": "¿En donde se hará el concurso?",
+      "blockClass": "title-one"
+    }
+  },
+  "rich-text#title-text-04-05-terminos": {
+    "title": "text 2",
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "blockClass": "text-two"
+    }
+  }
+}

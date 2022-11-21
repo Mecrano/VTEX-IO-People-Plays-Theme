@@ -1,0 +1,141 @@
+.paragraph--group-title-terminos {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 37px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.paragraph--title-termino {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 49px;
+  color: #000000;
+}
+
+.paragraph--text-termino {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20.461px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.paragraph--border {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 128.1%;
+  color: #000000;
+}
+
+.paragraph--border {
+  border-right: 1px solid #000000;
+}
+
+.paragraph--text-termino {
+  padding-left: 20px;
+}
+
+.link--border {
+  text-decoration: none;
+  color: #000000;
+}
+
+.paragraph--title-one {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.461px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.container--title-one {
+  margin-bottom: 10px;
+}
+
+.container--text-one,
+.container--text-two {
+  margin-bottom: 20px;
+}
+
+.paragraph--text-one,
+.paragraph--text-two {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20.461px;
+  line-height: 34px;
+  color: #000000;
+}
+
+@media (max-width: 320px) {
+  .paragraph--group-title-terminos {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .paragraph--group-title-terminos {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .paragraph--group-title-terminos {
+    font-size: 14px;
+  }
+
+  .paragraph--text-termino {
+    font-size: 16px !important;
+    line-height: 24px;
+  }
+
+  .paragraph--border {
+    font-size: 12px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .paragraph--border {
+    border-right: none;
+  }
+
+  .container--border {
+    border-bottom: 1px solid #000000;
+  }
+
+  .paragraph--text-termino {
+    padding-left: 0;
+  }
+
+  .paragraph--text-termino {
+    font-size: 18px;
+  }
+
+  .paragraph--border {
+    font-size: 14px;
+  }
+
+  .paragraph--text-one {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .paragraph--border {
+    padding-right: 10px;
+  }
+}
