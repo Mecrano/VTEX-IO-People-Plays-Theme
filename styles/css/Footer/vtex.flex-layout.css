@@ -62,6 +62,7 @@
   /* estilos azul footer */
 
   .flexRow--footer-1-desktop,
+  /* .flexRow--mobile-flex, */
   .flexRow--footer-3-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
@@ -82,12 +83,18 @@
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
   .flexRow--footer-1-desktop,
+  .flexRow--mobile-flex,
   .flexRow--footer-3-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
     width: calc(420px - 20px * 2);
     margin: 0 auto;
+  }
+
+  .flexCol--background-2-contact-lines:first-child,
+  .flexCol--background-2-contact-lines-mobile:first-child {
+    width: 320px!important;
   }
 
   .flexRowContent--container-contact-lines {
@@ -106,6 +113,7 @@
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .flexRow--footer-1-desktop,
+  .flexRow--mobile-flex,
   .flexRow--footer-3-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
