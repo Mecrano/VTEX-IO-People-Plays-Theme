@@ -51,19 +51,264 @@
 			"responsive-layout.desktop#department-image",
 			"responsive-layout.tablet#department-image",
 			"responsive-layout.phone#department-image",
-			"rich-text#search-category-title",
-			"list-context.product-list#demo1",
+      "flex-layout.row#departament-slider-one",
 			"flex-layout.row#department-two-banners",
-			"rich-text#search-category-title-2",
-			"list-context.info-card-list#promociones",
+			/* "list-context.info-card-list#promociones", */
+      "flex-layout.row#encuentra-departament",
 			"flex-layout.row#department-newsletter-banner",
-			"rich-text#search-category-title",
-			"list-context.product-list#demo2"
+      "flex-layout.row#departament-slider-two"
 		],
 		"props": {
 			"blockClass": "department-main-container-col"
 		}
 	},
+
+/* slider */
+"flex-layout.row#departament-slider-one": {
+  "title": "block 4",
+  "props":{
+    "blockClass": "home-seccion-three"
+  },
+  "children":["flex-layout.row#titles-promociones-departamento", "flex-layout.row#shelf1-departament" ]
+},
+"flex-layout.row#titles-promociones-departamento":{
+  "children":["rich-text#promociones-departament"]
+},
+"rich-text#promociones-departament": {
+  "title": "title",
+  "props": {
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Promociones",
+    "blockClass": "promocion"
+  }
+},
+"flex-layout.row#shelf1-departament": {
+  "title": "contenido vitrina",
+  "children": ["list-context.product-list#productSlider-departament"],
+  "props": {"blockClass": "shelfComplete"}
+},
+"list-context.product-list#productSlider-departament": {
+  "blocks": ["product-summary.shelf#plp"],
+  "children": ["slider-layout#products-departament"],
+  "props": {
+    "category": "9285",
+    "orderBy": "OrderByTopSaleDESC"
+  }
+},
+"slider-layout#products-departament": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 3,
+      "tablet": 3,
+      "phone": 1
+    },
+    "infinite": false,
+    "fullWidth": true,
+    "showPaginationDots": "always",
+    "showNavigationArrows": "desktopOnly",
+    "blockClass": "shelfStyle1"
+  }
+},
+/* slider */
+
+/* slider two*/
+"flex-layout.row#departament-slider-two": {
+  "title": "block 10",
+  "props":{
+    "blockClass": "home-seccion-three"
+  },
+  "children":["flex-layout.row#titles-promociones-two", "flex-layout.row#shelf2-departament" ]
+},
+"flex-layout.row#titles-promociones-two":{
+  "children":["rich-text#buscado-departament"]
+},
+"rich-text#buscado-departament": {
+  "title": "title",
+  "props": {
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "Lo más buscado",
+    "blockClass": "promocion"
+  }
+},
+"flex-layout.row#shelf2-departament": {
+  "title": "contenido vitrina",
+  "children": ["list-context.product-list#productSlider-departament-2"],
+  "props": {"blockClass": "shelfComplete"}
+},
+"list-context.product-list#productSlider-departament-2": {
+  "blocks": ["product-summary.shelf#plp"],
+  "children": ["slider-layout#products-departament-2"],
+  "props": {
+    "category": "9285",
+    "orderBy": "OrderByTopSaleDESC"
+  }
+},
+"slider-layout#products-departament-2": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 3,
+      "tablet": 3,
+      "phone": 1
+    },
+    "infinite": false,
+    "fullWidth": true,
+    "showPaginationDots": "always",
+    "showNavigationArrows": "desktopOnly",
+    "blockClass": "shelfStyle1"
+  }
+},
+/* slider */
+
+/* encuentra */
+"flex-layout.row#encuentra-departament": {
+  "title": "block 8",
+  "props":{
+    "blockClass": "home-seccion-five"
+  },
+  "children":["rich-text#encuentra", "flex-layout.row#group-images-departament"]
+},
+"rich-text#encuentra": {
+  "props": {
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "Encuentra lo que buscas",
+    "blockClass": "siempre-listos"
+  }
+},
+"flex-layout.row#group-images-departament": {
+  "title": "container",
+  "props":{
+    "blockClass": "group-images"
+  },
+  "children":[
+    "flex-layout.row#images-one-departament",
+    "flex-layout.row#images-two-departament",
+    "flex-layout.row#images-three-departament",
+    "flex-layout.row#images-four-departament"
+  ]
+},
+"flex-layout.row#images-one-departament": {
+  "title": "container image - figura",
+  "props":{
+    "blockClass": "container-images-figura"
+  },
+  "children":[
+    "flex-layout.row#container-image-departament",
+    "rich-text#figura-text-calzado",
+    "flex-layout.row#figura-departament",
+    "image#figura"
+  ]
+},
+"flex-layout.row#container-image-departament": {
+  "title": "container image",
+  "props":{
+    "blockClass": "container-orange-two"
+  },
+  "children":[
+    "image#seccion-5-one-departamento"
+  ]
+},
+"flex-layout.row#figura-departament": {
+  "title": "figura",
+  "props":{
+    "blockClass": "figura-orange"
+  }
+},
+"rich-text#figura-text-calzado": {
+  "title": "title figura",
+  "props": {
+    "text": "Calzado",
+    "blockClass": "figura-text"
+  }
+},
+
+"flex-layout.row#images-two-departament": {
+  "title": "container image - figura",
+  "props":{
+    "blockClass": "container-images-figura"
+  },
+  "children":[
+     "image#seccion-5-two-departamento",
+     "rich-text#figura-text-two-accesorios",
+    "flex-layout.row#figura-departament",
+    "image#figura"
+  ]
+},
+"rich-text#figura-text-two-accesorios": {
+  "title": "title figura",
+  "props": {
+    "text": "Accesorios",
+    "blockClass": "figura-text"
+  }
+},
+"flex-layout.row#images-three-departament": {
+  "title": "container image - figura",
+  "props":{
+    "blockClass": "container-images-figura"
+  },
+  "children":[
+    "image#seccion-5-three-departamento",
+    "rich-text#figura-text-three-departament",
+    "flex-layout.row#figura",
+    "image#figura"
+  ]
+},
+"rich-text#figura-text-three-departament": {
+  "title": "title figura",
+  "props": {
+    "text": "Ropa",
+    "blockClass": "figura-text"
+  }
+},
+
+"flex-layout.row#images-four-departament": {
+  "title": "container image - figura",
+  "props":{
+    "blockClass": "container-images-figura"
+  },
+  "children":[
+    "image#seccion-5-four-departamento",
+    "rich-text#figura-text-four-departament",
+    "flex-layout.row#figura",
+    "image#figura"
+  ]
+},
+"rich-text#figura-text-four-departament": {
+  "title": "title figura",
+  "props": {
+    "text": "Promociones",
+    "blockClass": "figura-text"
+  }
+},
+
+"image#seccion-5-one-departamento": {
+  "props": {
+    "src": "assets/search/image01.png",
+    "blockClass": "seccionFive"
+  }
+},
+"image#seccion-5-two-departamento": {
+  "props": {
+    "src": "assets/search/image2.png",
+    "blockClass": "seccionFive"
+  }
+},
+"image#seccion-5-three-departamento": {
+  "props": {
+    "src": "assets/search/image03.png",
+    "blockClass": "seccionFive"
+  }
+},
+"image#seccion-5-four-departamento": {
+  "props": {
+    "src": "assets/search/image04.png",
+    "blockClass": "seccionFive"
+  }
+},
+/* encuentra */
+
 	"responsive-layout.desktop#department-image":{
 		"props":{
 			"blockClass": ["banner-container-department", "banner-container-department-desktop"]
@@ -80,7 +325,7 @@
     "props": {
       "images": [
         {
-          "image": "https://ximg.es/1920x250/eee/000"
+          "image": "/arquivos/banner1.png"
         }
       ]
     }
@@ -120,7 +365,7 @@
 		"props": {
 			"images": [
 				{
-				"image": "https://ximg.es/1024x400/eee/000"
+				"image": "/arquivos/banner1.png"
 				}
 			]
 		}
@@ -132,17 +377,12 @@
 		"props": {
 			"images": [
 				{
-				"image": "https://ximg.es/400x300/eee/000"
+				"image": "/arquivos/banner2.png"
 				}
 			]
 		}
 	},
-	"rich-text#search-category-title": {
-		"props": {
-			"text": "Promociones",
-			"blockClass": "department-title"
-		}
-	},
+
 	"flex-layout.row#department-two-banners": {
 		"props": {
 			"blockClass": "department-two-banners-container-row",
@@ -170,7 +410,7 @@
 		"props": {
 			"images": [
 				{
-					"image": "https://ximg.es/946x600/eee/000"
+					"image": "/arquivos/search1.png"
 				}
 			]
 		}
@@ -202,7 +442,7 @@
 		"props": {
 			"images": [
 				{
-					"image": "https://ximg.es/946x600/eee/000"
+					"image": "/arquivos/search2.png"
 				}
 			]
 		}
@@ -232,9 +472,7 @@
 			"width": "50%",
 			"blockClass": ["newsletter-container"]
 		},
-		"children":[
-			"rich-text#newsletter-test"
-		]
+		"children":["newsletter-form"]
 	}
 	,
 	"flex-layout.col#newsletter-banner":{
@@ -253,44 +491,13 @@
 		"props": {
 			"images": [
 				{
-					"image": "https://ximg.es/946x600/eee/000"
+					"image": "/arquivos/bannernewsletter.png"
 				}
 			]
 		}
-	},
-	"rich-text#newsletter-test": {
-		"props": {
-			"text": "newsletter"
+	}
 
-		}
-	},
-	"list-context.product-list#demo1": {
-		"blocks": ["product-summary.shelf"],
-		"children": ["slider-layout#demo-products"],
-		"props": {
-		  "orderBy": "OrderByTopSaleDESC"
-		}
-	  },
-	  "slider-layout#demo-products": {
-		"props": {
-		  "itemsPerPage": {
-			"desktop": 3,
-			"tablet": 2,
-			"phone": 1
-		  },
-		  "infinite": true,
-		  "fullWidth": false,
-		  "blockClass": "shelf"
-		}
-	},
-	"list-context.product-list#demo2": {
-		"blocks": ["product-summary.shelf"],
-		"children": ["slider-layout#demo-products"],
-		"props": {
-		  "orderBy": "OrderByTopSaleDESC"
-		}
-	},
-	"list-context.info-card-list#promociones":{
+	/* "list-context.info-card-list#promociones":{
 		"children":[
 			"slider-layout#infocard-slider-prom"
 		],
@@ -299,7 +506,7 @@
 				{
 					"textPosition": "center",
 					"textAlignment": "center",
-					"imageUrl": "https://ximg.es/439x461/eee/000",
+					"imageUrl": "/assets/search/image01.png",
 					"headline": "Calzado",
 					"callToActionText": "test",
 					"callToActionUrl": "/",
@@ -309,7 +516,7 @@
 				{
 					"textPosition": "center",
 					"textAlignment": "center",
-					"imageUrl": "https://ximg.es/439x461/eee/000",
+					"imageUrl": "/arquivos/image2.png",
 					"headline": "Accesorios",
 					"callToActionText": "test",
 					"callToActionUrl": "/",
@@ -319,7 +526,7 @@
 				{
 					"textPosition": "center",
 					"textAlignment": "center",
-					"imageUrl": "https://ximg.es/439x461/eee/000",
+					"imageUrl": "/arquivos/image03.png",
 					"headline": "Ropa",
 					"callToActionText": "test",
 					"callToActionUrl": "/",
@@ -329,7 +536,7 @@
 				{
 					"textPosition": "center",
 					"textAlignment": "center",
-					"imageUrl": "https://ximg.es/439x461/eee/000",
+					"imageUrl": "/arquivos/image04.png",
 					"headline": "Promociones",
 					"callToActionText": "test",
 					"callToActionUrl": "/",
@@ -350,5 +557,5 @@
 			"showNavigationArrows": "mobileOnly",
 			"showPaginationDots": "never"
 		}
-	}
+	} */
 }

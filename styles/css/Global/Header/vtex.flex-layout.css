@@ -23,4 +23,8 @@
 .flexCol--header-menu-mobile {
   padding-left: 0 !important;
 }
+
+.flexRow--header-mobile {
+  background-color: #ed752d;
+}
 }
