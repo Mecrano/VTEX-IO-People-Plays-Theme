@@ -2,3 +2,10 @@
     padding: 50px;
     background-color: #fff;
 }
+
+@media only screen and (max-width: 1024px){
+    :global(.vtex-flex-layout-0-x-flexRowContent--product--newsletter--container) .newsletterForm{
+        padding: 15px;
+        background-color: #fff;
+    }
+}

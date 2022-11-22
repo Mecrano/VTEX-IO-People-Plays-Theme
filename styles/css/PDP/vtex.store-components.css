@@ -65,3 +65,18 @@
 .skuSelectorSubcontainer--size .skuSelectorItem--selected .skuSelectorItemTextValue {
     color: #fff;
 }
+
+@media only screen and (max-width: 768px){
+    .productBrand{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .productNameContainer{
+        margin-top: 10px;
+    }
+
+    .skuSelectorSubcontainer--color .skuSelectorOptionsList{
+        border-right: none;
+    }
+}

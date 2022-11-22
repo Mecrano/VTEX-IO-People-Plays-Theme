@@ -29,12 +29,27 @@
   },
   "flex-layout.row#product--image-details--container": {
     "children": [
-      "stack-layout#product--images--container",
+      "flex-layout.col#product--images--container",
       "flex-layout.col#product--details--container"
     ],
     "props": {
       "blockClass": "product--images-details--container"
     }
+  },
+  "flex-layout.col#product--images--container": {
+    "children": [
+      "responsive-layout.phone#details-phone",
+      "stack-layout#product--images--container"
+    ],
+    "props": {
+      "blockClass":["product--images--container"]
+    }
+  },
+  "responsive-layout.phone#details-phone":{
+    "children":[
+      "flex-layout.row#product--name-ratings--container",
+      "flex-layout.row#product--reference-prices--container"
+    ]
   },
   "flex-layout.row#product--name-ratings--container": {
     "children": [
@@ -42,7 +57,8 @@
       "product-rating-summary"
     ],
     "props": {
-      "blockClass": ["product--details1--container"]
+      "blockClass": ["product--details1--container"],
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#product--reference-prices--container": {
@@ -51,13 +67,16 @@
       "flex-layout.row#product--prices--container"
     ],
     "props": {
-      "blockClass": ["product--details--container"]
+      "blockClass": ["product--details--container"],
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.col#product--details--container": {
     "children": [
-      "flex-layout.row#product--name-ratings--container",
-      "flex-layout.row#product--reference-prices--container",
+      "responsive-layout.desktop#details-desktop",
+      "responsive-layout.tablet#details-tablet",
+      // "flex-layout.row#product--name-ratings--container",
+      // "flex-layout.row#product--reference-prices--container",
       "flex-layout.row#product--sku-quantity--container",
       "product-availability#product--stock",
       "availability-notify",
@@ -69,24 +88,17 @@
       "preventVerticalStretch": true
     }
   },
-  "flex-layout.col#product--name-reference--container": {
-    "children": [
-      "vtex.store-components:product-name",
-      "product-identifier.product"
-    ],
-    "props": {
-      "blockClass":["product--name-reference--container"]
-    }
+  "responsive-layout.desktop#details-desktop":{
+    "children":[
+      "flex-layout.row#product--name-ratings--container",
+      "flex-layout.row#product--reference-prices--container"
+    ]
   },
-  "flex-layout.col#product--rating-price--container": {
-    "children": [
-      "product-rating-summary",
-      "flex-layout.row#product--prices--container"
-    ],
-    "props": {
-      "blockClass": ["product--rating-price--container"],
-      "preventVerticalStretch": true
-    }
+  "responsive-layout.tablet#details-tablet":{
+    "children":[
+      "flex-layout.row#product--name-ratings--container",
+      "flex-layout.row#product--reference-prices--container"
+    ]
   },
   "flex-layout.row#product--prices--container": {
     "children": [
@@ -110,12 +122,23 @@
   "flex-layout.col#product--quantity-size-guide--container": {
     "children": [
       "product-quantity#product--quantity-selector",
-      "rich-text#product--size-guide--content"
+      "responsive-layout.tablet#size-guide-tablet",
+      "responsive-layout.desktop#size-guide-desktop"
     ],
     "props": {
       "blockClass":["product--quantity-size-guide--container"],
       "preventVerticalStretch": true
     }
+  },
+  "responsive-layout.desktop#size-guide-desktop":{
+    "children":[
+      "rich-text#product--size-guide--content"
+    ]
+  },
+  "responsive-layout.tablet#size-guide-tablet":{
+    "children":[
+      "rich-text#product--size-guide--content"
+    ]
   },
   "flex-layout.row#product--addto-cart-and-list--container": {
     "children": [
@@ -141,7 +164,8 @@
       "rich-text#product--shelf--more"
     ],
     "props": {
-      "blockClass": ["product--shelf-1--titles", "product--shelf--titles"]
+      "blockClass": ["product--shelf-1--titles", "product--shelf--titles"],
+      "preserveLayoutOnMobile": true
     }
   },  
   "flex-layout.row#product--shelf-2--titles": {
@@ -150,7 +174,8 @@
       "rich-text#product--shelf--more"
     ],
     "props": {
-      "blockClass": ["product--shelf-1--titles", "product--shelf--titles"]
+      "blockClass": ["product--shelf-1--titles", "product--shelf--titles"],
+      "preserveLayoutOnMobile": true
     }
   },
   "flex-layout.row#product--shelf-2": {

@@ -5,11 +5,6 @@
       "product-price-savings#pdp"
 		]
   },
-	"product-price-savings":{
-		"props":{
-			"message": "savingsPercentage"
-		}
-	},
   "product-images#product--images": {
     "props": {
       "blockClass": ["product--images"],

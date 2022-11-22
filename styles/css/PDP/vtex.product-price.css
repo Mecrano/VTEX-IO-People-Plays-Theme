@@ -24,3 +24,24 @@
     color: #000;
     opacity: 0.5;
 }
+
+.savings--discountpdp2{
+    background: #EB0606;
+    padding: 10px;
+    top: 18px;
+    left: 5px;
+    position: relative;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px){
+    .currencyContainer--product--price--selling{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .currencyContainer--product--price--list{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
