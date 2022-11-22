@@ -85,6 +85,10 @@ width: 200px;
 }
 
 @media (max-width: 1024px) {
+
+  .paragraph--promocion::after {
+      font-size: 0 !important;
+  }
   .paragraph--text-seccion-two {
     font-size: 24px;
   }

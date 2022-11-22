@@ -29,3 +29,46 @@
   z-index: 10;
   top: -59px;
 }
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .imageElement--image3 {
+    top: -92px;
+  }
+
+  .imageElement--image4 {
+    top: -65px;
+  }
+
+  .imageElement--image1 {
+    top: -65px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .imageElement--image3 {
+    top: -73px;
+  }
+
+  .imageElement--image4 {
+    top: -53px;
+  }
+
+  .imageElement--image1 {
+    top: -48px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
+  .imageElement--image3 {
+    top: -48px;
+  }
+
+  .imageElement--image4 {
+    top: -30px;
+    left: 145px !important;
+  }
+
+  .imageElement--image1 {
+    top: -26px;
+  }
+}

@@ -121,7 +121,7 @@
       "marginTop": 5,
       "blockClass": "selectores"
     },
-    "children": ["quantity-selector", "quantity-selector", "quantity-selector"]
+    "children": ["quantity-selector"]
   },
   "quantity-selector": {
     "props": {
