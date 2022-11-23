@@ -12,16 +12,9 @@
       "blockClass": "desktop-plp--main-container"
     },
     "children": [
-      "notification.bar#plp",
       "flex-layout.row#breadcrumbPlp",
       "flex-layout.row#container-search"
     ]
-  },
-  "notification.bar#plp": {
-    "props": {
-      "blockClass": "notification-plp",
-      "content": "Envíos gratuitos con compras desde $292.482"
-    }
   },
 
   "flex-layout.row#breadcrumbPlp": {
@@ -166,6 +159,7 @@
       "product-summary-image#shelf",
       "flex-layout.row#prices-listprice-discount",
       "product-summary-name#plp",
+      "product-summary-description",
       "add-to-cart-button#shelf"
     ]
   },

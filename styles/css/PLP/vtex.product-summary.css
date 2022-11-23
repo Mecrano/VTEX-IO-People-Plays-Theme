@@ -36,7 +36,17 @@
 }
 
 .element--shelf--plp :global(.vtex-button__label) {
-  padding: 0;
+  padding: 0 !important;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  padding: 0 !important;
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 600;
@@ -53,10 +63,17 @@
 
 
 .nameContainer--name--plp,
-.productBrandContainer--brand--plp {
+.productBrandContainer--brand--plp,
+.description {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.description {
+  height: 62px;
+  font-size: 0.8rem;
+}
+
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .element--shelf--plp :global(.vtex-button__label) {
@@ -71,8 +88,10 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
+
   .nameContainer--name--plp,
-  .productBrandContainer--brand--plp {
+  .productBrandContainer--brand--plp,
+  .description {
     padding-left: 5px !important;
     padding-right: 5px !important;
   }
@@ -80,6 +99,12 @@
   .element--shelf--plp :global(.vtex-button) {
     margin-left: 5px;
     width: 70% !important;
+  }
+
+  .description {
+    height: 50px;
+    margin-top: 5px;
+    font-size: 0.7rem;
   }
 }
 
@@ -110,6 +135,7 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
+
   .nameContainer--name--plp,
   .productBrandContainer--brand--plp {
     padding-left: 10px;
@@ -123,6 +149,7 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 425px) {
+
   .nameContainer--name--plp,
   .productBrandContainer--brand--plp {
     padding-left: 10px !important;
@@ -133,4 +160,3 @@
     margin-left: 10px;
   }
 }
-

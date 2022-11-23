@@ -1,3 +1,13 @@
+.confirmationCheckboxContainer--newsletter-checkbox-confirmation :global(.vtex-checkbox__label)::after {
+  content: "Ver políticas aqui";
+  color: #ED752D;
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
 @media screen and (min-width: 300px) and (max-width: 1024px) {
   .emailInputContainer--newsletter-input-email :global(.vtex-styleguide-9-x-input) {
     font-family: 'Lato';

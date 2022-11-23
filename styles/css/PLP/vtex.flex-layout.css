@@ -6,8 +6,10 @@
 .flexRow--department-newsletter-banner-row {
   margin-top: 20px;
 }
-
 .flexRow--breadcrumb-plp--flex {
+  background-color: #ffff;
+}
+.flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container) {
   width: calc(1300px - 15px * 2);
   margin: 0 auto;
 }
@@ -228,7 +230,7 @@
 
 @media screen and (min-width: 1400px) {
 
-  .flexRow--breadcrumb-plp--flex,
+  .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
   .flexRow--container--search :global(.vtex-store-components-3-x-container) {
     width: calc(1540px - 36px * 2);
     margin: 0 auto;

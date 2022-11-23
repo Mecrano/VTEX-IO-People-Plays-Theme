@@ -103,7 +103,8 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
-  border: none
+  border: none;
+  background-color: #FFFFFF;
 }
 
 .filterPopupArrowIcon {
@@ -207,9 +208,9 @@
   margin-top: 0;
 }
 
-.galleryItem--normal {
+/* .galleryItem--normal { controla los 4 item del plp gallery vitrinas
   max-width: 50% !important;
-}
+} */
 
 .filter__container--title:first-child {
   border-bottom: none;
