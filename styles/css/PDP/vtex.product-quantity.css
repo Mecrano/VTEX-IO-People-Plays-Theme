@@ -42,3 +42,14 @@
 :global(.vtex-numeric-stepper__input ){
     width: 30px;
 }
+
+@media only screen and (max-width: 768px){
+    .quantitySelectorContainer{
+        padding-left: 0px;
+    }
+
+    :global(.vtex-numeric-stepper__plus-button-container) :global(.vtex-numeric-stepper__plus-button__text),
+    :global(.vtex-numeric-stepper__minus-button-container) :global(.vtex-numeric-stepper__minus-button__text){
+        font-size:20px;
+    }
+}

@@ -69,3 +69,21 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--product--newsletter--container) .headingLevel3--title-newsletter{
     font-weight: bold;
 }
+
+@media only screen and (max-width: 1024px){
+    .paragraph--product--shelf--titles{
+        font-size: 33px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .paragraph--product--shelf--titles{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 17px;
+    }
+
+    .link--product--shelf--titles-ver-mas{
+        font-size: 15px;
+    }
+}
