@@ -99,7 +99,7 @@
 "slider-layout#products-departament": {
   "props": {
     "itemsPerPage": {
-      "desktop": 3,
+      "desktop": 4,
       "tablet": 3,
       "phone": 1
     },
@@ -148,7 +148,7 @@
 "slider-layout#products-departament-2": {
   "props": {
     "itemsPerPage": {
-      "desktop": 3,
+      "desktop": 4,
       "tablet": 3,
       "phone": 1
     },
@@ -496,66 +496,4 @@
 			]
 		}
 	}
-
-	/* "list-context.info-card-list#promociones":{
-		"children":[
-			"slider-layout#infocard-slider-prom"
-		],
-		"props":{
-			"infoCards": [
-				{
-					"textPosition": "center",
-					"textAlignment": "center",
-					"imageUrl": "/assets/search/image01.png",
-					"headline": "Calzado",
-					"callToActionText": "test",
-					"callToActionUrl": "/",
-					"linkTarget": "/"
-
-				},
-				{
-					"textPosition": "center",
-					"textAlignment": "center",
-					"imageUrl": "/arquivos/image2.png",
-					"headline": "Accesorios",
-					"callToActionText": "test",
-					"callToActionUrl": "/",
-					"linkTarget": "/"
-
-				},
-				{
-					"textPosition": "center",
-					"textAlignment": "center",
-					"imageUrl": "/arquivos/image03.png",
-					"headline": "Ropa",
-					"callToActionText": "test",
-					"callToActionUrl": "/",
-					"linkTarget": "/"
-
-				},
-				{
-					"textPosition": "center",
-					"textAlignment": "center",
-					"imageUrl": "/arquivos/image04.png",
-					"headline": "Promociones",
-					"callToActionText": "test",
-					"callToActionUrl": "/",
-					"linkTarget": "/"
-
-				}
-			]
-		}
-	},
-	"slider-layout#infocard-slider-prom":{
-		"props":{
-			"blockClass": "prom-slider-infocard",
-			"itemsPerPage": {
-				"desktop": 4,
-				"tablet": 3,
-				"phone": 1
-			},
-			"showNavigationArrows": "mobileOnly",
-			"showPaginationDots": "never"
-		}
-	} */
 }
