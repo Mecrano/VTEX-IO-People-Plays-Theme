@@ -203,9 +203,6 @@
       "blockClass": "cc-collection"
     }
   },
-
-
-
   "flex-layout.row#prices-listprice-discount": {
     "children": [
       "product-selling-price#plp",
@@ -253,29 +250,3 @@
     }
   }
 }
-
-
- /* {
-  "search-result-layout.desktop": {
-    "children": [
-      "breadcrumb.search"
-    ],
-    "props": {
-      "preventRouteChange": true,
-      "fullWidth": true,
-      "showFacetQuantity": true,
-      "thresholdForFacetSearch": 10,
-      "showProductsCount": true,
-      "brands": true,
-      "priceRange": true,
-      "blockClass": "desktop-plp--main-container"
-    }
-  },
-  "breadcrumb.search": {
-    "title": "breadcrumb-plp",
-    "props": {
-      "blockClass": "breadcrumb--plp",
-      "showOnMobile": true
-    }
-  }
- } */

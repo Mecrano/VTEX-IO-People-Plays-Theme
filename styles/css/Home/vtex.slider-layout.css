@@ -163,3 +163,10 @@
     margin-right: 200px;
   }
 }
+
+/* @media screen and (min-width: 1025px) and (max-width: 1300px) {
+  .sliderTrack--shelfStyle1 {
+    width: 205% !important;
+  }
+}
+ */

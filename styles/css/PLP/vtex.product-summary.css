@@ -40,10 +40,17 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 15px;
   color: #FFFFFF;
   text-transform: capitalize;
 }
+
+.element--shelf--plp :global(.vtex-button__label)::before {
+  content: url("/arquivos/carrito.png");
+  width: 20px;
+  margin-right: 10px;
+}
+
 
 .nameContainer--name--plp,
 .productBrandContainer--brand--plp {
@@ -51,6 +58,17 @@
   padding-right: 15px;
 }
 
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .element--shelf--plp :global(.vtex-button__label) {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .element--shelf--plp :global(.vtex-button__label) {
+    font-size: 14px;
+  }
+}
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .nameContainer--name--plp,

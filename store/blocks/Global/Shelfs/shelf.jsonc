@@ -105,7 +105,7 @@
   "add-to-cart-button#shelf": {
     "props": {
       "blockClass": "shelf__add-to-cart-button",
-      "text": "Agregar a carrito"
+      "text": "Añadir al carrito"
     }
   },
   "add-to-list-btn":{

@@ -29,18 +29,20 @@
     "blocks": ["product-summary.shelf#plp"],
     "children": ["slider-layout#products"],
     "props": {
-      "category": "9285",
-      "orderBy": "OrderByTopSaleDESC"
+      /* "category": "9285", */
+      "collection": "139",
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true
     }
   },
   "slider-layout#products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 4,
         "tablet": 3,
         "phone": 1
       },
-      "infinite": false,
+      "infinite": true,
       "fullWidth": true,
       "showPaginationDots": "always",
       "showNavigationArrows": "desktopOnly",
