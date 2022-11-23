@@ -8,6 +8,11 @@
   height: auto !important;
 }
 
+.flexRowContent--notification {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 426px) and (max-width: 1024px) {
 
   .flexRowContent--header-menu-mobile {

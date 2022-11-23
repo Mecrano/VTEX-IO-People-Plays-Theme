@@ -43,9 +43,45 @@ background-color: #FFFFFF;
 font-size: 0.9rem;
 }
 
+.notificationBarContainer--notification {
+  margin-left: -67px;
+  width: 84.3rem;
+  background: #1D3557;
+  text-decoration: none;
+}
+
+.notificationContent--notification {
+  font-size: 1rem;
+  font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+color: #93ECFF;
+}
+
 
 @media (min-width: 1400px) {
   .searchBarContainer :global(.vtex-styleguide-9-x-input) {
     font-size: 1.25rem;
     }
+
+    .notificationBarContainer--notification {
+      margin-left: -95px !important;
+      width: 118.9rem !important;
+
+    }
+}
+
+@media (max-width: 1024px) {
+  .notificationBarContainer--notification {
+    margin-left: 0 !important;
+    width: 100% !important;
+    background: #415A77;
+
+  }
+}
+
+@media (max-width: 320px) {
+  .notificationContent--notification {
+    font-size: 0.8rem;
+  }
 }

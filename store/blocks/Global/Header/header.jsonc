@@ -13,7 +13,13 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop"]
+    "children": ["flex-layout.row#desktop", "notification.bar"]
+  },
+  "notification.bar": {
+    "props":{
+      "content": "Envíos gratuitos con compras desde $292.482",
+      "blockClass": "notification"
+    }
   },
   "flex-layout.row#desktop": {
     "props": {
@@ -83,7 +89,7 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#mobile"]
+    "children": ["flex-layout.row#mobile", "notification.bar"]
   },
   "flex-layout.row#mobile": {
     "props": {
