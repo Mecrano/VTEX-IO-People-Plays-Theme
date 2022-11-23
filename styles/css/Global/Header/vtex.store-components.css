@@ -31,52 +31,61 @@
 .searchBarContainer .searchIcon {
   width: 25px;
   height: 25px;
-  color: #002F87;
+  color: #002f87;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input),
 .searchBarContainer :global(.vtex-input__suffix) {
-background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 .notificationBarContainer--notification {
   margin-left: -67px;
   width: 84.3rem;
-  background: #1D3557;
+  background: #1d3557;
   text-decoration: none;
 }
 
 .notificationContent--notification {
   font-size: 1rem;
-  font-family: 'Titillium Web';
-font-style: normal;
-font-weight: 600;
-color: #93ECFF;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 600;
+  color: #93ecff;
 }
-
 
 @media (min-width: 1400px) {
   .searchBarContainer :global(.vtex-styleguide-9-x-input) {
     font-size: 1.25rem;
-    }
+  }
 
-    .notificationBarContainer--notification {
-      margin-left: -95px !important;
-      width: 118.9rem !important;
-
-    }
+  .notificationBarContainer--notification {
+    margin-left: -95px !important;
+    width: 118.9rem !important;
+  }
 }
 
 @media (max-width: 1024px) {
   .notificationBarContainer--notification {
     margin-left: 0 !important;
     width: 100% !important;
-    background: #415A77;
+    background: #415a77;
+  }
 
+  .autoCompleteOuterContainer :global(.vtex-input__prefix) {
+    background: white;
+  }
+
+  .autoCompleteOuterContainer :global(.vtex-input__suffix) {
+    display: none;
+  }
+
+  .searchBarContainer {
+    background: white;
   }
 }
 

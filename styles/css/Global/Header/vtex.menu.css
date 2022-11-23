@@ -77,7 +77,7 @@
 .menuContainerNav--header-menu .submenuWrapper .styledLink {
   justify-content: start;
   color: #181818;
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-size: 1rem;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .menuContainerNav--header-menu .accordionIcon::before {
-  content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4IiB2aWV3Qm94PSIwIDAgMTYgMTYiIHZlcnNpb249IjEuMSI+CjxnIGlkPSJzdXJmYWNlMSI+CjxwYXRoIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlLXdpZHRoOjM7c3Ryb2tlLWxpbmVjYXA6cm91bmQ7c3Ryb2tlLWxpbmVqb2luOm1pdGVyO3N0cm9rZTpyZ2IoMTAwJSwxMDAlLDEwMCUpO3N0cm9rZS1vcGFjaXR5OjE7c3Ryb2tlLW1pdGVybGltaXQ6NDsiIGQ9Ik0gMTguNzU5NTIxIDIuMzc3OTMgTCAxMC4zNzY5NTMgMTAuNzYwNDk4IEwgMS45OTk1MTIgMi4zNzc5MyAiIHRyYW5zZm9ybT0ibWF0cml4KDAuNzYxOTA1LDAsMCwwLjc2MTkwNSwwLDMuMDQ3NjE5KSIvPgo8L2c+Cjwvc3ZnPgo=");
+  content: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAB1SURBVHgBrc7RCYAwDEXRgAs4iuP46Qhu4AqO0JHcQDfQDTTRFEqgmtf64H4U2kMbejZwLbcRPnnXc4d2Y6c2ETbBFn2765nGBETQFJPWCMoCiFpMftfZS8GJujAvCmFfaBH2hhZjObQKy6FVmEV/weJmL3YB7HxIcZK9hZ8AAAAASUVORK5CYII=");
 }
 
 .menuContainerNav--header-menu .accordionIcon--isOpen {
@@ -106,11 +106,11 @@
 }
 
 .styledLinkContent--submenu:hover {
-color: #FC701C;
+  color: #fc701c;
 }
 
 .styledLink--submenu:hover {
-  border-bottom: 1px solid #FC701C;
+  border-bottom: 1px solid #fc701c;
 }
 
 @media (min-width: 1024px) {
@@ -134,9 +134,8 @@ color: #FC701C;
 }
 
 @media (max-width: 1024px) {
-
   .styledLinkContent--orange-mobile {
-    color:#FF671D;
+    color: #ff671d;
   }
 
   .menuContainerNav--header-menu .menuItem .styledLinkContent--root {
@@ -149,13 +148,15 @@ color: #FC701C;
     font-size: 1rem;
   }
 
-  .menuContainerNav--header-menu .menuItem--root .styledLink--mobile--highlight {
+  .menuContainerNav--header-menu
+    .menuItem--root
+    .styledLink--mobile--highlight {
     padding: 12px 10px;
   }
 
   .menuContainerNav--header-menu .menuItem--root .styledLink--root {
     padding: 16px 18px;
-    background: #FFFFFF;
+    background: #ffffff;
     transform: skewX(0) !important;
     margin-bottom: 7px;
     color: #000000;
@@ -170,15 +171,22 @@ color: #FC701C;
     justify-content: center;
   }
 
-  .menuContainerNav--header-menu
-    .menuItem--root
-    .styledLink--whatsapp {
+  .menuContainerNav--header-menu .menuItem--root .styledLink--whatsapp {
     padding: 12px;
-    background: #00D95F;
+    background: #00d95f;
     color: white;
   }
 
   .menuContainerNav--header-menu .menuItem--root .styledLinkContent--whatsapp {
     white-space: pre-line;
+  }
+
+  .menuContainerNav--header-menu .submenuAccordion {
+    background: white;
+    margin-bottom: 10px;
+  }
+
+  .menuContainerNav--header-menu .menuItem--root .styledLink {
+    color: black;
   }
 }

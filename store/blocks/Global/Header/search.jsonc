@@ -24,7 +24,8 @@
       "placeholder": "Busca productos dentro de People Plays",
       "disableBlurAndTouchEndHandler": true,
       "containerMode": "container",
-      "autocompleteAlignment": "center"
+      "autocompleteAlignment": "center",
+      "hasIconLeft": true
     },
     "blocks": ["autocomplete-result-list.v2"]
   }
