@@ -89,7 +89,22 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#mobile", "notification.bar"]
+    "children": ["sticky-layout.stack-container#header-mobile"]
+  },
+  "sticky-layout.stack-container#header-mobile": {
+    "props": {
+      "position": "top"
+    },
+    "children": [
+      "sticky-layout#header-1",
+      "sticky-layout#header-2"
+    ]
+  },
+  "sticky-layout#header-1": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "sticky-layout#header-2": {
+    "children": ["notification.bar"]
   },
   "flex-layout.row#mobile": {
     "props": {

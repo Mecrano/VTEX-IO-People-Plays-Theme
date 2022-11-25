@@ -1,7 +1,7 @@
 {
   "search-result-layout.mobile": {
     "children": [
-      "flex-layout.row#breadcrumbPlp",
+      "flex-layout.row#breadcrumbPlp" ,
       "flex-layout.row#searchinfo-mobile",
       "flex-layout.row#container-search-mobile",
       "flex-layout.row#content-mobile"
@@ -10,8 +10,7 @@
       "preventRouteChange": true,
       "showFacetQuantity": true,
       "defaultGalleryLayout": "grid",
-      /* "fullWidth": true,
-      "brands": true, */
+      /*"brands": true, */
       "priceRange": true,
       "blockClass": "mobile-plp--main-container"
     }

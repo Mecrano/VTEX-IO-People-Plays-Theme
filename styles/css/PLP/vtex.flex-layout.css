@@ -9,10 +9,10 @@
 .flexRow--breadcrumb-plp--flex {
   background-color: #ffff;
 }
-.flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container) {
+/* .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container) {
   width: calc(1300px - 15px * 2);
   margin: 0 auto;
-}
+} */
 
 .flexRow--container--search {
   background-color: #f1f3f9;
@@ -103,19 +103,6 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
-  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
-  .flexRow--header-mobile,
-  .flexRow--breadcrumb-plp--flex {
-    width: calc(300px - 15px * 2);
-    margin: 0 auto;
-  }
-
-  .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container) {
-    width: calc(340px - 15px * 2);
-    margin: 0 auto;
-  }
-
   .flexRow--prices-plp {
     padding-left: 5px !important;
     padding-right: 5px !important;
@@ -127,59 +114,21 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
-
-  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
-  .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--header-mobile,
-  .flexRow--breadcrumb-plp--flex {
-    width: calc(360px - 15px * 2);
-    margin: 0 auto;
-  }
-}
-
 @media screen and (min-width: 376px) and (max-width: 425px) {
-
-  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
-  .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--header-mobile,
-  .flexRow--breadcrumb-plp--flex {
-    width: calc(420px - 20px * 2);
-    margin: 0 auto;
-  }
-
   .flexRow--prices-plp {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
-  .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--header-mobile,
-  .flexRow--breadcrumb-plp--flex {
-    width: calc(730px - 20px * 2);
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
-  .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--header-mobile,
-  .flexRow--breadcrumb-plp--flex {
-    width: calc(999px - 40px * 2);
-    margin: 0 auto;
-  }
-}
-
 @media screen and (min-width: 300px) and (max-width: 1024px) {
-
+  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
+  .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
+  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--header-mobile {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
   .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: 33% !important;
   }
@@ -229,7 +178,6 @@
 }
 
 @media screen and (min-width: 1400px) {
-
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
   .flexRow--container--search :global(.vtex-store-components-3-x-container) {
     width: calc(1540px - 36px * 2);
