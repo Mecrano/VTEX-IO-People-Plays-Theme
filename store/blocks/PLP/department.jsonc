@@ -92,7 +92,7 @@
   "blocks": ["product-summary.shelf#plp"],
   "children": ["slider-layout#products-departament"],
   "props": {
-    "category": "9285",
+    "category": "13",
     "orderBy": "OrderByTopSaleDESC"
   }
 },
@@ -141,7 +141,7 @@
   "blocks": ["product-summary.shelf#plp"],
   "children": ["slider-layout#products-departament-2"],
   "props": {
-    "category": "9285",
+    "category": "11",
     "orderBy": "OrderByTopSaleDESC"
   }
 },

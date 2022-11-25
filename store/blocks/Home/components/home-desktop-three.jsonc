@@ -29,8 +29,8 @@
     "blocks": ["product-summary.shelf#plp"],
     "children": ["slider-layout#products"],
     "props": {
-      /* "category": "9285", */
-      "collection": "139",
+      "category": "11",
+      /* "collection": "467", */
       "orderBy": "OrderByTopSaleDESC",
       "hideUnavailableItems": true
     }
