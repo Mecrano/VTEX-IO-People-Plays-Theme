@@ -141,7 +141,6 @@ width: 200px;
   }
 }
 
-
 @media screen and (min-width: 321px) and (max-width: 425px) {
   .paragraph--infotext {
     font-size: 18px !important;
@@ -185,5 +184,3 @@ width: 200px;
   padding-left: 20px;
 }
 }
-
-

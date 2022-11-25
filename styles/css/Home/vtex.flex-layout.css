@@ -204,6 +204,11 @@
   padding: 10px;
 }
 
+.flexCol--infocard-link {
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (min-width: 1400px) {
   .flexRow--content-tab-item-figura {
     background: #002F87;

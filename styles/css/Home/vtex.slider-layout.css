@@ -64,11 +64,11 @@
 }
 
 .sliderLeftArrow--slider-text {
-  margin-left: 330px;
+  margin-left: 100px;
 }
 
 .sliderRightArrow--slider-text {
-  margin-right: 330px;
+  margin-right: 100px;
 }
 
 .caretIcon--slider-text {
@@ -170,10 +170,10 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .sliderLeftArrow--slider-text {
-    margin-left: 270px;
+    margin-left: 200px;
   }
 
   .sliderRightArrow--slider-text {
-    margin-right: 270px;
+    margin-right: 200px;
   }
 }
