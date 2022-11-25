@@ -4,7 +4,7 @@
     "props":{
       "blockClass": "home-seccion-one"
     },
-    "children":["list-context.image-list#people-plays", "link#slider-link"]
+    "children":["list-context.image-list#people-plays"/* , "link#slider-link" */]
   },
   "list-context.image-list#people-plays": {
     "children": ["slider-layout#slider-home"],
@@ -42,14 +42,14 @@
       "showNavigationArrows": "always",
       "blockClass": "slider-home"
     }
-  },
+  }
 
-  "link#slider-link": {
+  /* "link#slider-link": {
     "title": "title link",
     "props": {
       "href": "/",
       "label": "Únete a People Plays",
       "blockClass": "slider-link"
     }
-  }
+  } */
 }

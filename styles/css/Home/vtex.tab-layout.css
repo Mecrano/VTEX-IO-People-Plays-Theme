@@ -33,7 +33,7 @@
 
   .listItemActive--home1 :global(.vtex-button__label),
   .listItem--home1 :global(.vtex-button__label) {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .listContainer--home1 {
@@ -42,8 +42,8 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
-  .listItemActive--home1 :global(.vtex-button__label),
+  /* .listItemActive--home1 :global(.vtex-button__label),
   .listItem--home1 :global(.vtex-button__label) {
     font-size: 12px !important;
-  }
+  } */
 }

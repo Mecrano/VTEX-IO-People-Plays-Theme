@@ -285,7 +285,11 @@
     padding-bottom: 40px;
   }
 
-  .flexRow--home-seccion-two,
+  .flexRowContent--content-tab {
+    display: flex;
+    gap: 30px;
+  }
+
   .flexRow--home-seccion-three,
   .flexRow--mobile,
   .flexRow--home-seccion-five,
@@ -331,7 +335,6 @@
     display: flex;
   }
 
-  .flexRow--home-seccion-two,
   .flexRow--home-seccion-three,
   .flexRow--mobile,
   .flexRow--home-seccion-five,
@@ -359,7 +362,7 @@
     right: 14px;
   }
 
-  .flexRow--home-seccion-two,
+  /* .flexRow--home-seccion-two, */
   .flexRow--home-seccion-three,
   .flexRow--mobile,
   .flexRow--home-seccion-five,
@@ -386,7 +389,7 @@
     height: 90px;
     right: 11px;
   }
-  .flexRow--home-seccion-two,
+
   .flexRow--home-seccion-three,
   .flexRow--mobile,
   .flexRow--home-seccion-five,
@@ -419,8 +422,6 @@
     right: 12px;
   }
 
-
-  .flexRow--home-seccion-two,
   .flexRow--home-seccion-three,
   .flexRow--mobile,
   .flexRow--home-seccion-five,
@@ -479,3 +480,16 @@
 }
 /* slider css */
 }
+
+@media screen and (max-width: 1024px) {
+.flexRow--slider-mobile-home :global(.vtex-store-components-3-x-container) {
+padding-left: 0;
+padding-right: 0;
+}
+
+.flexRowContent--slider-mobile-home {
+  background-color: #d9d9d1;
+  padding-bottom: 20px;
+}
+}
+

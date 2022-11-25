@@ -44,6 +44,35 @@
   color: #002F87;
 }
 
+@media screen and (max-width: 1024px) {
+.link--slider-link-mobile {
+  width: 244.9px !important;
+  height: 62px;
+  background: #FC701C;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.label--slider-link-mobile {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 165.5%;
+  color: #FFFFFF;
+  display: flex;
+    align-items: center;
+}
+
+.label--slider-link-mobile::after {
+  content: "→";
+  font-size: 35px;
+  margin-left: 10px;
+}
+}
+
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .label--infotext {
     font-size: 8px !important;
@@ -53,6 +82,15 @@
   .link--infotext {
     margin-left: 15px;
     margin-top: 0;
+  }
+
+  .label--slider-link-mobile {
+    font-size: 13px;
+  }
+
+  .link--slider-link-mobile {
+    width: 190px !important;
+    height: 40px;
   }
 }
 
@@ -83,31 +121,6 @@
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .label--infotext {
     font-size: 18px;
-  }
-
-  .link--slider-link-mobile {
-    width: 244.9px !important;
-    height: 62px;
-    background: #FC701C;
-    border-radius: 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-  }
-  .label--slider-link-mobile {
-    font-family: 'Titillium Web';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 165.5%;
-    color: #FFFFFF;
-  }
-
-  .label--slider-link-mobile::after {
-    content: "→";
-    font-size: 35px;
-    margin-left: 10px;
   }
 }
 
