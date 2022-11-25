@@ -154,8 +154,8 @@
       "blockClass": "shelf--plp"
     },
     "children": [
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "add-to-list-btn#plp",
+     /*  "vtex.product-highlights@2.x:product-highlights#collection", */
+      /* "add-to-list-btn#plp", */
       "product-summary-image#shelf",
       "flex-layout.row#prices-listprice-discount",
       "product-summary-name#plp",

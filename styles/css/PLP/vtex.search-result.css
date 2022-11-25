@@ -208,9 +208,9 @@
   margin-top: 0;
 }
 
-/* .galleryItem--normal { controla los 4 item del plp gallery vitrinas
-  max-width: 50% !important;
-} */
+.buttonShowMore {
+  margin-top: 20px;
+}
 
 .filter__container--title:first-child {
   border-bottom: none;
