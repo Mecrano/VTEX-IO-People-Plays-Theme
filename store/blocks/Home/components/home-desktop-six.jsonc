@@ -1,16 +1,12 @@
 {
   "flex-layout.row#home-seccion-six": {
     "title": "block six",
-    "props":{
-      "blockClass": "home-seccion-six"
-    },
+    "props":{"blockClass": "home-seccion-six"},
     "children":["flex-layout.row#infocard-home"]
   },
   "flex-layout.row#infocard-home": {
     "title": "contenido infocard",
-    "props":{
-      "blockClass": "home-seccion-six"
-    },
+    "props":{"blockClass": "home-seccion-six"},
     "children":["flex-layout.row#infocard-lin-text-one", "flex-layout.row#infocard-lin-text"]
   },
   "flex-layout.row#infocard-lin-text-one": {
@@ -41,7 +37,15 @@
     "props":{
       "blockClass": "infocard"
     },
-    "children":["rich-text#infotext", "link#infolink"]
+    "children":["rich-text#infotext", "flex-layout.col#infocard-lin-text"]
+  },
+
+  "flex-layout.col#infocard-lin-text": {
+    "title": "container link text",
+    "props":{
+      "blockClass": "infocard-link"
+    },
+    "children":["link#infolink", "image#link-info"]
   },
   "rich-text#infotext": {
     "props": {
@@ -56,6 +60,14 @@
       "href": "/",
       "label": "Guia de tallas para calzado",
       "blockClass": "infotext"
+    }
+  },
+  "image#link-info": {
+    "props": {
+      "src": "assets/home/home-6.png",
+      "blockClass": "link-image-home",
+      "maxHeight": 50,
+      "maxWidth": 50
     }
   }
 }
