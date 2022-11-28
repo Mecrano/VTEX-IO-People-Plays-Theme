@@ -48,5 +48,29 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": "shelfStyle1"
     }
+  },
+  "list-context.product-list#productSliderRelated": {
+    "blocks": ["product-summary.shelf#plp"],
+    "children": ["slider-layout#products-related"],
+    "props": {
+      /* "category": "9285", */
+      "collection": "139",
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true
+    }
+  },
+  "slider-layout#products-related": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showPaginationDots": "always",
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "shelfStyle1-related"
+    }
   }
 }

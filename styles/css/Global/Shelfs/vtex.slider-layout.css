@@ -9,3 +9,9 @@
 @media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
 
 }
+.slide--shelfStyle1-related :global(.vtex-product-summary-2-x-container--shelf--plp) {
+    max-width: 400px!important;
+}
+.slide--shelfStyle1-related :global(.vtex-flex-layout-0-x-flexRow--prices-plp){
+    border-top: 1.79px solid #EB0606;
+}

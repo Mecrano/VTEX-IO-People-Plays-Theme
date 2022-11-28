@@ -1,0 +1,10 @@
+.productHighlightWrapper--collection {
+	z-index: 2;
+	background: black;
+	color: white;
+	left: 30px;
+	width: auto;
+	font-size: 14px;
+	padding: 7px 12px;
+	top: 0px;
+}

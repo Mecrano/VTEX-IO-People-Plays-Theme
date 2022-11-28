@@ -180,7 +180,7 @@
   },
   "flex-layout.row#product--shelf-2": {
     "title": "contenido vitrina",
-    "children": ["list-context.product-list#productSlider"],
+    "children": ["list-context.product-list#productSliderRelated"],
     "props": {
       "blockClass": "shelfComplete"
     }

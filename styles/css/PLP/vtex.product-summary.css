@@ -56,9 +56,14 @@
 }
 
 .element--shelf--plp :global(.vtex-button__label)::before {
-  content: url("/arquivos/carrito.png");
+  content: "";
+  background-image: url("/arquivos/carrito.png");
   width: 20px;
+  height: 20px;
   margin-right: 10px;
+  display: block;
+  background-size: contain;
+    background-repeat: no-repeat;
 }
 
 

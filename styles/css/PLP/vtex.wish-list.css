@@ -5,6 +5,9 @@
 .wishlistIconContainer--wishlist---plp :global(.vtex-button) {
   position: absolute;
   z-index: 2;
+  width: 18%;
+  right: 15px;
+  margin-left: 0px;
 }
 
 .wishlistIconContainer--wishlist---plp :global(.vtex-button):hover {
