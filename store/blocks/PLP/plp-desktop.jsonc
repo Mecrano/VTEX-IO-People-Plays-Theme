@@ -192,7 +192,7 @@
 
   "product-highlight-text": {
     "props": {
-      "message": "Ultimas unidades",
+      "message": "Últimas piezas",
       "link": "142/?map=productClusterIds",
       "blockClass": "cc-collection"
     }

@@ -1,0 +1,25 @@
+{
+    "store.custom#mujer": {
+      "blocks": [
+        "search-result-layout.customQuery#mujer",
+        "flex-layout.row#home-seccion-three",
+        "flex-layout.row#departament-slider-two"
+      ]
+    },
+    "search-result-layout.customQuery#mujer": {
+        "props": {
+        "querySchema": {
+            "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "queryField": "mujer",
+            "mapField": "ft"
+        }
+        },
+        "blocks": [
+        "search-result-layout.desktop",
+        "search-result-layout.mobile",
+        "search-not-found-layout"
+        ]
+    }
+   }

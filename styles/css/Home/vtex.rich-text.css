@@ -58,7 +58,7 @@
 
 .paragraph--promocion::after {
   content: " Ver más →";
-    font-size: 36px;
+    font-size: 24px;
     color: #ED752D;
     position: absolute;
     right: 0;

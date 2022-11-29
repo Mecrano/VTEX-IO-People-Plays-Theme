@@ -26,6 +26,7 @@
       }
     },
     "children": [
+      "vtex.product-highlights@2.x:product-highlights",
       "product-summary-brand",
       "add-to-list-btn",
       "product-summary-image",/*
@@ -120,6 +121,15 @@
       ],
       "message": "-{savingsPercentage}",
       "blockClass": "summary"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "highlightName"
     }
   }
 }

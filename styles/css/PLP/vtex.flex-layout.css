@@ -62,7 +62,7 @@
 }
 
 .flexRow--prices-plp {
-  border-top: 1.79173px solid #000000;
+  border-top: 1.79173px solid #F1F3F9;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15px;
@@ -95,7 +95,7 @@
 
 .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   margin-right: 5px;
-  width: 33% !important;
+  width: 21% !important;
 }
 
 .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
