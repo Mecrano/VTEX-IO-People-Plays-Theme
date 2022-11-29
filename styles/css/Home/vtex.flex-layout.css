@@ -209,16 +209,25 @@
   flex-direction: row;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
   .flexRow--content-tab-item-figura {
     background: #002F87;
-    width: 80.4% !important;
-    height: 160px;
+    width: 100% !important;
+    height: 180px;
     position: absolute;
-    bottom: -250px;
-    left: 186px;
+    bottom: -400px;
+    left: 0;
   }
+}
 
+@media screen and (min-width: 1900px) {
+  .flexRow--content-tab-item-figura {
+    bottom: 0px !important;
+  }
+}
+
+
+@media screen and (min-width: 1400px) {
   .flexRow--content-tab-item {
     z-index: 1;
     margin-left: 20px;
@@ -226,15 +235,17 @@
   }
 
   .flexRow--home-seccion-seven {
-    margin-left: 190px;
+    margin-left: 125px;
   }
 
   .flexRow--info-images-figura-one {
-    height: 400px;
+    height: 435px;
+    width: 820px !important;
   }
 
   .flexRow--info-images-figura-two {
-    height: 370px;
+    height: 400px;
+    width: 820px !important;
   }
 }
 

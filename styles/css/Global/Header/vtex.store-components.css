@@ -69,6 +69,12 @@
   }
 }
 
+@media (min-width: 1900px) {
+  .notificationBarContainer--notification {
+    width: 119.9rem !important;
+  }
+}
+
 @media (max-width: 1024px) {
   .notificationBarContainer--notification {
     margin-left: 0 !important;

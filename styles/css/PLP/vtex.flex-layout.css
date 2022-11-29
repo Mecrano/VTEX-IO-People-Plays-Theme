@@ -95,7 +95,7 @@
 
 .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   margin-right: 5px;
-  width: 21% !important;
+  width: 35% !important;
 }
 
 .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
@@ -180,12 +180,40 @@
 @media screen and (min-width: 1400px) {
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
   .flexRow--container--search :global(.vtex-store-components-3-x-container) {
-    width: calc(1540px - 36px * 2);
-    margin: 0 auto;
+    max-width: 105rem !important;
   }
 
   .flexRowContent--breadcrumb-plp--flex,
   .flexRowContent--header-flex {
     padding-left: 28px;
   }
+
+  .flexRow--home-seccion-one :global(.vtex-store-components-3-x-container) {
+    max-width: 120rem !important;
+  }
+
+  .flexRow--home-seccion-two :global(.vtex-store-components-3-x-container) {
+    max-width: 105rem !important;
+  }
+
+  .flexRow--home-seccion-three :global(.vtex-store-components-3-x-container) {
+    max-width: 120rem !important;
+  }
+
+  .flexRow--home-seccion-four :global(.vtex-store-components-3-x-container) {
+    max-width: 109rem !important;
+  }
+
+  .flexRow--home-seccion-five :global(.vtex-store-components-3-x-container) {
+    max-width: 104rem !important;
+  }
+
+  .flexRow--home-seccion-six :global(.vtex-store-components-3-x-container) {
+    max-width: 104rem !important;
+  }
+
+  .flexRow--home-seccion-seven :global(.vtex-store-components-3-x-container) {
+    max-width: 104rem !important;
+  }
 }
+
