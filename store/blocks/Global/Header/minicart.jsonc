@@ -174,7 +174,8 @@
   },
   "rich-text#minicart-default-empty-state": {
     "props": {
-      "text": "Your cart is empty."
+      "text": "Aún no tienes nada <br/> agregado a tu carrito",
+      "blockClass": "carrito-vacio"
     }
   }
 }

@@ -102,6 +102,14 @@
   margin-right: 0;
 }
 
+@media screen and (min-width: 1400px) and (max-width: 1600px) {
+  .flexRow--content-tab-item-figura {
+    height: 180px;
+    bottom: -400px !important;
+    left: 0;
+  }
+}
+
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .flexRow--prices-plp {
     padding-left: 5px !important;

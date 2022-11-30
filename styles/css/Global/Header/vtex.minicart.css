@@ -25,17 +25,11 @@
   background-color: transparent;
 }
 
-.minicartContainer
-  .openIconContainer
-  :global(.vtex-button):hover
-  .minicartIconContainer {
+.minicartContainer .openIconContainer :global(.vtex-button):hover .minicartIconContainer {
   color: var(--primary-blue);
 }
 
-.minicartContainer
-  .openIconContainer
-  :global(.vtex-button):hover
-  .minicartQuantityBadge {
+.minicartContainer .openIconContainer :global(.vtex-button):hover .minicartQuantityBadge {
   color: #feea70;
 }
 
@@ -44,13 +38,13 @@
 }
 
 .drawer .closeIconButton {
-  color: var(--primary-blue);
+  color: #000000;
 }
 
 .drawer .closeIconContainer {
   position: absolute;
   justify-content: end;
-  right: 10px;
+  left: 0;
 }
 
 .drawer .closeIcon {
@@ -62,9 +56,29 @@
   height: 100vh !important;
 }
 
+.minicartCheckoutButton :global(.vtex-button__label){
+  font-size: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::after{
+content: "Ir a compra";
+font-family: 'Mukta';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 165.5%;
+color: #FFFFFF;
+text-transform: initial;
+}
+
 .drawer .minicartTitle {
-  margin: 12px 0;
-  font-size: 1.25rem;
+  margin: 0 12px;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 43px;
+  color: #000000;
 }
 
 .drawer :global(.vtex-flex-layout-0-x-flexRow--minicart-item) {
@@ -103,19 +117,13 @@
 }
 
 @media (min-width: 1025px) {
-  .minicartContainer
-    .openIconContainer
-    :global(.vtex-button)
-    :global(.vtex-button__label) {
+  .minicartContainer .openIconContainer :global(.vtex-button) :global(.vtex-button__label) {
     padding-right: 0;
   }
 }
 
 @media (max-width: 700px) {
-  .minicartContainer
-    .openIconContainer
-    :global(.vtex-button)
-    :global(.vtex-button__label) {
+  .minicartContainer .openIconContainer :global(.vtex-button) :global(.vtex-button__label) {
     padding: 0 15px;
   }
 
@@ -134,15 +142,11 @@
     line-height: 1;
   }
 
-  .drawer
-    :global(.vtex-flex-layout-0-x-flexRowContent--selectores)
-    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  .drawer :global(.vtex-flex-layout-0-x-flexRowContent--selectores) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     margin-bottom: 10px;
   }
 
-  .drawer
-    :global(.vtex-flex-layout-0-x-flexRowContent--selectores)
-    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  .drawer :global(.vtex-flex-layout-0-x-flexRowContent--selectores) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     margin-bottom: 0;
   }
 }
