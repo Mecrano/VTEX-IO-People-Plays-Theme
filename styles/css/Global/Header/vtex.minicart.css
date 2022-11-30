@@ -56,19 +56,19 @@
   height: 100vh !important;
 }
 
-.minicartCheckoutButton :global(.vtex-button__label){
+.minicartCheckoutButton :global(.vtex-button__label) {
   font-size: 0;
 }
 
-.minicartCheckoutButton :global(.vtex-button__label)::after{
-content: "Ir a compra";
-font-family: 'Mukta';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 165.5%;
-color: #FFFFFF;
-text-transform: initial;
+.minicartCheckoutButton :global(.vtex-button__label)::after {
+  content: "Ir a compra";
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 165.5%;
+  color: #FFFFFF;
+  text-transform: initial;
 }
 
 .drawer .minicartTitle {
@@ -122,6 +122,22 @@ text-transform: initial;
   }
 }
 
+@media (max-width: 1024px) {
+  .drawer .minicartTitle {
+    margin-top: 30px !important;
+  }
+
+  .drawer .minicartTitle::before {
+    content: "Tu";
+    margin-right: 10px;
+  }
+
+  .minicartCheckoutButton :global(.vtex-button__label)::after {
+    content: "Ir a pagar";
+  }
+
+}
+
 @media (max-width: 700px) {
   .minicartContainer .openIconContainer :global(.vtex-button) :global(.vtex-button__label) {
     padding: 0 15px;
@@ -148,5 +164,12 @@ text-transform: initial;
 
   .drawer :global(.vtex-flex-layout-0-x-flexRowContent--selectores) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
     margin-bottom: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .drawer .minicartTitle {
+    font-size: 20.461px;
+    line-height: 31px;
   }
 }

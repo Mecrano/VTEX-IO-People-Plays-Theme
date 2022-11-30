@@ -13,3 +13,10 @@
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 425px) {
+  .paragraph--carrito-vacio {
+    font-size: 20.461px;
+line-height: 148.69%;
+  }
+}
