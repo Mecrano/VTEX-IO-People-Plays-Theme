@@ -22,13 +22,34 @@
 
 .sliderLeftArrow--shelfStyle1,
 .sliderRightArrow--shelfStyle1 {
-  width: 64px;
-  height: 64px;
+  width: 34px;
+  height: 34px;
   background: #062F87 !important;
   border-radius: 37.5px;
 }
+.sliderLeftArrow--shelfStyle1 {
+  left: 50px;
+}
+.sliderRightArrow--shelfStyle1 {
+  right: 50px;
+}
 
-.caretIcon--shelfStyle1 {
+.sliderLeftArrow--shelfStyle1-related,
+.sliderRightArrow--shelfStyle1-related {
+  width: 34px;
+  height: 34px;
+  background: #062F87 !important;
+  border-radius: 37.5px;
+}
+.sliderLeftArrow--shelfStyle1-related {
+  left: 50px;
+}
+.sliderRightArrow--shelfStyle1-related {
+  right: 50px;
+}
+
+.caretIcon--shelfStyle1,
+.caretIcon--shelfStyle1-related {
   width: 12.38px;
   height: 12.38px;
   color: #FFFFFF;

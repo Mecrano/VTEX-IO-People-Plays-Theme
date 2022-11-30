@@ -53,11 +53,19 @@
   font-size: 15px;
   color: #FFFFFF;
   text-transform: capitalize;
+  font-size: 0px;
+}
+.element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
+  content: "Añadir a carrito";
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffffff;
 }
 
 .element--shelf--plp :global(.vtex-button__label)::before {
   content: "";
-  background-image: url("/arquivos/carrito.png");
+  background-image: url("/arquivos/carrito-new.png");
   width: 20px;
   height: 20px;
   margin-right: 10px;
