@@ -23,6 +23,12 @@
   padding-bottom: 15px;
 }
 
+.flexRowContent--selectores {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .flexRowContent--header-menu-mobile {
     display: flex;
