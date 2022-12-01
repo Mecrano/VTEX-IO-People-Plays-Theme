@@ -58,7 +58,7 @@
   color: #93ecff;
 }
 
-@media screen and (min-width: 1300px) and (max-width: 1440px){
+@media screen and (min-width: 1400px) and (max-width: 1440px){
   .notificationBarContainer--notification {
     margin-left: -71px;
     width: 89.9rem;

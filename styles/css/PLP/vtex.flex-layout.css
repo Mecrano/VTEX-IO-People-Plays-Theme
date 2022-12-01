@@ -6,9 +6,11 @@
 .flexRow--department-newsletter-banner-row {
   margin-top: 20px;
 }
+
 .flexRow--breadcrumb-plp--flex {
   background-color: #ffff;
 }
+
 /* .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container) {
   width: calc(1300px - 15px * 2);
   margin: 0 auto;
@@ -132,6 +134,7 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
+
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
@@ -139,6 +142,7 @@
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
+
   .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: 33% !important;
   }
@@ -146,7 +150,7 @@
   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
   .flexRow--content--container-mobile :global(.vtex-store-components-3-x-container),
-  .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container)  {
+  .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container) {
     padding-left: 0;
     padding-right: 0;
   }
@@ -188,6 +192,7 @@
 }
 
 @media screen and (min-width: 1400px) {
+
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
   .flexRow--container--search :global(.vtex-store-components-3-x-container) {
     max-width: 105rem !important;
@@ -229,3 +234,24 @@
   }
 }
 
+@media screen and (min-width: 1440px) {
+  .flexRow--department-two-banners-container-row {
+    margin-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  :global(.vtex-store-newsletter-1-x-newsletterForm) {
+    background-color: white;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .flexColChild--newsletter-container {
+    background-color: white;
+  }
+
+  .flexRowContent--home-seccion-three :global(.vtex-slider-layout-0-x-sliderTrackContainer--shelfStyle1) {
+    padding-bottom: 70px;
+  }
+}

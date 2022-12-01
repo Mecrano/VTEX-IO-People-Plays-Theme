@@ -1,4 +1,4 @@
-{
+{/*
     "store.custom#mujer": {
       "blocks": [
         "search-result-layout.customQuery#mujer",
@@ -21,5 +21,5 @@
         "search-result-layout.mobile",
         "search-not-found-layout"
         ]
-    }
+    } */
    }

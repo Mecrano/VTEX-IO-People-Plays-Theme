@@ -10,14 +10,5 @@
   },
   "store.custom#landing-terminos-condiciones": {
     "path": "/terminos-condiciones"
-  },
-  "store.custom#hombre": {
-    "path": "/hombre"
-  },
-  "store.custom#mujer": {
-    "path": "/mujer"
-  },
-  "store.custom#ninos": {
-    "path": "/ninos"
   }
 }

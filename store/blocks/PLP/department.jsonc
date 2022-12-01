@@ -410,7 +410,7 @@
 		"props": {
 			"images": [
 				{
-					"image": "/arquivos/search1.png"
+					"image": "assets/search/search1.png"
 				}
 			]
 		}
@@ -442,7 +442,7 @@
 		"props": {
 			"images": [
 				{
-					"image": "/arquivos/search2.png"
+					"image": "assets/search/search2.png"
 				}
 			]
 		}
@@ -491,7 +491,7 @@
 		"props": {
 			"images": [
 				{
-					"image": "/arquivos/bannernewsletter.png"
+					"image": "assets/search/bannernewsletter.png"
 				}
 			]
 		}
