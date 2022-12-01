@@ -61,3 +61,9 @@
     padding-right: 0;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .container--breadcrumb--plp {
+    padding-left: 40px;
+  }
+}
