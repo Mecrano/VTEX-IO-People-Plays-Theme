@@ -34,7 +34,7 @@
   position: relative;
 }
 
-.flexRowContent--content-tab {
+:global(.vtex-tab-layout-0-x-contentItem--home1) {
   position: relative;
 }
 
@@ -43,7 +43,8 @@
   width: 100% !important;
   height: 160px;
   position: absolute;
-  bottom: -430px;
+  /* bottom: -430px; */
+  bottom: 0;
   left: 0;
 }
 
@@ -208,13 +209,6 @@
   display: flex;
   flex-direction: row;
 }
-
-/* @media screen and (min-width: 1900px) {
-  .flexRow--content-tab-item-figura {
-    bottom: 0;
-  }
-}
- */
 
 @media screen and (min-width: 1400px) {
   .flexRow--content-tab-item {
@@ -405,7 +399,6 @@
   .flexRow--info-images-figura-two {
     width: 480px !important;
     height: 240px;
-
   }
 }
 
