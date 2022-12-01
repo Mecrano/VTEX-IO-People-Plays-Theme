@@ -4,13 +4,23 @@
   display: flex;
 }
 
-.flexColChild--submenu-header {
+.flexColChild--submenu-header,
+.flexColChild--main-container-custom {
   height: auto !important;
 }
 
 .flexRowContent--notification {
   display: flex;
   justify-content: center;
+}
+
+.flexRow--minicart-item {
+  position: relative;
+}
+
+.flexColChild--main-container-custom:first-child {
+  border-bottom: 0.826304px solid #ABABAB;
+  padding-bottom: 15px;
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {

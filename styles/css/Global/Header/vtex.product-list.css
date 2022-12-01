@@ -1,0 +1,17 @@
+.removeButtonContainer {
+  position: absolute;
+  right: -15px;
+  top: -10px;
+  width: 30px !important;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  border-radius: 100%;
+  color: white;
+}
+
+.deleteIcon {
+  color: white;
+}

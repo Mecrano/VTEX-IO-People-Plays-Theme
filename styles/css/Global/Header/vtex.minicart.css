@@ -81,6 +81,10 @@
   color: #000000;
 }
 
+.drawer :global(.vtex-product-list-0-x-productPriceContainer) {
+  text-align: center;
+}
+
 .drawer :global(.vtex-flex-layout-0-x-flexRow--minicart-item) {
   background-color: #fff;
   padding-right: 15px;
@@ -92,6 +96,11 @@
 
 .drawer :global(.vtex-product-list-0-x-productName) {
   line-height: 23px;
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22.6821px;
+  color: #000000;
 }
 
 .drawer :global(.vtex-product-list-0-x-quantitySelectorButton) {
@@ -112,8 +121,20 @@
   border: 1px solid var(--primary-blue);
 }
 
-.drawer :global(.vtex-flex-layout-0-x-flexRow--selectores) {
-  margin-left: 15px;
+.drawer :global(.vtex-product-list-0-x-productVariationsItem) {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 168.7%;
+  color: #000000;
+}
+
+.drawer :global(.vtex-product-list-0-x-productImageContainer) {
+  width: 136px !important;
+  height: 136px;
+  padding-top: 10px;
+  padding-left: 5px;
 }
 
 @media (min-width: 1025px) {

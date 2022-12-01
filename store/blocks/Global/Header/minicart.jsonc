@@ -46,8 +46,9 @@
   "flex-layout.col#minicart-product-info.mobile": {
     "children": [
       "flex-layout.row#list-row.mobile",
-      "flex-layout.row#list-row-selectors.mobile"
-    ]
+      "remove-button"
+    ],
+    "props":{"blockClass": "container-minicart"}
   },
   "flex-layout.row#list-row.mobile": {
     "children": [
@@ -57,7 +58,8 @@
     "props": {
       "fullWidth": true,
       "colSizing": "auto",
-      "preserveLayoutOnMobile": "true"
+      "preserveLayoutOnMobile": "true",
+      "blockClass": "list-mini-container"
     }
   },
   "flex-layout.col#image-custom.mobile": {
@@ -73,11 +75,12 @@
   },
   "flex-layout.col#main-container-custom.mobile": {
     "props": {
-      "width": "grow"
+      "width": "grow",
+      "blockClass": "main-container-custom"
     },
     "children": [
       "flex-layout.row#minicart-item-brand-price",
-      "flex-layout.row#minicart-item-remove-button"
+      "flex-layout.row#list-row-selectors.mobile"
     ]
   },
   "flex-layout.row#minicart-item-brand-price": {
@@ -92,26 +95,22 @@
     ]
   },
   "flex-layout.col#minicart-item-brand": {
-    "children": ["vtex.product-list:product-name"]
+    "children": ["vtex.product-list:product-name"],
+    "props":{
+      "width": "70%"
+    }
   },
   "flex-layout.col#minicart-item-price": {
-    "children": ["price#mobile-custom"]
+    "children": ["price#mobile-custom"],
+    "props":{
+      "width": "30%",
+      "blockClass": "minicart-item-price"
+    }
   },
   "price#mobile-custom": {
     "props": {
-      "textAlign": "right"
-    }
-  },
-  "flex-layout.row#minicart-item-remove-button": {
-    "props": {
-      "marginTop": 5
-    },
-    "children": ["remove-button"]
-  },
-  "remove-button": {
-    "props": {
-      "displayMode": "text-button",
-      "variation": "secondary"
+      "textAlign": "right",
+      "showListPrice": false
     }
   },
   "flex-layout.row#list-row-selectors.mobile": {
@@ -121,7 +120,7 @@
       "marginTop": 5,
       "blockClass": "selectores"
     },
-    "children": ["quantity-selector"]
+    "children": ["product-variations", "quantity-selector"]
   },
   "quantity-selector": {
     "props": {
