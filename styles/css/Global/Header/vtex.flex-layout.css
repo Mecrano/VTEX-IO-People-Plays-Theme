@@ -23,6 +23,7 @@
     width: 100% !important;
   }
 }
+
 @media (max-width: 1024px) {
   .flexCol--header-menu-mobile {
     padding: 0 !important;
@@ -30,5 +31,29 @@
 
   .flexRow--header-mobile {
     background-color: #ed752d;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .flexRow--info-images-figura-one {
+    height: 380px;
+    width: 710px !important;
+  }
+
+  .flexRow--info-images-figura-two {
+    height: 360px;
+    width: 705px !important;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .flexRow--info-images-figura-one {
+    height: 430px;
+    width: 830px !important;
+  }
+
+  .flexRow--info-images-figura-two {
+    height: 403px;
+    width: 825px !important;
   }
 }
