@@ -106,7 +106,7 @@
 .drawer :global(.vtex-product-list-0-x-quantitySelectorButton) {
   border: none;
   background: #fff;
-  color: var(--primary-blue);
+  color: #000000;
 }
 
 .drawer :global(.vtex-product-list-0-x-inputContainer) {
@@ -118,7 +118,7 @@
 
 .drawer :global(.vtex-product-list-0-x-quantitySelectorWrapper) {
   border-radius: 4px;
-  border: 1px solid var(--primary-blue);
+  border: 1px solid #000000;
 }
 
 .drawer :global(.vtex-product-list-0-x-productVariationsItem) {
