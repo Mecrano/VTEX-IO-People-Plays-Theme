@@ -104,7 +104,9 @@
   margin-right: 0;
   position: absolute;
   right: 40px;
-
+}
+.flexRowContent--header-flex {
+  padding: 0 3%;
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1440px) {
@@ -198,8 +200,7 @@
     max-width: 105rem !important;
   }
 
-  .flexRowContent--breadcrumb-plp--flex,
-  .flexRowContent--header-flex {
+  .flexRowContent--breadcrumb-plp--flex {
     padding-left: 28px;
   }
 
