@@ -246,8 +246,8 @@
 
   :global(.vtex-store-newsletter-1-x-newsletterForm) {
     background-color: white;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .flexColChild--newsletter-container {

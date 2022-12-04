@@ -148,8 +148,8 @@
 "slider-layout#products-departament-2": {
   "props": {
     "itemsPerPage": {
-      "desktop": 4,
-      "tablet": 3,
+      "desktop": 3,
+      "tablet": 2,
       "phone": 1
     },
     "infinite": false,
