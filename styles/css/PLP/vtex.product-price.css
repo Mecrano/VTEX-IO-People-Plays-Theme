@@ -2,8 +2,12 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .sellingPriceValue--selling-price--plp{
+  font-size: 20px;
 }
 
 .listPriceValue--list-price--plp {

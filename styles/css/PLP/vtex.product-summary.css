@@ -2,9 +2,13 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
-  height: 45px;
+  height: auto;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .productBrand--name--plp{
+  font-size: 20px;
 }
 
 .nameWrapper--name--plp {
@@ -27,7 +31,13 @@
 }
 
 .element--shelf--plp :global(.vtex-button) {
-  width: 62%;
+  width: 66%;
+  margin-left: 15px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button){
+  width: 50%;
+  height: 45px;
   margin-left: 15px;
 }
 
@@ -39,8 +49,8 @@
   padding: 0 !important;
   font-family: 'Mukta';
   font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: normal;
+  font-size: 18px;
   color: #FFFFFF;
   text-transform: capitalize;
 }
@@ -55,12 +65,23 @@
   text-transform: capitalize;
   font-size: 0px;
 }
+
 .element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
   content: "Añadir a carrito";
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600;
   font-style: normal;
   color: #ffffff;
+  white-space: nowrap;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText)::before{
+  content: "Añadir a carrito";
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  white-space: nowrap;
 }
 
 .element--shelf--plp :global(.vtex-button__label)::before {
@@ -85,8 +106,16 @@
 .description {
   height: 62px;
   font-size: 0.8rem;
+  text-align: left;
 }
 
+:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .description{
+  font-size: 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .containerNormal--shelf--plp{
+  max-width: 420px !important;
+}
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .element--shelf--plp :global(.vtex-button__label) {

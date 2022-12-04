@@ -81,7 +81,7 @@
 
 @media (min-width: 1400px) {
   .searchBarContainer :global(.vtex-styleguide-9-x-input) {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 

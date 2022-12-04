@@ -151,7 +151,7 @@
 
   "product-summary.shelf#plp": {
     "props": {
-      "blockClass": "shelf--plp"
+      "blockClass": ["shelf--home", "shelf--plp"]
     },
     "children": [
      /*  "vtex.product-highlights@2.x:product-highlights#collection", */
@@ -199,13 +199,18 @@
   },
   "flex-layout.row#prices-listprice-discount": {
     "children": [
-      "product-selling-price#plp",
-      "product-list-price#plp",
+      "flex-layout.col#prices-listprice-discount",
       "product-price-savings#plp"
     ],
     "props":{
       "blockClass": "prices-plp"
     }
+  },
+
+  "flex-layout.col#prices-listprice-discount":{
+    "props":{"blockClass":"prices-listprice", "horizontalAlign": "left"},
+    "children":["product-selling-price#plp",
+    "product-list-price#plp"]
   },
 
   "add-to-list-btn#plp": {

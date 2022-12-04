@@ -34,7 +34,8 @@
       "link#info-brands-1",
       "link#info-brands-2",
       "link#info-brands-3",
-      "link#info-brands-4"
+      "link#info-brands-4",
+      "link#info-brands-5"
     ]
   },
   "link#info-title-brands": {
@@ -72,17 +73,25 @@
       "blockClass": "info-brands"
     }
   },
+  "link#info-brands-5": {
+    "props": {
+      "href": "/",
+      "label": "Contactanos",
+      "blockClass": "info-brands"
+    }
+  },
   "flex-layout.row#container-info-2": {
     "children": ["flex-layout.col#continer-info-desktop-2"]
   },
   "flex-layout.col#continer-info-desktop-2": {
+    "props":{"horizontalAlign": "center"},
     "children": [
       "link#info-title-brands",
       "flex-layout.row#container-socialNetwork-info"
     ]
   },
   "flex-layout.row#container-socialNetwork-info": {
-    "props": { "blockClass": "container-socialNetwork-info" },
+    "props": { "blockClass": "container-socialNetwork-info", "horizontalAlign": "between" },
     "children": [
       "image#info-brands-socialNetwork-1",
       "image#info-brands-socialNetwork-2",

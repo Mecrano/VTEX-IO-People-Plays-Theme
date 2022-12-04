@@ -46,7 +46,7 @@
 }
 
 .flexRow--content--container {
-  width: calc(1024px - 45px * 2) !important;
+  width: calc(1150px - 40px * 2)!important;
   margin: 0 auto !important;
 }
 
@@ -104,7 +104,10 @@
   margin-right: 0;
   position: absolute;
   right: 40px;
+}
 
+:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+  right: 0px;
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1440px) {

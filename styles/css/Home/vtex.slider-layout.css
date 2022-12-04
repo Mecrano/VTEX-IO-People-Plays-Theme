@@ -56,16 +56,21 @@
 }
 
 .paginationDot--shelfStyle1 {
-  width: 50px !important;
-  height: 1px !important;
+  width: 50px!important;
   border-radius: 0;
   margin-left: 20px;
+  margin-top: auto;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  height: 0px !important;
+  background: rgba(252, 112, 28, 0.5);
 }
 
 .paginationDot--shelfStyle1--isActive {
   width: 50px !important;
   height: 8px !important;
   border-radius: 0;
+  background: #FC701C;
 }
 
 .paginationDotsContainer--shelfStyle1 {

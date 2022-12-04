@@ -84,10 +84,11 @@
 
 .flexRowContent--container-socialNetwork-info {
   padding-top: 5px;
+  gap: 50px;
 }
 
 .flexRowContent--container-socialNetwork-info .stretchChildrenWidth {
-  justify-content: start;
+  justify-content: center;
 }
 
 .flexRowContent--container-socialNetwork-info .stretchChildrenWidth :global(.vtex-store-components-3-x-imageElement--info-brands-socialNetwork) {

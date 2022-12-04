@@ -57,7 +57,7 @@
   },
   "link#infolink": {
     "props": {
-      "href": "/",
+      "href": "/size-guide",
       "label": "Guia de tallas para calzado",
       "blockClass": "infotext"
     }
