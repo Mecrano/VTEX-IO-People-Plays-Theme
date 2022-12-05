@@ -64,6 +64,12 @@
 
 @media screen and (min-width: 1440px) {
   .container--breadcrumb--plp {
-    padding-left: 40px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1399px) {
+  .container--breadcrumb--plp {
+    padding-left: 50px;
   }
 }

@@ -44,8 +44,8 @@
 }
 
 .notificationBarContainer--notification {
- margin-left: -67px;
-  width: 84.3rem;
+/*  margin-left: -67px;
+  width: 84.3rem; */
   background: #1d3557;
   text-decoration: none;
 }
@@ -58,26 +58,26 @@
   color: #93ecff;
 }
 
-@media screen and (min-width: 1400px) and (max-width: 1440px){
+/* @media screen and (min-width: 1400px) and (max-width: 1440px){
   .notificationBarContainer--notification {
     margin-left: -71px;
     width: 89.9rem;
   }
-}
+} */
 
-@media screen and (min-width: 1441px) and (max-width: 1920px)  {
+/* @media screen and (min-width: 1441px) and (max-width: 1920px)  {
   :global(.vtex-sticky-layout-0-x-container--sticky-header) .notificationBarContainer--notification {
     margin-left: -95px;
     width: 118.9rem;
   }
-}
+} */
 
-@media screen and (min-width: 1921px){
+/* @media screen and (min-width: 1921px){
   :global(.vtex-sticky-layout-0-x-container--sticky-header) .notificationBarContainer--notification {
     margin-left: -95px;
     width: 119.9rem;
   }
-}
+} */
 
 @media (min-width: 1400px) {
   .searchBarContainer :global(.vtex-styleguide-9-x-input) {
@@ -88,8 +88,6 @@
 
 @media (max-width: 1024px) {
   .notificationBarContainer--notification {
-    margin-left: 0 !important;
-    width: 100% !important;
     background: #415a77;
   }
 

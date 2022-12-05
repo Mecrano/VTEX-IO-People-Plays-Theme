@@ -86,15 +86,11 @@
     "children": ["sticky-layout#mobile"]
   },
   "sticky-layout#mobile": {
-    "props": {
-      "blockClass": "sticky-header"
-    },
+    "props": {"blockClass": "sticky-header"},
     "children": ["sticky-layout.stack-container#header-mobile"]
   },
   "sticky-layout.stack-container#header-mobile": {
-    "props": {
-      "position": "top"
-    },
+    "props": {"position": "top"},
     "children": [
       "sticky-layout#header-1",
       "sticky-layout#header-2"

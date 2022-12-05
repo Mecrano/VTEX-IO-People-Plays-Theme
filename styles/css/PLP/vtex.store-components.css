@@ -15,10 +15,3 @@
   line-height: 27px;
   color: #93ECFF;
 }
-
-@media screen and (min-width: 1400px) {
-  .notificationBarInner--notification-plp {
-    width: calc(1540px - 36px * 2);
-    margin: 0 auto;
-  }
-}
