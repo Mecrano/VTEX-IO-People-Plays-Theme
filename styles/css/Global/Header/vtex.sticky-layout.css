@@ -1,7 +1,7 @@
 .container--sticky-header {
   background-color: var(--primary-orange);
   color: #fff;
-  padding: 0 5%;
+ /*  padding: 0 5%; */
 }
 
 .vtex-sticky-layout-0-x-wrapper--sticky-header--stuck .container--sticky-header {

@@ -216,6 +216,56 @@
   border-bottom: none;
 }
 
+.filterMessage::before {
+  content: url(assets/search/filter.svg);
+  margin-right: 10px;
+}
+
+.filter__container--clothes-size .filterContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+
+.filter__container--clothes-size .filterContent .filterItem {
+width: 15%;
+margin-left: 1px;
+
+}
+
+.filter__container--clothes-size .filterContent .filterItem :global(.vtex-checkbox__label) {
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.filter__container--clothes-size .filterContent .filterItem :global(.vtex-checkbox__label):hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.filter__container--clothes-size .filterContent .filterItem :global(.vtex-checkbox__container) {
+display: none;
+}
+
+.galleryItem  :global(.vtex-product-summary-2-x-container--shelf--home) {
+  height: 535.32px;
+}
+
+.galleryItem  :global(.vtex-product-summary-2-x-image) {
+  width: 324.3px !important;
+  height: 280.43px !important;
+}
+
+.galleryItem  :global(.vtex-product-summary-2-x-element--shelf--home) {
+ padding-bottom: 0;
+}
+
+.galleryItem  :global(.vtex-product-summary-2-x-element--shelf--home) :global(.vtex-button) {
+  margin-top: 5px;
+ }
+
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .galleryItem--normal {
     max-width: 44% !important;

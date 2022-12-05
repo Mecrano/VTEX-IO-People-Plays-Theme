@@ -11,11 +11,6 @@
   background-color: #ffff;
 }
 
-/* .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container) {
-  width: calc(1300px - 15px * 2);
-  margin: 0 auto;
-} */
-
 .flexRow--container--search {
   background-color: #f1f3f9;
   padding-bottom: 40px;
@@ -63,6 +58,10 @@
   align-items: center;
 }
 
+.flexRowContent--header-flex {
+  padding: 0 3%;
+}
+
 .flexRow--prices-plp {
   border-top: 1.79173px solid #F1F3F9;
   padding-left: 15px;
@@ -78,6 +77,8 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  margin-left: 10px;
+  padding-right: 20px;
 }
 
 .flexRowContent--total-plp {
@@ -88,11 +89,11 @@
 }
 
 .flexRowContent--total-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
-  width: 65% !important;
+  width: 40% !important;
 }
 
 .flexRowContent--total-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
-  width: 20% !important;
+  width: 60% !important;
 }
 
 .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -137,7 +138,6 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
-
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
@@ -195,7 +195,6 @@
 }
 
 @media screen and (min-width: 1400px) {
-
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
   .flexRow--container--search :global(.vtex-store-components-3-x-container) {
     max-width: 105rem !important;

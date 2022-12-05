@@ -4,7 +4,7 @@
       "fullWidth": true,
       "thresholdForFacetSearch": 10,
       "showProductsCount": true,
-      "showFacetQuantity": true,
+      "showFacetQuantity": false,
       "preventRouteChange": true,
       "defaultGalleryLayout": "grid",
       "brands": true,
@@ -55,7 +55,9 @@
   "filter-navigator.v3": {
     "blocks": ["sidebar-close-button"],
     "props": {
-      "initiallyCollapsed": true
+      "initiallyCollapsed": true,
+      "totalProductsOnMobile": "show",
+      "truncateFilters": true
       /* "truncateFilters": true, */
      /* "fullWidthOnMobile": true,
      "navigationTypeOnMobile": "collapsible",

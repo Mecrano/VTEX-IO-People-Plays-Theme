@@ -27,7 +27,7 @@
 
 .element--shelf--plp {
   background: #FFFFFF;
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
 }
 
 .element--shelf--plp :global(.vtex-button) {
