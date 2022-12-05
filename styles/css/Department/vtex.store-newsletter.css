@@ -1,0 +1,18 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) .emailInputContainer--newsletter-input-email {
+  display: inline-block;
+  width: 67%;
+  margin-right: 5px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) .formSubmitContainer {
+  display: inline-block;
+  width: 28%;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) .emailInputContainer--newsletter-input-email :global(.vtex-input-prefix__group) {
+  height: 54px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) .emailInputContainer--newsletter-input-email :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+  height: 43px;
+}

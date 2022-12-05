@@ -250,6 +250,12 @@
     padding-right: 50px;
   }
 
+  :global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) :global(.vtex-store-newsletter-1-x-newsletterForm) {
+    background-color: white;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+
   .flexColChild--newsletter-container {
     background-color: white;
   }

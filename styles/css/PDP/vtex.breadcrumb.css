@@ -24,6 +24,11 @@
     color: #000000;
 }
 
+.link--1::before{
+  content: 'Categoría';
+  margin-right: 5px;
+}
+
 @media only screen and (max-width: 768px){
     .link,
 .term,

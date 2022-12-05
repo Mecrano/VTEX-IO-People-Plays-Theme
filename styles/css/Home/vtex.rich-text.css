@@ -70,7 +70,7 @@
 
 .paragraph--figura-text {
   position: absolute;
-  bottom: 30px;
+  bottom: 42px;
   left: 80px;
   font-family: 'Titillium Web';
   font-style: normal;
@@ -149,7 +149,7 @@ width: 200px;
   }
 
   .paragraph--figura-text {
-    bottom: 20px;
+    bottom: 29px;
   }
   .paragraph--slider-text {
     font-size: 14px ;
@@ -174,7 +174,7 @@ width: 200px;
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .paragraph--figura-text {
-    bottom: 20px;
+    bottom: 29px;
     left: 70px;
   }
 }
