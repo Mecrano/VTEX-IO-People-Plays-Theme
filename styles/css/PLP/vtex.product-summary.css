@@ -113,8 +113,12 @@
   font-size: 20px;
 }
 
+.containerNormal--shelf--plp{
+  border-radius: 4px;
+}
+
 :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .containerNormal--shelf--plp{
-  max-width: 420px !important;
+  max-width: 440px !important;
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
