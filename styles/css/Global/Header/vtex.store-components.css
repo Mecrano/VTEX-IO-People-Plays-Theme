@@ -88,8 +88,6 @@
 
 @media (max-width: 1024px) {
   .notificationBarContainer--notification {
-    margin-left: 0 !important;
-    width: 100% !important;
     background: #415a77;
   }
 

@@ -41,8 +41,8 @@
 }
 
 .flexRow--content--container {
-  width: calc(1150px - 40px * 2)!important;
-  margin: 0 auto !important;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .flexRow--products-container--search {
@@ -107,7 +107,7 @@
   right: 40px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child{
+:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
   right: 0px;
 }
 
@@ -136,14 +136,30 @@
     padding-right: 10px;
   }
 }
+@media screen and (min-width: 426px) and (max-width: 1024px) {
+.flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
+.flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
+.flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
+.flexRow--header-mobile {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+}
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
+@media screen and (min-width: 300px) and (max-width: 425px) {
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--header-mobile {
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  }
+
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  .flexRowContent--search-info--container-mobile {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -195,9 +211,10 @@
 }
 
 @media screen and (min-width: 1400px) {
+
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
   .flexRow--container--search :global(.vtex-store-components-3-x-container) {
-    max-width: 105rem !important;
+    max-width: 100% !important;
   }
 
   .flexRowContent--breadcrumb-plp--flex,
@@ -261,5 +278,12 @@
 
   .flexRowContent--home-seccion-three :global(.vtex-slider-layout-0-x-sliderTrackContainer--shelfStyle1) {
     padding-bottom: 70px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .flexRowContent--order--by {
+    margin-left: 20px;
+    padding-right: 30px;
   }
 }

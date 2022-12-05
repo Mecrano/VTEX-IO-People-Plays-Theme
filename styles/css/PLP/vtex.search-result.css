@@ -250,7 +250,7 @@ display: none;
 }
 
 .galleryItem  :global(.vtex-product-summary-2-x-container--shelf--home) {
-  height: 535.32px;
+  height: 545.32px;
 }
 
 .galleryItem  :global(.vtex-product-summary-2-x-image) {
@@ -264,6 +264,13 @@ display: none;
 
 .galleryItem  :global(.vtex-product-summary-2-x-element--shelf--home) :global(.vtex-button) {
   margin-top: 5px;
+ }
+
+ .galleryItem  :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp ) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  position: relative;
+  justify-content: end;
+  width: 100% !important;
+  margin-right: -40px;
  }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
@@ -309,6 +316,13 @@ display: none;
     color: #000000;
   }
 
+  .filterPopupButton::before {
+    content: url(assets/search/filter.svg);
+  }
+
+  .filterPopupArrowIcon {
+    display: none;
+  }
   .filtersWrapperMobile {
     display: flex;
     justify-content: left;
@@ -328,7 +342,6 @@ display: none;
 
   .orderBy--layout, .orderByButton {
     border-bottom: none;
-
   }
 
   .filterPopupButton {
@@ -444,6 +457,12 @@ display: none;
   .filterBreadcrumbsItemName {
     font-size: 20px;
   }
+
+  .filterPopupButton::after {
+    margin-left: 5px;
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
@@ -483,5 +502,16 @@ display: none;
   .orderByOptionItem  {
     min-width: 120px;
   }
+}
 
+@media screen and (min-width: 1920px) {
+.galleryItem  :global(.vtex-product-summary-2-x-container--shelf--home) {
+  max-width: 324.34px !important;
+}
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1399px) {
+  .galleryItem  :global(.vtex-product-summary-2-x-container--shelf--home) {
+    height: 555.32px !important;
+  }
 }
