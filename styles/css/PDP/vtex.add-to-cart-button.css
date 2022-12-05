@@ -1,4 +1,9 @@
 .buttonText{
     padding: 13px;
+    font-size: 0px;
+}
+.buttonText::before {
+    content: "Añadir a carrito";
+    font-size: 18px;
 }
 

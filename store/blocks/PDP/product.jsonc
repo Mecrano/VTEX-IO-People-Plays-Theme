@@ -118,18 +118,26 @@
   },
   "flex-layout.row#product--sku-quantity--container": {
     "children": [
-      "sku-selector#product",
+      "flex-layout.col#product--sku-select-size--container",
       "flex-layout.col#product--quantity-size-guide--container"
     ],
     "props": {
       "blockClass": "product--sku-quantity--container"
     }
   },
-  "flex-layout.col#product--quantity-size-guide--container": {
+  "flex-layout.col#product--sku-select-size--container": {
     "children": [
-      "product-quantity#product--quantity-selector",
+      "sku-selector#product",
       "responsive-layout.tablet#size-guide-tablet",
       "responsive-layout.desktop#size-guide-desktop"
+    ],
+    "props": {
+      "blockClass": "product--sku-select-size-container"
+    }
+  },
+  "flex-layout.col#product--quantity-size-guide--container": {
+    "children": [
+      "product-quantity#product--quantity-selector"
     ],
     "props": {
       "blockClass":["product--quantity-size-guide--container"],

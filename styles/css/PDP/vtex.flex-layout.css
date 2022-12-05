@@ -21,14 +21,27 @@
     padding-bottom: 31px;
     border-bottom: 1px solid #062F8740;
 }
-
+.flexCol--product--sku-select-size-container {
+    position: relative;
+}
+.flexCol--product--sku-select-size-container :global(.vtex-rich-text-0-x-container--product--size-guide--text){
+    position: absolute;
+    top: 0px;
+    left: 25%;
+}
 
 .flexRowContent--product--details--container{
     align-items: center;
 }
+.flexRow--product--prices--container :global(.vtex-flex-layout-0-x-flexRowContent--product--prices--container) {
+    justify-content: center;
+}
 
 .flexRowContent--product--details1--container{
     align-items: flex-start;
+}
+.flexRowContent--product--details1--container :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+   width: 70% !important;
 }
 
 .flexCol--product--rating-price--container{
@@ -110,6 +123,18 @@
 
 .flexRowContent--product--shelf--titles{
     padding-inline: 50px;
+}
+.flexRowContent--product--newsletter--container :global(.vtex-rich-text-0-x-heading--title-newsletter){
+    font-size: 36px;
+}
+
+.flexRowContent--product--newsletter--container :global(.vtex-store-newsletter-1-x-emailInputContainer--newsletter-input-email){
+    width: 60%;
+    display: inline-block;
+}
+.flexRowContent--product--newsletter--container :global(.vtex-store-newsletter-1-x-formSubmitContainer) {
+    width: 40%;
+    display: inline-block;
 }
 
 @media only screen and (max-width: 1024px){
