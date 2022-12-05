@@ -37,14 +37,11 @@
   background-color: var(--tertiary-blue);
 }
 
-.drawer .closeIconButton {
-  color: #000000;
-}
-
 .drawer .closeIconContainer {
   position: absolute;
   justify-content: end;
-  left: 0;
+  left: 19px;
+  top: 19px;
 }
 
 .drawer .closeIcon {
@@ -61,7 +58,7 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button__label)::after {
-  content: "Ir a compra";
+  content: "Ir a pagar";
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 500;
@@ -72,7 +69,7 @@
 }
 
 .drawer .minicartTitle {
-  margin: 0 12px;
+  margin: 18px 0px 0px 40px;
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 600;
@@ -84,8 +81,8 @@
 .drawer :global(.vtex-product-list-0-x-productPriceContainer) {
   text-align: center;
   font-family: 'Mukta';
-font-style: normal;
-font-weight: 700;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .drawer :global(.vtex-flex-layout-0-x-flexRow--minicart-item) {
@@ -140,6 +137,21 @@ font-weight: 700;
   padding-left: 5px;
 }
 
+.minicartCheckoutButton {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.minicartCheckoutButton :global(.vtex-button) {
+  width: auto;
+  padding: 6px 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label){
+white-space: nowrap;
+}
+
 @media (min-width: 1025px) {
   .minicartContainer .openIconContainer :global(.vtex-button) :global(.vtex-button__label) {
     padding-right: 0;
@@ -149,13 +161,13 @@ font-weight: 700;
 @media (max-width: 1024px) {
   .drawer :global(.vtex-product-list-0-x-productImageContainer) {
     width: 90.51px !important;
-    height:90.51px;
+    height: 90.51px;
     padding-top: 10px;
     padding-left: 5px;
   }
 
   .drawer .minicartTitle {
-    margin-top: 30px !important;
+    margin-top: 20px !important;
   }
 
   .drawer .minicartTitle::before {
@@ -202,6 +214,8 @@ font-weight: 700;
   .drawer .minicartTitle {
     font-size: 20.461px;
     line-height: 31px;
+    margin-top: 60px !important;
+    margin-left: 19px;
   }
 
   .drawer :global(.vtex-product-list-0-x-productVariationsItem) {

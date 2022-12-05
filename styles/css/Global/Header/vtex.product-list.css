@@ -2,7 +2,7 @@
   position: absolute;
   right: -15px;
   top: -10px;
-  width: 30px !important;
+  width: 30px!important;
   height: 30px;
   display: flex;
   align-items: center;
@@ -10,8 +10,5 @@
   background: #000000;
   border-radius: 100%;
   color: white;
-}
-
-.deleteIcon {
-  color: white;
+  padding: 6px 1px 0 5px;
 }

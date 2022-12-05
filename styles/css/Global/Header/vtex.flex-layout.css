@@ -29,6 +29,18 @@
   align-items: flex-start;
 }
 
+.flexCol--container-carrito-vacio .flexColChild--container-carrito-vacio:nth-child(3n) {
+  width: 100%;
+}
+
+.flexRowContent--minicart-footer-buttons {
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .flexRowContent--header-menu-mobile {
     display: flex;

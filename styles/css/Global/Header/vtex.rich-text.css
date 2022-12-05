@@ -14,9 +14,51 @@
   justify-content: center;
 }
 
+.wrapper--carrito-vacio-boton-seguir-comprando {
+  width: 100%;
+}
+
+.link--carrito-vacio-boton-seguir-comprando {
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+}
+
+.paragraph--carrito-vacio-boton-seguir-comprando {
+  background: #FC701C;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 9px 0;
+  position: absolute;
+  bottom: 0;
+  left: 12%;
+}
+
+.wrapper--carrito-lleno-boton-seguir-comprando {
+  width: 100%;
+}
+
+.link--carrito-lleno-boton-seguir-comprando {
+  font-family: 'Mukta';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.paragraph--carrito-lleno-boton-seguir-comprando {
+  background-color: #002F87;
+  text-align: center;
+  border-radius: 4px;
+  padding: 9px 0;
+}
+
+
 @media (max-width: 425px) {
   .paragraph--carrito-vacio {
     font-size: 20.461px;
-line-height: 148.69%;
+    line-height: 148.69%;
   }
 }
