@@ -4,39 +4,11 @@
     "props":{
       "blockClass": ["home-seccion-four", "mobile"]
     },
-    "children":["slider-layout#text-home", "slider-layout#text-slider"]
+    "children":["rich-text#home1", "slider-layout#text-slider"]
   },
-  "slider-layout#text-home": {
-    "title": "contenido slider texto",
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "always",
-      "showPaginationDots": "never",
-      "blockClass": "slider-text"
-    },
-    "children": ["rich-text#home1", "rich-text#home2", "rich-text#home3"]
-  },
+
   "rich-text#home1": {
     "title": "title text 1",
-    "props": {
-      "text": "¿Por qué comprar en People Plays?",
-      "blockClass": "slider-text"
-    }
-  },
-  "rich-text#home2": {
-    "title": "title text 2",
-    "props": {
-      "text": "Beneficios en People Plays",
-      "blockClass": "slider-text"
-    }
-  },
-  "rich-text#home3": {
-    "title": "title text 3",
     "props": {
       "text": "¿Por qué comprar en People Plays?",
       "blockClass": "slider-text"

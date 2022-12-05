@@ -113,7 +113,7 @@
 
 @media screen and (min-width: 1300px) and (max-width: 1440px) {
   .flexRow--content-tab-item-figura {
-    bottom: -323px !important;
+    /* bottom: -323px !important; */
     left: 0;
   }
 }

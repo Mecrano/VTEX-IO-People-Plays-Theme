@@ -34,7 +34,11 @@
   position: relative;
 }
 
-.flexRowContent--content-tab {
+/* .flexRowContent--content-tab {
+  position: relative;
+} */
+
+:global(.vtex-tab-layout-0-x-contentItem--home1) {
   position: relative;
 }
 
@@ -43,7 +47,7 @@
   width: 100% !important;
   height: 160px;
   position: absolute;
-  bottom: -430px;
+  bottom: 0;
   left: 0;
 }
 
