@@ -7,7 +7,19 @@
   font-size: 16px;
   margin-left: 5px;
 }
-
+.emailInputContainer--newsletter-input-email :global(.vtex-input-prefix__group){
+  margin: 0;
+  margin-bottom: 0!important;
+}
+.newsletter-input-email :global(.vtex-styleguide-9-x-input){
+  border: 0;
+}
+.formSubmitContainer :global(.vtex-button){
+  margin: 0;
+    position: relative;
+    top: -2px;
+    height: 57px !important;
+}
 @media screen and (min-width: 300px) and (max-width: 1024px) {
   .emailInputContainer--newsletter-input-email :global(.vtex-styleguide-9-x-input) {
     font-family: 'Lato';

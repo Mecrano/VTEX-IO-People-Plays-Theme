@@ -110,7 +110,19 @@
 .skuSelectorSubcontainer--size .skuSelectorItem--selected .skuSelectorItemTextValue {
     color: #fff;
 }
-
+:global(.vtex-reviews-and-ratings-3-x-reviewsHeading){
+    font-size: 0 !important;
+}
+    
+:global(.vtex-reviews-and-ratings-3-x-reviewsHeading)::before{
+    font-family: Titillium Web;
+    font-weight: 500;
+    font-size: 1.75rem;
+    text-transform: none;
+    letter-spacing: 0;
+    content: 'Opiniones';
+    display: block;
+}
 @media only screen and (max-width: 768px){
     .productBrand{
         font-size: 22px;
@@ -125,3 +137,4 @@
         border-right: none;
     }
 }
+
