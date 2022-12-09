@@ -30,20 +30,22 @@
             "blockClass": "promocion-vermas"
         }
     },
-    "flex-layout.row#shelf1-departament": {
+
+     "flex-layout.row#shelf1-departament": {
         "title": "container vitrina",
         "children": ["list-context.product-list#productSlider-departament"],
         "props": {"blockClass": "shelfComplete"}
     },
-    "list-context.product-list#productSlider-departament": {
+     "list-context.product-list#productSlider-departament": {
         "blocks": ["product-summary.shelf#plp"],
         "children": ["slider-layout#products-departament"],
         "props": {
             "colleccion": "466",
-            "orderBy": "OrderByTopSaleDESC"
+            "orderBy": "OrderByTopSaleDESC",
+            "maxItems": 10
         }
     },
-    "slider-layout#products-departament": {
+     "slider-layout#products-departament": {
         "title": "slider",
         "props": {
             "itemsPerPage": {
@@ -51,7 +53,7 @@
                 "tablet": 4,
                 "phone": 2
             },
-            "infinite": false,
+            "infinite": true,
             "fullWidth": true,
             "navigationStep": 1,
             "showPaginationDots": "desktopOnly",

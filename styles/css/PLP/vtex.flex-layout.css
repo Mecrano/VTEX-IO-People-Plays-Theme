@@ -415,3 +415,14 @@ height: 50px;
   padding-right: 0;
  }
 }
+
+@media screen and (max-width: 768px) {
+.flexRowContent--department-newsletter-banner-row {
+display: flex;
+flex-direction: column-reverse;
+}
+
+.flexRowContent--department-newsletter-banner-row .stretchChildrenWidth {
+width: 100% !important;
+}
+}
