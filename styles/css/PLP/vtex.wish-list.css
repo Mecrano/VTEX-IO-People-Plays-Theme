@@ -11,7 +11,12 @@
 
 .wishlistIconContainer--wishlist---plp :global(.vtex-button)::before{
   content: url(/arquivos/corazonplp.svg);
+ /*  content: url(/arquivos/corazon-rojo.svg); */
 }
+
+/* .wishlistIconContainer--wishlist---plp :global(.vtex-button)::after{
+  content: url(/assets/search/corazon-rojo.svg);
+} */
 
 .wishlistIconContainer--wishlist---plp :global(.vtex-button):hover {
   background-color: transparent !important;

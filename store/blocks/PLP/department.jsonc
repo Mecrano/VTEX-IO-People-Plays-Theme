@@ -45,7 +45,7 @@
         "children": [
             "breadcrumb.search",
             "flex-layout.row#departament-banner-principal",
-            "flex-layout.row#departament-slider-one",
+             "flex-layout.row#departament-slider-one",
             "flex-layout.row#department-two-banners",
             "flex-layout.row#encuentra-departament",
             "flex-layout.row#department-newsletter-banner",

@@ -276,6 +276,7 @@
   .flexRowContent--group-images {
     gap: 10px;
     overflow-y: auto;
+    height: 400px;
   }
 }
 

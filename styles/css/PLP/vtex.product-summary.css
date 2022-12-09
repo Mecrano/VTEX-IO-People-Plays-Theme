@@ -224,3 +224,9 @@
     font-size: 18px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .productBrand--name--plp, .description {
+    font-size: 18px;
+  }
+}

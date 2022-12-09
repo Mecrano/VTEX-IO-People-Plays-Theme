@@ -72,6 +72,7 @@
         "title": "slider",
         "props": {
             "blockClass": "plp--banner",
+            "navigationStep": 1,
             "itemsPerPage": {
                 "desktop": 1,
                 "tablet": 1,

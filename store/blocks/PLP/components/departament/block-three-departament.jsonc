@@ -53,7 +53,8 @@
             },
             "infinite": false,
             "fullWidth": true,
-            "showPaginationDots": "always",
+            "navigationStep": 1,
+            "showPaginationDots": "desktopOnly",
             "showNavigationArrows": "desktopOnly",
             "blockClass": "shelfStyle1"
         }

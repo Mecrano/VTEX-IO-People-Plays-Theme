@@ -31,7 +31,7 @@
         "children": ["slider-layout#products-departament-2"],
         "props": {
             /* "category": "11", */
-            "collection": "139",
+            "collection": "466",
             "orderBy": "OrderByTopSaleDESC"
         }
     },
@@ -40,12 +40,13 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 4,
-                "tablet": 2,
-                "phone": 1
+                "tablet": 4,
+                "phone": 2
             },
             "infinite": false,
             "fullWidth": true,
-            "showPaginationDots": "always",
+            "navigationStep": 1,
+            "showPaginationDots": "desktopOnly",
             "showNavigationArrows": "desktopOnly",
             "blockClass": "shelfStyle1"
         }

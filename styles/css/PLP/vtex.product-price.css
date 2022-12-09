@@ -75,23 +75,11 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 375px) {
-  /* .sellingPriceValue--selling-price--plp {
-    font-size: 13px;
-  }
-
-  .listPriceValue--list-price--plp {
-    font-size: 11.5592px;
-  } */
-
-  /* .savingsPercentage--summary--plp {
-    font-size: 10.5px;
-  } */
-
+/* @media screen and (min-width: 300px) and (max-width: 375px) {
   .savings--summary--plp {
     font-size: 10.5px;
   }
-}
+} */
 
 @media screen and (min-width: 321px) and (max-width: 425px) {
   .savings--summary--plp {
@@ -107,4 +95,13 @@
 .listPriceValue--list-price--plp {
   font-size: 14px;
 }
+}
+
+@media screen and (max-width: 450px) {
+  .sellingPriceValue--selling-price--plp, .savingsPercentage--summary--plp {
+    font-size: 18px;
+  }
+  .listPriceValue--list-price--plp {
+    font-size: 14px;
+  }
 }
