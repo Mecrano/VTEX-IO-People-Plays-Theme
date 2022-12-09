@@ -296,4 +296,9 @@
     margin-left: 20px;
     padding-right: 30px;
   }
+
+  .flexCol--department-main-container-col :global(.vtex-breadcrumb-1-x-container--breadcrumb--plp) {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+  }
 }

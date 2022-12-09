@@ -1,0 +1,58 @@
+{
+    "flex-layout.row#department-two-banners": {
+        "title": "container banners",
+        "props": {
+            "blockClass": "department-two-banners-container-row",
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true
+        },
+        "children": [
+            "flex-layout.col#two-banners-1",
+            "flex-layout.col#two-banners-2"
+        ]
+    },
+    "flex-layout.col#two-banners-1": {
+        "props": {
+            "width": "49%",
+            "blockClass": ["department-twobanners","banner-1"]
+        },
+        "children": ["list-context.image-list#plp--two-banners-1"]
+    },
+    "flex-layout.col#two-banners-2": {
+        "props": {
+            "width": "49%",
+            "blockClass": ["department-twobanners","banner-2"]
+        },
+        "children": ["list-context.image-list#plp--two-banners-2"]
+    },
+    "list-context.image-list#plp--two-banners-1": {
+        "title": "banner 1",
+        "children": ["slider-layout#plp--two-banners"],
+        "props": {
+            "images": [
+                {"image": "assets/search/search1.png"}
+            ]
+        }
+    },
+
+    "list-context.image-list#plp--two-banners-2": {
+        "title": "banner 2",
+        "children": ["slider-layout#plp--two-banners"],
+        "props": {
+            "images": [
+                {"image": "assets/search/search2.png"}
+            ]
+        }
+    },
+    "slider-layout#plp--two-banners": {
+        "title": "slider",
+        "props": {
+            "blockClass": "plp--banner",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "flex-layout.row#departament-slider-one": {
+        "title": "container slider 1",
+        "props": {"blockClass": "home-seccion-three"},
+        "children": [
+            "flex-layout.row#titles-promociones-departamento",
+            "flex-layout.row#shelf1-departament"
+        ]
+    },
+    "flex-layout.row#titles-promociones-departamento": {
+        "title": "titles slider",
+        "children": ["rich-text#promociones-departament"]
+    },
+    "rich-text#promociones-departament": {
+        "title": "title",
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Promociones",
+            "blockClass": "promocion"
+        }
+    },
+    "flex-layout.row#shelf1-departament": {
+        "title": "container vitrina",
+        "children": ["list-context.product-list#productSlider-departament"],
+        "props": {"blockClass": "shelfComplete"}
+    },
+    "list-context.product-list#productSlider-departament": {
+        "blocks": ["product-summary.shelf#plp"],
+        "children": ["slider-layout#products-departament"],
+        "props": {
+            "category": "13",
+            "orderBy": "OrderByTopSaleDESC"
+        }
+    },
+    "slider-layout#products-departament": {
+        "title": "slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": false,
+            "fullWidth": true,
+            "showPaginationDots": "always",
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "shelfStyle1"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "flex-layout.row#department-newsletter-banner": {
+        "title": "container newsletter",
+        "props": {
+            "blockClass": "department-newsletter-banner-row",
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true
+        },
+        "children": [
+            "flex-layout.col#newsletter",
+            "flex-layout.col#newsletter-banner"
+        ]
+    },
+    "flex-layout.col#newsletter": {
+        "title": "newsletter",
+        "props": {
+            "width": "50%",
+            "blockClass": ["newsletter-container"]
+        },
+        "children": ["newsletter-form"]
+    },
+    "flex-layout.col#newsletter-banner": {
+        "title": "container image",
+        "props": {
+            "width": "50%",
+            "blockClass": [
+                "department-twobanners",
+                "newsletter-banner"
+            ]
+        },
+        "children": ["list-context.image-list#plp--two-banners-3"]
+    },
+    "list-context.image-list#plp--two-banners-3": {
+        "children": ["slider-layout#plp--two-banners"],
+        "props": {
+            "images": [
+                {"image": "assets/search/bannernewsletter.png"}
+            ]
+        }
+    }
+}

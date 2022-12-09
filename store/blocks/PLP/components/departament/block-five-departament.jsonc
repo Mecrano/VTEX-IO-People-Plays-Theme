@@ -1,0 +1,140 @@
+{
+    "flex-layout.row#encuentra-departament": {
+        "title": "container encuentra",
+        "props": {
+            "blockClass": "home-seccion-five"
+        },
+        "children": [
+            "rich-text#encuentra",
+            "flex-layout.row#group-images-departament"
+        ]
+    },
+    "rich-text#encuentra": {
+        "title": "title",
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Encuentra lo que buscas",
+            "blockClass": "siempre-listos"
+        }
+    },
+    "flex-layout.row#group-images-departament": {
+        "title": "container",
+        "props": {"blockClass": "group-images"},
+        "children": [
+            "flex-layout.row#images-one-departament",
+            "flex-layout.row#images-two-departament",
+            "flex-layout.row#images-three-departament",
+            "flex-layout.row#images-four-departament"
+        ]
+    },
+    "flex-layout.row#images-one-departament": {
+        "title": "container image - figura",
+        "props": {"blockClass": "container-images-figura"},
+        "children": [
+            "flex-layout.row#container-image-departament",
+            "rich-text#figura-text-calzado",
+            "flex-layout.row#figura-departament",
+            "image#figura"
+        ]
+    },
+    "flex-layout.row#container-image-departament": {
+        "title": "container image",
+        "props": {"blockClass": "container-orange-two"},
+        "children": ["image#seccion-5-one-departamento"]
+    },
+    "flex-layout.row#figura-departament": {
+        "title": "figura",
+        "props": {"blockClass": "figura-orange"}
+    },
+    "rich-text#figura-text-calzado": {
+        "title": "title figura",
+        "props": {
+            "text": "Calzado",
+            "blockClass": "figura-text"
+        }
+    },
+    "flex-layout.row#images-two-departament": {
+        "title": "container image - figura",
+        "props": {"blockClass": "container-images-figura"},
+        "children": [
+            "image#seccion-5-two-departamento",
+            "rich-text#figura-text-two-accesorios",
+            "flex-layout.row#figura-departament",
+            "image#figura"
+        ]
+    },
+    "rich-text#figura-text-two-accesorios": {
+        "title": "title figura",
+        "props": {
+            "text": "Accesorios",
+            "blockClass": "figura-text"
+        }
+    },
+    "flex-layout.row#images-three-departament": {
+        "title": "container image - figura",
+        "props": {
+            "blockClass": "container-images-figura"
+        },
+        "children": [
+            "image#seccion-5-three-departamento",
+            "rich-text#figura-text-three-departament",
+            "flex-layout.row#figura",
+            "image#figura"
+        ]
+    },
+    "rich-text#figura-text-three-departament": {
+        "title": "title figura",
+        "props": {
+            "text": "Ropa",
+            "blockClass": "figura-text"
+        }
+    },
+    "flex-layout.row#images-four-departament": {
+        "title": "container image - figura",
+        "props": {
+            "blockClass": "container-images-figura"
+        },
+        "children": [
+            "image#seccion-5-four-departamento",
+            "rich-text#figura-text-four-departament",
+            "flex-layout.row#figura",
+            "image#figura"
+        ]
+    },
+    "rich-text#figura-text-four-departament": {
+        "title": "title figura",
+        "props": {
+            "text": "Promociones",
+            "blockClass": "figura-text"
+        }
+    },
+    "image#seccion-5-one-departamento": {
+        "title": "image 1",
+        "props": {
+            "src": "assets/search/image01.png",
+            "blockClass": "seccionFive"
+        }
+    },
+    "image#seccion-5-two-departamento": {
+        "title": "image 2",
+        "props": {
+            "src": "assets/search/image2.png",
+            "blockClass": "seccionFive"
+        }
+    },
+    "image#seccion-5-three-departamento": {
+        "title": "image 3",
+        "props": {
+            "src": "assets/search/image03.png",
+            "blockClass": "seccionFive"
+        }
+    },
+    "image#seccion-5-four-departamento": {
+        "title": "image 4",
+        "props": {
+            "src": "assets/search/image04.png",
+            "blockClass": "seccionFive"
+        }
+    }
+}
