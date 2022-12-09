@@ -47,9 +47,9 @@
   margin-bottom: 0;
 }
 
-.paragraph--promocion {
+/* .paragraph--promocion {
   padding-left: 50px;
-}
+} */
 
 .container--slider-text {
   display: flex;
@@ -106,9 +106,9 @@ width: 200px;
     font-size: 25px;
   }
 
-  .paragraph--promocion {
+  /* .paragraph--promocion {
     padding-left: 0;
-  }
+  } */
 }
 
 
@@ -179,8 +179,8 @@ width: 200px;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 425px) {
+/* @media screen and (min-width: 300px) and (max-width: 425px) {
 .paragraph--promocion {
   padding-left: 20px;
 }
-}
+} */

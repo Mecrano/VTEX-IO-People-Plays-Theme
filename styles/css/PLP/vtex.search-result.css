@@ -221,7 +221,7 @@
   margin-right: 10px;
 }
 
-.filter__container--clothes-size .filterContent {
+.filter__container--talla .filterContent {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -229,23 +229,23 @@
   padding-right: 40px;
 }
 
-.filter__container--clothes-size .filterContent .filterItem {
+.filter__container--talla .filterContent .filterItem {
 width: 15%;
 margin-left: 1px;
 
 }
 
-.filter__container--clothes-size .filterContent .filterItem :global(.vtex-checkbox__label) {
+.filter__container--talla .filterContent .filterItem :global(.vtex-checkbox__label) {
   border: 1px solid #000000;
   text-align: center;
 }
 
-.filter__container--clothes-size .filterContent .filterItem :global(.vtex-checkbox__label):hover {
+.filter__container--talla .filterContent .filterItem :global(.vtex-checkbox__label):hover {
   background-color: #000000;
   color: #FFFFFF;
 }
 
-.filter__container--clothes-size .filterContent .filterItem :global(.vtex-checkbox__container) {
+.filter__container--talla .filterContent .filterItem :global(.vtex-checkbox__container) {
 display: none;
 }
 

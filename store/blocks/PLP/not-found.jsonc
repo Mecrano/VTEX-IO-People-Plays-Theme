@@ -1,5 +1,6 @@
 {
   "search-not-found-layout": {
+    "title": "search not found",
     "props": {
       "blockClass": "not-found"
     },

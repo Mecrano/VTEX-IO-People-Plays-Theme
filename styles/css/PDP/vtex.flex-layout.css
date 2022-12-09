@@ -137,6 +137,10 @@
     display: inline-block;
 }
 
+.flexCol--product--images--container {
+    background-color: #ffffff;
+}
+
 @media only screen and (max-width: 1024px){
     :global(.vtex-wish-list-1-x-wishlistIcon--product--favorites){
         width: 19px !important;
@@ -189,3 +193,4 @@
         display: none;
     }
 }
+

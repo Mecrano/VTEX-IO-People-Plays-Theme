@@ -279,6 +279,16 @@
   .flexRowContent--home-seccion-three :global(.vtex-slider-layout-0-x-sliderTrackContainer--shelfStyle1) {
     padding-bottom: 70px;
   }
+
+  .flexCol--department-main-container-col :global(.vtex-breadcrumb-1-x-container--breadcrumb--plp) {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .flexCol--department-main-container-col .flexRow--home-seccion-three {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
 }
 
 @media screen and (min-width: 1920px) {
