@@ -12,47 +12,44 @@
         ]
     },
     "flex-layout.col#two-banners-1": {
+        "title": "container 1",
         "props": {
-            "width": "49%",
-            "blockClass": ["department-twobanners","banner-1"]
+            "width": "50%",
+            "blockClass": "banner-genero1"
         },
-        "children": ["list-context.image-list#plp--two-banners-1"]
+        "children": ["info-card#departament-1"]
     },
     "flex-layout.col#two-banners-2": {
+        "title": "container 2",
         "props": {
-            "width": "49%",
-            "blockClass": ["department-twobanners","banner-2"]
+            "width": "50%",
+            "blockClass": "banner-genero2"
         },
-        "children": ["list-context.image-list#plp--two-banners-2"]
+        "children": ["info-card#departament-2"]
     },
-    "list-context.image-list#plp--two-banners-1": {
-        "title": "banner 1",
-        "children": ["slider-layout#plp--two-banners"],
+    "info-card#departament-1": {
         "props": {
-            "images": [
-                {"image": "assets/search/search1.png"}
-            ]
+            "id": "info-card-1",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/search/search1.png",
+            "callToActionText": "Ver ropa deportiva",
+            "callToActionUrl": "/",
+            "blockClass": "info-card-1",
+            "textAlignment": "left"
         }
     },
-
-    "list-context.image-list#plp--two-banners-2": {
-        "title": "banner 2",
-        "children": ["slider-layout#plp--two-banners"],
+    "info-card#departament-2": {
         "props": {
-            "images": [
-                {"image": "assets/search/search2.png"}
-            ]
-        }
-    },
-    "slider-layout#plp--two-banners": {
-        "title": "slider",
-        "props": {
-            "blockClass": "plp--banner",
-            "itemsPerPage": {
-                "desktop": 1,
-                "tablet": 1,
-                "phone": 1
-            }
+            "id": "info-card-1",
+            "isFullModeStyle": true,
+            "textPosition": "left",
+            "imageUrl": "assets/search/search2.png",
+            "callToActionText": "Lanzamientos exclusivos",
+            "callToActionUrl": "/",
+            "blockClass": "info-card-1",
+            "textAlignment": "left"
         }
     }
 }
+

@@ -37,5 +37,16 @@
                 {"image": "assets/search/bannernewsletter.png"}
             ]
         }
+    },
+    "slider-layout#plp--two-banners": {
+        "title": "slider",
+        "props": {
+            "blockClass": "plp--banner",
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            }
+        }
     }
 }

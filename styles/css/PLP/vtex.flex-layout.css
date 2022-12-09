@@ -1,12 +1,26 @@
 .flexRowContent--department-two-banners-container-row {
-  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 
-.flexRow--department-two-banners-container-row,
+.flexCol--banner-genero2 {
+  padding-left: 15px;
+}
+
+.flexCol--banner-genero1 {
+padding-right: 15px;
+}
+
 .flexRow--department-newsletter-banner-row {
-  margin-top: 20px;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
+.flexCol--newsletter-container,
 .flexRow--breadcrumb-plp--flex {
   background-color: #ffff;
 }
@@ -101,19 +115,76 @@
   width: 25% !important;
 }
 
+.flexRowContent--prices-plp {
+  position: relative;
+}
+
 .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
   margin-right: 0;
   position: absolute;
-  right: 5px;
+  right: 0px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
   right: 0px;
 }
 
+.flexRowContent--department-newsletter-banner-row :global(.vtex-store-newsletter-1-x-newsletterForm) {
+  padding: 7%;
+}
+
+.flexRowContent--department-newsletter-banner-row :global(.vtex-store-newsletter-1-x-formSubmitContainer) :global(.vtex-button__label) {
+  text-transform: capitalize;
+}
+
+
+
+/* genero */
+.flexCol--department-main-container-col :global(.vtex-breadcrumb-1-x-container--breadcrumb--plp) {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.flexRowContent--departament-seccion-three {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow--titles-promociones-departamento {
+  width: 100%;
+}
+
+.flexRowContent--titles-promociones-departamento {
+  padding-left: 3%;
+  padding-right: 3%;
+  align-items: center;
+}
+
+.flexRowContent--departament-seccion-three :global(.vtex-product-summary-2-x-containerNormal--shelf--home) {
+  max-width: 400px !important;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.flexRow--group-departament .flexRow--figura-orange {
+  height: 90px;
+  bottom: -45px;
+}
+
+.flexRow--group-departament :global(.vtex-rich-text-0-x-paragraph--figura-text) {
+  bottom: -10px;
+}
+
+.flexRow--group-departament :global(.vtex-store-components-3-x-imageElement--figura-Five) {
+bottom: -25px;
+width: 50px;
+height: 50px;
+}
+
+/* genero */
+
 @media screen and (min-width: 1300px) and (max-width: 1440px) {
   .flexRow--content-tab-item-figura {
-    /* bottom: -323px !important; */
     left: 0;
   }
 }
@@ -256,8 +327,6 @@
 @media screen and (min-width: 1440px) {
   .flexRow--department-two-banners-container-row {
     margin-top: 70px;
-    padding-left: 50px;
-    padding-right: 50px;
   }
 
   :global(.vtex-store-newsletter-1-x-newsletterForm) {
@@ -280,14 +349,14 @@
     padding-bottom: 70px;
   }
 
-  .flexCol--department-main-container-col :global(.vtex-breadcrumb-1-x-container--breadcrumb--plp) {
+  .flexCol--department-main-container-col .flexRow--home-seccion-three {
     padding-left: 3%;
     padding-right: 3%;
   }
 
-  .flexCol--department-main-container-col .flexRow--home-seccion-three {
-    padding-left: 3%;
-    padding-right: 3%;
+  .flexCol--department-main-container-col :global(.vtex-breadcrumb-1-x-container--breadcrumb--plp) {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
   }
 }
 
@@ -297,8 +366,19 @@
     padding-right: 30px;
   }
 
+  .flexRowContent--titles-promociones-departamento,
+  .flexRowContent--department-two-banners-container-row,
   .flexCol--department-main-container-col :global(.vtex-breadcrumb-1-x-container--breadcrumb--plp) {
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .flexRow--shelfComplete {
+    width: 100%;
+  }
+
+  .flexRow--group-departament .flexRow--figura-orange {
+    width: 90% !important;
+    right: 13px;
   }
 }

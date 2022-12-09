@@ -2,7 +2,7 @@
     "flex-layout.row#encuentra-departament": {
         "title": "container encuentra",
         "props": {
-            "blockClass": "home-seccion-five"
+            "blockClass": ["home-seccion-five", "departament-five"]
         },
         "children": [
             "rich-text#encuentra",
@@ -20,7 +20,7 @@
     },
     "flex-layout.row#group-images-departament": {
         "title": "container",
-        "props": {"blockClass": "group-images"},
+        "props": {"blockClass": ["group-images", "group-departament"]},
         "children": [
             "flex-layout.row#images-one-departament",
             "flex-layout.row#images-two-departament",

@@ -1,7 +1,7 @@
 {
     "flex-layout.row#departament-slider-two": {
         "title": "container slider 2",
-        "props": {"blockClass": "home-seccion-three"},
+        "props": {"blockClass": "departament-seccion-three",  "preventHorizontalStretch": true},
         "children": [
             "flex-layout.row#titles-promociones-two",
             "flex-layout.row#shelf2-departament"
@@ -9,7 +9,8 @@
     },
     "flex-layout.row#titles-promociones-two": {
         "title": "container titles",
-        "children": ["rich-text#buscado-departament"]
+        "children": ["rich-text#buscado-departament", "rich-text#vermas-departament"],
+        "props": {"blockClass": "titles-promociones-departamento", "fullWidth": true, "preventHorizontalStretch": false}
     },
     "rich-text#buscado-departament": {
         "title": "title",
@@ -29,7 +30,8 @@
         "blocks": ["product-summary.shelf#plp"],
         "children": ["slider-layout#products-departament-2"],
         "props": {
-            "category": "11",
+            /* "category": "11", */
+            "collection": "139",
             "orderBy": "OrderByTopSaleDESC"
         }
     },

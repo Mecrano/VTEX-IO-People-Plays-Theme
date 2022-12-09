@@ -1,7 +1,7 @@
 {
     "flex-layout.row#departament-slider-one": {
         "title": "container slider 1",
-        "props": {"blockClass": "home-seccion-three"},
+        "props": {"blockClass": "departament-seccion-three", "preventHorizontalStretch": true},
         "children": [
             "flex-layout.row#titles-promociones-departamento",
             "flex-layout.row#shelf1-departament"
@@ -9,15 +9,25 @@
     },
     "flex-layout.row#titles-promociones-departamento": {
         "title": "titles slider",
-        "children": ["rich-text#promociones-departament"]
+        "children": ["rich-text#promociones-departament", "rich-text#vermas-departament"],
+        "props": {"blockClass": "titles-promociones-departamento", "fullWidth": true, "preventHorizontalStretch": false}
     },
     "rich-text#promociones-departament": {
-        "title": "title",
+        "title": "title 1",
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "Promociones",
             "blockClass": "promocion"
+        }
+    },
+    "rich-text#vermas-departament": {
+        "title": "title 2",
+        "props": {
+            "textAlignment": "RIGHT",
+            "textPosition": "RIGHT",
+            "text": "[Ver más →](#)",
+            "blockClass": "promocion-vermas"
         }
     },
     "flex-layout.row#shelf1-departament": {
@@ -29,7 +39,7 @@
         "blocks": ["product-summary.shelf#plp"],
         "children": ["slider-layout#products-departament"],
         "props": {
-            "category": "13",
+            "colleccion": "466",
             "orderBy": "OrderByTopSaleDESC"
         }
     },
@@ -38,8 +48,8 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 4,
-                "tablet": 2,
-                "phone": 1
+                "tablet": 4,
+                "phone": 2
             },
             "infinite": false,
             "fullWidth": true,

@@ -29,8 +29,8 @@
     "blocks": ["product-summary.shelf#plp"],
     "children": ["slider-layout#products"],
     "props": {
-      "category": "11",
-      /* "collection": "467", */
+      /* "category": "11", */
+      "collection": "139",
       "orderBy": "OrderByTopSaleDESC",
       "hideUnavailableItems": true
     }
@@ -38,7 +38,7 @@
   "slider-layout#products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 4,
         "tablet": 2,
         "phone": 1
       },
@@ -53,8 +53,8 @@
     "blocks": ["product-summary.shelf#plp"],
     "children": ["slider-layout#products-related"],
     "props": {
-      "category": "11",
-      /* "collection": "466", */
+      /* "category": "11", */
+      "collection": "139",
       "orderBy": "OrderByTopSaleDESC",
       "hideUnavailableItems": true
     }

@@ -1,0 +1,21 @@
+:global(.vtex-product-summary-2-x-element--shelf--plp ) {
+    position: relative;
+}
+
+.productHighlightWrapper--collection-ultimas-piezas {
+position: absolute;
+top: 0;
+left: 0;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+background-color: #000;
+padding: 12.7735px;
+z-index: 1;
+}
+

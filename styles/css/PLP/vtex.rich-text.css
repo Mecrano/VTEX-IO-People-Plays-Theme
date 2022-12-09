@@ -1,5 +1,5 @@
 .paragraph--department-title,
-.paragraph--department-title-2{
+.paragraph--department-title-2 {
     font-family: Roboto;
     font-size: 35px;
     font-weight: 500;
@@ -7,19 +7,43 @@
     margin-left: 40px;
 }
 
-.paragraph--department-title-2{
+.paragraph--department-title-2 {
     margin-left: 0;
 }
 
-@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
-    .paragraph--department-title{
-        font-size: 22px;        
+.link--promocion-vermas {
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    color: #FC701C;
+    text-decoration: none;
+}
+
+.container--siempre-listos {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    /* MediaQuery para Tablets */
+    .paragraph--department-title {
+        font-size: 22px;
         margin-left: 20px;
     }
 }
 
-@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
-    .paragraph--department-title{
+@media only screen and (max-width: 768px) {
+    /* MediaQuery para Telefonos */
+    .paragraph--department-title {
         font-size: 17px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1920px) {
+    .link--promocion-vermas {
+        font-size: 20px;
     }
 }

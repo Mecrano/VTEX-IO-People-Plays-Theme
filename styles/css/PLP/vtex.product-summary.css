@@ -2,28 +2,26 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   color: #000000;
   height: auto;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .productBrand--name--plp{
-  font-size: 20px;
-}
-
 .nameWrapper--name--plp {
-  display: flex;
-  justify-content: left;
+  margin-top: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
   text-align: left;
-  height: 50px;
 }
 
 .nameContainer--name--plp {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  display: flex;
-  justify-content: left;
-  text-align: left;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 55px;
 }
 
 .element--shelf--plp {
@@ -36,7 +34,7 @@
   margin-left: 15px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button){
+:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button) {
   width: 50%;
   height: 45px;
   margin-left: 15px;
@@ -76,7 +74,7 @@
   white-space: nowrap;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText)::before{
+:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
   content: "Añadir a carrito";
   font-size: 18px;
   font-weight: 400;
@@ -93,7 +91,7 @@
   margin-right: 10px;
   display: block;
   background-size: contain;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 
 
@@ -107,22 +105,28 @@
 .description {
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 10px;
-  height: 50px;
-  font-size: 0.8rem;
-  text-align: justify;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  height: 38px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box!important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
-:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .description{
+/* :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .description {
   font-size: 20px;
-}
+} */
 
-.containerNormal--shelf--plp{
+.containerNormal--shelf--plp {
   border-radius: 4px;
-}
-
-:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .containerNormal--shelf--plp{
-  max-width: 440px !important;
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -208,5 +212,15 @@
 
   .element--shelf--plp :global(.vtex-button) {
     margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .containerNormal--shelf--plp {
+    max-width: 440px !important;
+  }
+
+  .productBrand--name--plp, .description {
+    font-size: 18px;
   }
 }

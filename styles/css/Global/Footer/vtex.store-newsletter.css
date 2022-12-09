@@ -38,7 +38,7 @@
 
 .confirmationCheckboxContainer :global(.vtex-checkbox__label) {
   color: #000;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .confirmationCheckboxContainer--newsletter-checkbox-confirmation {

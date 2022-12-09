@@ -1,12 +1,12 @@
-.container{
+.container {
     background-color: #fff;
 }
 
-.homeIcon{
+.homeIcon {
     display: none;
 }
 
-.homeLink::after{
+.homeLink::after {
     content: url(/arquivos/Group.svg);
     color: #FC701C;
     width: 24.28px;
@@ -15,26 +15,36 @@
 .link,
 .term,
 .link:hover,
-.term:hover{
-    font-family: 'Mukta' !important;
+.term:hover {
+    font-family: 'Mukta';
     font-style: normal;
-    font-weight: 400 !important;
-    font-size: 24px !important;
-    line-height: 40px !important;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 40px;
     color: #000000;
 }
 
-.link--1::before{
-  content: 'Categoría';
-  margin-right: 5px;
+.link--1::before {
+    content: 'Categoría';
+    margin-right: 5px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
+
     .link,
-.term,
-.link:hover,
-.term:hover{
-    font-size: 16px !important;
-    line-height: 20px !important;
+    .term,
+    .link:hover,
+    .term:hover {
+        line-height: 20px !important;
+    }
 }
+
+
+@media screen and (min-width: 1920px) {
+    .link,
+    .term,
+    .link:hover,
+    .term:hover {
+        font-size: 20px;
+    }
 }

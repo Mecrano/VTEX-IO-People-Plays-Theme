@@ -156,8 +156,8 @@
       "blockClass": ["shelf--home", "shelf--plp"]
     },
     "children": [
-     /*  "vtex.product-highlights@2.x:product-highlights#collection", */
-      /* "add-to-list-btn#plp", */
+      "vtex.product-highlights@2.x:product-highlights#collection1",
+      "add-to-list-btn#plp",
       "product-summary-image#shelf",
       "flex-layout.row#prices-listprice-discount",
       "product-summary-name#plp",
@@ -170,33 +170,40 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
-      "maxHeight": 300
+      "width": {
+        "desktop": 315,
+        "mobile" : 315
+      },
+      "height": {
+        "desktop": 315,
+        "mobile" : 315
+      }
     }
   },
 
-  "vtex.product-highlights@2.x:product-highlights#collection": {
+  "vtex.product-highlights@2.x:product-highlights#collection1": {
     "props": {
       "type": "collection",
       "filter": {
         "type": "show",
-        "highlightNames": ["ultimas-piezas"]
+        "highlightNames": ["bucaramanga50"]
       }
     },
-    "children": ["product-highlight-wrapper"]
+    "children": ["product-highlight-wrapper#ultimas-piezas"]
   },
 
-  "product-highlight-wrapper": {
+  "product-highlight-wrapper#ultimas-piezas": {
     "props": {
-      "blockClass": "collection"
+      "blockClass": "collection-ultimas-piezas"
     },
-    "children": ["product-highlight-text"]
+    "children": ["product-highlight-text#ultimas-piezas"]
   },
 
-  "product-highlight-text": {
+  "product-highlight-text#ultimas-piezas": {
     "props": {
       "message": "Últimas piezas",
-      "link": "142/?map=productClusterIds",
-      "blockClass": "cc-collection"
+      "link": "466/?map=productClusterIds",
+      "blockClass": "cc-collection-ultimas-piezas"
     }
   },
   "flex-layout.row#prices-listprice-discount": {

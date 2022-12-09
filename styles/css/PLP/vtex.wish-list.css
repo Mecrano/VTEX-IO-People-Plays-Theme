@@ -1,13 +1,16 @@
-.wishlistIconContainer--wishlist---plp {
+:global(.vtex-product-summary-2-x-element--shelf--plp) {
   position: relative;
 }
 
-.wishlistIconContainer--wishlist---plp :global(.vtex-button) {
+.wishlistIconContainer--wishlist---plp {
   position: absolute;
-  z-index: 2;
-  width: 18%;
-  right: 15px;
-  margin-left: 0px;
+  right: 20px;
+  z-index: 1;
+}
+
+
+.wishlistIconContainer--wishlist---plp :global(.vtex-button)::before{
+  content: url(/arquivos/corazonplp.svg);
 }
 
 .wishlistIconContainer--wishlist---plp :global(.vtex-button):hover {
@@ -16,12 +19,6 @@
 
 .wishlistIconContainer--wishlist---plp :global(.vtex-button__label) {
   padding: 10px;
-}
-
-
-.wishlistIconContainer--wishlist---plp :global(.vtex-button)::before{
-  content: url(/arquivos/corazonplp.svg);
-  margin-left: 20px;
 }
 
 .wishlistIconContainer--wishlist---plp :global(.vtex-button)::before:hover{
