@@ -1,21 +1,32 @@
-.flexRowContent--container-not-found{
+.flexRowContent--container-not-found {
   align-items: center;
+  margin-top: 90px;
 }
 
-.flexColChild--container-text-not-found :global(.vtex-rich-text-0-x-container--error-404){
-  font-size: 89px;
+.flexColChild--container-text-not-found :global(.vtex-rich-text-0-x-container--error-404) {
+  font-size: 56px;
 }
 
-.flexColChild--container-text-not-found :global(.vtex-rich-text-0-x-container--text-not-found){
-  font-size: 36px;
+.flexColChild--container-text-not-found :global(.vtex-rich-text-0-x-container--text-not-found) {
+  font-size: 27px;
   color: #000000;
 }
 
-.flexColChild--container-text-not-found :global(.vtex-rich-text-0-x-container--go-to-home){
-  font-size: 28px;
+.flexColChild--container-text-not-found :global(.vtex-rich-text-0-x-container--go-to-home) {
+  font-size: 22px;
 }
 
-.flexColChild--container-text-not-found :global(.vtex-rich-text-0-x-paragraph--error-404), 
-  :global(.vtex-rich-text-0-x-paragraph--text-not-found){
+.flexColChild--container-text-not-found :global(.vtex-rich-text-0-x-paragraph--error-404),
+:global(.vtex-rich-text-0-x-paragraph--text-not-found) {
   margin: 0;
+}
+
+.flexColChild--container-text-not-found :global(.vtex-rich-text-0-x-link--go-to-home) {
+  text-decoration: none;
+  color: #002F87;
+}
+
+.flexRowContent--row-arrow-not-found {
+  align-items: center;
+  gap: 5px;
 }

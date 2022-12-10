@@ -22,7 +22,8 @@
       "images": [
         {
           "image": "assets/images/not-found/not-found.png",
-          "description": "something something"
+          "description": "Pagina no encontrada",
+          "width": "493px"
         }
       ]
     }
@@ -39,7 +40,11 @@
     }
   },
   "flex-layout.col#container-text": {
-    "children": ["rich-text#title", "rich-text#sorry", "rich-text#go-home"],
+    "children": [
+      "rich-text#title",
+      "rich-text#sorry",
+      "flex-layout.row#arrow-not-found"
+    ],
     "props": {
       "blockClass": "container-text-not-found"
     }
@@ -47,8 +52,16 @@
   "rich-text#title": {
     "props": {
       "text": "ERROR 404",
-      "blockClass": "error-404",
+      "blockClass": "error-404"
     }
+  },
+  "flex-layout.row#arrow-not-found": {
+    "props": {
+      "blockClass": "row-arrow-not-found",
+      "colSizing": "auto",
+      "horizontalAlign": "left"
+    },
+    "children": ["image#arrow-not-found", "rich-text#go-home"]
   },
   "rich-text#sorry": {
     "props": {
@@ -56,9 +69,17 @@
       "blockClass": "text-not-found"
     }
   },
+  "image#arrow-not-found": {
+    "props": {
+      "blockClass": "arrow-not-found",
+      "src": "arquivos/arrow-not-found.png",
+      "width": 25,
+      "height": 15
+    }
+  },
   "rich-text#go-home": {
     "props": {
-      "text": "Ir al home",
+      "text": "[Ir al home](/)",
       "blockClass": "go-to-home"
     }
   }
