@@ -1,78 +1,65 @@
 {
   "search-not-found-layout": {
-    "props": {
-      "blockClass": "not-found"
-    },
     "children": ["flex-layout.row#container-not-found"]
   },
   "store.not-found": {
     "blocks": ["flex-layout.row#container-not-found"]
   },
   "flex-layout.row#container-not-found": {
+    "props": {
+      "blockClass": "container-not-found"
+    },
     "children": [
-      "list-context.image-list#demo",
+      "list-context.image-list#image",
       "flex-layout.col#container-text"
     ]
   },
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "list-context.image-list#image": {
+    "children": ["slider-layout#image"],
     "props": {
       "preload": true,
       "height": 650,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-          "description": "something something"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/Group%207%20(1)%20(1)%20(1)%20(1)%20(1)___c6b3ed853fb16a08b265753b50e0c57a.png",
+          "image": "assets/images/not-found/not-found.png",
           "description": "something something"
         }
       ]
     }
   },
 
-  "slider-layout#demo-images": {
+  "slider-layout#image": {
     "props": {
+      "blockClass": "image-box",
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
         "phone": 1
-      },
-      "infinite": true
+      }
     }
   },
   "flex-layout.col#container-text": {
-    "children": ["rich-text#title", "rich-text#sorry", "rich-text#go-home"]
+    "children": ["rich-text#title", "rich-text#sorry", "rich-text#go-home"],
+    "props": {
+      "blockClass": "container-text-not-found"
+    }
   },
   "rich-text#title": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
       "text": "ERROR 404",
-      "textColor": "c-on-emphasis",
-      "font": "t-heading-5",
-      "blockClass": "help-message"
+      "blockClass": "error-404",
     }
   },
   "rich-text#sorry": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
       "text": "Lo sentimos esta página no esta disponible",
-      "textColor": "c-on-emphasis",
-      "font": "t-heading-5",
-      "blockClass": "help-message"
+      "blockClass": "text-not-found"
     }
   },
   "rich-text#go-home": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
       "text": "Ir al home",
-      "textColor": "c-on-emphasis",
-      "font": "t-heading-5",
-      "blockClass": "help-message"
+      "blockClass": "go-to-home"
     }
   }
 }
