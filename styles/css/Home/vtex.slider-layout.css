@@ -15,23 +15,23 @@
 }
 
 .caretIcon--slider-home {
-  width: 12.38px;
-  height: 12.38px;
+  width: 18px;
+  height: 18px;
   color: #000000;
 }
 
 .sliderLeftArrow--shelfStyle1,
 .sliderRightArrow--shelfStyle1 {
-  width: 34px;
-  height: 34px;
+  width: 59px;
+  height: 59px;
+  border-radius: 50px;
   background: #062F87 !important;
-  border-radius: 37.5px;
 }
 .sliderLeftArrow--shelfStyle1 {
-  left: 50px;
+  left: -30px;
 }
 .sliderRightArrow--shelfStyle1 {
-  right: 50px;
+  right: -30px;
 }
 
 .sliderLeftArrow--shelfStyle1-related,
@@ -50,8 +50,8 @@
 
 .caretIcon--shelfStyle1,
 .caretIcon--shelfStyle1-related {
-  width: 12.38px;
-  height: 12.38px;
+  width: 18px;
+  height: 18px;
   color: #FFFFFF;
 }
 

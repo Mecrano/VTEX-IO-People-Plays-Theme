@@ -81,6 +81,7 @@
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 5px;
+  justify-content: flex-start;
 }
 
 .description {
@@ -179,7 +180,7 @@
 
 @media screen and (min-width: 1920px) {
   :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .containerNormal--shelf--plp {
-    max-width: 440px !important;
+    max-width: 380px !important;
   }
 
   .productBrand--name--plp, .description {

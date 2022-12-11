@@ -22,7 +22,7 @@
     "title": "contenido vitrina",
     "children": ["list-context.product-list#productSlider"],
     "props": {
-      "blockClass": "shelfComplete"
+      "blockClass": ["shelfComplete", "vitrina-pdp"]
     }
   },
   "list-context.product-list#productSlider": {
@@ -30,7 +30,7 @@
     "children": ["slider-layout#products"],
     "props": {
       /* "category": "11", */
-      "collection": "139",
+      "collection": "466",
       "orderBy": "OrderByTopSaleDESC",
       "hideUnavailableItems": true
     }
@@ -39,12 +39,12 @@
     "props": {
       "itemsPerPage": {
         "desktop": 4,
-        "tablet": 2,
-        "phone": 1
+        "tablet": 3,
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": true,
-      "showPaginationDots": "always",
+      "showPaginationDots": "desktopOnly",
       "showNavigationArrows": "desktopOnly",
       "blockClass": "shelfStyle1"
     }
@@ -54,7 +54,7 @@
     "children": ["slider-layout#products-related"],
     "props": {
       /* "category": "11", */
-      "collection": "139",
+      "collection": "466",
       "orderBy": "OrderByTopSaleDESC",
       "hideUnavailableItems": true
     }
@@ -64,13 +64,13 @@
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
-        "phone": 1
+        "phone": 2
       },
       "infinite": true,
       "fullWidth": true,
       "showPaginationDots": "always",
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "shelfStyle1-related"
+      "blockClass": "shelfStyle1"
     }
   }
 }

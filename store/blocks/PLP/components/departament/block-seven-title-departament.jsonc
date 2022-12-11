@@ -9,7 +9,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "Lo más buscado",
+            "text": "Lanzamientos",
             "blockClass": "promocion"
         }
     }

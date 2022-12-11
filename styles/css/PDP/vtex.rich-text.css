@@ -4,7 +4,7 @@
 
 .paragraph--product--size-guide--text{
     margin: 0;
-    
+
 }
 .link--product--size-guide--text {
     font-family: 'Mukta';
@@ -50,7 +50,7 @@
 
 .paragraph--product--shelf--titles{
     font-family: "Titillium Web";
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 55px;
     letter-spacing: 0em;
@@ -63,7 +63,7 @@
 .paragraph--product--shelf--titles-ver-mas,
 .link--product--shelf--titles-ver-mas{
     font-family: "Mukta";
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0em;
@@ -77,12 +77,6 @@
     font-weight: bold;
 }
 
-@media only screen and (max-width: 1024px){
-    .paragraph--product--shelf--titles{
-        font-size: 33px;
-    }
-}
-
 @media only screen and (max-width: 768px){
     .paragraph--product--shelf--titles{
         font-size: 20px;
@@ -93,4 +87,15 @@
     .link--product--shelf--titles-ver-mas{
         font-size: 15px;
     }
+}
+
+@media only screen and (min-width: 1920px){
+.paragraph--product--shelf--titles{
+    font-size: 32px;
+}
+
+.paragraph--product--shelf--titles-ver-mas,
+.link--product--shelf--titles-ver-mas{
+    font-size: 20px;
+}
 }

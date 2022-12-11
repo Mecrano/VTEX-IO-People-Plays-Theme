@@ -16,7 +16,7 @@
 .term,
 .link:hover,
 .term:hover {
-    font-family: 'Mukta';
+    font-family: "Titillium Web";
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
@@ -30,6 +30,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+
     .link,
     .term,
     .link:hover,
@@ -40,6 +41,7 @@
 
 
 @media screen and (min-width: 1920px) {
+
     .link,
     .term,
     .link:hover,
@@ -50,6 +52,7 @@
 
 
 @media screen and (max-width: 450px) {
+
     .link,
     .term,
     .link:hover,

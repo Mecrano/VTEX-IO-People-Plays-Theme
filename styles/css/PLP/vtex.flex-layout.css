@@ -102,14 +102,6 @@
   align-items: center;
 }
 
-/* .flexRowContent--total-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
-  width: 50% !important;
-}
-
-.flexRowContent--total-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
-  width: 50% !important;
-} */
-
 .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   margin-right: 5px;
   width: 25% !important;
@@ -157,9 +149,11 @@
 }
 
 .flexRowContent--titles-promociones-departamento {
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 6%;
+  padding-right: 6%;
+  display: flex;
   align-items: center;
+  flex-direction: row;
 }
 
 .flexRowContent--departament-seccion-three :global(.vtex-product-summary-2-x-containerNormal--shelf--home) {
@@ -283,6 +277,11 @@
     padding-left: 2%;
     padding-right: 2%;
   }
+
+  .flexRowContent--titles-promociones-departamento {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
 }
 
 @media screen and (min-width: 1400px) {
@@ -307,8 +306,15 @@
     max-width: 105rem !important;
   }
 
-  .flexRow--home-seccion-three :global(.vtex-store-components-3-x-container) {
-    max-width: 120rem !important;
+  .flexRowContent--titles-promociones-departamento {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .flexRow--departament-seccion-three {
+    max-width: 100% !important;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 
   .flexRow--home-seccion-four :global(.vtex-store-components-3-x-container) {
@@ -370,7 +376,6 @@
     padding-right: 30px;
   }
 
-  .flexRowContent--titles-promociones-departamento,
   .flexRowContent--department-two-banners-container-row,
   .flexCol--department-main-container-col :global(.vtex-breadcrumb-1-x-container--breadcrumb--plp) {
     padding-left: 2%;
@@ -384,6 +389,11 @@
   .flexRow--group-departament .flexRow--figura-orange {
     width: 90% !important;
     right: 13px;
+  }
+
+  .flexRowContent--titles-promociones-departamento {
+    padding-left: 5.5%;
+    padding-right: 5.5%;
   }
 }
 
@@ -432,6 +442,11 @@
   .flexRowContent--departament-seccion-three :global(.vtex-product-summary-2-x-containerNormal--shelf--plp) {
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .flexRow--departament-seccion-three {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media screen and (max-width: 1024px) {
