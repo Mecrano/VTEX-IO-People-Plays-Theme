@@ -1,0 +1,17 @@
+{
+    "responsive-layout.mobile#contactanos": {
+        "title": "contactanos mobile",
+        "children": [
+            "flex-layout.row#contactanos-mobile"
+        ]
+    },
+    "flex-layout.row#contactanos-mobile": {
+        "children": [
+            "flex-layout.col#contactanos-image",
+            "flex-layout.col#contactanos-form"
+        ],
+        "props": {
+            "blockClass": "contactanos-mobile"
+        }
+    }
+}

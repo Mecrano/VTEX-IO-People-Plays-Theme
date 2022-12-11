@@ -1,5 +1,5 @@
 {
-  "vendor": "peopleplays",
+  "vendor": "davidleal",
   "name": "eobando-theme",
   "version": "1.0.1",
   "builders": {
@@ -51,7 +51,8 @@
     "vtex.product-availability": "0.x",
     "vtex.css-handles": "1.x",
     "vtex.product-context": "0.x",
-    "vtex.formatted-price": "0.x"
+    "vtex.formatted-price": "0.x",
+    "vtex.store-form": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

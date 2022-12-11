@@ -1,0 +1,135 @@
+{
+    "responsive-layout.desktop#contactanos": {
+        "title": "contactanos desktop",
+        "children": [
+            "flex-layout.row#contactanos-desktop"
+        ]
+    },
+    "flex-layout.row#contactanos-desktop": {
+        "children": [
+            "flex-layout.col#contactanos-image",
+            "flex-layout.col#contactanos-form"
+        ],
+        "props": {
+            "blockClass": "contactanos-desktop"
+        }
+    },
+    "flex-layout.col#contactanos-image": {
+        "children": [
+            "image#contactanos"
+        ],
+        "props": {
+            "blockClass": "contactanos-image",
+            "width":"50%"
+        }
+    },
+    "image#contactanos": {
+        "props": {
+            "src": "assets/contactanos/contactanos.png",
+            "maxHeight": 792,
+            "blockClass": "contactanos"
+        }
+    },
+    "flex-layout.col#contactanos-form": {
+        "children": [
+            "rich-text#title-contactanos",
+            "rich-text#text-1-contactanos",
+            "rich-text#text-2-contactanos",
+            "rich-text#text-3-contactanos",
+            "flex-layout.row#form-contactanos"
+        ],
+        "props": {
+            "blockClass": "contactanos-form",
+            "width":"50%"
+        }
+    },
+    "rich-text#title-contactanos": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Contáctanos",
+            "blockClass": "title-contactanos"
+        }
+    },
+    "rich-text#text-1-contactanos": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "People Play's, Carrera 97 No. 24c - 51, Muelle 2 Bodega 5, Bogota D.C",
+            "blockClass": "text-contactanos"
+        }
+    },
+    "rich-text#text-2-contactanos": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Lunes a viernes: 8 am a 4 pm Sábados: 8:30 am a 11:30 am",
+            "blockClass": "text-contactanos"
+        }
+    },
+    "rich-text#text-3-contactanos": {
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Tel: (571) 3-907-222 Ext. 1250 WhatsApp: 3102907483",
+            "blockClass": "text-contactanos"
+        }
+    },
+
+      "flex-layout.row#form-contactanos": {
+        "children": [
+          "flex-layout.col#form-contactanos"
+        ]
+      },
+      "flex-layout.col#form-contactanos": {
+        "children": [
+           /*  "form" */
+        ]
+      },
+
+      "form#contactanos": {
+        "props": {
+            "entity": "Contáctanos",
+            "schema": "person"
+        },
+        "children": [
+            "form-input.text#fullName",
+            "form-input.text#identificationCard",
+            "form-input.text#email",
+            "form-input.textarea#affair",
+            "form-input.textarea#message",
+            "form-submit"
+          ]
+      },
+      "form-input.text#fullName": {
+        "props": {
+          "pointer": "#/properties/fullName"
+        }
+      },
+      "form-input.text#identificationCard": {
+        "props": {
+          "pointer": "#/properties/identificationCard"
+        }
+      },
+      "form-input.text#email": {
+        "props": {
+          "pointer": "#/properties/email"
+        }
+      },
+      "form-input.textarea#affair": {
+        "props": {
+          "pointer": "#/properties/affair"
+        }
+      },
+      "form-input.textarea#message": {
+        "props": {
+          "pointer": "#/properties/message"
+        }
+      },
+      "form-submit": {
+        "props": {
+          "label": "Enviar"
+        }
+      }
+
+}
