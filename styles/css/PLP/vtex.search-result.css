@@ -287,10 +287,6 @@
   display: none;
 }
 
-/* .galleryItem :global(.vtex-product-summary-2-x-container--shelf--home) {
-  height: 545.32px;
-} */
-
 .galleryItem :global(.vtex-product-summary-2-x-image) {
   height: 100% !important;
 }
@@ -600,5 +596,9 @@ gap: 0;
 .galleryItem :global(.vtex-flex-layout-0-x-flexRow--prices-plp) {
   padding-top: 0;
   height: 50px;
+}
+
+.galleryItem :global(.vtex-product-summary-2-x-element--shelf--home) :global(.vtex-button) {
+  margin-top: 0;
 }
 }

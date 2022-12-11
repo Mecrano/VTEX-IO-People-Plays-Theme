@@ -25,3 +25,17 @@
         padding: 8px;
     }
 }
+
+@media screen and (max-width: 450px) {
+    :global(.vtex-search-result-3-x-galleryItem) .productHighlightWrapper--collection-ultimas-piezas {
+        font-size: 12px;
+        padding:5px 10px;
+      }
+}
+
+@media screen and (max-width: 320px) {
+    :global(.vtex-search-result-3-x-galleryItem) .productHighlightWrapper--collection-ultimas-piezas {
+        font-size: 10px !important;
+        padding:3px 6px !important;
+      }
+}

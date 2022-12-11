@@ -199,12 +199,25 @@
   .description {
     padding-left: 15px !important;
     padding-right: 15px !important;
+    font-size: 11.5592px;
+    height: 30px;
   }
 
   .nameContainer--name--plp,
   .productBrandContainer--brand--plp {
     padding-left: 15px !important;
     padding-right: 15px !important;
+  }
+  .nameContainer--name--plp{
+    font-size: 13.4857px;
+  }
+
+  .nameWrapper--name--plp {
+    margin-top: 0;
+  }
+
+  .element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 12px;
   }
 }
 
@@ -219,6 +232,10 @@
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
+
+  :global(.vtex-search-result-3-x-container--layout--mobile-plp--main-container) .element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -232,3 +249,9 @@
   font-size: 14px;
 }
 }
+
+@media screen and (max-width: 450px) {
+  :global(.vtex-slider-layout-0-x-slideChildrenContainer--shelfStyle1) :global(.vtex-add-to-cart-button-0-x-buttonText--shelf__add-to-cart-button) {
+    font-size: 14px !important;
+  }
+  }
