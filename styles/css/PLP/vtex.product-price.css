@@ -39,12 +39,6 @@
   text-align: left;
 }
 
-/* @media screen and (min-width: 300px) and (max-width: 320px) {
-  .savings--summary--plp {
-    width: 35px !important;
-  }
-} */
-
 @media screen and (min-width: 300px) and (max-width: 425px) {
 
   :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -57,25 +51,7 @@
     color: #EB0606;
     height: 22px;
   }
-
- /*  .sellingPriceValue--selling-price--plp {
-    font-size: 15.4122px;
-  } */
-
-  /* .listPriceValue--list-price--plp {
-    font-size: 11.5592px;
-  } */
-
-  /* .savingsPercentage--summary--plp {
-    font-size: 13.1261px;
-  } */
 }
-
-/* @media screen and (min-width: 321px) and (max-width: 425px) {
-  .savings--summary--plp {
-    width: 40px !important;
-  }
-} */
 
 @media screen and (min-width: 1920px) {
 .sellingPriceValue--selling-price--plp, .savingsPercentage--summary--plp {
