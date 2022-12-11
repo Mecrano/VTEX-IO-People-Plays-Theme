@@ -3,30 +3,41 @@
     "props": {
       "placeholder": "Busca en People Plays",
       "disableBlurAndTouchEndHandler": true,
+      "openAutocompleteOnFocus": true,
+      "displayMode": "search-button",
       "containerMode": "container",
       "autocompleteAlignment": "center"
     },
-    "blocks": ["autocomplete-result-list.v2"]
-  },
-  "autocomplete-result-list.v2": {
-    "props": {
-      "hideUnavailableItems": true,
-      "maxTopSearches": 3,
-      "maxHistory": 3,
-      "maxSuggestedProducts": 3,
-      "maxSuggestedTerms": 3
-    },
-    "blocks": ["product-summary"]
+    "blocks": ["autocomplete-result-list.v2#search"]
   },
 
   "search-bar#mobile": {
     "props": {
       "placeholder": "Busca productos dentro de People Plays",
       "disableBlurAndTouchEndHandler": true,
+      "openAutocompleteOnFocus": true,
+      "displayMode": "search-button",
       "containerMode": "container",
       "autocompleteAlignment": "center",
       "hasIconLeft": true
     },
-    "blocks": ["autocomplete-result-list.v2"]
+    "blocks": ["autocomplete-result-list.v2#search"]
+  },
+  "autocomplete-result-list.v2#search": {
+    "props": {
+      "hideUnavailableItems": true,
+      "maxTopSearches": 4,
+      "maxHistory": 4,
+      "maxSuggestedProducts": 6,
+      "maxSuggestedTerms": 0,
+      "simulationBehavior": "default",
+      "HorizontalProductSummary": "product-summary.shelf#search",
+      "hideTitles": true,
+      "productLayout": "HORIZONTAL"
+    },
+    "blocks": ["product-summary.shelf#search"]
+  },
+  "product-summary.shelf#search": {
+    "children": ["product-summary-name"]
   }
 }
