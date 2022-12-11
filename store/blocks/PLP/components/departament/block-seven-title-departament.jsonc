@@ -1,0 +1,16 @@
+{
+    "flex-layout.row#titles-promociones-two": {
+        "title": "container titles",
+        "children": ["rich-text#buscado-departament", "rich-text#vermas-departament"],
+        "props": {"blockClass": "titles-promociones-departamento"}
+    },
+    "rich-text#buscado-departament": {
+        "title": "title",
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Lanzamientos",
+            "blockClass": "promocion"
+        }
+    }
+}

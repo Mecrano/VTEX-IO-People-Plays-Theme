@@ -249,7 +249,7 @@
   },
   "rich-text#product--shelf--more": {
     "props": {
-      "text": "[Ver más ➜](#)",
+      "text": "[Ver más →](#)",
       "blockClass": "product--shelf--titles-ver-mas"
     }
   },

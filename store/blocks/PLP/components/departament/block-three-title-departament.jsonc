@@ -1,0 +1,25 @@
+{
+    "flex-layout.row#titles-promociones-departamento": {
+        "title": "titles slider",
+        "children": ["rich-text#promociones-departament", "rich-text#vermas-departament"],
+        "props": {"blockClass": "titles-promociones-departamento"}
+    },
+    "rich-text#promociones-departament": {
+        "title": "title 1",
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Promociones",
+            "blockClass": "promocion"
+        }
+    },
+    "rich-text#vermas-departament": {
+        "title": "title 2",
+        "props": {
+            "textAlignment": "RIGHT",
+            "textPosition": "RIGHT",
+            "text": "[Ver más →](#)",
+            "blockClass": "promocion-vermas"
+        }
+    }
+}

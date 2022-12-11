@@ -17,13 +17,13 @@
     "children": ["flex-layout.col#title"]
   },
   "flex-layout.col#title": {
-    "children": ["rich-text#title"],
+    "children": ["rich-text#title1"],
     "props": {
       "blockClass": "titleWishlist",
       "preventVerticalStretch": true
     }
   },
-  "rich-text#title": {
+  "rich-text#title1": {
     "props": {
       "text": "### Wishlist"
     }

@@ -37,6 +37,70 @@
   color: var(--primary-blue);
 }
 
+.itemListPrefix {
+  display: none;
+}
+
+.biggy-autocomplete {
+  background-color: #ED752D;
+  padding: 0 20px;
+  border-radius: 4px;
+}
+
+.itemListLinkTitle {
+  color: #fff;
+}
+
+.itemListLink{
+  padding: 15px!important;
+    height: auto!important;
+    line-height: initial!important;
+    font-size: 1rem!important;
+    text-transform: capitalize;
+    border-bottom: 1px solid white;
+}
+
+:global(.vtex-search-2-x-itemListLink):hover {
+ background: #062F87!important;
+}
+
+.itemList--top-search {
+  margin: 20px 0;
+}
+
+.tileListItem :global(.vtex-product-summary-2-x-productBrand--shelf__name) {
+  color: white;
+    font-size: 1rem;
+    height: auto !important;
+    padding-bottom: 5px;
+}
+
+.tileListItem :global(.vtex-product-summary-2-x-nameContainer--shelf__name) {
+  text-align: left;
+  justify-content: flex-start;
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+
+.tileListItem :global(.vtex-product-summary-2-x-element) {
+  padding: 0;
+}
+
+.tileListSeeMore {
+  color: white !important;
+}
+
+.tileListItem :global(.vtex-product-summary-2-x-clearLink) {
+  text-decoration: none
+}
+.tileListItem :global(.vtex-product-summary-2-x-container) {
+  max-width: none !important;
+}
+
+.tileList {
+  border: none;
+}
+
 @media (max-width: 900px) {
   .biggy-autocomplete {
   /* .biggy-autocomplete.biggy-js-container--hidden { */

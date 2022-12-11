@@ -1,25 +1,8 @@
 {
     "flex-layout.row#departament-slider-two": {
         "title": "container slider 2",
-        "props": {"blockClass": "departament-seccion-three",  "preventHorizontalStretch": true},
-        "children": [
-            "flex-layout.row#titles-promociones-two",
-            "flex-layout.row#shelf2-departament"
-        ]
-    },
-    "flex-layout.row#titles-promociones-two": {
-        "title": "container titles",
-        "children": ["rich-text#buscado-departament", "rich-text#vermas-departament"],
-        "props": {"blockClass": "titles-promociones-departamento", "fullWidth": true, "preventHorizontalStretch": false}
-    },
-    "rich-text#buscado-departament": {
-        "title": "title",
-        "props": {
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "Lo más buscado",
-            "blockClass": "promocion"
-        }
+        "props": {"blockClass": "departament-seccion-three"},
+        "children": ["flex-layout.row#shelf2-departament"]
     },
     "flex-layout.row#shelf2-departament": {
         "title": "contenido vitrina",
@@ -40,10 +23,10 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 4,
-                "tablet": 4,
+                "tablet": 3,
                 "phone": 2
             },
-            "infinite": false,
+            "infinite": true,
             "fullWidth": true,
             "navigationStep": 1,
             "showPaginationDots": "desktopOnly",

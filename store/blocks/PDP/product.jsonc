@@ -27,6 +27,7 @@
       "blockClass":["product-main"]
     }
   },
+
   "flex-layout.row#product--image-details--container": {
     "children": [
       "flex-layout.col#product--images--container",
@@ -196,7 +197,7 @@
     "title": "contenido vitrina",
     "children": ["list-context.product-list#productSliderRelated"],
     "props": {
-      "blockClass": "shelfComplete"
+      "blockClass": ["shelfComplete", "vitrina-pdp"]
     }
   }
 }
