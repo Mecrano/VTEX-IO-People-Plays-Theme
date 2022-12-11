@@ -1,0 +1,86 @@
+{
+  "search-not-found-layout": {
+    "children": ["flex-layout.row#container-not-found"]
+  },
+  "store.not-found": {
+    "blocks": ["flex-layout.row#container-not-found"]
+  },
+  "flex-layout.row#container-not-found": {
+    "props": {
+      "blockClass": "container-not-found"
+    },
+    "children": [
+      "list-context.image-list#image",
+      "flex-layout.col#container-text"
+    ]
+  },
+  "list-context.image-list#image": {
+    "children": ["slider-layout#image"],
+    "props": {
+      "preload": true,
+      "height": 650,
+      "images": [
+        {
+          "image": "assets/images/not-found/not-found.png",
+          "description": "Pagina no encontrada",
+          "width": "493px"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#image": {
+    "props": {
+      "blockClass": "image-box",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      }
+    }
+  },
+  "flex-layout.col#container-text": {
+    "children": [
+      "rich-text#title",
+      "rich-text#sorry",
+      "flex-layout.row#arrow-not-found"
+    ],
+    "props": {
+      "blockClass": "container-text-not-found"
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "ERROR 404",
+      "blockClass": "error-404"
+    }
+  },
+  "flex-layout.row#arrow-not-found": {
+    "props": {
+      "blockClass": "row-arrow-not-found",
+      "colSizing": "auto",
+      "horizontalAlign": "left"
+    },
+    "children": ["image#arrow-not-found", "rich-text#go-home"]
+  },
+  "rich-text#sorry": {
+    "props": {
+      "text": "Lo sentimos esta página no esta disponible",
+      "blockClass": "text-not-found"
+    }
+  },
+  "image#arrow-not-found": {
+    "props": {
+      "blockClass": "arrow-not-found",
+      "src": "arquivos/arrow-not-found.png",
+      "width": 25,
+      "height": 15
+    }
+  },
+  "rich-text#go-home": {
+    "props": {
+      "text": "[Ir al home](/)",
+      "blockClass": "go-to-home"
+    }
+  }
+}
