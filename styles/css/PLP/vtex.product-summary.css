@@ -59,28 +59,9 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 16px;
   color: #FFFFFF;
   text-transform: capitalize;
-  font-size: 0px;
-}
-
-.element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
-  content: "Añadir a carrito";
-  font-size: 14px;
-  font-weight: 600;
-  font-style: normal;
-  color: #ffffff;
-  white-space: nowrap;
-}
-
-:global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText)::before {
-  content: "Añadir a carrito";
-  font-size: 18px;
-  font-weight: 400;
-  font-style: normal;
-  color: #ffffff;
-  white-space: nowrap;
 }
 
 .element--shelf--plp :global(.vtex-button__label)::before {
@@ -121,17 +102,13 @@
   margin-bottom: 15px;
 }
 
-/* :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .description {
-  font-size: 20px;
-} */
-
 .containerNormal--shelf--plp {
   border-radius: 4px;
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
-  .element--shelf--plp :global(.vtex-button__label) {
-    font-size: 10px !important;
+  .element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 13px;
   }
 }
 
@@ -142,23 +119,13 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
-
-  .nameContainer--name--plp,
-  .productBrandContainer--brand--plp,
-  .description {
-    padding-left: 5px !important;
-    padding-right: 5px !important;
-  }
-
   .element--shelf--plp :global(.vtex-button) {
     margin-left: 5px;
     width: 70% !important;
   }
 
   .description {
-    height: 50px;
-    margin-top: 5px;
-    font-size: 0.7rem;
+    margin-top: 15px;
   }
 }
 
@@ -173,17 +140,12 @@
   }
 
   .element--shelf--plp :global(.vtex-button__label) {
-    font-size: 15px;
     padding-top: 0;
     padding-bottom: 0;
   }
 
   .element--shelf--plp :global(.vtex-button) {
     width: 70%;
-  }
-
-  .element--shelf--plp :global(.vtex-button__label) {
-    font-size: 15.4122px;
   }
 
 }
@@ -223,10 +185,50 @@
   .productBrand--name--plp, .description {
     font-size: 18px;
   }
+
+  .element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .productBrand--name--plp, .description {
-    font-size: 18px;
+    font-size: 16px;
   }
+
+  .description {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .nameContainer--name--plp,
+  .productBrandContainer--brand--plp {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .description {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .nameContainer--name--plp,
+  .productBrandContainer--brand--plp {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+.element--shelf--plp :global(.vtex-button) {
+  width: 66% !important;
+}
+}
+
+@media screen and (max-width: 320px) {
+.element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  font-size: 14px;
+}
 }

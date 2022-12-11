@@ -45,11 +45,13 @@
         "children": [
             "breadcrumb.search",
             "flex-layout.row#departament-banner-principal",
-            /*  "flex-layout.row#departament-slider-one", */
+            "flex-layout.row#titles-promociones-departamento",
+             "flex-layout.row#departament-slider-one",
             "flex-layout.row#department-two-banners",
             "flex-layout.row#encuentra-departament",
-            "flex-layout.row#department-newsletter-banner"
-           /*  "flex-layout.row#departament-slider-two" */
+            "flex-layout.row#department-newsletter-banner",
+            "flex-layout.row#titles-promociones-two",
+            "flex-layout.row#departament-slider-two"
         ],
         "props": {"blockClass": "department-main-container-col"}
     }

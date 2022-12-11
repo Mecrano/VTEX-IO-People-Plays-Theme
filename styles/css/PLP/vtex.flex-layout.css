@@ -12,7 +12,7 @@
 }
 
 .flexCol--banner-genero1 {
-padding-right: 15px;
+  padding-right: 15px;
 }
 
 .flexRow--department-newsletter-banner-row {
@@ -127,6 +127,7 @@ padding-right: 15px;
 
 :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .flexRowContent--prices-plp :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
   right: 0px;
+  justify-content: flex-end;
 }
 
 .flexRowContent--department-newsletter-banner-row :global(.vtex-store-newsletter-1-x-newsletterForm) {
@@ -176,9 +177,9 @@ padding-right: 15px;
 }
 
 .flexRow--group-departament :global(.vtex-store-components-3-x-imageElement--figura-Five) {
-bottom: -25px;
-width: 50px;
-height: 50px;
+  bottom: -25px;
+  width: 50px;
+  height: 50px;
 }
 
 /* genero */
@@ -201,23 +202,19 @@ height: 50px;
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
-  .flexRow--prices-plp {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
 @media screen and (min-width: 426px) and (max-width: 1024px) {
-.flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
-.flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
-.flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
-.flexRow--header-mobile {
-  padding-left: 30px !important;
-  padding-right: 30px !important;
-}
+
+  .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
+  .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
+  .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
+  .flexRow--header-mobile {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
+
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
   .flexRow--search-info--container-mobile :global(.vtex-store-components-3-x-container),
@@ -225,7 +222,7 @@ height: 50px;
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
-  }
+}
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
   .flexRowContent--search-info--container-mobile {
@@ -284,13 +281,6 @@ height: 50px;
   .flexRowContent--department-two-banners-container-row {
     padding-left: 2%;
     padding-right: 2%;
-   }
-}
-
-@media screen and (min-width: 300px) and (max-width: 375px) {
-  .flexRow--prices-plp {
-    padding-left: 10px;
-    padding-right: 10px;
   }
 }
 
@@ -397,32 +387,58 @@ height: 50px;
 }
 
 @media screen and (max-width: 450px) {
- .flexCol--banner-genero2 {
-  display: none;
- }
+  .flexCol--banner-genero2 {
+    display: none;
+  }
 
- .flexRowContent--department-two-banners-container-row {
-  flex-direction: column;
-  padding-left: 0;
-  padding-right: 0;
- }
+  .flexRowContent--department-two-banners-container-row {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
 
- .flexRowContent--department-two-banners-container-row .stretchChildrenWidth:first-child {
-  width: 100% !important;
- }
+  .flexRowContent--department-two-banners-container-row .stretchChildrenWidth:first-child {
+    width: 100% !important;
+  }
 
- .flexCol--banner-genero1 {
-  padding-right: 0;
- }
+  .flexCol--banner-genero1 {
+    padding-right: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
-.flexRowContent--department-newsletter-banner-row {
-display: flex;
-flex-direction: column-reverse;
+  .flexRowContent--department-newsletter-banner-row {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .flexRowContent--department-newsletter-banner-row .stretchChildrenWidth {
+    width: 100% !important;
+  }
 }
 
-.flexRowContent--department-newsletter-banner-row .stretchChildrenWidth {
-width: 100% !important;
+@media screen and (min-width: 449px) and (max-width: 1024px) {
+  .flexRowContent--departament-seccion-three :global(.vtex-slider-layout-0-x-sliderTrack--shelfStyle1) {
+    width: 520% !important;
+  }
 }
+
+@media screen and (max-width: 450px) {
+  .flexRowContent--departament-seccion-three :global(.vtex-slider-layout-0-x-sliderTrack--shelfStyle1) {
+    width: 950% !important;
+  }
+
+  .flexRowContent--departament-seccion-three :global(.vtex-product-summary-2-x-containerNormal--shelf--plp) {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+.flexRowContent--group-departament :global(.vtex-store-components-3-x-imageElement--figura-Five){
+bottom: -25px !important;
+}
+
+.flexRowContent--group-departament :global(.vtex-rich-text-0-x-paragraph--figura-text){
+ font-size: 16px;
+  }
 }

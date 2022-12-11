@@ -131,16 +131,14 @@
 
 .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input) :global(.vtex-input__label),
 .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-genderInput) :global(.vtex-dropdown) :global(.vtex-dropdown__label) {
-  /* display: none; */
   font-family: 'Mukta';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
 }
 
 .profileFormBoxContainer :global(.vtex-profile-form-3-x-profileContainer) :global(.vtex-profile-form-3-x-styleguideInput) :global(.vtex-input-prefix__group) input[name="firstName"]::placeholder::before {
-  background-color: red;
   content: "prueba";
   font-size: 15px;
 
@@ -305,6 +303,7 @@ color: #000000;
   text-transform: capitalize;
   color: #FFFFFF;
 }
+
 /* tarjetas de credito */
 
 /* suscripcion */
@@ -380,6 +379,7 @@ color: #000000;
 :global(.vtex-my-authentication-1-x-resendCodeButton_container) :global(.vtex-button) {
   background-color: #ED752D;
 }
+
 /* suscripcion */
 
 /* autenticacion */
