@@ -1,0 +1,166 @@
+{
+  "responsive-layout.desktop#contactanos": {
+    "title": "contactanos desktop",
+    "children": [
+      "flex-layout.row#contactanos-desktop"
+    ]
+  },
+  "flex-layout.row#contactanos-desktop": {
+    "children": [
+      "flex-layout.col#contactanos-image",
+      "flex-layout.col#contactanos-form"
+    ],
+    "props": {
+      "blockClass": "contactanos-desktop"
+    }
+  },
+  "flex-layout.col#contactanos-image": {
+    "children": [
+      "image#contactanos"
+    ],
+    "props": {
+      "blockClass": "contactanos-image",
+      "width": "50%"
+    }
+  },
+  "image#contactanos": {
+    "props": {
+      "src": "assets/contactanos/contactanos.png",
+      "maxHeight": 792,
+      "blockClass": "contactanos"
+    }
+  },
+  "flex-layout.col#contactanos-form": {
+    "children": [
+      "rich-text#title-contactanos",
+      "rich-text#text-1-contactanos",
+      "rich-text#text-2-contactanos",
+      "rich-text#text-3-contactanos",
+      "flex-layout.col#form-contactanos"
+    ],
+    "props": {
+      "blockClass": "contactanos-form",
+      "width": "50%"
+    }
+  },
+  "rich-text#title-contactanos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Contáctanos",
+      "blockClass": "title-contactanos"
+    }
+  },
+  "rich-text#text-1-contactanos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "People Play's, Carrera 97 No. 24c - 51, Muelle 2 Bodega 5, Bogota D.C",
+      "blockClass": "text-contactanos"
+    }
+  },
+  "rich-text#text-2-contactanos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Lunes a viernes: 8 am a 4 pm Sábados: 8:30 am a 11:30 am",
+      "blockClass": "text-contactanos"
+    }
+  },
+  "rich-text#text-3-contactanos": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Tel: (571) 3-907-222 Ext. 1250 WhatsApp: 3102907483",
+      "blockClass": "text-contactanos"
+    }
+  },
+  "flex-layout.col#form-contactanos": {
+    "children": [
+      "form#contactos"
+    ],
+    "props": {
+      "blockClass": "container-form-contactanos"
+    }
+  },
+  "form#contactos": {
+    "props": {
+      "entity": "CU",
+      "schema": "contactanosForm",
+      "blockClass": "contactanos"
+    },
+    "children": [
+      "flex-layout.row#form-1",
+      "flex-layout.row#form-2"
+    ],
+    "blocks": ["form-success#contactanos"]
+  },
+  "form-success#contactanos": {
+    "children": ["rich-text#successSubmit-contactanos"]
+  },
+  "rich-text#successSubmit-contactanos": {
+    "props": {
+      "text": "Enviado con exito",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "enviado-contactanos"
+    }
+  },
+  "flex-layout.row#form-1": {
+    "children": [
+      "form-input.text#fullName",
+      "form-input.text#identificationCard",
+      "form-input.text#email",
+      "form-input.text#affair"
+    ],
+    "props": {"blockClass": "form-1-contactos"}
+  },
+  "flex-layout.row#form-2": {
+    "children": [
+      "form-input.text#message",
+      "form-submit#contactanos"
+    ],
+    "props": {"blockClass": "form-2-contactos"}
+  },
+  "form-input.text#fullName": {
+    "props": {
+      "pointer": "#/properties/fullName",
+      "placeholder": "Nombre Completo",
+      "blockClass": "contactanos-text"
+    }
+  },
+  "form-input.text#identificationCard": {
+    "props": {
+      "pointer": "#/properties/identificationCard",
+      "placeholder": "Cedula",
+      "blockClass": "contactanos-text"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email",
+      "placeholder": "Email",
+      "blockClass": "contactanos-text"
+    }
+  },
+  "form-input.text#affair": {
+    "props": {
+      "pointer": "#/properties/affair",
+      "placeholder": "Asunto",
+      "blockClass": "contactanos-text"
+    }
+  },
+  "form-input.text#message": {
+    "props": {
+      "pointer": "#/properties/message",
+      "placeholder": "Mensaje",
+      "blockClass": "contactanos-text"
+    }
+  },
+  "form-submit#contactanos": {
+    "props": {
+      "label": "Enviar",
+      "blockClass": "contactanos-submit"
+    }
+  }
+}

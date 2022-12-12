@@ -1,0 +1,132 @@
+.flexRow--contactanos-desktop :global(.vtex-store-components-3-x-container)  {
+max-width: 100%;
+background-color: #ffffff;
+padding-left: 0;
+padding-right: 0;
+}
+
+.flexRow--contactanos-mobile :global(.vtex-store-components-3-x-container) {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #ffffff;
+}
+
+.flexRowContent--contactanos-desktop {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexCol--contactanos-form {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.flexColChild--contactanos-form {
+    height: auto !important;
+}
+
+.flexRowContent--contactanos-mobile {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexCol--container-form-contactanos {
+    margin-top: 30px;
+}
+
+.flexRowContent--contactanos-mobile .stretchChildrenWidth {
+width: 100% !important;
+}
+
+.flexRowContent--form-1-contactos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexRowContent--form-1-contactos .stretchChildrenWidth {
+    width: 50% !important;
+}
+
+.flexRowContent--form-1-contactos :global(.vtex-input__label){
+    display: none;
+}
+
+.flexRowContent--form-1-contactos :global(.vtex-input){
+    margin: 7px 5px;
+}
+
+.flexRowContent--form-2-contactos {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--form-2-contactos .stretchChildrenWidth {
+    width: 100% !important;
+}
+
+.flexRowContent--form-2-contactos .stretchChildrenWidth:last-child {
+    width: 50% !important;
+}
+
+.flexRowContent--form-2-contactos :global(.vtex-input__label){
+    display: none;
+}
+
+.flexRowContent--form-2-contactos :global(.vtex-input){
+    margin: 15px 5px;
+}
+
+.flexRowContent--form-1-contactos :global(.vtex-styleguide-9-x-input)::placeholder,
+.flexRowContent--form-2-contactos :global(.vtex-styleguide-9-x-input)::placeholder  {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 165.5%;
+    color: #000000;
+}
+
+.flexRowContent--form-1-contactos :global(.vtex-styleguide-9-x-input) {
+    background: #FFFFFF;
+    border: 1px solid rgba(72, 84, 103, 0.6);
+    border-radius: 4px;
+    padding: 0px 14px 0px 20px;
+}
+
+.flexRowContent--form-1-contactos :global(.vtex-input-prefix__group),
+.flexRowContent--form-2-contactos :global(.vtex-input-prefix__group) {
+    border: none;
+}
+
+.flexRowContent--form-2-contactos :global(.vtex-styleguide-9-x-input) {
+    background: #FFFFFF;
+    border: 1px solid rgba(72, 84, 103, 0.6);
+    border-radius: 4px;
+    padding: 0px 14px 0px 20px;
+}
+
+.flexRowContent--form-2-contactos :global(.vtex-input-prefix__group) {
+    height: 150px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--enviado-contactanos) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 165.5%;
+    color: #000000;
+}
+
+@media only screen and (max-width: 450px) {
+
+.flexRowContent--form-1-contactos :global(.vtex-styleguide-9-x-input)::placeholder,
+.flexRowContent--form-2-contactos :global(.vtex-styleguide-9-x-input)::placeholder  {
+    font-size: 16px;
+}
+
+}
+

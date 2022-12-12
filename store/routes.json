@@ -10,5 +10,8 @@
   },
   "store.custom#landing-terminos-condiciones": {
     "path": "/terminos-condiciones"
+  },
+  "store.custom#landing-contactanos": {
+    "path": "/contactanos"
   }
 }

@@ -1,0 +1,8 @@
+{
+    "store.custom#landing-contactanos": {
+        "blocks": [
+            "responsive-layout.desktop#contactanos",
+            "responsive-layout.mobile#contactanos"
+        ]
+    }
+}
