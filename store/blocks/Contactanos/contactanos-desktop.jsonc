@@ -83,13 +83,13 @@
       },
       "flex-layout.col#form-contactanos": {
         "children": [
-           /*  "form" */
+            /*  "form#contactos" */
         ]
       },
 
-      "form#contactanos": {
+      "form#contactos": {
         "props": {
-            "entity": "Contáctanos",
+            "entity": "Contactanos",
             "schema": "person"
         },
         "children": [
