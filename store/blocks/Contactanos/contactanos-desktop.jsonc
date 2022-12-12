@@ -92,7 +92,19 @@
     "children": [
       "flex-layout.row#form-1",
       "flex-layout.row#form-2"
-    ]
+    ],
+    "blocks": ["form-success#contactanos"]
+  },
+  "form-success#contactanos": {
+    "children": ["rich-text#successSubmit-contactanos"]
+  },
+  "rich-text#successSubmit-contactanos": {
+    "props": {
+      "text": "Enviado con exito",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "enviado-contactanos"
+    }
   },
   "flex-layout.row#form-1": {
     "children": [

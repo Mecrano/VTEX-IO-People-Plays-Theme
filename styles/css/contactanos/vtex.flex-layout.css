@@ -112,6 +112,15 @@ width: 100% !important;
     height: 150px;
 }
 
+:global(.vtex-rich-text-0-x-paragraph--enviado-contactanos) {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 165.5%;
+    color: #000000;
+}
+
 @media only screen and (max-width: 450px) {
 
 .flexRowContent--form-1-contactos :global(.vtex-styleguide-9-x-input)::placeholder,
