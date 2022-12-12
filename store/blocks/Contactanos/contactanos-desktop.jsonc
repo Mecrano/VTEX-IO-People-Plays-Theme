@@ -85,7 +85,7 @@
   },
   "form#contactos": {
     "props": {
-      "entity": "CO",
+      "entity": "CU",
       "schema": "contactanosForm",
       "blockClass": "contactanos"
     },
