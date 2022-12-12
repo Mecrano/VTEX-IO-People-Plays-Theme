@@ -183,8 +183,8 @@
 .buttonShowMore :global(.vtex-button) {
   background: #FC701C;
   border-radius: 4px;
-  width: 270px;
-  height: 70px;
+  width: 245px;
+  height: 45px;
   display: flex;
   justify-content: center;
 }

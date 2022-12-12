@@ -1,5 +1,5 @@
 .paragraph--text-group {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -8,39 +8,44 @@
 }
 
 .paragraph--slider-text {
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 24px;
   color: #000000;
 }
 
 .paragraph--text-seccion-two {
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  color: #062F87;
+  font-size: 24px;
+  color: #062f87;
 }
 
 .paragraph--ropa {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 33px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .paragraph--siempre-listos,
 .paragraph--infotext,
 .paragraph--promocion {
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   color: #000000;
-  margin-left: 68px;
+  margin-left: 0px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--home-seccion-seven)
+  .paragraph--infotext {
+  padding: 25px 0 5px;
 }
 
 .paragraph--infotext {
@@ -57,24 +62,23 @@
   position: absolute;
   bottom: 42px;
   left: 80px;
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
   z-index: 2;
-color: #FFFFFF;
-width: 200px;
+  color: #ffffff;
+  width: 200px;
 }
 
 @media (max-width: 1024px) {
-
   .paragraph--promocion::after {
-      font-size: 0 !important;
+    font-size: 0 !important;
   }
   .paragraph--text-seccion-two {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .paragraph--promocion,
@@ -83,23 +87,22 @@ width: 200px;
   }
 
   .paragraph--promocion::after {
-      font-size: 22px;
+    font-size: 22px;
   }
 
   .paragraph--slider-text {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
   }
 }
-
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .paragraph--figura-text {
     left: 70px;
-     font-size: 13px;
-     width: 150px;
+    font-size: 13px;
+    width: 150px;
   }
-  .paragraph--slider-text{
+  .paragraph--slider-text {
     font-size: 13px;
   }
 
@@ -110,12 +113,11 @@ width: 200px;
   }
 }
 
-
 @media screen and (min-width: 321px) and (max-width: 375px) {
   .paragraph--figura-text {
-     left: 85px;
-     font-size: 16px;
-     width: 180px;
+    left: 85px;
+    font-size: 16px;
+    width: 180px;
   }
   .paragraph--slider-text {
     font-size: 16px !important ;
@@ -133,7 +135,7 @@ width: 200px;
     bottom: 29px;
   }
   .paragraph--slider-text {
-    font-size: 14px ;
+    font-size: 14px;
   }
 }
 
@@ -160,7 +162,7 @@ width: 200px;
   }
 }
 
-@media screen and (min-width: 1920px){
+@media screen and (min-width: 1920px) {
   .paragraph--siempre-listos,
   .paragraph--infotext,
   .paragraph--promocion {

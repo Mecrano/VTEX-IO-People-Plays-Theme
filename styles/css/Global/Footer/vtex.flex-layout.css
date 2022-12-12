@@ -93,6 +93,7 @@
 
 .flexRowContent--container-socialNetwork-info .stretchChildrenWidth :global(.vtex-store-components-3-x-imageElement--info-brands-socialNetwork) {
   cursor: pointer;
+  max-width: initial;
 }
 
 .flexCol--container-footer-4-image-brand {

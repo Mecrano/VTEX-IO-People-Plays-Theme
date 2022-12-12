@@ -31,15 +31,15 @@
 
 .link--infotext {
   text-decoration: none;
-  margin-left: 70px;
-  margin-top: 10px;
+  /* margin-left: 70px;
+  margin-top: 10px; */
 }
 
 .label--infotext {
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 42px;
   color: #002F87;
 }
@@ -125,9 +125,9 @@
     left: 890px;
   }
 
-  .link--infotext {
+  /* .link--infotext {
     margin-left: 119px;
-  }
+  } */
 }
 
 @media screen and (min-width: 1920px) {

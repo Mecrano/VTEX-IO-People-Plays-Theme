@@ -1,5 +1,5 @@
 .imageElement--image-lotto {
-  max-width: 40%;
+  height: 35px;
 }
 
 .imageElement--seccionFive {
@@ -7,10 +7,10 @@
 }
 
 .imageElement--figura-Five {
-position: absolute;
-bottom: 20px;
-z-index: 3;
-right: 20px;
+  position: absolute;
+  bottom: 20px;
+  z-index: 3;
+  right: 20px;
 }
 
 .imageElement--link-image-home {
@@ -78,7 +78,6 @@ right: 20px;
     bottom: 30px !important;
   }
 }
-
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .imageElement--figura-Five {

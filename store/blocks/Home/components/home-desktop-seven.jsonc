@@ -4,6 +4,12 @@
     "props":{
       "blockClass": "home-seccion-seven"
     },
+    "children":["flex-layout.col#home-seccion-seven"]
+  },
+  "flex-layout.col#home-seccion-seven":{
+    "props":{
+      "blockClass": "container-home-seccion-seven"
+    },
     "children":["rich-text#marcas", "flex-layout.row#marcas-group"]
   },
   "rich-text#marcas": {
@@ -18,7 +24,8 @@
   "flex-layout.row#marcas-group": {
     "title": "contenido marcas group",
     "props":{
-      "blockClass": "marcas-group"
+      "blockClass": "marcas-group",
+      "colSizing": "auto"
     },
     "children":[
       "image#lotto",

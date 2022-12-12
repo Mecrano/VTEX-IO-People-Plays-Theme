@@ -49,8 +49,8 @@
   },
   "rich-text#infotext": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "left",
+      "textPosition": "left",
       "text": "Explora la guía de tallas por marca",
       "blockClass": "infotext"
     }

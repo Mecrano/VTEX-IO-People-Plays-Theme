@@ -31,9 +31,7 @@
   display: none;
 }
 
-.biggy-autocomplete
-
-.tileListSeeMore {
+.biggy-autocomplete .tileListSeeMore {
   color: var(--primary-blue);
 }
 
@@ -42,7 +40,7 @@
 }
 
 .biggy-autocomplete {
-  background-color: #ED752D;
+  background-color: #ed752d;
   padding: 0 20px;
   border-radius: 4px;
 }
@@ -51,17 +49,17 @@
   color: #fff;
 }
 
-.itemListLink{
-  padding: 15px!important;
-    height: auto!important;
-    line-height: initial!important;
-    font-size: 1rem!important;
-    text-transform: capitalize;
-    border-bottom: 1px solid white;
+.itemListLink {
+  padding: 15px !important;
+  height: auto !important;
+  line-height: initial !important;
+  font-size: 1rem !important;
+  text-transform: capitalize;
+  border-bottom: 1px solid white;
 }
 
 :global(.vtex-search-2-x-itemListLink):hover {
- background: #062F87!important;
+  background: #062f87 !important;
 }
 
 .itemList--top-search {
@@ -70,9 +68,10 @@
 
 .tileListItem :global(.vtex-product-summary-2-x-productBrand--shelf__name) {
   color: white;
-    font-size: 1rem;
-    height: auto !important;
-    padding-bottom: 5px;
+  font-size: 1rem;
+  height: auto !important;
+  padding-bottom: 5px;
+  font-family: "Titillium Web";
 }
 
 .tileListItem :global(.vtex-product-summary-2-x-nameContainer--shelf__name) {
@@ -91,7 +90,7 @@
 }
 
 .tileListItem :global(.vtex-product-summary-2-x-clearLink) {
-  text-decoration: none
+  text-decoration: none;
 }
 .tileListItem :global(.vtex-product-summary-2-x-container) {
   max-width: none !important;
@@ -103,7 +102,7 @@
 
 @media (max-width: 900px) {
   .biggy-autocomplete {
-  /* .biggy-autocomplete.biggy-js-container--hidden { */
+    /* .biggy-autocomplete.biggy-js-container--hidden { */
     padding: 20px 5px;
   }
 

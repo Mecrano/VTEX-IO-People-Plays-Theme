@@ -35,7 +35,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button) {
-  width: 50%;
+  width: 60%;
   height: 45px;
   margin-left: 15px;
 }
@@ -61,7 +61,8 @@
   font-weight: 600;
   font-size: 16px;
   color: #FFFFFF;
-  text-transform: capitalize;
+  text-transform: initial;
+  white-space: nowrap;
 }
 
 .element--shelf--plp :global(.vtex-button__label)::before {
@@ -105,6 +106,10 @@
 
 .containerNormal--shelf--plp {
   border-radius: 4px;
+}
+
+.container--shelf--home{
+  max-width: 320px !important;
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {

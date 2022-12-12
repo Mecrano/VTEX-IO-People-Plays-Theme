@@ -21,6 +21,10 @@
   color: var(--primary-blue);
 }
 
+.optionsList .optionsListItem :global(.vtex-button__label) {
+  text-transform: initial;
+}
+
 @media (max-width: 1025px) {
   .container :global(.vtex-button__label) {
     margin: 0 15px;

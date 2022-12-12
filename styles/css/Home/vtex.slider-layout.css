@@ -2,7 +2,7 @@
 .sliderRightArrow--slider-home {
   width: 64px;
   height: 64px;
-  background: #FFFFFF !important;
+  background: #ffffff !important;
   border-radius: 37.5px;
 }
 
@@ -25,7 +25,7 @@
   width: 59px;
   height: 59px;
   border-radius: 50px;
-  background: #062F87 !important;
+  background: #062f87 !important;
 }
 .sliderLeftArrow--shelfStyle1 {
   left: -30px;
@@ -38,7 +38,7 @@
 .sliderRightArrow--shelfStyle1-related {
   width: 34px;
   height: 34px;
-  background: #062F87 !important;
+  background: #062f87 !important;
   border-radius: 37.5px;
 }
 .sliderLeftArrow--shelfStyle1-related {
@@ -52,11 +52,11 @@
 .caretIcon--shelfStyle1-related {
   width: 18px;
   height: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .paginationDot--shelfStyle1 {
-  width: 50px!important;
+  width: 50px !important;
   border-radius: 0;
   margin-left: 20px;
   margin-top: auto;
@@ -70,7 +70,7 @@
   width: 50px !important;
   height: 8px !important;
   border-radius: 0;
-  background: #FC701C;
+  background: #fc701c;
 }
 
 .paginationDotsContainer--shelfStyle1 {
@@ -85,7 +85,7 @@
 .sliderLeftArrow--slider-text {
   width: 42px;
   height: 42px;
-  background: #FFFFFF !important;
+  background: #ffffff !important;
   border-radius: 37.5px;
 }
 
@@ -103,8 +103,12 @@
   color: #030303;
 }
 
-@media (max-width: 1024px) {
+:global(.vtex-flex-layout-0-x-flexRowContent--home-seccion-one)
+  .paginationDotsContainer {
+  bottom: 20px;
+}
 
+@media (max-width: 1024px) {
   .sliderLeftArrow--slider-home {
     margin-left: 0;
   }
@@ -124,13 +128,13 @@
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    border: 1.15152px solid #ED752D;
+    border: 1.15152px solid #ed752d;
   }
 
   .caretIcon--orange-slider {
     width: 7.13px;
     height: 7.13px;
-    color: #ED752D;
+    color: #ed752d;
   }
 
   .slideChildrenContainer--slider-text {
@@ -152,7 +156,6 @@
     margin-right: 5px !important;
   }
 }
-
 
 @media screen and (min-width: 300px) and (max-width: 375px) {
   .sliderLeftArrow--slider-text {
