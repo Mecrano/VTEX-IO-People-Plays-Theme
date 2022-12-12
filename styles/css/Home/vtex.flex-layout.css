@@ -1,5 +1,5 @@
 .flexRowContent--home-seccion-two,
-.flexRowContent--home-seccion-three,
+/* .flexRowContent--home-seccion-three, */
 .flexRowContent--home-seccion-four,
 .flexRowContent--home-seccion-five,
 .flexRowContent--infocard,
@@ -11,7 +11,7 @@
 }
 
 .flexRowContent--home-seccion-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
-.flexRowContent--home-seccion-three :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
+/* .flexRowContent--home-seccion-three :global(.vtex-flex-layout-0-x-stretchChildrenWidth), */
 .flexRowContent--home-seccion-four :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 .flexRowContent--home-seccion-five :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 /* .flexRowContent--home-seccion-seven :global(.vtex-flex-layout-0-x-stretchChildrenWidth), */
@@ -513,6 +513,7 @@
   .flexRow--home-seccion-three :global(.vtex-rich-text-0-x-container--promocion) {
     padding-left: 2%;
     padding-right: 2%;
+    width: auto;
   }
 }
 
@@ -532,6 +533,7 @@
   .flexRow--home-seccion-three :global(.vtex-rich-text-0-x-container--promocion) {
     padding-left: 2%;
     padding-right: 2%;
+    width: auto;
   }
 
   .flexRow--home-seccion-three :global(.vtex-slider-layout-0-x-sliderTrack--shelfStyle1) {

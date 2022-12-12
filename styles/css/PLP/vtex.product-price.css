@@ -1,37 +1,36 @@
 .sellingPriceValue--selling-price--plp {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   color: #000000;
 }
 
-
 .listPriceValue--list-price--plp {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
-  color: #8F8F8F;
+  color: #8f8f8f;
 }
 
 .savings--summary--plp {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  background: #EB0606;
-  border: 0.988883px solid #EB0606;
-  color: #FFFFFF;
-   width: 73.12px !important;
+  align-items: end;
+  background: #eb0606;
+  color: #fff;
+  width: 73.12px !important;
   padding: 5px 0 !important;
 }
 
 .savingsPercentage--summary--plp {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
 }
 
 .sellingPrice--selling-price--plp,
@@ -40,31 +39,33 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
-
-  :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: 33% !important;
   }
 
   .savings--summary--plp {
     background: transparent;
-    border: 0.988883px solid #EB0606;
-    color: #EB0606;
+    border: 0.988883px solid #eb0606;
+    color: #eb0606;
     height: 22px;
   }
 }
 
 @media screen and (min-width: 1920px) {
-.sellingPriceValue--selling-price--plp, .savingsPercentage--summary--plp {
-  font-size: 18px;
-}
+  .sellingPriceValue--selling-price--plp,
+  .savingsPercentage--summary--plp {
+    font-size: 18px;
+  }
 
-.listPriceValue--list-price--plp {
-  font-size: 14px;
-}
+  .listPriceValue--list-price--plp {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 450px) {
-  .sellingPriceValue--selling-price--plp, .savingsPercentage--summary--plp {
+  .sellingPriceValue--selling-price--plp,
+  .savingsPercentage--summary--plp {
     font-size: 15px;
   }
   .listPriceValue--list-price--plp {

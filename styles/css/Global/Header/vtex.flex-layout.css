@@ -19,7 +19,7 @@
 }
 
 .flexColChild--main-container-custom:first-child {
-  border-bottom: 0.826304px solid #ABABAB;
+  border-bottom: 0.826304px solid #ababab;
   padding-bottom: 15px;
 }
 
@@ -29,17 +29,17 @@
   align-items: flex-start;
 }
 
-.flexCol--container-carrito-vacio .flexColChild--container-carrito-vacio:nth-child(3n) {
+.flexCol--container-carrito-vacio
+  .flexColChild--container-carrito-vacio:nth-child(3n) {
   width: 100%;
 }
 
 .flexRowContent--minicart-footer-buttons {
   align-items: center;
-  width: 80%;
   margin: 0 auto;
-  gap: 10px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
-
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .flexRowContent--header-menu-mobile {

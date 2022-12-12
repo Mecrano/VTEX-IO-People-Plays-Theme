@@ -10,7 +10,7 @@
         "hideUnavailableItems": true,
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "static",
-        "maxItemsPerPage": 3,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default"
       }
@@ -27,7 +27,7 @@
         "hideUnavailableItems": true,
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "static",
-        "maxItemsPerPage": 3,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default"
       }
@@ -44,7 +44,7 @@
         "hideUnavailableItems": true,
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "static",
-        "maxItemsPerPage": 3,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default"
       }
@@ -61,7 +61,7 @@
         "hideUnavailableItems": true,
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "static",
-        "maxItemsPerPage": 3,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default"
       }
@@ -78,7 +78,7 @@
         "hideUnavailableItems": true,
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "static",
-        "maxItemsPerPage": 3,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL_AVAILABLE",
         "simulationBehavior": "default"
       }

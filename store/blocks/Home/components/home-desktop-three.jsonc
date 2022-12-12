@@ -1,13 +1,17 @@
 {
   "flex-layout.row#home-seccion-three": {
     "title": "block three",
-    "props":{
+    "props": {
       "blockClass": "home-seccion-three"
     },
-    "children":["flex-layout.row#titles-promociones", "flex-layout.row#shelf1" ]
+    "children": ["flex-layout.col#home-seccion-three"]
   },
-  "flex-layout.row#titles-promociones":{
-    "children":["rich-text#promociones"]
+  "flex-layout.col#home-seccion-three":{
+    "children": ["flex-layout.row#titles-promociones", "flex-layout.row#shelf1"]
+  },
+  "flex-layout.row#titles-promociones": {
+    "props":{"colSizing": "auto"},
+    "children": ["rich-text#promociones", "rich-text#promociones-verMas"]
   },
   "rich-text#promociones": {
     "title": "title",
@@ -16,6 +20,15 @@
       "textPosition": "LEFT",
       "text": "Promociones",
       "blockClass": "promocion"
+    }
+  },
+  "rich-text#promociones-verMas": {
+    "title": "title",
+    "props": {
+      "textAlignment": "rigth",
+      "textPosition": "rigth",
+      "text": "[Ver más →](#)",
+      "blockClass": "promocion-ver-mas"
     }
   },
   "flex-layout.row#shelf1": {

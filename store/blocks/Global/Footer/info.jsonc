@@ -41,7 +41,7 @@
   "link#info-title-brands": {
     "props": {
       "href": "/",
-      "label": "NUESTRAS MARCAS",
+      "label": "REDES SOCIALES",
       "blockClass": "info-title-brands"
     }
   },
@@ -102,19 +102,21 @@
   "image#info-brands-socialNetwork-1": {
     "props": {
       "blockClass": "info-brands-socialNetwork",
-      "src": "assets/footer/socialNetwork.png"
+      "src": "assets/footer/socialNetwork-instagram-icon.png",
+      "width": 20
     }
   },
   "image#info-brands-socialNetwork-2": {
     "props": {
       "blockClass": "info-brands-socialNetwork",
-      "src": "assets/footer/socialNetwork2.png"
+      "src": "assets/footer/socialNetwork-twitter-icon.png",
+      "width": 20
     }
   },
   "image#info-brands-socialNetwork-3": {
     "props": {
       "blockClass": "info-brands-socialNetwork",
-      "src": "assets/footer/socialNetwork3.png"
+      "src": "assets/footer/socialNetwork-facebook-icon.png"
     }
   }
 }

@@ -1,13 +1,20 @@
 {
   "flex-layout.row#home-seccion-eight": {
     "title": "block eight",
-    "children":["flex-layout.row#titles-promociones-mobile", "flex-layout.row#shelf1"],
+    "children": ["flex-layout.col#home-seccion-eight"],
     "props": {
       "blockClass": "home-seccion-three"
     }
   },
-   "flex-layout.row#titles-promociones-mobile":{
-    "children":["rich-text#promociones-mobile"]
+  "flex-layout.col#home-seccion-eight": {
+    "children": [
+      "flex-layout.row#titles-promociones-mobile",
+      "flex-layout.row#shelf1"
+    ]
+  },
+  "flex-layout.row#titles-promociones-mobile": {
+    "props":{"colSizing": "auto"},
+    "children": ["rich-text#promociones-mobile", "rich-text#promociones-verMas"]
   },
   "rich-text#promociones-mobile": {
     "title": "title",
