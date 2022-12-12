@@ -32,6 +32,92 @@ padding-right: 0;
     flex-direction: column;
 }
 
+.flexCol--container-form-contactanos {
+    margin-top: 30px;
+}
+
 .flexRowContent--contactanos-mobile .stretchChildrenWidth {
 width: 100% !important;
 }
+
+.flexRowContent--form-1-contactos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexRowContent--form-1-contactos .stretchChildrenWidth {
+    width: 50% !important;
+}
+
+.flexRowContent--form-1-contactos :global(.vtex-input__label){
+    display: none;
+}
+
+.flexRowContent--form-1-contactos :global(.vtex-input){
+    margin: 7px 5px;
+}
+
+.flexRowContent--form-2-contactos {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexRowContent--form-2-contactos .stretchChildrenWidth {
+    width: 100% !important;
+}
+
+.flexRowContent--form-2-contactos .stretchChildrenWidth:last-child {
+    width: 50% !important;
+}
+
+.flexRowContent--form-2-contactos :global(.vtex-input__label){
+    display: none;
+}
+
+.flexRowContent--form-2-contactos :global(.vtex-input){
+    margin: 15px 5px;
+}
+
+.flexRowContent--form-1-contactos :global(.vtex-styleguide-9-x-input)::placeholder,
+.flexRowContent--form-2-contactos :global(.vtex-styleguide-9-x-input)::placeholder  {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 165.5%;
+    color: #000000;
+}
+
+.flexRowContent--form-1-contactos :global(.vtex-styleguide-9-x-input) {
+    background: #FFFFFF;
+    border: 1px solid rgba(72, 84, 103, 0.6);
+    border-radius: 4px;
+    padding: 0px 14px 0px 20px;
+}
+
+.flexRowContent--form-1-contactos :global(.vtex-input-prefix__group),
+.flexRowContent--form-2-contactos :global(.vtex-input-prefix__group) {
+    border: none;
+}
+
+.flexRowContent--form-2-contactos :global(.vtex-styleguide-9-x-input) {
+    background: #FFFFFF;
+    border: 1px solid rgba(72, 84, 103, 0.6);
+    border-radius: 4px;
+    padding: 0px 14px 0px 20px;
+}
+
+.flexRowContent--form-2-contactos :global(.vtex-input-prefix__group) {
+    height: 150px;
+}
+
+@media only screen and (max-width: 450px) {
+
+.flexRowContent--form-1-contactos :global(.vtex-styleguide-9-x-input)::placeholder,
+.flexRowContent--form-2-contactos :global(.vtex-styleguide-9-x-input)::placeholder  {
+    font-size: 16px;
+}
+
+}
+
