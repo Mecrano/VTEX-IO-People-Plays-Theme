@@ -52,6 +52,7 @@
   .flexRow--preguntas :global(.vtex-store-components-3-x-container) {
     width: calc(999px - 40px * 2);
     margin: 0 auto;
+    max-width: 95%;
   }
 }
 

@@ -30,6 +30,20 @@
   top: -59px;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--footer-7-mobile) .container,
+:global(.vtex-flex-layout-0-x-flexRow--footer-6-mobile) .container,
+:global(.vtex-flex-layout-0-x-flexRow--footer-5-mobile) .container,
+:global(.vtex-flex-layout-0-x-flexRow--footer-4-mobile) .container,
+:global(.vtex-flex-layout-0-x-flexRow--footer-3-mobile) .container,
+:global(.vtex-flex-layout-0-x-flexRow--footer-2-desktop) .container,
+:global(.vtex-flex-layout-0-x-flexRow--footer-1-desktop) .container{
+  max-width: 100vw;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--footer-5-mobile) .container{
+  max-width: 100vw;
+}
+
 @media screen and (min-width: 376px) and (max-width: 425px) {
   .imageElement--image3 {
     top: -92px;
@@ -51,6 +65,7 @@
 
   .imageElement--image4 {
     top: -53px;
+    left: 135px !important;
   }
 
   .imageElement--image1 {

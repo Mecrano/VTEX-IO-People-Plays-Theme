@@ -166,6 +166,10 @@
         padding-inline: 20px;
     }
 
+    .flexCol--product--details--container-col {
+        padding: 2vw;
+    }
+
     .flexRowContent--product--details1--container :global(.vtex-reviews-and-ratings-2-x-summaryContainer) {
         margin-top: 10px;
     }

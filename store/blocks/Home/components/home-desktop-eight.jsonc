@@ -13,7 +13,10 @@
     ]
   },
   "flex-layout.row#titles-promociones-mobile": {
-    "props":{"colSizing": "auto"},
+    "props":{
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
+    },
     "children": ["rich-text#promociones-mobile", "rich-text#promociones-verMas"]
   },
   "rich-text#promociones-mobile": {

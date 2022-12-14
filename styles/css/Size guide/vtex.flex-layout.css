@@ -103,6 +103,7 @@ width: 100% !important;
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container) {
     width: calc(999px - 40px * 2);
     margin: 0 auto;
+    max-width: 95%;
   }
 
   .flexColChild--group-images:first-child {

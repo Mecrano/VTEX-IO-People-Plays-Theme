@@ -111,6 +111,10 @@
     color: #fff;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--product--main--container) .container{
+    padding: 0;
+}
+
 @media only screen and (max-width: 768px){
     .productBrand{
         font-size: 22px;

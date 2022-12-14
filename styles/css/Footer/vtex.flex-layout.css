@@ -40,10 +40,11 @@
 /* estilos azul footer */
   .flexRowContent--container-contact-lines {
     width: 365px !important;
+    max-width: 98vw;
   }
 
   .flexCol--background-1-contact-lines-mobile {
-    left:280px;
+    left:239px;
     right: 0 !important;
   }
 
@@ -140,6 +141,7 @@
   .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
     width: calc(999px - 40px * 2);
     margin: 0 auto;
+    max-width: 95%;
   }
 
   .flexRow--footer-7-mobile :global(.vtex-store-components-3-x-container) {

@@ -10,7 +10,10 @@
     "children": ["flex-layout.row#titles-promociones", "flex-layout.row#shelf1"]
   },
   "flex-layout.row#titles-promociones": {
-    "props":{"colSizing": "auto"},
+    "props":{
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
+    },
     "children": ["rich-text#promociones", "rich-text#promociones-verMas"]
   },
   "rich-text#promociones": {

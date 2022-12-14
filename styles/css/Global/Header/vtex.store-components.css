@@ -102,6 +102,10 @@
   .searchBarContainer {
     background: white;
   }
+
+  .notificationBarContainer--notification{
+    max-width: 100vw;
+  }
 }
 
 @media (max-width: 320px) {

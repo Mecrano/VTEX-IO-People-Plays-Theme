@@ -111,3 +111,14 @@
 .flexRow--footer-5-desktop {
   background-color: #002F87;
 }
+
+.flexRowContent--footer-6-mobile,
+.flexRow--footer-6-mobile,
+.flexRow--footer-2-desktop,
+.flexRow--footer-1-desktop{
+  max-width: 100vw;
+}
+
+/* .flexColChild--column-contact-line{
+  margin-inline:auto ;
+} */
