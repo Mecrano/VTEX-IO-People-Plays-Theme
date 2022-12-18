@@ -43,7 +43,7 @@
   .imageElement--image-explora {
     max-width: 200px;
     min-width: 200px;
-    min-height: 200px;
+    min-height: 160px;
   }
 
   .imageElement--link-image-home {
@@ -59,9 +59,9 @@
   }
 
   .imageElement--image-explora {
-    max-width: 220px;
+    max-width: 182px;
     min-width: 220px;
-    min-height: 213px;
+    min-height: 154px;
   }
 }
 
@@ -100,3 +100,12 @@
     margin-left: 10px;
   }
 }
+
+@media screen and (max-width: 425px){
+  .imageElement--link-image-home{
+    margin-right: 10px;
+    max-width: 30px !important;
+  }
+}
+
+

@@ -540,3 +540,206 @@
     width: 990% !important;
   }
 }
+
+@media screen and (max-width: 1250px){
+  .flexRow--info-images-figura-two{
+    height: 300px;
+  }
+  .flexRow--info-images-figura-one{
+    height: 326px;
+  }
+}
+
+@media screen and (max-width: 1200px){
+  .flexRow--info-images-figura-two{
+    height: 286px;
+  }
+  .flexRow--info-images-figura-one{
+    height: 312px;
+  }
+}
+
+@media screen and (max-width: 1150px){
+  .flexRow--info-images-figura-two{
+    height: 273px;
+  }
+  .flexRow--info-images-figura-one{
+    height: 299px;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .flexRow--info-images-figura-two{
+    height: 259px;
+  }
+  .flexRow--info-images-figura-one{
+    height: 285px;
+  }
+}
+
+@media screen and (max-width: 1050px){
+  .flexRow--info-images-figura-two{
+    height: 246px;
+  }
+  .flexRow--info-images-figura-one{
+    height: 272px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .flexRow--info-images-figura-two{
+    height: 232px;
+  }
+  .flexRow--info-images-figura-one{
+    height: 258px;
+  }
+}
+
+@media screen and (max-width: 950px){
+  .flexRow--info-images-figura-two{
+    height: 233px;
+    width: 460px !important;
+  }
+  .flexRow--info-images-figura-one{
+    height: 245px;
+    width: 460px !important;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .flexRow--info-images-figura-two{
+    height: 219px;
+    width: 430px !important;
+  }
+  .flexRow--info-images-figura-one{
+    height: 231px;
+    width: 430px !important;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .flexRow--info-images-figura-two{
+    height: 206px;
+    width: 405px !important;
+  }
+  .flexRow--info-images-figura-one{
+    height: 217px;
+    width: 405px !important;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .flexRow--info-images-figura-two{
+    height: 193px;
+    width: 380px !important;
+  }
+  .flexRow--info-images-figura-one{
+    height: 204px;
+    width: 380px !important;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .flexRow--info-images-figura-two{
+    height: 179px;
+    width: 350px !important;
+  }
+  .flexRow--info-images-figura-one{
+    height: 190px;
+    width: 350px !important;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .flexRow--info-images-figura-two{
+    height: 163px;
+    width: 325px !important;
+  }
+  .flexRow--info-images-figura-one{
+    height: 177px;
+    width: 325px !important;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .flexRow--info-images-figura-two{
+    height: 159px;
+    width: 300px !important;
+  }
+  .flexRow--info-images-figura-one{
+    height: 163px;
+    width: 300px !important;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .flexRow--info-images-figura-two{
+    height: 150px;
+    width: 275px !important;
+  }
+  .flexRow--info-images-figura-one{
+    height: 154px;
+    width: 275px !important;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .flexRow--info-images-figura-two{
+    height: 136px;
+    width: 250px !important;
+  }
+  .flexRow--info-images-figura-one{
+    height: 140px;
+    width: 250px !important;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .flexRow--info-images-figura-two{
+    height: 117px;
+    width: 210px !important;
+  }
+  .flexRow--info-images-figura-one{
+    height: 127px;
+    width: 220px !important;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .flexRow--info-images-figura-two{
+    height: 97px;
+    width: 191px !important;
+  }
+  .flexRow--info-images-figura-one{
+    height: 113px;
+    width: 195px !important;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .flexRow--info-images-figura-two{
+    height: 120px;
+    width: 200px !important;
+    clip-path: polygon(0 0,79% 0,100% 100%,0 100%);
+  }
+  .flexRow--info-images-figura-one{
+    height: 154px;
+    width: 206px !important;
+  }
+
+  .flexRowContent--infocard{
+    gap: 0 !important;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .flexRow--info-images-figura-two{
+    height: 139px;
+    width: 185px!important;
+    clip-path: polygon(0 0,77% 0,100% 100%,0 100%);
+  }
+  .flexRow--info-images-figura-one{
+    height: 160px;
+    width: 193px!important;
+  }
+}

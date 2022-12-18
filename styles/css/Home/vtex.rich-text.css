@@ -182,3 +182,13 @@
     font-size: 18px;
   }
 }
+
+
+@media screen and (max-width: 425px){
+  .paragraph--infotext{
+    font-size: 14px !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    padding-bottom: 14px;
+  }
+}
