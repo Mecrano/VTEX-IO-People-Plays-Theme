@@ -13,5 +13,8 @@
   },
   "store.custom#landing-contactanos": {
     "path": "/contactanos"
+  },
+  "store.custom#devoluciones": {
+    "path": "/devoluciones"
   }
 }

@@ -1,0 +1,90 @@
+{
+  "store.custom#devoluciones": {
+    "blocks": ["form#devoluciones"]
+  },
+
+  "form#devoluciones": {
+    "props": {
+      "entity": "DE",
+      "schema": "devoluciones"
+    },
+    "children": [
+      "form-input.dropdown#type",
+      "form-input.text#name",
+      "form-input.text#lastName",
+      "form-input.text#phone",
+      "form-input.text#dni",
+      "form-input.text#store",
+      "form-input.text#email-devoluciones",
+      "form-input.text#address",
+      "form-input.text#order",
+      "form-input.text#description",
+      "form-input.checkbox#terms",
+      "form-submit#devoluciones"
+    ],
+    "blocks": ["form-success"]
+  },
+
+  "form-input.text#name": {
+    "props": {
+      "pointer": "#/properties/name"
+    }
+  },
+  "form-input.text#lastName": {
+    "props": {
+      "pointer": "#/properties/lastName"
+    }
+  },
+  "form-input.text#phone": {
+    "props": {
+      "pointer": "#/properties/phone"
+    }
+  },
+  "form-input.text#dni": {
+    "props": {
+      "pointer": "#/properties/dni"
+    }
+  },
+  "form-input.text#store": {
+    "props": {
+      "pointer": "#/properties/store"
+    }
+  },
+  "form-input.text#email-devoluciones": {
+    "props": {
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.text#address": {
+    "props": {
+      "pointer": "#/properties/address"
+    }
+  },
+  "form-input.text#order": {
+    "props": {
+      "pointer": "#/properties/order"
+    }
+  },
+  "form-input.text#description": {
+    "props": {
+      "pointer": "#/properties/description"
+    }
+  },
+  "form-input.dropdown#type": {
+    "props": {
+      "pointer": "#/properties/type",
+      "label": "Selecciona tipo de solicitud"
+    }
+  },
+  "form-input.checkbox#terms": {
+    "props": {
+      "pointer": "#/properties/terms",
+      "label": "Autorizo a que la respuesta a mi solicitud sea comunicada a través de los medios de contacto que relaciono en el punto 1 de este documento"
+    }
+  },
+  "form-submit#devoluciones": {
+    "props": {
+      "pointer": "#/properties/firstName"
+    }
+  }
+}
