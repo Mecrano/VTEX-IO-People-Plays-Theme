@@ -20,7 +20,7 @@
   },
   "newsletter-checkbox-confirmation": {
     "props": {
-      "checkboxLabel": "He leído y acepto las Políticas de Privacidad y Tratamiento de Datos Personales.",
+      "checkboxLabel": "He leído y acepto las políticas de privacidad y tratamiento de datos personales.",
       "blockClass":"newsletter-checkbox-confirmation",
       "firstLabelLink": {
         "url": "/",
