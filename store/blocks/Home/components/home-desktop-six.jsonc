@@ -6,7 +6,7 @@
   },
   "flex-layout.row#infocard-home": {
     "title": "contenido infocard",
-    "props":{"blockClass": "home-seccion-six"},
+    "props":{"blockClass": "home-seccion-six-children"},
     "children":["flex-layout.row#infocard-lin-text-one", "flex-layout.row#infocard-lin-text"]
   },
   "flex-layout.row#infocard-lin-text-one": {

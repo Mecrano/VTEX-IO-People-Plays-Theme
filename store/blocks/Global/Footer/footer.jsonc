@@ -24,7 +24,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Horario de Soporte y Atención al Cliente",
+      "text": "Horario de soporte y atención al cliente",
       "blockClass": "footer-row-1-text-1"
     }
   },
@@ -32,7 +32,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Lunes a viernes: 8 am a 4 pm Sábados: 8:30 am a 11:30 am",
+      "text": "Lunes a viernes: 8:00am a 4:00pm Sábados: 8:30am a 11:30am",
       "blockClass": "footer-row-1-text-2"
     }
   },
@@ -305,8 +305,8 @@
   },
   "rich-text#footer-5-desktop": {
     "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
       "text": "© COPYRIGHT 2022 PEOPLE PLAYS TODOS LOS DERECHOS RESERVADOS.",
       "blockClass": "texts-footer-5"
     }

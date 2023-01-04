@@ -1,0 +1,79 @@
+{
+  "store.storelocator": {
+    "blocks": ["flex-layout.row#storelocator-title", "flex-layout.row#storelocator-container"]
+  },
+  "flex-layout.row#storelocator-title": {
+    "children": ["flex-layout.col#storelocator-title"]
+  },
+  "flex-layout.row#storelocator-container": {
+    "children": ["store-list"]
+  },
+  "flex-layout.col#storelocator-title": {
+    "children": ["rich-text#storelocator-title"],
+    "props": {
+      "blockClass": "title",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#storelocator-title": {
+    "props": {
+      "text": "## Encuentra tu tienda más cercana\n\nSelecciona la tienda para ver el mapa "
+    }
+  },
+  "store.storedetail": {
+    "blocks": ["flex-layout.row#titleStore", "store-group"]
+  },
+  "store-group": {
+    "children": ["flex-layout.row#containerStore"],
+    "props": {
+      "title": "{storeName}"
+    }
+  },
+  "flex-layout.row#titleStore": {
+    "children": ["flex-layout.col#titleStore"]
+  },
+  "flex-layout.row#containerStore": {
+    "children": ["flex-layout.col#detail"]
+  },
+  "flex-layout.col#titleStore": {
+    "children": ["rich-text#titleStore"],
+    "props": {
+      "blockClass": "title",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#titleStore": {
+    "props": {
+      "text": "## Detalles"
+    }
+  },
+  "flex-layout.col#detail": {
+    "children": [
+      "store-back-link",
+      "store-name",
+      "store-map",
+      "store-address",
+      "store-hours",
+      "store-instructions"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+  "store-hours": {
+    "props": {
+      "label": "Horarios:",
+      "format": "12h"
+    }
+  },
+  "store-back-link": {
+    "props": {
+      "label": "atrás"
+    }
+  },
+  "store-instructions": {
+    "props": {
+      "label": "Instrucciones adicionales:\n"
+    }
+  }
+}

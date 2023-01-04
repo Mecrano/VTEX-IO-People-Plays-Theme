@@ -1,14 +1,36 @@
 {
   "store.login": {
-    "blocks": ["login-content#default"]
+    "blocks": ["flex-layout.row#main-login"]
+  },
+
+  "flex-layout.row#main-login": {
+    "children": [
+      "flex-layout.col#main-login-image",
+      "login-content#default"
+    ]
+  },
+
+  "flex-layout.col#main-login-image": {
+    "children": [
+      "image-new#main-login-image"
+    ]
+  },
+
+  "image-new#main-login-image": {
+    "title": "imagen",
+    "props": {
+      "src": "assets/images/login/main-login-image.jpg",
+      "alt": "Imagen login",
+      "title": "Imagen login"
+    }
   },
 
   "login-content#default": {
     "props": {
-       "isInitialScreenOptionOnly": false,
+      "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true,
-      "termsAndConditions": "Términos de Servicio y Política de Privacidad",
+      "termsAndConditions": "Términos de servicio y política de privacidad",
       "hasGoogleOneTap": true,
       "emailAndPasswordTitle": "Inicia sesion con mail y contraseña",
       "accessCodeTitle": "Recibir clave de acceso rapido por mail"

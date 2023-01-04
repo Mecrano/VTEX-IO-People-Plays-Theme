@@ -1,26 +1,28 @@
 .accessCodeOptionBtn :global(.vtex-button__label),
 .emailPasswordOptionBtn :global(.vtex-button__label),
 .sendButton :global(.vtex-button__label) :global(.t-small):first-child,
-.accountOptions :global(.vtex-button__label) :global(.t-action--small):first-child,
+.accountOptions
+  :global(.vtex-button__label)
+  :global(.t-action--small):first-child,
 .accountOptions .button :global(.t-action--small):first-child {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-weight: 400;
-  font-size: 19px;
+  font-size: 1rem;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: capitalize;
 }
 
 .accessCodeOptionBtn :global(.vtex-button),
 .emailPasswordOptionBtn :global(.vtex-button),
-.sendButton :global(.vtex-button)  {
-  background: #002F87;
+.sendButton :global(.vtex-button) {
+  background: #002f87;
   border-radius: 4px;
-  border-color: #002F87;
+  border-color: #002f87;
 }
 
 .formTitle {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-weight: 400;
   font-size: 19px;
 }
@@ -29,34 +31,27 @@
   display: flex;
   justify-content: center;
   flex-direction: column-reverse;
-  background: #DFDFDF;
   box-sizing: content-box;
   max-width: 100%;
 }
 
-.content--loginOptions,
-.content--emailVerification,
-.content--codeConfirmation,
-.content--accountOptions  {
-  background-color: #FFFFFF;
-}
-
 .accountOptions :global(.vtex-button) {
-   background-color: #002F87;
+  background-color: #002f87;
 }
 
 .accountOptions .button {
-  background-color: #FC701C;
-  color: #FFFFFF;
+  background-color: #fc701c;
+  color: #ffffff;
 }
 
-.loginOptionsContainer, .contentForm {
+.loginOptionsContainer,
+.contentForm {
   width: calc(450px - 36px * 2);
   margin: 0 auto;
 }
 
 .termsAndConditions {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -65,35 +60,36 @@
   color: #000000;
 }
 
-.dontHaveAccount, .forgotPasswordLink {
-  font-family: 'Mukta';
+.dontHaveAccount,
+.forgotPasswordLink {
+  font-family: "Mukta";
   color: #000000;
 }
 
 .inputContainer :global(.vtex-styleguide-9-x-input) {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   color: #000000;
 }
 
 .formError {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   background-color: transparent;
-  color: #FC701C;
+  color: #fc701c;
 }
 
 .backButton {
-  background-color: #FC701C;
+  background-color: #fc701c;
   border-radius: 4px;
 }
 
 .googleOptionBtn :global(.vtex-button) {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 1px solid #485467;
   border-radius: 4px;
 }
 
 .googleOptionBtn :global(.vtex-button) :global(.vtex-button__label) {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
@@ -102,28 +98,29 @@
   text-transform: capitalize;
 }
 
-.facebookOptionBtn :global(.vtex-button)  {
-  background-color: #3C5A9A;
+.facebookOptionBtn :global(.vtex-button) {
+  background-color: #3c5a9a;
   border-radius: 4px;
-  border: 1px solid #3C5A9A;
+  border: 1px solid #3c5a9a;
 }
 
 .facebookOptionBtn :global(.vtex-button) :global(.vtex-button__label) svg path {
-  fill: #FFFFFF !important;
+  fill: #ffffff !important;
 }
 
 .facebookOptionBtn :global(.vtex-button) :global(.vtex-button__label) {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: capitalize;
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
-   .loginOptionsContainer, .contentForm {
+  .loginOptionsContainer,
+  .contentForm {
     width: calc(300px - 15px * 2);
     margin: 0 auto;
   }
@@ -136,26 +133,28 @@
   .optionsSticky {
     min-width: 10rem;
   }
- }
+}
 
- @media screen and (min-width: 321px) and (max-width: 375px) {
-  .loginOptionsContainer, .contentForm {
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .loginOptionsContainer,
+  .contentForm {
     width: calc(360px - 15px * 2);
     margin: 0 auto;
   }
- }
+}
 
- @media screen and (min-width: 321px) and (max-width: 425px) {
-  .contentForm  {
+@media screen and (min-width: 321px) and (max-width: 425px) {
+  .contentForm {
     padding-left: 0;
     padding-right: 0;
   }
+}
 
- }
+.button .vtex-button .oauthLabel {
+  text-transform: none;
+  font-size: 1rem;
+}
 
-
-/* añadir imagen al login .content::before {
-  content: url("/arquivos/logincms.png");
-  top: 0;
-  left: 0;
-} */
+.button .vtex-button .oauthLabel .oauthProvider {
+  font-weight: initial;
+}
