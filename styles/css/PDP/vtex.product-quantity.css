@@ -15,16 +15,18 @@
     text-align: left;
     color: #000;
     padding-block: 4px;
+    margin: 0;
 }
 
 :global(.vtex-numeric-stepper__input){
     border-inline: none;
     color: #062F87;
+    background-color: transparent;
 }
 
 :global(.vtex-numeric-stepper__plus-button),
 :global(.vtex-numeric-stepper__minus-button){
-    background-color: #fff;
+    background-color: transparent;
 }
 
 :global(.vtex-numeric-stepper__plus-button-container) :global(.vtex-numeric-stepper__plus-button__text),

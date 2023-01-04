@@ -4,7 +4,8 @@
 }
 
 .flexCol--product--details--container-col {
-    padding: 5vw;
+    padding-inline: 5vw;
+    padding-block: 2vw;
 }
 
 .flexRowContent--product--prices--container .stretchChildrenWidth {
@@ -24,12 +25,6 @@
 
 .flexCol--product--sku-select-size-container {
     position: relative;
-}
-
-.flexCol--product--sku-select-size-container :global(.vtex-rich-text-0-x-container--product--size-guide--text) {
-    position: absolute;
-    top: 0px;
-    left: 25%;
 }
 
 .flexRowContent--product--details--container {
@@ -150,6 +145,15 @@
 .flexRow--product--main--container .flexRow--vitrina-pdp {
     padding-left: 4%;
     padding-right: 4%;
+}
+
+.flexRow--product--sku-quantity--container{
+    margin-top: 12px;
+}
+
+.flexColChild--product--quantity-size-guide--container{
+    border-bottom: 1px solid #062F8740;
+    padding-bottom: 30px;
 }
 
 @media only screen and (max-width: 1024px) {

@@ -43,7 +43,8 @@
       "stack-layout#product--images--container"
     ],
     "props": {
-      "blockClass":["product--images--container"]
+      "blockClass":["product--images--container"],
+      "preventVerticalStretch": true
     }
   },
   "responsive-layout.phone#details-phone":{
