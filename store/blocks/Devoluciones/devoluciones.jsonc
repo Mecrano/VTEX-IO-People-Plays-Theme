@@ -1,6 +1,22 @@
 {
   "store.custom#devoluciones": {
-    "blocks": ["form#devoluciones"]
+    "blocks": ["flex-layout.row#devoluciones"]
+  },
+  "flex-layout.row#devoluciones": {
+    "children": ["flex-layout.col#devoluciones"],
+    "props": {
+      "blockClass": "devoluciones-container-row"
+    }
+  },
+  "flex-layout.col#devoluciones": {
+    "children": [
+      "rich-text#title-devoluciones",
+      "rich-text#text-1-devoluciones",
+      "form#devoluciones"
+    ],
+    "props": {
+      "blockClass":["devoluciones-container-col"]
+    }
   },
 
   "form#devoluciones": {
@@ -9,65 +25,115 @@
       "schema": "devoluciones"
     },
     "children": [
-      "form-input.dropdown#type",
-      "form-input.text#name",
-      "form-input.text#lastName",
-      "form-input.text#phone",
-      "form-input.text#dni",
-      "form-input.text#store",
-      "form-input.text#email-devoluciones",
-      "form-input.text#address",
-      "form-input.text#order",
-      "form-input.text#description",
+      "flex-layout.row#devoluciones-fila-1",
+      "flex-layout.row#devoluciones-fila-2",
+      "flex-layout.row#devoluciones-fila-3",
+      "flex-layout.row#devoluciones-fila-4",
       "form-input.checkbox#terms",
       "form-submit#devoluciones"
     ],
     "blocks": ["form-success"]
   },
-
+  "flex-layout.row#devoluciones-fila-1": {
+    "children": [
+      "form-input.dropdown#type",
+      "form-input.text#name",
+      "form-input.text#lastName"
+  ],
+    "props": {
+      "blockClass": ["devoluciones-fila", "devoluciones-fila1"]
+    }
+  },
   "form-input.text#name": {
     "props": {
-      "pointer": "#/properties/name"
+      "pointer": "#/properties/name",
+      "placeholder": "Nombre",
+      "label": " "
+    }
+  },
+  "flex-layout.row#devoluciones-fila-2": {
+    "children": [
+      "form-input.text#phone",
+      "form-input.text#dni",
+      "form-input.text#store"
+  ],
+    "props": {
+      "blockClass": ["devoluciones-fila", "devoluciones-fila2"]
+    }
+  },
+  "flex-layout.row#devoluciones-fila-3": {
+    "children": [
+      "form-input.text#email-devoluciones",
+      "form-input.text#address",
+      "form-input.text#order"
+  ],
+    "props": {
+      "blockClass": ["devoluciones-fila", "devoluciones-fila3"]
+    }
+  },
+  "flex-layout.row#devoluciones-fila-4": {
+    "children": [
+      "form-input.text#description"
+  ],
+    "props": {
+      "blockClass": ["devoluciones-fila", "devoluciones-fila4"]
     }
   },
   "form-input.text#lastName": {
     "props": {
-      "pointer": "#/properties/lastName"
+      "pointer": "#/properties/lastName",
+      "label": " ",
+      "placeholder": "Apellido"
     }
   },
   "form-input.text#phone": {
     "props": {
-      "pointer": "#/properties/phone"
+      "pointer": "#/properties/phone",
+      "label": " ",
+      "placeholder": "Teléfono"
     }
   },
   "form-input.text#dni": {
     "props": {
-      "pointer": "#/properties/dni"
+      "pointer": "#/properties/dni",
+      "label": " ",
+      "placeholder": "Cédula"
     }
   },
   "form-input.text#store": {
     "props": {
-      "pointer": "#/properties/store"
+      "pointer": "#/properties/store",
+      "label": " ",
+      "placeholder": "Tienda donde compró"
     }
   },
   "form-input.text#email-devoluciones": {
     "props": {
-      "pointer": "#/properties/email"
+      "pointer": "#/properties/email",
+      "label": " ",
+      "placeholder": "Email"
     }
   },
   "form-input.text#address": {
     "props": {
-      "pointer": "#/properties/address"
+      "pointer": "#/properties/address",
+      "label": " ",
+      "placeholder": "Dirección"
     }
   },
   "form-input.text#order": {
     "props": {
-      "pointer": "#/properties/order"
+      "pointer": "#/properties/order",
+      "label": " ",
+      "placeholder": "Número de Pedido"
     }
   },
   "form-input.text#description": {
     "props": {
-      "pointer": "#/properties/description"
+      "pointer": "#/properties/description",
+      "label": " ",
+      "placeholder": "Descripcion de caso y/o solicitud",
+      "blockClass": "vtex-devoluciones-descripcion"
     }
   },
   "form-input.dropdown#type": {
@@ -84,7 +150,24 @@
   },
   "form-submit#devoluciones": {
     "props": {
-      "pointer": "#/properties/firstName"
+      "pointer": "#/properties/firstName",
+      "label": "Enviar"
+    }
+  },
+  "rich-text#text-1-devoluciones": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Llena el siguente formulario para cumplir con el proceso",
+      "blockClass": ["text-contactanos", "text-devoluciones"]
+    }
+  },
+  "rich-text#title-devoluciones": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Formulario de PQR y cambios",
+      "blockClass": ["title-contactanos", "title-devoluciones"]
     }
   }
 }

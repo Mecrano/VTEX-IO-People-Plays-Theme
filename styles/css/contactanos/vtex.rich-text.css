@@ -1,4 +1,7 @@
-.paragraph--title-contactanos {
+.paragraph--title-contactanos,
+.wrapper--title-contactanos,
+.paragraph--title-devoluciones,
+.wrapper--title-devoluciones {
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 700;

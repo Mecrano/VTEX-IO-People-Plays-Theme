@@ -1,0 +1,79 @@
+.flexCol--devoluciones-container-col .flexColChild--devoluciones-container-col:last-child{
+    margin-top: 40px;
+}
+
+.flexRowContent--devoluciones-fila1 .stretchChildrenWidth{
+    align-items: flex-end;
+}
+
+.flexRowContent--devoluciones-fila1 :global(.vtex-dropdown__label){
+    display: none;
+}
+
+.flexRow--devoluciones-fila :global(.vtex-input-prefix__group),
+.flexRow--devoluciones-fila :global(.vtex-dropdown__container){
+    margin-right: 20px;
+}
+.flexRow--devoluciones-fila4 :global(.vtex-input-prefix__group){
+    margin-right: 33px;
+}
+
+.flexRowContent--devoluciones-fila{
+    margin-top: 12px;
+}
+
+.flexRow--devoluciones-fila3,
+.flexRow--devoluciones-fila4 :global(.vtex-input-prefix__group){
+    margin-bottom: 20px;
+}
+
+.flexColChild--devoluciones-container-col :global(.vtex-checkbox__line-container){
+    margin-bottom: 41px;
+}
+
+.flexColChild--devoluciones-container-col :global(.vtex-checkbox__label){
+    color: #000;
+    font-size: 14px;
+}
+
+.flexColChild--devoluciones-container-col :global(.vtex-button){
+    width: 30%;
+}
+
+.flexColChild--devoluciones-container-col :global(.vtex-button__label){
+    font-family: 'Lato';
+    font-size: 18px;
+    color: #fff;
+    text-transform: none;
+}
+
+.flexColChild--devoluciones-container-col :global(.vtex-styleguide-9-x-input),
+.flexColChild--devoluciones-container-col :global(.vtex-dropdown__button){
+    background-color: #fff;
+    border: 1px solid #48546799;
+}
+
+.flexColChild--devoluciones-container-col :global(.vtex-styleguide-9-x-input)::placeholder,
+.flexColChild--devoluciones-container-col :global(.vtex-dropdown__button)::placeholder{
+    color: #000;
+}
+
+.flexColChild--devoluciones-container-col :global(.vtex-input-prefix__group),
+.flexColChild--devoluciones-container-col :global(.vtex-dropdown__container){
+    border: none;
+}
+
+.flexRow--devoluciones-container-row{
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+
+.flexRowContent--devoluciones-container-row{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.flexRow--devoluciones-fila4 :global(.vtex-styleguide-9-x-input),
+.flexRow--devoluciones-fila4 :global(.vtex-input-prefix__group){
+    height: 120px;
+}
