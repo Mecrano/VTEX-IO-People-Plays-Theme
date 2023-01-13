@@ -41,10 +41,10 @@
   "product-availability#product--stock": {
     "props": {
       "blockClass": "product--stock",
-      "lowStockMessage": "{quantity} en Stock!",
-			"highStockMessage": "{quantity} en Stock!",
+      "lowStockMessage": "{quantity} en stock",
+			"highStockMessage": "{quantity} en stock",
 			"showAvailability": "stock",
-			"showAvailabilityMessage": "{quantity} en Stock!"
+			"showAvailabilityMessage": "{quantity} en stock"
     }
   },
   "disclosure-layout-group#product--disclosure-group": {
@@ -268,7 +268,9 @@
 	"product-identifier.product":{
 		"props": {
 			"blockClass": ["product--identifier"],
-			"idField": "skuReferenceId"
+			"idField": "skuReferenceId",
+      "customLabel": "SKU",
+      "label": "custom" // text if label is custom
 		}
 	},
   "rich-text#product--size-guide--content": {

@@ -13,7 +13,8 @@
 }
 
 .skuSelectorContainer--product--sku-selector .skuSelectorSubcontainer--color .skuSelectorName,
-.skuSelectorContainer--product--sku-selector .skuSelectorSubcontainer--size .skuSelectorName{
+.skuSelectorContainer--product--sku-selector .skuSelectorSubcontainer--size .skuSelectorName,
+.skuSelectorContainer--product--sku-selector .skuSelectorSubcontainer--talla .skuSelectorName{
     font-family: Mukta;
     font-size: 20px;
     font-weight: 700;
@@ -80,11 +81,13 @@
     display: flex;
 }
 
-.skuSelectorSubcontainer--size .valueWrapper--product--sku-selector--unavailable{
+.skuSelectorSubcontainer--size .valueWrapper--product--sku-selector--unavailable,
+.skuSelectorSubcontainer--talla .valueWrapper--product--sku-selector--unavailable{
     padding-inline: 4px !important;
 }
 
-.skuSelectorSubcontainer--size .skuSelectorItemTextValue--product--sku-selector{
+.skuSelectorSubcontainer--size .skuSelectorItemTextValue--product--sku-selector,
+.skuSelectorSubcontainer--talla .skuSelectorItemTextValue--product--sku-selector{
     border: 1px solid;
     border-color: #000;
     padding: 4px 9px;
@@ -96,7 +99,8 @@
     color: white;
 }
 
-.skuSelectorSubcontainer--size .skuSelectorNameContainer{
+.skuSelectorSubcontainer--size .skuSelectorNameContainer,
+.skuSelectorSubcontainer--talla .skuSelectorNameContainer{
     margin-right: 0;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -116,7 +120,8 @@
     color: #000;
     padding-block: 4px;
 } */
-.skuSelectorSubcontainer--size .skuSelectorTextContainer{
+.skuSelectorSubcontainer--size .skuSelectorTextContainer,
+.skuSelectorSubcontainer--talla .skuSelectorTextContainer{
     border-top: 1px solid #062F8740;
     padding-top: 10px;
 }
@@ -125,27 +130,42 @@
     margin-bottom: 0px;
 }
 
-.skuSelectorSubcontainer--size{
+.skuSelectorSubcontainer--size,
+.skuSelectorSubcontainer--talla{
     margin-bottom: 20px;
 }
 
-.skuSelectorSubcontainer--size .skuSelectorItem--selected .frameAround--product--sku-selector{
+.skuSelectorSubcontainer--size .skuSelectorItem--selected .frameAround--product--sku-selector,
+.skuSelectorSubcontainer--talla .skuSelectorItem--selected .frameAround--product--sku-selector{
     display: none;
 }
 
 
 
-.skuSelectorSubcontainer--size .skuSelectorItem--selected {
+.skuSelectorSubcontainer--size .skuSelectorItem--selected,
+.skuSelectorSubcontainer--talla .skuSelectorItem--selected {
     background-color: #000;
     border-radius: 4px;
+    min-height: 45px;
+}
+
+.skuSelectorSubcontainer--talla .valueWrapper--product--sku-selector{
+    min-height: 45px;
+    align-items: center;
+}
+
+.skuSelectorSubcontainer--talla .skuSelectorInternalBox--product--sku-selector{
+    min-height: 48px;
 }
 
 .skuSelectorSubcontainer--size .skuSelectorItemTextValue--product--sku-selector,
+.skuSelectorSubcontainer--talla .skuSelectorItemTextValue--product--sku-selector,
 .content--product--disclosures--description-content {
     color: #000;
 }
 
-.skuSelectorSubcontainer--size .skuSelectorItem--selected .skuSelectorItemTextValue {
+.skuSelectorSubcontainer--size .skuSelectorItem--selected .skuSelectorItemTextValue,
+.skuSelectorSubcontainer--talla .skuSelectorItem--selected .skuSelectorItemTextValue {
     color: #fff;
 }
 
@@ -192,6 +212,27 @@
     box-shadow: 0px 17px 22px 0px #0000001a;
 }
 
+.skuSelectorSubcontainer--talla .skuSelectorOptionsList{
+    min-width: 200%;
+}
+
+.skuSelectorInternalBox--product--sku-selector:hover{
+    border-color: transparent;
+}
+
+.skuSelectorItemImage{
+    width: 70px;
+    height: 70px;
+}
+
+.productImagesThumb--product--images{
+    margin-bottom: 65px;
+}
+
+.skuSelectorOptionsList,
+.skuSelectorOptionsList .skuSelectorItem--product--sku-selector:first-child{
+    margin-left: 0;
+}
 @media only screen and (max-width: 768px){
     .productBrand{
         font-size: 22px;
@@ -204,5 +245,9 @@
 
     .skuSelectorSubcontainer--color .skuSelectorOptionsList{
         border-right: none;
+    }
+
+    .skuSelectorSubcontainer--talla .skuSelectorOptionsList{
+        min-width: 100%;
     }
 }
