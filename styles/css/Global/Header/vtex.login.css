@@ -21,8 +21,17 @@
   color: var(--primary-blue);
 }
 
-.optionsList .optionsListItem :global(.vtex-button__label) {
+.optionsList .optionsListItem :global(.vtex-button__label),
+.optionsList .optionsListItem :global(.vtex-button__label) .oauthLabel {
   text-transform: initial;
+  font-size: 16px;
+  font-family: 'Mukta';
+}
+
+.optionsList .optionsListItem :global(.vtex-button__label) .oauthProvider {
+  font-weight: normal;
+  font-size: 16px;
+  font-family: 'Mukta';
 }
 
 @media (max-width: 1025px) {

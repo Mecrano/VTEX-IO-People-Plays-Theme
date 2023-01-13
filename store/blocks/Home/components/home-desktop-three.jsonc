@@ -46,7 +46,7 @@
     "children": ["slider-layout#products"],
     "props": {
       /* "category": "11", */
-      "collection": "466",
+      "collection": "465",
       "orderBy": "OrderByTopSaleDESC",
       "hideUnavailableItems": true
     }
@@ -70,7 +70,7 @@
     "children": ["slider-layout#products-related"],
     "props": {
       /* "category": "11", */
-      "collection": "466",
+      "collection": "465",
       "orderBy": "OrderByTopSaleDESC",
       "hideUnavailableItems": true
     }

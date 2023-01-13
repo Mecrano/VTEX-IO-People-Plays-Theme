@@ -35,7 +35,6 @@
   position: absolute;
   left: 43px;
   z-index: 10;
-  top: -40px;
 }
 
 .flexCol--background-1-contact-lines,
@@ -111,6 +110,7 @@
 
 .flexRow--footer-5-desktop {
   background-color: #002F87;
+  padding-inline: 30px;
 }
 
 .flexRowContent--footer-6-mobile,

@@ -14,7 +14,7 @@
         "children": ["slider-layout#products-departament-2"],
         "props": {
             /* "category": "11", */
-            "collection": "466",
+            "collection": "465",
             "orderBy": "OrderByTopSaleDESC"
         }
     },

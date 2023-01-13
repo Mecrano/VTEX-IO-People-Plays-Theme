@@ -3,7 +3,7 @@
   position: absolute;
   left: -30px;
   z-index: 10;
-  top: -83px;
+  bottom: 0;
 }
 
 .imageElement--image2 {
@@ -11,7 +11,8 @@
   position: absolute;
   left: -30px;
   z-index: 10;
-  top: -72px;
+  bottom: 0;
+  width: 200px;
 }
 
 .imageElement--image1 {
@@ -19,7 +20,7 @@
   position: absolute;
   left: -32px;
   z-index: 10;
-  top: -56px;
+  bottom: 0;
 }
 
 .imageElement--image4 {
@@ -27,7 +28,8 @@
   position: absolute;
   left: 180px !important;
   z-index: 10;
-  top: -59px;
+  bottom: 0;
+  width: 175px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--footer-7-mobile) .container,
@@ -42,48 +44,4 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--footer-5-mobile) .container{
   max-width: 100vw;
-}
-
-@media screen and (min-width: 376px) and (max-width: 425px) {
-  .imageElement--image3 {
-    top: -92px;
-  }
-
-  .imageElement--image4 {
-    top: -65px;
-  }
-
-  .imageElement--image1 {
-    top: -65px;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  .imageElement--image3 {
-    top: -73px;
-  }
-
-  .imageElement--image4 {
-    top: -53px;
-    left: 135px !important;
-  }
-
-  .imageElement--image1 {
-    top: -48px;
-  }
-}
-
-@media screen and (min-width: 300px) and (max-width: 320px) {
-  .imageElement--image3 {
-    top: -48px;
-  }
-
-  .imageElement--image4 {
-    top: -30px;
-    left: 145px !important;
-  }
-
-  .imageElement--image1 {
-    top: -26px;
-  }
 }
