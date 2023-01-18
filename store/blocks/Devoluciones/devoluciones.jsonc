@@ -73,7 +73,7 @@
   },
   "flex-layout.row#devoluciones-fila-4": {
     "children": [
-      "form-input.text#description"
+      "form-input.textarea#description"
   ],
     "props": {
       "blockClass": ["devoluciones-fila", "devoluciones-fila4"]
@@ -128,11 +128,11 @@
       "placeholder": "Número de Pedido"
     }
   },
-  "form-input.text#description": {
+  "form-input.textarea#description": {
     "props": {
       "pointer": "#/properties/description",
       "label": " ",
-      "placeholder": "Descripcion de caso y/o solicitud",
+      "placeholder": "Descripción de caso y/o solicitud",
       "blockClass": "vtex-devoluciones-descripcion"
     }
   },

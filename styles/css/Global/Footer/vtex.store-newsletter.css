@@ -1,6 +1,7 @@
 .emailInputContainer--newsletter-input-email :global(.vtex-input-prefix__group) {
   height: 60px;
   margin-bottom: 5px;
+  border: none;
 }
 
 .emailInputContainer--newsletter-input-email :global(.vtex-styleguide-9-x-input) {

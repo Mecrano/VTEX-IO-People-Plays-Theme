@@ -17,7 +17,7 @@
       "blockClass": "root",
       "itemProps": {
         "type": "internal",
-        "href": "/tiendas/",
+        "href": "/stores/",
         "noFollow": false,
         "tagTitle": "Tiendas",
         "text": "Tiendas"

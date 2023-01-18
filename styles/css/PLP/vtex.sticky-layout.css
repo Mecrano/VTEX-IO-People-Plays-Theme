@@ -4,14 +4,14 @@
    }
 
    .wrapper--sticky-header {
-     background: #ed752d;
+     background: #FC701C;
    }
 
    .wrapper--sticky-header--stuck, .wrapper--stuck  {
-    background: #ed752d;
+    background: #FC701C;
    }
 
    .wrapper--sticky-header--stuck .container--sticky-header {
-    background: #ed752d;
+    background: #FC701C;
    }
 }

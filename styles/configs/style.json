@@ -80,9 +80,9 @@
     "background": {
       "base": "#f1f3f9",
       "base--inverted": "#03044e",
-      "action-primary": "#ed752d",
-      "action-secondary": "#ed752d",
-      "emphasis": "#ed752d",
+      "action-primary": "#FC701C",
+      "action-secondary": "#FC701C",
+      "emphasis": "#FC701C",
       "disabled": "#f2f4f5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -132,7 +132,7 @@
       "action-primary": "#000",
       "action-secondary": "#eef3f7",
       "link": "#ffffff",
-      "emphasis": "#ed752d",
+      "emphasis": "#FC701C",
       "disabled": "#979899",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -172,9 +172,9 @@
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#ed752d",
-      "action-secondary": "#ed752d",
-      "emphasis": "#ed752d",
+      "action-primary": "#FC701C",
+      "action-secondary": "#FC701C",
+      "emphasis": "#FC701C",
       "disabled": "#e3e4e6",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -368,7 +368,7 @@
       "body": {
         "fontFamily": "Titillium Web",
         "fontWeight": "normal",
-        "fontSize": "1.25rem",
+        "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

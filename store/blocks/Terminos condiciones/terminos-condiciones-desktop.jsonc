@@ -40,7 +40,7 @@
   "rich-text#block-2-text-1": {
     "title": "text 1",
     "props": {
-      "text": "Razón Social: ENEBE REPRESENTACIONES S.A.S.<br/> Nit: 800.229.885-8 <br/> Dirección: Carrera: 97 # 24C-51 muelle industrial 2 bodega 5 <br/> Teléfono: 3 907 222 Ext. 1203 <br/> Correo electrónico: info@peopleplays.com",
+      "text": "**Razón Social:** ENEBE REPRESENTACIONES S.A.S.<br/> **Nit:** 800.229.885-8 <br/> **Dirección:** Carrera: 97 # 24C-51 muelle industrial 2 bodega 5 <br/> **Teléfono:** 3 907 222 Ext. 1203 <br/> **Correo electrónico:** info@peopleplays.com",
       "blockClass": "border"
     }
   },

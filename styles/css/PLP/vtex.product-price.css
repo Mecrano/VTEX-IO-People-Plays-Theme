@@ -21,15 +21,15 @@
   align-items: end;
   background: #eb0606;
   color: #fff;
-  width: 73.12px !important;
-  padding: 5px 0 !important;
+  width: 50px !important;
+  padding: 5px !important;
 }
 
 .savingsPercentage--summary--plp {
   font-family: "Mukta";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 14px;
   color: #fff;
 }
 
@@ -52,28 +52,17 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
-  .sellingPriceValue--selling-price--plp,
-  .savingsPercentage--summary--plp {
-    font-size: 18px;
-  }
-
-  .listPriceValue--list-price--plp {
+@media screen and (max-width: 450px) {
+  .sellingPriceValue--selling-price--plp {
     font-size: 14px;
   }
-}
 
-@media screen and (max-width: 450px) {
-  .sellingPriceValue--selling-price--plp,
-  .savingsPercentage--summary--plp {
-    font-size: 15px;
-  }
   .listPriceValue--list-price--plp {
     font-size: 10px;
   }
 
   .savingsPercentage--summary--plp {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 

@@ -117,7 +117,7 @@
   },
   "flex-layout.row#form-2": {
     "children": [
-      "form-input.text#message",
+      "form-input.textarea#message",
       "form-submit#contactanos"
     ],
     "props": {"blockClass": "form-2-contactos"}
@@ -150,7 +150,7 @@
       "blockClass": "contactanos-text"
     }
   },
-  "form-input.text#message": {
+  "form-input.textarea#message": {
     "props": {
       "pointer": "#/properties/message",
       "placeholder": "Mensaje",

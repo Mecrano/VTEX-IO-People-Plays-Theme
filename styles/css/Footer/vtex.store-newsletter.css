@@ -1,6 +1,6 @@
 .confirmationCheckboxContainer--newsletter-checkbox-confirmation :global(.vtex-checkbox__label)::after {
   content: "Ver políticas aqui";
-  color: #ED752D;
+  color: #FC701C;
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
@@ -35,7 +35,7 @@
 
   .confirmationCheckboxContainer--newsletter-checkbox-confirmation :global(.vtex-checkbox__label)::after {
     content: "Ver políticas aqui";
-    color: #ED752D;
+    color: #FC701C;
     font-family: 'Mukta';
     font-style: normal;
     font-weight: 400;

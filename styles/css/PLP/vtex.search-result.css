@@ -13,18 +13,18 @@
 }
 
 .filterMessage {
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 49px;
   color: #000000;
-  padding-top: 10px;
+  padding-block: 12px;
   padding-left: 60px;
 }
 
 .filterTitleSpan {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -33,7 +33,7 @@
 }
 
 .filterTitle {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -53,7 +53,7 @@
 }
 
 .filters--layout {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .filter__container--title {
@@ -72,7 +72,7 @@
 }
 
 .orderByText {
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -88,7 +88,7 @@
 .filterContent :global(.vtex-checkbox__label),
 .categoryItemChildren,
 .searchFilterBar :global(.vtex-styleguide-9-x-input) {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -96,7 +96,7 @@
 }
 
 .filterContent .seeMoreButton {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -105,13 +105,13 @@
 }
 
 .filterContent .seeMoreButton:hover {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 1px solid #000000;
   color: #000000;
 }
 
 .categoryItemName {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -119,7 +119,7 @@
 }
 
 .selectedCategoryName {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
 }
 
@@ -132,7 +132,7 @@
   display: flex;
   justify-content: space-between;
   border: none;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .filterPopupArrowIcon {
@@ -142,7 +142,7 @@
 .orderBy--layout {
   width: 210px !important;
   border-bottom: 1px solid #000000;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .gallery {
@@ -158,13 +158,13 @@
 }
 
 .orderByOptionItem {
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   color: #000000;
-  background: #FFFFFF;
-  border-bottom: 1px solid #CECECE;
+  background: #ffffff;
+  border-bottom: 1px solid #cecece;
 }
 
 .orderByOptionsContainer {
@@ -181,7 +181,7 @@
 }
 
 .buttonShowMore :global(.vtex-button) {
-  background: #FC701C;
+  background: #fc701c;
   border-radius: 4px;
   width: 245px;
   height: 45px;
@@ -191,7 +191,7 @@
 
 .buttonShowMore :global(.vtex-button__label) {
   padding: 0;
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -203,7 +203,7 @@
   justify-content: left;
   align-items: flex-end;
   padding: 0;
-  font-family: 'PT Sans';
+  font-family: "Rubik";
   text-transform: lowercase;
   font-style: normal;
   font-weight: 400;
@@ -217,7 +217,7 @@
 
 .totalProductsMessage::before {
   content: "resultados";
-  font-family: 'PT Sans';
+  font-family: "Rubik";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -225,7 +225,7 @@
 }
 
 .galleryTitle--layout {
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -254,36 +254,51 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   padding-right: 40px;
+  gap: 12px;
 }
 
 .filter__container--talla .filterContent .searchFilterBar {
   width: 100%;
-
 }
 
 .filter__container--talla .filterContent .filterItem {
   width: 20%;
-  margin-left: 1px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-
 }
 
 .filter__container--talla .filterContent .seeMoreButton {
   width: 100%;
 }
 
-.filter__container--talla .filterContent .filterItem :global(.vtex-checkbox__label) {
+.filter__container--talla
+  .filterContent
+  .filterItem
+  :global(.vtex-checkbox__label) {
   border: 1px solid #000000;
+  border-radius: 4px;
   text-align: center;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
 }
 
-.filter__container--talla .filterContent .filterItem :global(.vtex-checkbox__label):hover {
+.filter__container--talla
+  .filterContent
+  .filterItem
+  :global(.vtex-checkbox__label):hover,
+.filter__container--talla
+  .filterContent
+  .filterItem--selected
+  :global(.vtex-checkbox__label) {
   background-color: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.filter__container--talla .filterContent .filterItem :global(.vtex-checkbox__container) {
+.filter__container--talla
+  .filterContent
+  .filterItem
+  :global(.vtex-checkbox__container) {
   display: none;
 }
 
@@ -295,17 +310,21 @@
   padding-bottom: 0;
 }
 
-.galleryItem :global(.vtex-product-summary-2-x-element--shelf--home) :global(.vtex-button) {
+.galleryItem
+  :global(.vtex-product-summary-2-x-element--shelf--home)
+  :global(.vtex-button) {
   margin-top: 5px;
   margin-bottom: 20px;
 }
 
-.galleryItem :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp) :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+.galleryItem
+  :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
   right: -5px;
 }
 
 .galleryItem :global(.vtex-product-summary-2-x-container--shelf--plp) {
-height: 100% !important;
+  height: 100% !important;
 }
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
@@ -328,8 +347,6 @@ height: 100% !important;
   .orderByText {
     font-size: 17px !important;
   }
-
-
 }
 
 @media screen and (min-width: 300px) and (max-width: 1024px) {
@@ -344,7 +361,7 @@ height: 100% !important;
   .filterPopupButton::after {
     content: "Mostrar filtros";
     margin-left: 10px;
-    font-family: 'Rubik';
+    font-family: "Rubik";
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -396,7 +413,7 @@ height: 100% !important;
   }
 
   .filterBreadcrumbsText {
-    font-family: 'Rubik';
+    font-family: "Rubik";
     font-style: normal;
     font-weight: 500;
     font-size: 20.5957px;
@@ -405,7 +422,7 @@ height: 100% !important;
   }
 
   .accordionFilterItemTitle {
-    font-family: 'Mukta';
+    font-family: "Mukta";
     font-style: normal;
     font-weight: 500;
     font-size: 20.5957px;
@@ -414,7 +431,7 @@ height: 100% !important;
   }
 
   .filterBreadcrumbsItemName {
-    font-family: 'Mukta';
+    font-family: "Mukta";
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -429,7 +446,7 @@ height: 100% !important;
 
   .filterAccordionItemBox :global(.vtex-checkbox__label),
   .filterTitleSpan {
-    font-family: 'Rubik';
+    font-family: "Rubik";
     font-style: normal;
     font-weight: 500;
     font-size: 21.4539px;
@@ -438,15 +455,15 @@ height: 100% !important;
   }
 
   .accordionFilterItemTag :global(.vtex-tag) {
-    color: #FFFFFF;
-    font-family: 'Mukta';
+    color: #ffffff;
+    font-family: "Mukta";
     background-color: #000000;
   }
 
   .filterTemplateOverflow :global(.vtex-slider__left-value),
   .filterTemplateOverflow :global(.vtex-slider__right-value) {
     font-size: 0.8rem;
-    font-family: 'Rubik';
+    font-family: "Rubik";
     color: #000000;
   }
 
@@ -477,7 +494,6 @@ height: 100% !important;
     padding-left: 0;
     padding-right: 0;
   }
-
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
@@ -554,12 +570,6 @@ height: 100% !important;
   .filterMessage {
     font-size: 32px;
   }
-
-  .orderByText,
-  .filterTitleSpan {
-    font-size: 24px;
-  }
-
 }
 
 @media screen and (min-width: 1366px) and (max-width: 1399px) {
@@ -567,11 +577,17 @@ height: 100% !important;
     height: 555.32px !important;
   }
 
-  .galleryItem :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp) :global(.vtex-product-price-1-x-currencyContainer--list-price--plp) {
+  .galleryItem
+    :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp)
+    :global(.vtex-product-price-1-x-currencyContainer--list-price--plp) {
     font-size: 10px;
   }
 
-  .galleryItem :global(.vtex-product-summary-2-x-element--shelf--plp ) :global(.vtex-add-to-cart-button-0-x-buttonText--shelf__add-to-cart-button) {
+  .galleryItem
+    :global(.vtex-product-summary-2-x-element--shelf--plp)
+    :global(
+      .vtex-add-to-cart-button-0-x-buttonText--shelf__add-to-cart-button
+    ) {
     font-size: 15px;
   }
 }
@@ -581,24 +597,32 @@ height: 100% !important;
     width: 48px !important;
   }
 
-  .galleryItem :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp) :global(.vtex-product-price-1-x-currencyContainer--list-price--plp) {
+  .galleryItem
+    :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp)
+    :global(.vtex-product-price-1-x-currencyContainer--list-price--plp) {
     font-size: 11px;
   }
 }
 
 @media screen and (max-width: 450px) {
-.galleryItem :global(.vtex-flex-layout-0-x-flexCol--prices-listprice) {
-display: flex;
-flex-direction: column;
-gap: 0;
+  .galleryItem :global(.vtex-flex-layout-0-x-flexCol--prices-listprice) {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .galleryItem :global(.vtex-flex-layout-0-x-flexRow--prices-plp) {
+    padding-top: 0;
+    height: 50px;
+  }
+
+  .galleryItem
+    :global(.vtex-product-summary-2-x-element--shelf--home)
+    :global(.vtex-button) {
+    margin-top: 0;
+  }
 }
 
-.galleryItem :global(.vtex-flex-layout-0-x-flexRow--prices-plp) {
-  padding-top: 0;
-  height: 50px;
-}
-
-.galleryItem :global(.vtex-product-summary-2-x-element--shelf--home) :global(.vtex-button) {
-  margin-top: 0;
-}
+.galleryTitle--layout {
+  text-transform: capitalize;
 }

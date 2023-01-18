@@ -76,7 +76,7 @@
 }
 
 .boxContainerFooter :global(.vtex-button) {
-  background-color: #ED752D;
+  background-color: #FC701C;
 }
 
 .boxContainerFooter :global(.vtex-button) :global(.vtex-button__label) {
@@ -209,7 +209,7 @@
 .boxContainerBody :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
   font-family: 'Lato';
   font-size: 20px;
-  color: #ED752D;
+  color: #FC701C;
   border: 1px solid rgba(72, 84, 103, 0.6);
   border-radius: 4px;
   background-color: #FFFFFF;
@@ -251,7 +251,7 @@
   font-size: 20px;
   margin-top: 20px;
   text-transform: capitalize;
-  background-color: #ED752D;
+  background-color: #FC701C;
   padding: 5px;
 }
 
@@ -377,7 +377,7 @@
 :global(.vtex-account) form :global(.styleguide__box) :global(.t-body) :global(.vtex-button),
 :global(.vtex-account) form :global(.styleguide__box) :global(.mt3) :global(.vtex-button),
 :global(.vtex-my-authentication-1-x-resendCodeButton_container) :global(.vtex-button) {
-  background-color: #ED752D;
+  background-color: #FC701C;
 }
 
 /* suscripcion */
@@ -398,7 +398,7 @@
 }
 
 :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button) {
-  background-color: #ED752D;
+  background-color: #FC701C;
 }
 
 :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) {
@@ -425,7 +425,7 @@
 }
 
 :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button) {
-  background-color: #ED752D;
+  background-color: #FC701C;
   color: #FFFFFF;
 }
 
@@ -438,7 +438,7 @@
 }
 
 :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-authenticationScreen_passBox) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-createPassword_text) :global(.c-muted-1) {
-  color: #ED752D;
+  color: #FC701C;
 }
 
 :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-authenticationScreen_passBox) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-codeInput_container) :global(.vtex-input__label),

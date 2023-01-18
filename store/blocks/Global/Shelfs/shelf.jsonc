@@ -1,8 +1,4 @@
 {
-  "list-context.product-list#shelf":{
-    "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#products-shelf"]
-  },
   "slider-layout#products-shelf":{
     "props": {
       "blockClass":["shelf-slider"],
@@ -112,15 +108,6 @@
   "add-to-list-btn":{
     "props":{
       "blockClass": "shelf__wishlist-button"
-    }
-  },
-  "product-price-savings#summary": {
-    "props": {
-      "markers": [
-        "discount"
-      ],
-      "message": "-{savingsPercentage}",
-      "blockClass": "summary"
     }
   },
   "vtex.product-highlights@2.x:product-highlights": {

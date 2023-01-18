@@ -118,7 +118,10 @@
       "order-by.v2"
     ],
     "props": {
-      "blockClass": "order--by"
+      "blockClass": "order--by",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true,
+      "colGap": 7
     }
   },
   "flex-layout.row#title.total": {
@@ -127,7 +130,10 @@
       "total-products.v2"
     ],
     "props": {
-      "blockClass": "total-plp"
+      "blockClass": "total-plp",
+      "colSizing": "auto",
+      "preventHorizontalStretch": true,
+      "colGap": 7
     }
   },
   "search-fetch-more": {

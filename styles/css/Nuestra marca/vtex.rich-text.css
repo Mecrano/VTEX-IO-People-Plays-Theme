@@ -4,7 +4,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 37px;
   color: #000000;
 }
@@ -13,8 +13,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 155.69%;
+  font-size: 16px;
   color: #000000;
   margin-top: 0;
   margin-bottom: 0;
@@ -31,17 +30,17 @@
 
 @media (max-width: 1024px) {
   .paragraph--title-marca {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .paragraph--text-marca {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
 @media (max-width: 425px) {
   .paragraph--text-mobile-marca {
-    font-size: 15px !important;
+    font-size: 14px !important;
   }
   .container--title-marca {
     margin-bottom: 0;
@@ -53,11 +52,11 @@
     font-size: 14px;
   }
   .paragraph--text-mobile-marca {
-    font-size: 13px !important;
+    font-size: 12px !important;
   }
 
   .paragraph--text-marca {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
