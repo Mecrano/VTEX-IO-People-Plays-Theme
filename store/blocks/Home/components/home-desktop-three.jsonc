@@ -30,7 +30,7 @@
     "props": {
       "textAlignment": "rigth",
       "textPosition": "rigth",
-      "text": "[Ver más →](#)",
+      "text": "[Ver más →](/465?map=productClusterIds)",
       "blockClass": "promocion-ver-mas"
     }
   },
@@ -67,26 +67,12 @@
   },
   "list-context.product-list#productSliderRelated": {
     "blocks": ["product-summary.shelf#plp"],
-    "children": ["slider-layout#products-related"],
+    "children": ["slider-layout#products"],
     "props": {
       /* "category": "11", */
       "collection": "465",
       "orderBy": "OrderByTopSaleDESC",
       "hideUnavailableItems": true
-    }
-  },
-  "slider-layout#products-related": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 2
-      },
-      "infinite": true,
-      "fullWidth": true,
-      "showPaginationDots": "always",
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "shelfStyle1"
     }
   }
 }

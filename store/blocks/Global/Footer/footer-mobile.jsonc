@@ -133,15 +133,15 @@
   "link#info-brands-1-mobile": {
     "title": "texto link 1",
     "props": {
-      "href": "/",
-      "label": "Envios y devoluciones",
+      "href": "/devoluciones",
+      "label": "Envíos y devoluciones",
       "blockClass": ["info-brands", "link-mobile-text"]
     }
   },
   "link#info-brands-2-mobile": {
     "title": "texto link 2",
     "props": {
-      "href": "/",
+      "href": "/terminos-condiciones",
       "label": "Terminos y condiciones",
       "blockClass": ["info-brands", "link-mobile-text"]
     }
@@ -157,7 +157,7 @@
   "link#info-brands-4-mobile": {
     "title": "texto link 4",
     "props": {
-      "href": "/",
+      "href": "/nuestra-marca",
       "label": "Nuestra Marca",
       "blockClass": ["info-brands", "link-mobile-text"]
     }
@@ -165,7 +165,7 @@
   "link#info-brands-5-mobile": {
     "title": "texto link 4",
     "props": {
-      "href": "/",
+      "href": "/contactanos",
       "label": "Contactanos",
       "blockClass": ["info-brands", "link-mobile-text"]
     }
@@ -181,7 +181,7 @@
   "link#info-brands-1-mobile-2": {
     "title": "texto link 1",
     "props": {
-      "href": "/",
+      "href": "/mujer",
       "label": "Mujer",
       "blockClass": ["info-brands", "link-mobile-text"]
     }
@@ -189,7 +189,7 @@
   "link#info-brands-2-mobile-2": {
     "title": "texto link 2",
     "props": {
-      "href": "/",
+      "href": "/hombre",
       "label": "Hombre",
       "blockClass": ["info-brands", "link-mobile-text"]
     }
@@ -197,7 +197,7 @@
   "link#info-brands-3-mobile-2": {
     "title": "texto link 3",
     "props": {
-      "href": "/",
+      "href": "/niños",
       "label": "Junior",
       "blockClass": ["info-brands", "link-mobile-text"]
     }
@@ -329,7 +329,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Politicas de privacidad",
+      "text": "Políticas de privacidad",
       "blockClass": "text-one-footer"
     }
   },

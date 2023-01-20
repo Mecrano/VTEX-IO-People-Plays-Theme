@@ -1,37 +1,22 @@
 {
-    "flex-layout.row#departament-slider-two": {
-        "title": "container slider 2",
-        "props": {"blockClass": "departament-seccion-three"},
-        "children": ["flex-layout.row#shelf2-departament"]
-    },
-    "flex-layout.row#shelf2-departament": {
-        "title": "contenido vitrina",
-        "children": ["list-context.product-list#productSlider-departament-2"],
-        "props": {"blockClass": "shelfComplete"}
-    },
-    "list-context.product-list#productSlider-departament-2": {
-        "blocks": ["product-summary.shelf#plp"],
-        "children": ["slider-layout#products-departament-2"],
-        "props": {
-            /* "category": "11", */
-            "collection": "465",
-            "orderBy": "OrderByTopSaleDESC"
-        }
-    },
-    "slider-layout#products-departament-2": {
-        "title": "slider",
-        "props": {
-            "itemsPerPage": {
-                "desktop": 4,
-                "tablet": 3,
-                "phone": 2
-            },
-            "infinite": true,
-            "fullWidth": true,
-            "navigationStep": 1,
-            "showPaginationDots": "desktopOnly",
-            "showNavigationArrows": "desktopOnly",
-            "blockClass": "shelfStyle1"
-        }
+  "flex-layout.row#departament-slider-two": {
+    "title": "container slider 2",
+    "props": { "blockClass": "departament-seccion-three" },
+    "children": ["flex-layout.row#shelf2-departament"]
+  },
+  "flex-layout.row#shelf2-departament": {
+    "title": "contenido vitrina",
+    "children": ["list-context.product-list#productSlider-departament-2"],
+    "props": { "blockClass": "shelfComplete" }
+  },
+  "list-context.product-list#productSlider-departament-2": {
+    "blocks": ["product-summary.shelf#plp"],
+    "children": ["slider-layout#products"],
+    "props": {
+      /* "category": "11", */
+      "collection": "465",
+      "orderBy": "OrderByTopSaleDESC",
+      "hideUnavailableItems": true
     }
+  }
 }

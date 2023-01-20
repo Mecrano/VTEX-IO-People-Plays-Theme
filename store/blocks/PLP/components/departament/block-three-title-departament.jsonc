@@ -18,7 +18,7 @@
         "props": {
             "textAlignment": "RIGHT",
             "textPosition": "RIGHT",
-            "text": "[Ver más →](#)",
+            "text": "[Ver más →](/465?map=productClusterIds)",
             "blockClass": "promocion-vermas"
         }
     }

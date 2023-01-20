@@ -219,7 +219,7 @@
   "product-highlight-text#ultimas-piezas": {
     "props": {
       "message": "Últimas piezas",
-      "link": "466/?map=productClusterIds",
+      "link": "465/?map=productClusterIds",
       "blockClass": "cc-collection-ultimas-piezas"
     }
   },
@@ -269,11 +269,6 @@
   "product-summary-name#plp": {
     "props": {
       "blockClass": "name--plp"
-    }
-  },
-  "product-summary-brand#plp": {
-    "props": {
-      "blockClass": "brand--plp"
     }
   }
 }

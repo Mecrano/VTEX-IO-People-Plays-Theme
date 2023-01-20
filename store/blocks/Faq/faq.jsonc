@@ -79,7 +79,7 @@
   "tab-list.item#tab4": {
     "props": {
       "tabId": "faq-informacion-lanzamientos",
-      "label": "Informacion de lanzamientos",
+      "label": "Información de lanzamientos",
       "blockClass": "tab-list"
      }
    },
@@ -234,7 +234,7 @@
 
   "rich-text#two": {
     "props": {
-      "text": "¿Puedo envíar mi pedido a otro país?",
+      "text": "¿Puedo enviar mi pedido a otro país?",
       "blockClass": "one"
     }
   },
@@ -501,14 +501,14 @@
 
   "rich-text#eleven": {
     "props": {
-      "text": "¿Que puedo hacer si no recibi mi factura?",
+      "text": "¿Que puedo hacer si no recibí mi factura?",
       "blockClass": "one"
     }
   },
 
   "rich-text#texto": {
     "props": {
-      "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
+      "text": "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos espécimen. No sólo sobrevivió 500 años, sino que también ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas, las cuales contenían pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.",
       "blockClass": "texto-prueba"
     }
   }

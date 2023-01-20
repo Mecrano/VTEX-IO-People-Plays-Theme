@@ -123,27 +123,6 @@
     }
   },
 
-  "menu-item#link-whatsapp": {
-    "props": {
-      "id": "menu-item-category-whatsapp",
-      "type": "custom",
-      "iconId": null,
-      "blockClass": ["root", "whatsapp"],
-      "itemProps": {
-        "type": "external",
-        "href": "https://wa.me/573208786617",
-        "noFollow": false,
-        "tagTitle": "",
-        "text": ""
-      },
-      "iconProps": {
-        "id": "bnd-whatsapp",
-        "size": 32,
-        "viewBox": "0 0 16 16"
-      }
-    }
-  },
-
   "submenu.accordion#header-sub-menu": {
     "props": {
       "width": "100%"

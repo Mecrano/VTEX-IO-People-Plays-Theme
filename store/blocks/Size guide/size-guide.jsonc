@@ -9,23 +9,12 @@
     "children":[
       "rich-text#title-size-one",
       "rich-text#text-size-one",
-      /* "overlay-trigger", */
       "rich-text#title-size-two",
       "rich-text#text-size-two",
       "flex-layout.row#size-guide-group-images"
     ],
     "props": {
       "blockClass": "container-size--guide"
-    }
-  },
-
-  "overlay-trigger": {
-    "children": [
-      "rich-text#overlay",
-      "overlay-layout"
-    ],
-    "props":{
-      "trigger": "click"
     }
   },
 

@@ -77,14 +77,11 @@
     "children": [
       "responsive-layout.desktop#details-desktop",
       "responsive-layout.tablet#details-tablet",
-      // "flex-layout.row#product--name-ratings--container",
-      // "flex-layout.row#product--reference-prices--container",
       "flex-layout.row#product--sku-quantity--container",
       "product-availability#product--stock",
       "credito-addi#pdp",
       "availability-notify",
       "flex-layout.row#product--addto-cart-and-list--container"
-      /* "disclosure-layout-group#product--disclosure-group" Borrar*/
     ],
     "props": {
       "blockClass": ["product--details--container-col"],
