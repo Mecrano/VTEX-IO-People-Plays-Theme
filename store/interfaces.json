@@ -1,5 +1,8 @@
 {
   "credito-addi": {
     "component": "CreditoAddi"
+  },
+  "nearest-store": {
+    "component": "NearestStore"
   }
 }
