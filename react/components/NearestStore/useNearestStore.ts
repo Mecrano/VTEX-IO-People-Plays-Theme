@@ -2,7 +2,9 @@ import { ChangeEvent, useState } from "react";
 import { Store } from ".";
 
 export const useNearestStore = (stores: Store[]) => {
-  const [selectedStore, setSelectedStore] = useState(stores[0]);
+  const initialStore = stores?.length ? stores[0] : ({} as Store);
+  const [selectedStore, setSelectedStore] = useState(initialStore);
+  const [showToast, setShowToast] = useState(false);
 
   const handlerChange = (event: ChangeEvent<HTMLSelectElement>) => {
     const { value } = event.currentTarget;
@@ -13,11 +15,16 @@ export const useNearestStore = (stores: Store[]) => {
 
   const clipboard = () => {
     navigator.clipboard.writeText(selectedStore.address);
+    setShowToast(true);
+    setTimeout(() => {
+      setShowToast(false);
+    }, 3000);
   };
 
   return {
     handlerChange,
     clipboard,
     selectedStore,
+    showToast,
   };
 };

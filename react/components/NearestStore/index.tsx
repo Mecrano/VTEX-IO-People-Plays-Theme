@@ -1,6 +1,6 @@
 import React from "react";
 import NearestStore from "./NearestStore";
-import { NearestStoreSchema } from "./schema";
+import { DefaultConfig, NearestStoreSchema } from "./schema";
 import { useNearestStore } from "./useNearestStore";
 
 export interface NearestStoreProps {
@@ -31,5 +31,7 @@ const NearestStoreContainer = (props: NearestStoreProps) => {
 };
 
 NearestStoreContainer.getSchema = () => NearestStoreSchema;
+
+NearestStoreContainer.defaultProps = DefaultConfig;
 
 export default NearestStoreContainer;

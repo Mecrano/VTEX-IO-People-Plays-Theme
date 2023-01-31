@@ -82,25 +82,55 @@
 .nearestStoreSearchItemContentAddressCopy {
   background: transparent;
   border: none;
+  cursor: pointer;
   margin: 0;
-  padding: 0;
+  padding: 5px 0 5px 5px;
+  transition: all 0.5s;
+}
+
+.nearestStoreSearchItemContentAddressCopy:active {
+  box-shadow: 0 1px #fff;
+  transform: translate(0, 5px);
 }
 
 .nearestStoreSearchSelect {
-  background: #FFFFFF;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;utf8,<svg width='29' height='17' viewBox='0 0 29 17' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M27 1.49999L14.5 14L2.00001 1.49999' stroke='black' stroke-width='3' stroke-linecap='round'/></svg>");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 80px 17px;
   border-radius: 4px;
-  border: 1px solid rgba(72, 84, 103, 0.6);
+  border: 1px solid #48546799;
   font-size: 25px;
   font-weight: 400;
   height: 56px;
   margin-bottom: 32px;
   margin-top: 60px;
-  padding: 0px 14px 0px 20px;
+  padding: 0px 68px 0px 20px;
   width: 100%;
 }
 
 .nearestStoreMap {
   width: 100%;
+}
+
+.toast {
+  background-color: #000000e6;
+  border-radius: 5px;
+  bottom: 20px;
+  box-shadow: 0 0 10px #000;
+  color: #fff;
+  font-size: 13px;
+  opacity: 1;
+  padding: 10px;
+  position: fixed;
+  right: 20px;
+  transition: all 0.5s;
+  visibility: visible;
+  z-index: 100;
 }
 
 @media (max-width: 1025px) {
@@ -117,11 +147,12 @@
   }
 
   .nearestStoreSearchSelect {
+    background-size: 64px 12px;
     font-size: 16px;
     height: 40px;
     margin-bottom: 10px;
     margin-top: 6px;
-    padding: 0px 10px 0px 15px;
+    padding: 0px 50px 0px 15px;
   }
 
   .nearestStoreSearchItemTitle {

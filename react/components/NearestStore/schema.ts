@@ -1,5 +1,9 @@
+export const DefaultConfig = {
+  showComponent: true
+}
+
 export const NearestStoreSchema = {
-  title: "Configuracion tiendas",
+  title: "Configuración tiendas",
   type: "object",
   properties: {
     showComponent: {
@@ -8,7 +12,7 @@ export const NearestStoreSchema = {
       default: true,
     },
     title: {
-      title: "Titulo",
+      title: "Título",
       type: "string",
     },
     subTitle: {
@@ -48,7 +52,7 @@ export const NearestStoreSchema = {
             type: "string",
           },
           showWhatsapp: {
-            title: "Mostrar botton de whatsapp",
+            title: "Mostrar botón de whatsapp",
             type: "boolean",
             default: true,
           },
