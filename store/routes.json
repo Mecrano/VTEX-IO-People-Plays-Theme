@@ -16,5 +16,8 @@
   },
   "store.custom#devoluciones": {
     "path": "/devoluciones"
+  },
+  "store.custom#nearest-store": {
+    "path": "/tiendas"
   }
 }
