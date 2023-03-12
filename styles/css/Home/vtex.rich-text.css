@@ -87,7 +87,10 @@
     font-size: 0 !important;
   }
   .paragraph--text-seccion-two {
-    font-size: 18px;
+    font-size: 22px;
+    line-height: 33.46px;
+    max-width: 80%;
+    margin-inline: auto;
   }
 
   .paragraph--promocion,
@@ -101,7 +104,48 @@
 
   .paragraph--slider-text {
     text-align: center;
+    font-size: 25.51px;
+    line-height: 38.79px;
+    max-width: 90vw;
+  }
+
+  .paragraph--ropa{
+    color: #000;
+    font-size: 16.11px;
+    line-height: 26.78px;
+  }
+
+  .link--promocion-ver-mas {
+    font-weight: 400;
+  }  
+
+  .paragraph--promocion,
+  .paragraph--promocion-ver-mas,
+  .paragraph--promocion-vermas{
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .link--promocion-ver-mas{
+    font-size: 16px;
+  }
+
+  .wrapper--benefints--title .paragraph--slider-text{
+    font-size: 22px;
+    line-height: 33.46px;
+    margin-bottom: 38px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-seccion-four) .paragraph--slider-text{
+    max-width: 65%;
+    margin: 0 auto;
     font-size: 20px;
+    line-height: 25.42px;
+  }
+
+  .wrapper--benefints--title{
+    width: 100%;
+    margin-bottom: 40px;
   }
 }
 
@@ -110,9 +154,6 @@
     left: 70px;
     font-size: 13px;
     width: 150px;
-  }
-  .paragraph--slider-text {
-    font-size: 13px;
   }
 
   .paragraph--infotext {
@@ -128,9 +169,6 @@
     font-size: 16px;
     width: 180px;
   }
-  .paragraph--slider-text {
-    font-size: 16px !important ;
-  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 425px) {
@@ -142,9 +180,6 @@
 
   .paragraph--figura-text {
     bottom: 29px;
-  }
-  .paragraph--slider-text {
-    font-size: 14px;
   }
 }
 

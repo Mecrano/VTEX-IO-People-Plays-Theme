@@ -40,7 +40,8 @@
       "fullWidth": true,
       "infinite": true,
       "showNavigationArrows": "always",
-      "blockClass": "slider-home"
+      "blockClass": "slider-home",
+      "showPaginationDots": "never"
     }
   }
 

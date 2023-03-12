@@ -99,6 +99,13 @@
   .imageElement--link-image-home {
     margin-left: 10px;
   }
+
+  .notificationContent--notification{
+    font-size: 18px !important;
+    color: #fff !important;
+    line-height: 27.38px !important;
+    font-weight: 400 !important;
+  }
 }
 
 @media screen and (max-width: 425px){

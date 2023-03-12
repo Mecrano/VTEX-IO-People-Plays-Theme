@@ -7,12 +7,16 @@
     "children": ["flex-layout.col#home-seccion-three"]
   },
   "flex-layout.col#home-seccion-three":{
-    "children": ["flex-layout.row#titles-promociones", "flex-layout.row#shelf1"]
+    "children": ["flex-layout.row#titles-promociones", "flex-layout.row#shelf1"],
+    "props": {
+      "blockClass": ["shelf--titles--container"]
+    }
   },
   "flex-layout.row#titles-promociones": {
     "props":{
       "colSizing": "auto",
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "blockClass": "shelf--titles"
     },
     "children": ["rich-text#promociones", "rich-text#promociones-verMas"]
   },
