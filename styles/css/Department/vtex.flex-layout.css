@@ -1,12 +1,11 @@
-@media screen and (min-width: 1025px) {
-}
-
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .flexColChild--department-main-container-col :global(.vtex-store-newsletter-1-x-newsletterForm){
         display: flex;
         flex-direction: column;
     }
 
+    .flexRow--product--newsletter--container :global(.vtex-store-newsletter-1-x-emailInputContainer--newsletter-input-email),
+    .flexRow--product--newsletter--container :global(.vtex-store-newsletter-1-x-formSubmitContainer),
     .flexColChild--department-main-container-col :global(.vtex-store-newsletter-1-x-emailInputContainer--newsletter-input-email),
     .flexColChild--department-main-container-col :global(.vtex-store-newsletter-1-x-formSubmitContainer){
         width: 100% !important;

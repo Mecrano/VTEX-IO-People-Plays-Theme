@@ -37,6 +37,10 @@
     .term:hover {
         line-height: 20px !important;
     }
+
+    .term {
+      display: none;
+    }
 }
 
 
@@ -57,6 +61,6 @@
     .term,
     .link:hover,
     .term:hover {
-        font-size: 13.6297px;
+        font-size: 12px;
     }
 }
