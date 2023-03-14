@@ -433,15 +433,9 @@
 }
 
 @media screen and (min-width: 449px) and (max-width: 1024px) {
-  .flexRowContent--departament-seccion-three :global(.vtex-slider-layout-0-x-sliderTrack--shelfStyle1) {
-    width: 520% !important;
-  }
 }
 
 @media screen and (max-width: 450px) {
-  .flexRowContent--departament-seccion-three :global(.vtex-slider-layout-0-x-sliderTrack--shelfStyle1) {
-    width: 950% !important;
-  }
 
   .flexRowContent--departament-seccion-three :global(.vtex-product-summary-2-x-containerNormal--shelf--plp) {
     margin-right: auto;

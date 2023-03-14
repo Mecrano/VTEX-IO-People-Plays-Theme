@@ -52,7 +52,7 @@
       /* "category": "11", */
       "collection": "",
       "orderBy": "OrderByTopSaleDESC",
-      "hideUnavailableItems": true
+      "hideUnavailableItems": false
     }
   },
   "slider-layout#products": {
@@ -76,7 +76,7 @@
       /* "category": "11", */
       "collection": "",
       "orderBy": "OrderByTopSaleDESC",
-      "hideUnavailableItems": true
+      "hideUnavailableItems": false
     }
   }
 }

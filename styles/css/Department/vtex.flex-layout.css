@@ -1,3 +1,6 @@
+@media screen and (min-width: 1025px) {
+}
+
 @media screen and (max-width: 1024px) {
     .flexColChild--department-main-container-col :global(.vtex-store-newsletter-1-x-newsletterForm){
         display: flex;
@@ -9,12 +12,7 @@
         width: 100% !important;
     }
 
-    .flexColChild--department-main-container-col :global(.vtex-store-newsletter-1-x-emailInputContainer--newsletter-input-email){
-        border: 1px solid #48546799;
-        border-radius: 4px;
-    }
-
     :global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) :global(.vtex-store-newsletter-1-x-emailInputContainer--newsletter-input-email) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
         height: unset !important;
       }
-  }
+}
