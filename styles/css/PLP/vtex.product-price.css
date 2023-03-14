@@ -38,10 +38,8 @@
   text-align: left;
 }
 
-.currencyFraction--selling-price--plp,
-.currencyDecimal--selling-price--plp,
-.currencyDecimal--list-price--plp,
-.currencyFraction--list-price--plp{
+.currencyFraction,
+.currencyDecimal {
   display: none;
 }
 
