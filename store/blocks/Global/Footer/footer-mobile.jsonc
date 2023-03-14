@@ -253,8 +253,7 @@
   "flex-layout.row#medios-pago-logos": {
     "props": { "blockClass": "footer-logos" },
     "children": [
-      "flex-layout.col#medios-pago-1",
-      "flex-layout.col#medios-pago-2"
+      "flex-layout.col#medios-pago-1"
     ]
   },
   "flex-layout.col#medios-pago-1": {

@@ -461,4 +461,12 @@ bottom: -25px !important;
 .flexRowContent--group-departament :global(.vtex-rich-text-0-x-paragraph--figura-text){
  font-size: 16px;
   }
+
+  .flexRow--prices-plp {
+    border-top: none;
+  }
+
+  .flexRowContent--shelf--titles .stretchChildrenWidth{
+    height: max-content !important;
+  }
 }

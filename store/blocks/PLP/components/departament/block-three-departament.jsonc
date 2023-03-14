@@ -14,7 +14,7 @@
     "blocks": ["product-summary.shelf#plp"],
     "children": ["slider-layout#products"],
     "props": {
-      "collection": "465",
+      "collection": "",
       "orderBy": "OrderByTopSaleDESC",
       "hideUnavailableItems": true
     }

@@ -403,10 +403,10 @@
     padding-right: 0;
   }
 
-  .flexRow--product--main--container
+  /* .flexRow--product--main--container
     :global(.vtex-slider-layout-0-x-sliderTrack--shelfStyle1) {
     width: 990% !important;
-  }
+  } */
 
   .flexRow--product--main--container :global(.vtex-product-summary-2-x-image) {
     height: auto !important;

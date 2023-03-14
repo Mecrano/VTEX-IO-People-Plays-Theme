@@ -541,10 +541,10 @@
     width: auto;
   }
 
-  .flexRow--home-seccion-three
+  /* .flexRow--home-seccion-three
     :global(.vtex-slider-layout-0-x-sliderTrack--shelfStyle1) {
     width: 990% !important;
-  }
+  } */
 }
 
 @media screen and (max-width: 600px) {

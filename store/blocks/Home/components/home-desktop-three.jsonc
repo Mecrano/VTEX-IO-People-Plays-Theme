@@ -50,7 +50,7 @@
     "children": ["slider-layout#products"],
     "props": {
       /* "category": "11", */
-      "collection": "465",
+      "collection": "",
       "orderBy": "OrderByTopSaleDESC",
       "hideUnavailableItems": true
     }
@@ -64,7 +64,7 @@
       },
       "infinite": true,
       "fullWidth": true,
-      "showPaginationDots": "desktopOnly",
+      "showPaginationDots": "always",
       "showNavigationArrows": "desktopOnly",
       "blockClass": "shelfStyle1"
     }
@@ -74,7 +74,7 @@
     "children": ["slider-layout#products"],
     "props": {
       /* "category": "11", */
-      "collection": "465",
+      "collection": "",
       "orderBy": "OrderByTopSaleDESC",
       "hideUnavailableItems": true
     }

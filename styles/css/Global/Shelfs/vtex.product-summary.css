@@ -78,6 +78,14 @@
     padding: 0;
 }
 
+.imageNormal{
+    max-height: unset;
+}
+
+.element--shelf--home{
+    padding-top: 0;
+}
+
 @media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
     .productBrandName--shelf__brand{
         font-size: 10px;
