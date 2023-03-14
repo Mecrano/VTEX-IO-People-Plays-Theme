@@ -38,8 +38,8 @@
 @media screen and (min-width: 321px) and (max-width: 375px) {
 /* estilos azul footer */
   .flexRowContent--container-contact-lines {
-    width: 365px !important;
-    max-width: 98vw;
+    width: 100% !important;
+    max-width: 95vw;
   }
 
   .flexCol--background-1-contact-lines-mobile {

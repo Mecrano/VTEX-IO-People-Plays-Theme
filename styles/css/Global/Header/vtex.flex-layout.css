@@ -41,6 +41,10 @@
   padding-right: 1.5rem;
 }
 
+.flexCol--header-search-mobile {
+  z-index: 2;
+}
+
 @media screen and (min-width: 426px) and (max-width: 1024px) {
   .flexRowContent--header-menu-mobile {
     display: flex;

@@ -183,7 +183,7 @@
   "flex-layout.col#header-drawer-search-mobile": {
     "title": "search mobile",
     "props": {
-      "blockClass": "header-menu-mobile"
+      "blockClass": ["header-menu-mobile", "header-search-mobile"]
     },
     "children": ["search-bar#mobile"]
   },
