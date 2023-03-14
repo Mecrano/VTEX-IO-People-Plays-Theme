@@ -8,7 +8,6 @@ width: 100% !important;
 }
 
 .flexRow--container-size--guide :global(.vtex-store-components-3-x-container) {
-  width: calc(1150px - 15px * 2);
   margin: 0 auto;
 }
 
@@ -57,7 +56,6 @@ width: 100% !important;
 
 @media screen and (min-width: 300px) and (max-width: 320px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container)  {
-    width: calc(300px - 15px * 2);
     margin: 0 auto;
   }
 
@@ -68,7 +66,6 @@ width: 100% !important;
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container) {
-    width: calc(360px - 15px * 2);
     margin: 0 auto;
   }
 
@@ -79,7 +76,6 @@ width: 100% !important;
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container) {
-    width: calc(420px - 20px * 2);
     margin: 0 auto;
   }
 
@@ -90,7 +86,6 @@ width: 100% !important;
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container)  {
-    width: calc(730px - 20px * 2);
     margin: 0 auto;
   }
 
@@ -101,7 +96,6 @@ width: 100% !important;
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container) {
-    width: calc(999px - 40px * 2);
     margin: 0 auto;
     max-width: 95%;
   }
@@ -116,11 +110,17 @@ width: 100% !important;
     padding-left: 0;
     padding-right: 0;
   }
+
+  .flexRow--container-size--guide {
+    margin-top: 0px;
+    background: #fff;
+    padding-top: 20px;
+    padding-inline: 30px;
+  }
 }
 
 @media screen and (min-width: 1400px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container){
-    width: calc(1400px - 36px * 2);
     margin: 0 auto;
   }
 }
@@ -128,10 +128,6 @@ width: 100% !important;
 
 /* slider */
 @media screen and (min-width: 300px) and (max-width: 425px) {
-
-  .flexRow--container-size--guide {
-    margin-top: 20px;
-  }
 
   .flexRow--group-size--guide {
     margin-top: 20px;
