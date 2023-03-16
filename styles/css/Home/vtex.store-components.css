@@ -1,5 +1,6 @@
 .imageElement--image-lotto {
   height: 35px;
+  max-width: none;
 }
 
 .imageElement--seccionFive {
@@ -92,27 +93,26 @@
     max-width: 328px !important;
   }
 
-  .imageElement--image-lotto {
-    max-width: 60%;
-  }
-
   .imageElement--link-image-home {
     margin-left: 10px;
   }
 
-  .notificationContent--notification{
-    font-size: 18px !important;
+  .notificationContent--notification {
     color: #fff !important;
     line-height: 27.38px !important;
     font-weight: 400 !important;
   }
 }
 
-@media screen and (max-width: 425px){
-  .imageElement--link-image-home{
+@media screen and (max-width: 600px) {
+  .imageElement--link-image-home {
     margin-right: 10px;
     max-width: 30px !important;
   }
+
+  .imageElement--image-explora {
+    object-fit: cover;
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
+    object-position: 75% 50%;
+  }
 }
-
-

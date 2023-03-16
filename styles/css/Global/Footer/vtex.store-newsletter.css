@@ -10,7 +10,6 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) .emailInputContainer--newsletter-input-email :global(.vtex-styleguide-9-x-input) {
-  border: none;
   background-color: #fff;
 }
 

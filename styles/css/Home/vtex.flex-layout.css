@@ -265,6 +265,15 @@
     height: 100%;
   }
 
+  .flexRow--marcas-group {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .flexRow--marcas-group::-webkit-scrollbar {
+    display: none;
+  }
+
   .flexRow--content-tab {
     overflow-y: auto;
     -ms-overflow-style: none; /* IE and Edge */
@@ -293,12 +302,16 @@
   }
 
   .flexRowContent--group-images {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
   }
 
   .flexRowContent--group-images::-webkit-scrollbar {
     display: none;
+  }
+
+  .flexRow--group-images.flexRow--group-departament .flexRowContent--group-images {
+    min-height: 400px;
   }
 
   .flexRowContent--content-tab
@@ -494,6 +507,7 @@
 @media screen and (max-width: 1024px) {
   .flexRowContent--marcas-group {
     padding-left: 0;
+    justify-content: start;
   }
 
   .flexRow--orange-slider :global(.vtex-store-components-3-x-container) {
@@ -533,6 +547,11 @@
   .flexRow--departament-seccion-three {
     padding-left: 4%;
     padding-right: 4%;
+  }
+
+  .flexRow--home-seccion-one :global(.vtex-store-components-3-x-container),
+  .flexRow--home-seccion-six :global(.vtex-store-components-3-x-container) {
+    padding: 0;
   }
 }
 
@@ -590,8 +609,4 @@
   .flexRowContent--infocard {
     gap: 0 !important;
   }
-}
-
-.flexRow--home-seccion-one :global(.vtex-store-components-3-x-container) {
-  padding: 0;
 }
