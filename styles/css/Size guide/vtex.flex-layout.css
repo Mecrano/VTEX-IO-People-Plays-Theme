@@ -47,7 +47,10 @@ width: 100% !important;
 }
 
 .flexRow--container-size--guide {
-  margin-top: 40px;
+  padding-top: 47px;
+  background-color: #fff;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .flexColChild--group-images:first-child {
@@ -167,3 +170,14 @@ width: 100% !important;
     width: 680px;
   }
 }
+
+@media screen and (max-width: 1024px){
+  .flexRow--container-size--guide{
+    padding-top: 58px;
+  }
+
+  .flexRowContent--group-size--guide::-webkit-scrollbar{
+    display: none;
+  }
+}
+

@@ -7,7 +7,10 @@
   },
   "header-layout.desktop": {
     "title": "header desktop",
-    "children": ["sticky-layout#desktop"]
+    "children": [
+      "sticky-layout#desktop",
+      "custom-styles"
+    ]
   },
   "sticky-layout#desktop": {
     "props": {
@@ -83,7 +86,10 @@
   },
   "header-layout.mobile": {
     "title": "header mobile",
-    "children": ["sticky-layout#mobile"]
+    "children": [
+      "sticky-layout#mobile",
+      "custom-styles"
+    ]
   },
   "sticky-layout#mobile": {
     "props": {"blockClass": "sticky-header"},
