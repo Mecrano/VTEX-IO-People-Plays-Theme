@@ -1,3 +1,7 @@
 :global(.render-route-store-custom-landing-size-guide) :global(.vtex-store__template) > div > div:nth-child(3){
     background: #fff;
 }
+
+:global(.component-class) :global(.flexRowContent--product--shelf--titles){
+    margin-top: 30px;
+}

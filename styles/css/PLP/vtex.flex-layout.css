@@ -5,6 +5,8 @@
   margin-bottom: 20px;
   padding-left: 4%;
   padding-right: 3%;
+  max-width: 85%;
+  margin-inline: auto;
 }
 
 .flexCol--banner-genero2 {
