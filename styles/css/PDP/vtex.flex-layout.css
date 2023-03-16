@@ -169,6 +169,11 @@
   display: inline-block;
 }
 
+.flexRowContent--product-description .stretchChildrenWidth{
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 1025px) {
   .flexRowContent--product--newsletter--container
     :global(
