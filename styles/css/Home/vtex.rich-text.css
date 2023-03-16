@@ -117,7 +117,7 @@
 
   .link--promocion-ver-mas {
     font-weight: 400;
-  }  
+  }
 
   .paragraph--promocion,
   .paragraph--promocion-ver-mas,
@@ -175,9 +175,10 @@
 
 @media screen and (min-width: 321px) and (max-width: 425px) {
   .paragraph--infotext {
-    font-size: 18px !important;
-    margin-top: -60px;
-    margin-left: -12px;
+    font-size: 16px !important;
+    margin-top: 0;
+    margin-left: 0;
+    padding-bottom: 14px;
   }
 
   .paragraph--figura-text {
@@ -217,15 +218,5 @@
 
   .paragraph--figura-text {
     font-size: 18px;
-  }
-}
-
-
-@media screen and (max-width: 425px){
-  .paragraph--infotext{
-    font-size: 14px !important;
-    margin-top: 0 !important;
-    margin-left: 0 !important;
-    padding-bottom: 14px;
   }
 }
