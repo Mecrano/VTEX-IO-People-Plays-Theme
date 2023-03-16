@@ -152,6 +152,11 @@
 white-space: nowrap;
 }
 
+.minicartCheckoutButton :global(.vtex-button){
+  width: 100% !important;
+  margin-left: 15px;
+}
+
 @media (min-width: 1025px) {
   .minicartContainer .openIconContainer :global(.vtex-button) :global(.vtex-button__label) {
     padding-right: 0;
