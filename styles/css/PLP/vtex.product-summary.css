@@ -107,19 +107,19 @@
   max-width: 320px !important;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText) {
     font-size: 13px;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .element--shelf--plp :global(.vtex-button__label) {
     font-size: 14px;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .element--shelf--plp :global(.vtex-button) {
     margin-left: 5px;
     width: 70% !important;
@@ -130,7 +130,7 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 425px) {
+@media (max-width: 425px) {
   .productBrand--name--plp {
     font-size: 13.4857px;
   }
@@ -151,7 +151,7 @@
 
 }
 
-@media screen and (min-width: 300px) and (max-width: 375px) {
+@media (max-width: 375px) {
 
   .nameContainer--name--plp,
   .productBrandContainer--brand--plp {
@@ -165,7 +165,7 @@
 
 }
 
-@media screen and (min-width: 321px) and (max-width: 425px) {
+@media (max-width: 425px) {
 
   .nameContainer--name--plp,
   .productBrandContainer--brand--plp {
@@ -178,7 +178,7 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
   :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .containerNormal--shelf--plp {
     max-width: 380px !important;
   }
@@ -188,7 +188,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
   .productBrand--name--plp, .description {
     font-size: 16px;
   }
@@ -218,7 +218,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   .description {
     padding-left: 10px !important;
     padding-right: 10px !important;
@@ -235,23 +235,23 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .element--shelf--plp :global(.vtex-button) {
     width: 66% !important;
-  }  
+  }
 
   :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button) {
     margin-left: 10px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
 .element--shelf--plp :global(.vtex-button__label) :global(.vtex-add-to-cart-button-0-x-buttonText) {
   font-size: 14px;
 }
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
   :global(.vtex-slider-layout-0-x-slideChildrenContainer--shelfStyle1) :global(.vtex-add-to-cart-button-0-x-buttonText--shelf__add-to-cart-button) {
     font-size: 14px !important;
   }

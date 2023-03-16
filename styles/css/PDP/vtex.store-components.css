@@ -261,6 +261,7 @@
 
 .skuSelectorSubcontainer--talla .skuSelectorOptionsList {
   min-width: 200%;
+  gap: 10px;
 }
 
 .skuSelectorInternalBox--product--sku-selector:hover {
@@ -280,7 +281,7 @@
 .skuSelectorOptionsList .skuSelectorItem--product--sku-selector:first-child {
   margin-left: 0;
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .productBrand {
     font-size: 22px;
     line-height: 26px;

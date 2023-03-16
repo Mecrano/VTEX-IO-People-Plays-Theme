@@ -151,7 +151,7 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .paragraph--figura-text {
     left: 70px;
     font-size: 13px;
@@ -165,7 +165,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .paragraph--figura-text {
     left: 85px;
     font-size: 16px;
@@ -173,7 +173,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 425px) {
+@media (max-width: 425px) {
   .paragraph--infotext {
     font-size: 16px !important;
     margin-top: 0;
@@ -186,7 +186,7 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .paragraph--text-group {
     font-size: 15px;
   }
@@ -196,20 +196,20 @@
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media (min-width: 1400px) {
   .paragraph--figura-text {
     left: 120px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .paragraph--figura-text {
     bottom: 29px;
     left: 70px;
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
   .paragraph--siempre-listos,
   .paragraph--infotext,
   .paragraph--promocion {

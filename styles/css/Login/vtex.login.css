@@ -119,7 +119,7 @@
   text-transform: capitalize;
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .loginOptionsContainer,
   .contentForm {
     width: calc(300px - 15px * 2);
@@ -136,7 +136,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .loginOptionsContainer,
   .contentForm {
     width: calc(360px - 15px * 2);
@@ -144,7 +144,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 425px) {
+@media (max-width: 425px) {
   .contentForm {
     padding-left: 0;
     padding-right: 0;

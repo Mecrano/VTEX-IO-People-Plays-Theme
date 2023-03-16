@@ -2,12 +2,12 @@
     display: none;
 }
 
-@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
+@media (max-width: 1024px){ /* MediaQuery para Tablets */
     :global(.vtex-product-summary-2-x-imageWrapper--shelf__image) .discountContainer .discountInsideContainer{
         right: -28px;
     }
 }
 
-@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+@media (max-width: 768px){ /* MediaQuery para Telefonos */
 
 }

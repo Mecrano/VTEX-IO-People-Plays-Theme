@@ -327,7 +327,7 @@
   height: 100% !important;
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .galleryItem--normal {
     max-width: 44% !important;
   }
@@ -338,7 +338,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .galleryItem--normal {
     max-width: 45% !important;
   }
@@ -349,7 +349,7 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .galleryTitle--layout {
     font-size: 22px;
   }
@@ -372,7 +372,7 @@
     content: url(assets/search/filter.svg);
   }
 
-  .filterPopupArrowIcon {
+  .filterPopupButton .filterPopupArrowIcon {
     display: none;
   }
 
@@ -397,6 +397,7 @@
   .orderBy--layout,
   .orderByButton {
     border-bottom: none;
+    width: auto !important;
   }
 
   .filterPopupButton {
@@ -496,21 +497,13 @@
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 1024px) {
-  .orderBy--layout {
-    width: 192px !important;
-  }
-
-  .orderByButton {
-    width: 192px !important;
-  }
-
+@media (min-width: 426px) and (max-width: 1024px) {
   .buttonShowMore :global(.vtex-button) {
     margin-top: 30px;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 425px) {
+@media (max-width: 425px) {
   .filterBreadcrumbsItemName {
     font-size: 20px;
   }
@@ -522,20 +515,7 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 375px) {
-  .orderBy--layout {
-    width: 120px !important;
-  }
-
-  .orderByButton {
-    width: 120px !important;
-  }
-
-  .orderByButton .filterPopupArrowIcon {
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
-  }
-
+@media (max-width: 375px) {
   .buttonShowMore :global(.vtex-button__label) {
     font-size: 16px;
   }
@@ -561,7 +541,7 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
   .galleryItem :global(.vtex-product-summary-2-x-container--shelf--home) {
     max-width: 324.34px !important;
   }
@@ -572,7 +552,7 @@
   }
 }
 
-@media screen and (min-width: 1366px) and (max-width: 1399px) {
+@media (min-width: 1366px) and (max-width: 1399px) {
   .galleryItem :global(.vtex-product-summary-2-x-container--shelf--home) {
     height: 555.32px !important;
   }
@@ -592,7 +572,7 @@
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .galleryItem :global(.vtex-product-price-1-x-savings--summary--plp) {
     width: 48px !important;
   }
@@ -604,7 +584,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
   .galleryItem :global(.vtex-flex-layout-0-x-flexCol--prices-listprice) {
     display: flex;
     flex-direction: column;

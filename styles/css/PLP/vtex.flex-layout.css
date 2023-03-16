@@ -185,13 +185,13 @@
 
 /* genero */
 
-@media screen and (min-width: 1300px) and (max-width: 1440px) {
+@media (min-width: 1300px) and (max-width: 1440px) {
   .flexRow--content-tab-item-figura {
     left: 0;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .flexRow--prices-plp {
     padding-left: 5px !important;
     padding-right: 5px !important;
@@ -203,7 +203,7 @@
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 1024px) {
+@media (min-width: 426px) and (max-width: 1024px) {
 
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
@@ -214,7 +214,7 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 425px) {
+@media (max-width: 425px) {
 
   .flexRow--container--search-mobiles :global(.vtex-store-components-3-x-container),
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
@@ -225,7 +225,7 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .flexRowContent--search-info--container-mobile {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -290,7 +290,7 @@
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media (min-width: 1400px) {
 
   .flexRow--breadcrumb-plp--flex :global(.vtex-store-components-3-x-container),
   .flexRow--container--search :global(.vtex-store-components-3-x-container) {
@@ -340,7 +340,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media (min-width: 1440px) {
   .flexRow--department-two-banners-container-row {
     margin-top: 70px;
   }
@@ -376,7 +376,7 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
   .flexRowContent--order--by {
     margin-left: 20px;
     padding-right: 30px;
@@ -403,7 +403,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
   .flexCol--banner-genero2 {
     display: none;
   }
@@ -423,7 +423,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .flexRowContent--department-newsletter-banner-row {
     display: flex;
     flex-direction: column-reverse;
@@ -434,10 +434,10 @@
   }
 }
 
-@media screen and (min-width: 449px) and (max-width: 1024px) {
+@media (min-width: 449px) and (max-width: 1024px) {
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
 
   .flexRowContent--departament-seccion-three :global(.vtex-product-summary-2-x-containerNormal--shelf--plp) {
     margin-right: auto;
@@ -449,7 +449,7 @@
     padding-right: 0;
   }
 }
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
 .flexRowContent--group-departament :global(.vtex-store-components-3-x-imageElement--figura-Five){
 bottom: -25px !important;
 }

@@ -169,6 +169,15 @@
   display: inline-block;
 }
 
+@media (min-width: 1025px) {
+  .flexRowContent--product--newsletter--container
+    :global(
+      .vtex-store-newsletter-1-x-emailInputContainer--newsletter-input-email
+    ) {
+    padding-right: 15px;
+  }
+}
+
 .flexRowContent--product--newsletter--container
   :global(.vtex-store-newsletter-1-x-formSubmitContainer) {
   width: 40%;
@@ -190,12 +199,12 @@
 
 .flexColChild--product--quantity-size-guide--container {
   border-bottom: 1px solid #062f8740;
-  padding-bottom: 50px;
+  padding-bottom: 0;
 }
 
 @media (min-width: 1024px) {
   .flexColChild--product--quantity-size-guide--container {
-    min-height: 154px;
+    min-height: 147px;
   }
 }
 
@@ -286,7 +295,7 @@
   align-items: flex-start;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   :global(.vtex-wish-list-1-x-wishlistIcon--product--favorites) {
     width: 19px !important;
     height: 24px !important;
@@ -332,9 +341,13 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .flexColChild--product--quantity-size-guide--container {
+    border: none;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   :global(.vtex-wish-list-1-x-wishlistIconContainer--product--favorites) {
     margin-left: 0px;
     margin-top: 20px;
@@ -373,14 +386,14 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media (min-width: 768px) {
   .flexCol--product--images--container
     .flexColChild--product--images--container:first-child {
     display: none;
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media (min-width: 1440px) {
   .flexRow--product--main--container
     :global(.vtex-store-components-3-x-container) {
     max-width: 100%;
@@ -397,7 +410,7 @@
     } */
 }
 
-@media only screen and (max-width: 450px) {
+@media (max-width: 450px) {
   .flexRow--product--main--container .flexRow--vitrina-pdp {
     padding-left: 0;
     padding-right: 0;
@@ -444,4 +457,8 @@
   .flexRowContent--product--details1--container {
     align-items: center;
   }
+}
+
+.flexRow--product--shelf--titles {
+  margin-top: 30px;
 }

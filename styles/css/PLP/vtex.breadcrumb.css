@@ -37,7 +37,7 @@
   color: #000000;
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .container--breadcrumb--plp {
     align-items: center;
   }

@@ -43,7 +43,7 @@
   display: none;
 }
 
-@media screen and (min-width: 300px) and (max-width: 425px) {
+@media (max-width: 425px) {
   :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp)
     :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
     width: 33% !important;
@@ -57,10 +57,10 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   .savings--summary--plp {
     width: 55px !important;
   }

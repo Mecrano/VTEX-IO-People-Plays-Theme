@@ -34,7 +34,7 @@
   display: none;
 }
 
-@media screen and (min-width: 300px) and (max-width: 425px) {
+@media (max-width: 425px) {
   .wishlistIconContainer--wishlist---plp :global(.vtex-button)::before{
     top: 2px;
     right: -10px;

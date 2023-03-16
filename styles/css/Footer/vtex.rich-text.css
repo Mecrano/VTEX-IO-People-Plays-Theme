@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .paragraph--text-one-footer {
     font-size: 10px !important;
   }
@@ -18,13 +18,13 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .paragraph--text-1-contact-lines {
     margin-top: 1rem !important;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .paragraph--textcopy {
     font-size: 10px !important;
   }
@@ -39,7 +39,7 @@
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 1024px) {
+@media (min-width: 376px) and (max-width: 1024px) {
   .paragraph--text-one-footer,
   .paragraph--textcopy {
     line-height: 22px;
@@ -50,7 +50,7 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .paragraph--footer-row-1-text-1 {
     font-family: "Titillium Web";
     font-style: normal;

@@ -240,7 +240,7 @@
   padding-right: 5%;
 }
 
-@media screen and (min-width: 1400px) {
+@media (min-width: 1400px) {
   .flexRow--content-tab-item {
     z-index: 1;
     margin-left: 20px;
@@ -381,7 +381,7 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .flexRow--figura-orange {
     height: 85px;
     right: -8px;
@@ -418,7 +418,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .flexRow--figura-orange {
     height: 90px;
     right: 14px;
@@ -432,7 +432,7 @@
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+@media (min-width: 376px) and (max-width: 425px) {
   .flexRow--figura-orange {
     width: 85% !important;
     height: 85px;
@@ -440,7 +440,7 @@
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .flexRow--figura-orange {
     width: 89% !important;
     height: 90px;
@@ -453,7 +453,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .flexRow--figura-orange {
     width: 87% !important;
     height: 90px;
@@ -466,7 +466,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .flexRowContent--group-images-text-one
     :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
     width: 20% !important;
@@ -482,7 +482,7 @@
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+@media (min-width: 376px) and (max-width: 425px) {
   /* slider css */
   .flexRowContent--marcas-group {
     width: 1000px;
@@ -493,7 +493,7 @@
   /* slider css */
 }
 
-@media screen and (min-width: 426px) and (max-width: 1024px) {
+@media (min-width: 426px) and (max-width: 1024px) {
   /* slider css */
   .flexRowContent--marcas-group {
     width: 1400px;
@@ -504,7 +504,7 @@
   /* slider css */
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .flexRowContent--marcas-group {
     padding-left: 0;
     justify-content: start;
@@ -555,7 +555,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media (min-width: 1440px) {
   .flexRow--home-seccion-three :global(.vtex-store-components-3-x-container) {
     padding-left: 4%;
     padding-right: 4%;
@@ -569,14 +569,14 @@
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
   .flexRow--home-seccion-three :global(.vtex-store-components-3-x-container) {
     padding-left: 3%;
     padding-right: 3%;
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media (max-width: 450px) {
   .flexRow--home-seccion-three :global(.vtex-store-components-3-x-container) {
     padding-left: 0;
     padding-right: 0;
@@ -595,7 +595,7 @@
   } */
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
   .flexRow--info-images-figura-one {
     left: 9px;
   }
@@ -605,7 +605,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 425px) {
   .flexRowContent--infocard {
     gap: 0 !important;
   }

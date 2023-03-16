@@ -17,7 +17,7 @@
   height: 43px;
 }
 
-@media screen and (min-width: 1025px) {
+@media (min-width: 1025px) {
   :global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) .emailInputContainer--newsletter-input-email :global(.vtex-input-prefix__group) {
     border: 1px solid gray;
     position: relative;

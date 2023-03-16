@@ -53,7 +53,7 @@
   align-items: center;
 }
 
-@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
+@media (max-width: 1024px){ /* MediaQuery para Tablets */
 
     .flexColChild--shelf__add-to-cart__container :global(.vtex-button__label){
         font-size: 12px;
@@ -70,7 +70,7 @@
     }
 }
 
-@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+@media (max-width: 768px){ /* MediaQuery para Telefonos */
     .flexRowContent--shelf__pricesyadd-to-cart-button__container{
         height: 63px;
     }

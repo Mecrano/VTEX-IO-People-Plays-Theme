@@ -37,13 +37,13 @@
   font-weight: 400;
 }
 
-@media screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
   .infoCardTextContainer--info-card-1 :global(.vtex-button__label) {
     font-size: 18px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .infoCardTextContainer--info-card-1 {
     max-height: 500px;
   }
