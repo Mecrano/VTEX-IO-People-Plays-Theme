@@ -10,7 +10,7 @@
   "rich-text#home1": {
     "title": "title text 1",
     "props": {
-      "text": "Beneficios en People Plays",
+      "text": "¿por qué comprar en People Plays?",
       "blockClass": ["slider-text", "benefints--title"]
     }
   },
@@ -24,7 +24,7 @@
       },
       "infinite": true,
       "navigationStep": 1,
-      "showNavigationArrows": "mobileOnly",
+      "showNavigationArrows": "always",
       "showPaginationDots": "never",
       "blockClass": ["slider-text-two", "slider-home"],
       "autoplay": {

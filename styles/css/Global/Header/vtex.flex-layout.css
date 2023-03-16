@@ -64,4 +64,8 @@
   .flexRow--header-mobile {
     background-color: #FC701C;
   }
+
+  .flexColChild--container-texts-contact-lines-mobile{
+    display: flex;
+  }
 }

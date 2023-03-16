@@ -29,6 +29,10 @@
   text-transform: capitalize;
 }
 
+.listItem--home1{
+  padding-bottom: 42px;
+}
+
 @media (max-width: 1024px) {
 
   .listItemActive--home1 :global(.vtex-button__label),

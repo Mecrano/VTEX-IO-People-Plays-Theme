@@ -7,12 +7,12 @@
 }
 
 .homeLink::after {
-  content: "";
+  content: "" !important;
   color: #fc701c;
-  width: 25px;
+  width: 20px;
   background: url(/arquivos/Group.svg);
   display: block;
-  height: 25px;
+  height: 20px;
   background-size: 100%;
 }
 

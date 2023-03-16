@@ -288,6 +288,14 @@
     padding-left: 4%;
     padding-right: 4%;
   }
+
+  .flexRow--department-newsletter-banner-row {
+    margin-top: 67px;
+  }
+
+  .flexRowContent--departament-five{
+    padding-bottom: 0;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -309,7 +317,7 @@
   }
 
   .flexRow--home-seccion-two :global(.vtex-store-components-3-x-container) {
-    max-width: 105rem !important;
+    max-width: none !important;
   }
 
   .flexRowContent--titles-promociones-departamento {
@@ -465,4 +473,8 @@ bottom: -25px !important;
   .flexRowContent--shelf--titles .stretchChildrenWidth{
     height: max-content !important;
   }
+}
+
+.flexRow--devoluciones-container-row :global(.vtex-store-components-3-x-container){
+  padding-top: 40px;
 }

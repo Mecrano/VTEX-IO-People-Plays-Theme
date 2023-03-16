@@ -8,3 +8,9 @@
 .creditoAddiLink {
   color: #4e7eff;
 }
+
+@media (max-width: 1024px) {
+  .creditoAddiLink {
+    color: #000;
+  }
+}

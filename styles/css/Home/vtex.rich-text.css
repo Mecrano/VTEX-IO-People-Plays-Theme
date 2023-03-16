@@ -2,7 +2,7 @@
   font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 136.7%;
   color: #000000;
 }
@@ -130,6 +130,7 @@
     font-size: 16px;
     position: relative;
     top: -3px;
+    color: #000;
   }
 
   .wrapper--benefints--title .paragraph--slider-text{
@@ -188,7 +189,7 @@
 
 @media (max-width: 1024px) {
   .paragraph--text-group {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .paragraph--infotext {
@@ -218,5 +219,12 @@
 
   .paragraph--figura-text {
     font-size: 18px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .paragraph--ropa {
+    margin-bottom: 50px;
+    padding-left: 25px;
   }
 }

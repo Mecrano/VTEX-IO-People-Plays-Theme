@@ -14,4 +14,8 @@
     :global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) :global(.vtex-store-newsletter-1-x-emailInputContainer--newsletter-input-email) :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
         height: unset !important;
       }
+
+      .flexRowContent--department-two-banners-container-row{
+        margin-block: 0 !important;
+      }
 }
