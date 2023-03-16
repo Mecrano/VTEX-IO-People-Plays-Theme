@@ -238,6 +238,7 @@
 @media (max-width: 1024px) {
   .element--shelf--plp :global(.vtex-button) {
     width: 66% !important;
+    min-width: 120px;
   }
 
   :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button) {
