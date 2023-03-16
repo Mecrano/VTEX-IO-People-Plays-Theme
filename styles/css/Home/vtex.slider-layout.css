@@ -146,10 +146,6 @@
     padding-inline: 10px;
   }
 
-  .sliderArrows--slider-home{
-    bottom: 11px;
-  }
-
   .caretIcon--slider-home {
     width: 8px;
     height: 8px;
@@ -187,6 +183,10 @@
 
   .sliderRightArrow--slider-text{
     right: 12%;
+  }
+
+  .sliderTrackContainer--shelfStyle1 {
+    padding-bottom: 45px;
   }
 }
 

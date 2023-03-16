@@ -2,7 +2,7 @@
   "responsive-layout.mobile#home": {
     "title": "home mobile",
     "children": [
-      "flex-layout.row#home-seccion-one-mobile",
+      "flex-layout.row#home-seccion-one",
       "flex-layout.row#home-seccion-two",
       "flex-layout.row#home-seccion-three",
       "flex-layout.row#home-seccion-four",

@@ -46,12 +46,11 @@
   }
 
   .listItem--home1 :global(.vtex-button__label){
-    padding-block: 0;
+    padding: 0 !important;
     margin-block: 0;
     margin-bottom: 30px;
-    padding-block: 10px;
     font-size: 20px;
-    line-height: 15px;
+    line-height: 30px;
   }
 
   .listItem--home1{
@@ -64,6 +63,5 @@
   .listItemActive--home1 :global(.vtex-button__label){
     text-decoration: none;
     border-bottom: 1px solid #062F87;
-    padding: 0;
   }
 }

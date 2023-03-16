@@ -2,6 +2,10 @@
     padding-inline: 15px;
 }
 
+.imageElement {
+  max-height: none !important;
+}
+
 @media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
 
 }
