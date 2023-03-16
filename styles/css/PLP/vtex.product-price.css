@@ -22,7 +22,7 @@
   background: #eb0606;
   color: #fff;
   width: 50px !important;
-  padding: 5px !important;
+  padding: 5px 11px !important;
 }
 
 .savingsPercentage--summary--plp {
@@ -38,6 +38,11 @@
   text-align: left;
 }
 
+.currencyFraction,
+.currencyDecimal {
+  display: none;
+}
+
 @media screen and (min-width: 300px) and (max-width: 425px) {
   :global(.vtex-flex-layout-0-x-flexRowContent--prices-plp)
     :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
@@ -45,25 +50,14 @@
   }
 
   .savings--summary--plp {
-    background: transparent;
     border: 0.988883px solid #eb0606;
     color: #eb0606;
-    height: 22px;
+    background: #eb0606;
+    color: #fff;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .sellingPriceValue--selling-price--plp {
-    font-size: 14px;
-  }
-
-  .listPriceValue--list-price--plp {
-    font-size: 10px;
-  }
-
-  .savingsPercentage--summary--plp {
-    font-size: 12px;
-  }
 }
 
 @media screen and (max-width: 375px) {

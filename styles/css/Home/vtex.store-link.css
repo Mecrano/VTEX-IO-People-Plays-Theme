@@ -59,7 +59,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
-    line-height: 165.5%;
+    line-height: 29.79px;
     color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -69,6 +69,7 @@
     content: "→";
     font-size: 35px;
     margin-left: 10px;
+    margin-bottom: 8px;
   }
 }
 

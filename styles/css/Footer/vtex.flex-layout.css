@@ -4,7 +4,6 @@
   .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
-    width: calc(300px - 15px * 2);
     margin: 0 auto;
   }
 
@@ -13,7 +12,7 @@
   }
 /* estilos azul footer */
   .flexRowContent--container-contact-lines {
-    width: 310px !important;
+    width: 100% !important;
   }
 
   .flexCol--background-1-contact-lines-mobile {
@@ -39,8 +38,8 @@
 @media screen and (min-width: 321px) and (max-width: 375px) {
 /* estilos azul footer */
   .flexRowContent--container-contact-lines {
-    width: 365px !important;
-    max-width: 98vw;
+    width: 100% !important;
+    max-width: 95vw;
   }
 
   .flexCol--background-1-contact-lines-mobile {
@@ -68,7 +67,6 @@
   .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container)  {
-    width: calc(360px - 15px * 2);
     margin: 0 auto;
   }
 
@@ -89,7 +87,6 @@
   .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
-    width: calc(420px - 20px * 2);
     margin: 0 auto;
   }
 
@@ -119,7 +116,6 @@
   .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
-    width: calc(730px - 20px * 2);
     margin: 0 auto;
   }
 
@@ -139,7 +135,6 @@
   .flexRow--footer-4-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-5-mobile :global(.vtex-store-components-3-x-container),
   .flexRow--footer-6-mobile :global(.vtex-store-components-3-x-container) {
-    width: calc(999px - 40px * 2);
     margin: 0 auto;
     max-width: 95%;
   }
@@ -214,13 +209,18 @@
     left: 0;
     background: #002f87;
     height: 97px;
-    border-radius: 4px;
+    border-radius: 0px;
     position: absolute;
+  }
+
+  .flexCol--background-1-contact-lines,
+  .flexCol--background-2-contact-lines {
+    border-radius: 0px !important;
   }
 
   .flexCol--background-1-contact-lines-mobile {
     width: 60px!important;
-    right: 17px;
+    right: 43px;
     transform: skew(-27deg);
     background: #002f87;
     height: 97px;
@@ -289,16 +289,25 @@
     flex-direction: row;
     justify-content: space-between;
   }
+
+  .flexColChild--text-2-mobile{
+    height: max-content !important;
+  }
+
+  .flexRow--footer-3-mobile,
+  .flexRow--footer-4-mobile,
+  .flexRow--footer-6-mobile,
+  .flexRow--footer-5-mobile{
+    padding-inline: 18px;
+    box-sizing: border-box;
+  }
+
+  .vtex-store-newsletter-1-x-newsletterForm{
+    width: calc(100vw - 25px);
+  }
 }
 
 @media screen and (min-width: 300px) and (max-width: 425px) {
-  .flexRowContent--footer-logos :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
-    width: 80% !important;
-  }
-
-  .flexRowContent--footer-logos :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
-    width: 20% !important;
-  }
 
   .flexCol--medios-pago-1 .flexColChild--medios-pago-1:last-child {
     width: 70% !important;
@@ -306,15 +315,13 @@
 }
 
 @media screen and (min-width: 426px) and (max-width: 1024px) {
-  .flexRowContent--footer-logos :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
-    width: 90% !important;
-  }
-
-  .flexRowContent--footer-logos :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
-    width: 10% !important;
-  }
 
   .flexCol--medios-pago-1 .flexColChild--medios-pago-1:last-child {
     width: 58% !important;
   }
+}
+
+
+.flexRowContent--footer-logos :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 80% !important;
 }

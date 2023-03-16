@@ -143,7 +143,50 @@
   }
 
   .slide--shelfStyle1--visible {
-    margin-right: 20px;
+    padding-inline: 10px;
+  }
+
+  .caretIcon--slider-home {
+    width: 8px;
+    height: 8px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--home-seccion-four) .caretIcon--slider-home{
+    width: 12px;
+    height: 12px;
+  }
+
+  .sliderLeftArrow--slider-home{
+    left: 20px;
+  }
+
+  .sliderRightArrow--slider-home{
+    right: 20px;
+  }
+
+  .sliderArrows--slider-text-two{
+    bottom: unset;
+    top: -78px;
+  }
+
+  .sliderRightArrow--slider-text-two{
+    right: 5px;
+  }
+
+  .sliderLeftArrow--slider-text-two{
+    left: 5px;
+  }
+
+  .sliderLeftArrow--slider-text{
+    left: 12%;
+  }
+
+  .sliderRightArrow--slider-text{
+    right: 12%;
+  }
+
+  .sliderTrackContainer--shelfStyle1 {
+    padding-bottom: 45px;
   }
 }
 
@@ -173,7 +216,7 @@
   }
 
   .slide--shelfStyle1--visible {
-    margin-right: 10px;
+    padding-inline: 5px;
   }
 }
 

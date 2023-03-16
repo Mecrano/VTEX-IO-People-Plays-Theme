@@ -29,15 +29,10 @@
   padding-bottom: 15px;
 }
 
-.element--shelf--plp :global(.vtex-button) {
-  width: 66%;
-  margin-left: 15px;
-}
-
 :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button) {
-  width: 60%;
-  height: 45px;
-  margin-left: 15px;
+  width: max-content !important;
+  padding-inline: 12px;
+  margin-left: 16px;
 }
 
 .clearLink--shelf--plp {
@@ -241,9 +236,13 @@
 }
 
 @media screen and (max-width: 1024px) {
-.element--shelf--plp :global(.vtex-button) {
-  width: 66% !important;
-}
+  .element--shelf--plp :global(.vtex-button) {
+    width: 66% !important;
+  }  
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button) {
+    margin-left: 10px;
+  }
 }
 
 @media screen and (max-width: 320px) {

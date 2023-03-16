@@ -1,6 +1,5 @@
-:global(.vtex-product-summary-2-x-imageWrapper--shelf__image) .discountContainer .discountInsideContainer{
-    bottom: -56px;
-    right: -99px;
+ .discountContainer .discountInsideContainer{
+    display: none;
 }
 
 @media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */

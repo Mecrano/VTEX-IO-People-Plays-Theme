@@ -16,9 +16,12 @@
 
 .flexCol--block-right-marca {
   background-color: #FFFFFF;
-  padding-left: 40px;
-  padding-right: 60px;
+  padding-inline: 40px;
   padding-bottom: 20px;
+}
+
+.flexRow--container-nuestra-marca :global(.vtex-store-components-3-x-container){
+  max-width: none;
 }
 
 @media (max-width: 768px) {
@@ -31,14 +34,12 @@
   }
 
   .flexCol--block-right-marca {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-inline: 50px;
   }
 }
 
 @media (max-width: 768px) {
   .flexCol--block-right-marca {
-    padding-left: 40px;
-    padding-right: 30px;
+    padding-inline: 30px;
   }
 }

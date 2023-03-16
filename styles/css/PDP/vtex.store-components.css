@@ -41,6 +41,10 @@
   padding-block: 2px;
 }
 
+.skuSelectorItem {
+  margin: 0;
+}
+
 .skuSelectorSubcontainer--color
   .skuSelectorItem--product--sku-selector--selected
   .frameAround--product--sku-selector {
@@ -77,13 +81,17 @@
   .diagonalCross--product--sku-selector {
   display: none;
 }
-.skuSelectorSubcontainer--size.skuSelectorSubcontainer--size .valueWrapper--product--sku-selector--unavailable,
-.skuSelectorSubcontainer--size.skuSelectorSubcontainer--talla .valueWrapper--product--sku-selector--unavailable {
+.skuSelectorSubcontainer--size.skuSelectorSubcontainer--size
+  .valueWrapper--product--sku-selector--unavailable,
+.skuSelectorSubcontainer--size.skuSelectorSubcontainer--talla
+  .valueWrapper--product--sku-selector--unavailable {
   color: #a3a3a3 !important;
   padding-inline: 2px !important;
 }
-.skuSelectorSubcontainer--talla.skuSelectorSubcontainer--size .valueWrapper--product--sku-selector--unavailable::after,
-.skuSelectorSubcontainer--talla.skuSelectorSubcontainer--talla .valueWrapper--product--sku-selector--unavailable::after {
+.skuSelectorSubcontainer--talla.skuSelectorSubcontainer--size
+  .valueWrapper--product--sku-selector--unavailable::after,
+.skuSelectorSubcontainer--talla.skuSelectorSubcontainer--talla
+  .valueWrapper--product--sku-selector--unavailable::after {
   content: "not";
   color: transparent;
   background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjIiIHZpZXdCb3g9IjAgMCAyMSAyMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzLjUwMDIgMThDMTMuNTAwMiAxOS42NTY5IDEyLjE1NzEgMjEgMTAuNTAwMiAyMUM4Ljg0MzM5IDIxIDcuNTAwMjUgMTkuNjU2OSA3LjUwMDI1IDE4TTEyLjI5NjggNS4yMzg1NkMxMi43MzIyIDQuNzg4NjQgMTMuMDAwMiA0LjE3NTYyIDEzLjAwMDIgMy41QzEzLjAwMDIgMi4xMTkyOSAxMS44ODEgMSAxMC41MDAyIDFDOS4xMTk1NCAxIDguMDAwMjUgMi4xMTkyOSA4LjAwMDI1IDMuNUM4LjAwMDI1IDQuMTc1NjIgOC4yNjgyNSA0Ljc4ODY0IDguNzAzNzQgNS4yMzg1Nk0xLjA0NzA3IDcuMzIyOTZDMS4wMzI3MiA1Ljg3MTYxIDEuODE1MiA0LjUxNjMxIDMuMDc5MjggMy44MDMwNk0xOS45NTM0IDcuMzIyOTZDMTkuOTY3OCA1Ljg3MTYxIDE5LjE4NTMgNC41MTYzMSAxNy45MjEyIDMuODAzMDZNMTYuNTAwMiAxMC4yQzE2LjUwMDIgOC44MjA4NyAxNS44NjgxIDcuNDk4MjMgMTQuNzQyOSA2LjUyMzA0QzEzLjYxNzcgNS41NDc4NiAxMi4wOTE1IDUgMTAuNTAwMiA1QzguOTA4OTUgNSA3LjM4MjgzIDUuNTQ3ODYgNi4yNTc2MSA2LjUyMzA0QzUuMTMyMzkgNy40OTgyMyA0LjUwMDI1IDguODIwODcgNC41MDAyNSAxMC4yQzQuNTAwMjUgMTIuNDgxOCAzLjkzNDM4IDE0LjE1MDYgMy4yMjgzMSAxNS4zNDQ3QzIuNDIzNTkgMTYuNzA1NiAyLjAyMTIyIDE3LjM4NjEgMi4wMzcxMSAxNy41NDg2QzIuMDU1MjkgMTcuNzM0NiAyLjA4ODc2IDE3Ljc5MzMgMi4yMzk1OSAxNy45MDM2QzIuMzcxNDIgMTggMy4wMzM3NiAxOCA0LjM1ODQ0IDE4SDE2LjY0MjFDMTcuOTY2NyAxOCAxOC42MjkxIDE4IDE4Ljc2MDkgMTcuOTAzNkMxOC45MTE3IDE3Ljc5MzMgMTguOTQ1MiAxNy43MzQ2IDE4Ljk2MzQgMTcuNTQ4NkMxOC45NzkzIDE3LjM4NjEgMTguNTc2OSAxNi43MDU2IDE3Ljc3MjIgMTUuMzQ0N0MxNy4wNjYxIDE0LjE1MDYgMTYuNTAwMiAxMi40ODE4IDE2LjUwMDIgMTAuMloiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=");
@@ -284,9 +292,13 @@
 
   .skuSelectorSubcontainer--color .skuSelectorOptionsList {
     border-right: none;
+    column-gap: 0.25rem;
+    row-gap: 0.75rem;
   }
 
   .skuSelectorSubcontainer--talla .skuSelectorOptionsList {
     min-width: 100%;
+    column-gap: 0.25rem;
+    row-gap: 0.75rem;
   }
 }

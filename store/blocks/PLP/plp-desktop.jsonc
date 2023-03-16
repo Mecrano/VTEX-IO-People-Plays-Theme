@@ -182,16 +182,6 @@
   },
   "product-summary-image#shelf": {
     "props": {
-      "showBadge": false,
-      "aspectRatio": "1:1",
-      "width": {
-        "desktop": 315,
-        "mobile": 315
-      },
-      "height": {
-        "desktop": 315,
-        "mobile": 315
-      }
     }
   },
   "vtex.product-highlights@2.x:product-highlights#collection1": {

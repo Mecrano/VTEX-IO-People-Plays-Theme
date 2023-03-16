@@ -3,7 +3,7 @@
     "title": "block eight",
     "children": ["flex-layout.col#home-seccion-eight"],
     "props": {
-      "blockClass": "home-seccion-three"
+      "blockClass": ["home-seccion-three", "second-home--shelf--container"]
     }
   },
   "flex-layout.col#home-seccion-eight": {
@@ -15,7 +15,8 @@
   "flex-layout.row#titles-promociones-mobile": {
     "props":{
       "colSizing": "auto",
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "blockClass": "shelf--titles"
     },
     "children": ["rich-text#promociones-mobile", "rich-text#promociones-verMas"]
   },

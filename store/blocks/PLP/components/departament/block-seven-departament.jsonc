@@ -14,9 +14,9 @@
     "children": ["slider-layout#products"],
     "props": {
       /* "category": "11", */
-      "collection": "465",
+      "collection": "",
       "orderBy": "OrderByTopSaleDESC",
-      "hideUnavailableItems": true
+      "hideUnavailableItems": false
     }
   }
 }
