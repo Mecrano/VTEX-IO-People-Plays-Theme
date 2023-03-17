@@ -90,6 +90,10 @@
     font-weight: bold;
 }
 
+:global(.vtex-wish-list-1-x-wishlistIconContainer--wishlist---plp) :global(.vtex-button){
+    min-width: unset !important;
+}
+
 @media (max-width: 768px){
     .paragraph--product--shelf--titles{
         font-size: 20px;
@@ -99,6 +103,10 @@
 
     .link--product--shelf--titles-ver-mas{
         font-size: 15px;
+    }
+
+    :global(.vtex-wish-list-1-x-wishlistIconContainer--wishlist---plp) {
+        right: 8px !important;
     }
 }
 

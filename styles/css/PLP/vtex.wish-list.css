@@ -4,7 +4,8 @@
 
 .wishlistIconContainer--wishlist---plp {
   position: absolute;
-  right: 20px;
+  right: 0px;
+  top: 4px;
   z-index: 1;
 }
 
