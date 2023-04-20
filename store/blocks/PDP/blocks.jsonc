@@ -35,7 +35,6 @@
     "props": {
       "warningQuantityThreshold": 9999999,
       "showUnit": false
-
     }
   },
   "product-availability#product--stock": {

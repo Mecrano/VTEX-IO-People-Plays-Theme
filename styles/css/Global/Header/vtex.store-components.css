@@ -6,7 +6,7 @@
 
 :global(.vtex-sticky-layout-0-x-container--sticky-header) .logoContainer {
   padding: 5px;
-  margin: 0;
+  margin: 8px 0 9px;
   margin-right: 5px;
   display: flex;
   max-width: none;

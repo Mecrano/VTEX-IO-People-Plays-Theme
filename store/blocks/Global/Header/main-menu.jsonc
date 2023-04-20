@@ -315,7 +315,7 @@
   "image-new#header_menu-content-block-one": {
     "title": "imagen",
     "props": {
-      "src": "assets/images/header/header_brand.jpg",
+      "src": "assets/images/header/adidas.jpg",
       "link": {"url": "/menu-image"},
       "alt": "Imagen de una marca",
       "title": "Imagen de una marca"
@@ -456,7 +456,7 @@
   "image-new#header_menu-content-block-two": {
     "title": "imagen",
     "props": {
-      "src": "assets/images/header/block2.png",
+      "src": "assets/images/header/fila.jpg",
       "link": {"url": "/menu-image"},
       "alt": "Imagen de una marca",
       "title": "Imagen de una marca"
@@ -533,7 +533,7 @@
   "image-new#header_menu-content-block-three": {
     "title": "imagen",
     "props": {
-      "src": "assets/images/header/block3.png",
+      "src": "assets/images/header/skechers.jpg",
       "link": {"url": "/menu-image"},
       "alt": "Imagen de una marca",
       "title": "Imagen de una marca"
@@ -662,7 +662,7 @@
   "image-new#header_menu-content-block-four": {
     "title": "imagen",
     "props": {
-      "src": "assets/images/header/block4.png",
+      "src": "assets/images/header/reebok.jpg",
       "link": {"url": "/menu-image"},
       "alt": "Imagen de una marca",
       "title": "Imagen de una marca"
@@ -801,7 +801,7 @@
   "image-new#header_menu-content-block-five": {
     "title": "imagen",
     "props": {
-      "src": "assets/images/header/block5.png",
+      "src": "assets/images/header/nike.jpg",
       "link": {"url": "/menu-image"},
       "alt": "Imagen de una marca",
       "title": "Imagen de una marca"

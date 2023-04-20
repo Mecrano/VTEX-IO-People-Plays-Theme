@@ -128,7 +128,8 @@
     "children": [
       "sku-selector#product",
       "responsive-layout.tablet#size-guide-tablet",
-      "responsive-layout.desktop#size-guide-desktop"
+      "responsive-layout.desktop#size-guide-desktop",
+      "responsive-layout.mobile#size-guide-mobile"
     ],
     "props": {
       "blockClass": "product--sku-select-size-container"
@@ -149,6 +150,11 @@
     ]
   },
   "responsive-layout.tablet#size-guide-tablet":{
+    "children":[
+      "rich-text#product--size-guide--content"
+    ]
+  },
+  "responsive-layout.mobile#size-guide-mobile":{
     "children":[
       "rich-text#product--size-guide--content"
     ]
