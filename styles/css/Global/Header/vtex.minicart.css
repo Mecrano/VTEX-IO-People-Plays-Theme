@@ -62,7 +62,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 165.5%;
   color: #FFFFFF;
   text-transform: initial;
@@ -125,7 +125,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 168.7%;
   color: #000000;
 }
@@ -217,7 +217,7 @@ white-space: nowrap;
 
 @media (max-width: 425px) {
   .drawer .minicartTitle {
-    font-size: 20.461px;
+    font-size: 18px;
     line-height: 31px;
     margin-top: 60px !important;
     margin-left: 19px;

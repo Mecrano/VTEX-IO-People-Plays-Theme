@@ -1,19 +1,19 @@
 .wrapper--footer-row-1-text-1 .paragraph,
 .wrapper--footer-row-1-text-2 .paragraph {
   color: #000;
-  font-size: 24px;
+  font-size: 18px;
   margin: 10px 0;
   line-height: 1;
 }
 
 .wrapper--footer-row-1-text-1 .paragraph {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 700;
   font-family: 'Titillium Web';
 }
 
 .wrapper--footer-row-1-text-2 .paragraph {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .wrapper--text-1-contact-lines .paragraph,
@@ -44,14 +44,14 @@
 
 .paragraph--title-newsletter {
   color: #000;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
 }
 
 .wrapper--footer-4-text-brands .paragraph {
   color: #000;
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 

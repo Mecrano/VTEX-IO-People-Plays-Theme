@@ -21,6 +21,6 @@
 @media (max-width: 1024px) {
     .showAvailableText--product--stock,
     .showAvailableTextHighlight--product--stock{
-        font-size: 20px;
+        font-size: 18px;
     }
   }

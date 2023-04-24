@@ -11,7 +11,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -19,7 +19,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   color: #062f87;
 }
 
@@ -27,7 +27,7 @@
   font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 33px;
   color: #ffffff;
 }
@@ -38,7 +38,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   color: #000000;
   margin-left: 0px;
 }
@@ -77,7 +77,7 @@
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 40px;
   color: #fc701c;
 }
@@ -142,7 +142,7 @@
   :global(.vtex-flex-layout-0-x-flexRow--home-seccion-four) .paragraph--slider-text{
     max-width: 65%;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25.42px;
   }
 
@@ -193,7 +193,7 @@
   }
 
   .paragraph--infotext {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -214,11 +214,11 @@
   .paragraph--siempre-listos,
   .paragraph--infotext,
   .paragraph--promocion {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .paragraph--figura-text {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 

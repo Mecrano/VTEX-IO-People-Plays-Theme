@@ -40,7 +40,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 165.5%;
   color: #000000;
 
@@ -83,7 +83,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 165.5%;
   color: #FFFFFF;
   text-transform: capitalize;
@@ -93,7 +93,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -116,7 +116,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -124,7 +124,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 165.5%;
   color: #000000;
 }
@@ -134,7 +134,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -175,7 +175,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -183,7 +183,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -200,7 +200,7 @@
   font-family: 'Lato';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: capitalize;
   padding-top: 0;
   padding-bottom: 0;
@@ -208,7 +208,7 @@
 
 .boxContainerBody :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
   font-family: 'Lato';
-  font-size: 20px;
+  font-size: 18px;
   color: #FC701C;
   border: 1px solid rgba(72, 84, 103, 0.6);
   border-radius: 4px;
@@ -221,7 +221,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -241,14 +241,14 @@
 
 .addressList :global(.t-heading-4) {
   font-family: 'Mukta';
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
   margin-top: 20px;
 }
 
 :global(.vtex-pageHeader-link__container) :global(.vtex-button) {
   font-family: 'Mukta';
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 20px;
   text-transform: capitalize;
   background-color: #FC701C;
@@ -265,8 +265,8 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
-  font-size: 20px;
+  font-size: 18px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -293,7 +293,7 @@
 :global(.vtex-account__cards-list) :global(.c-on-base) {
   font-family: 'Mukta';
   color: #000000;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* pedidos */
@@ -338,7 +338,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -354,7 +354,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -394,7 +394,7 @@
 :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex_my-authentication_box_content) :global(.vtex_my-authentication_loginSessionsBox_content) {
   font-family: 'Titillium Web';
   color: #000000;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button) {
@@ -410,7 +410,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -421,7 +421,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 :global(.vtex-account__page-body) :global(.vtex-my-authentication-1-x-loginSessionsScreen_container) :global(.vtex-my-authentication-1-x-loginSessions_box) :global(.vtex-my-authentication-1-x-box_container) :global(.vtex-my-authentication-1-x-box_footer) :global(.vtex-button) {
@@ -434,7 +434,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-authenticationScreen_passBox) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-createPassword_text) :global(.c-muted-1) {
@@ -448,7 +448,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 :global(.vtex-my-authentication-1-x-authenticationScreen_container) :global(.vtex-my-authentication-1-x-authenticationScreen_passBox) :global(.vtex-my-authentication-1-x-box_content) :global(.vtex-my-authentication-1-x-passValidation_container) :global(.vtex-my-authentication-1-x-passValidation_content) {
@@ -609,7 +609,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 165.5%;
     color: #000000;
     padding: 0;
@@ -622,7 +622,7 @@
   :global(.vtex-account__page) :global(.vtex-pageHeader__container) :global(.vtex-button) {
     color: #FFFFFF !important;
     font-family: 'Mukta' !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
 
 

@@ -23,7 +23,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 40px;
   color: rgba(0, 47, 135, 0.5);
   text-transform: capitalize;
@@ -37,7 +37,7 @@
 
   .listItemActive--home1 :global(.vtex-button__label),
   .listItem--home1 :global(.vtex-button__label) {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .listContainer--home1 {
@@ -53,7 +53,7 @@
     padding: 0 !important;
     margin-block: 0;
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
   }
 

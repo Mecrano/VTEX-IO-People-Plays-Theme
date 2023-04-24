@@ -5,7 +5,7 @@
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 55px;
     color: #000000;
     margin-top: 0;
@@ -16,7 +16,7 @@
     font-family: 'Mukta';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 114.69%;
     margin-top: 0.2rem;
     margin-bottom: 0.2rem;
@@ -25,17 +25,17 @@
 
 @media (min-width: 1920px) {
     .paragraph--title-contactanos {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .paragraph--text-contactanos {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
 @media (max-width: 1024px) {
     .paragraph--title-contactanos {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .paragraph--text-contactanos {

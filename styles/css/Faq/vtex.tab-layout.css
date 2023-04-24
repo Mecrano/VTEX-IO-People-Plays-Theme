@@ -59,13 +59,13 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-size: 20.5px;
+  font-size: 18px;
   color: #000000;
   text-transform: capitalize;
 }
 .listItem--tab-list :global(.vtex-button) :global(.vtex-button__label):hover,
 .listItemActive--tab-list :global(.vtex-button) :global(.vtex-button__label) {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media (max-width: 320px) {
@@ -149,6 +149,6 @@
   }
 
   .listItem--tab-list :global(.vtex-button) :global(.vtex-button__label) {
-    font-size: 20px;
+    font-size: 18px;
   }
 }

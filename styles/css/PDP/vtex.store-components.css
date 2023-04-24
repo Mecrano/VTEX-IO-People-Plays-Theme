@@ -5,7 +5,7 @@
 .productBrand {
   font-family: "Titillium Web";
   color: #062f87;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: 700;
   letter-spacing: 0em;
   text-align: left;
@@ -22,7 +22,7 @@
   .skuSelectorSubcontainer--talla
   .skuSelectorName {
   font-family: Mukta;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   line-height: 33px;
   letter-spacing: 0em;
@@ -149,7 +149,7 @@
     content: "Tallas";
     display: block;
     font-family: "Mukta";
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 33px;
     letter-spacing: 0em;

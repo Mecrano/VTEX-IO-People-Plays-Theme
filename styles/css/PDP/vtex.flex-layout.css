@@ -117,7 +117,7 @@
   :global(.vtex-button__label)::after {
   content: "Guardar";
   font-family: "Mukta";
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 33px;
   letter-spacing: 0em;
@@ -158,7 +158,7 @@
 
 .flexRowContent--product--newsletter--container
   :global(.vtex-rich-text-0-x-heading--title-newsletter) {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .flexRowContent--product--newsletter--container

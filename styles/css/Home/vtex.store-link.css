@@ -37,7 +37,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 42px;
   color: #002F87;
 }
@@ -58,7 +58,7 @@
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 29.79px;
     color: #FFFFFF;
     display: flex;
@@ -91,14 +91,14 @@
 
 @media (max-width: 425px) {
   .label--infotext {
-    font-size: 18px !important;
+    font-size: 16px !important;
     line-height: 0;
   }
 }
 
 @media (min-width: 426px) and (max-width: 1024px) {
   .label--infotext {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
