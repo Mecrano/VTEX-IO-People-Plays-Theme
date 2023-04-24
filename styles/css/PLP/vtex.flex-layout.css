@@ -300,11 +300,11 @@
     padding-left: 28px;
   }
 
-  .flexRow--home-seccion-one :global(.vtex-store-components-3-x-container) {
+  /* .flexRow--home-seccion-one :global(.vtex-store-components-3-x-container) {
     max-width: 120rem !important;
     padding-right: 0;
     padding-left: 0;
-  }
+  } */
 
   .flexRow--home-seccion-two :global(.vtex-store-components-3-x-container) {
     max-width: 105rem !important;
