@@ -184,6 +184,9 @@ white-space: nowrap;
     content: "Ir a pagar";
   }
 
+  .minicartCheckoutButton :global(.vtex-button){
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 700px) {
