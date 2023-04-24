@@ -1,12 +1,22 @@
-.caretIcon{
-    display: none;
+.caretIcon {
+  display: none;
 }
 
-.arrow::before{
-    content: "|";
-    padding-inline: 5px;
-    color: #ABABAB;
-    font-size: 29px;
+.container,
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.arrow::before {
+  content: "";
+  margin-inline: 5px;
+  border-right: 1px solid;
+  border-color: #ababab;
+  font-size: 29px;
+  width: 1px;
+  display: inline-block;
+  height: 20px;
 }
 
 .homeIcon--breadcrumb--plp {
@@ -14,27 +24,30 @@
 }
 
 .homeLink--breadcrumb--plp::after {
-  content: url(/arquivos/Group.svg);
-  color: #FC701C;
-  width: 24.28px;
+  content: "" !important;
+  color: #fc701c;
+  width: 20px !important;
+  background: url(/arquivos/Group.svg);
+  display: block;
+  height: 20px !important;
+  background-size: 100%;
 }
 
-.link--breadcrumb--plp:hover  {
-  color: #000000
+.link--breadcrumb--plp:hover {
+  color: #000000;
 }
 
-@media screen and (min-width: 300px) and (max-width: 768px) {
-
+@media (max-width: 1024px) {
   .container--breadcrumb--plp {
     align-items: center;
-    padding-top: 0;
-    padding-bottom: 0;
   }
 
   .homeLink--breadcrumb--plp {
-    padding-top: 10px;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
+  }
+
+  .homeLink--breadcrumb--plp::after {
+    width: 15px;
+    height: 15px;
   }
 }

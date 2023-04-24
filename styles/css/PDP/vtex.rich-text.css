@@ -34,7 +34,20 @@
     align-items: center;
 }
 
-:global(.vtex-disclosure-layout-1-x-trigger--product--disclosure--title--hidden) .container{
+:global(.vtex-disclosure-layout-1-x-trigger--product--disclosure--title--visible) .container::after {
+    content: ".....";
+    color: transparent;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAyMCAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5LjI1NDQgMS4xMjc0MkwxMC4xMjcgMTAuMjU0OEwwLjk5OTUzMyAxLjEyNzQyIiBzdHJva2U9ImJsYWNrIiBzdHJva2Utd2lkdGg9IjIiLz4KPC9zdmc+Cg==);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    transform: rotate(180deg);
+    position: relative;
+    top: -4px;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--product--disclosure--title--hidden) .container,
+:global(.vtex-disclosure-layout-1-x-trigger--product--disclosure--title--visible) .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,7 +90,11 @@
     font-weight: bold;
 }
 
-@media only screen and (max-width: 768px){
+:global(.vtex-wish-list-1-x-wishlistIconContainer--wishlist---plp) :global(.vtex-button){
+    min-width: unset !important;
+}
+
+@media (max-width: 768px){
     .paragraph--product--shelf--titles{
         font-size: 20px;
         line-height: 30px;
@@ -87,9 +104,13 @@
     .link--product--shelf--titles-ver-mas{
         font-size: 15px;
     }
+
+    :global(.vtex-wish-list-1-x-wishlistIconContainer--wishlist---plp) {
+        right: 8px !important;
+    }
 }
 
-@media only screen and (min-width: 1920px){
+@media (min-width: 1920px){
 .paragraph--product--shelf--titles{
     font-size: 32px;
 }

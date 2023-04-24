@@ -16,3 +16,15 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) .emailInputContainer--newsletter-input-email :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
   height: 43px;
 }
+
+@media (min-width: 1025px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) .emailInputContainer--newsletter-input-email :global(.vtex-input-prefix__group) {
+    border: 1px solid gray;
+    position: relative;
+    top: 2px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) .emailInputContainer--newsletter-input-email :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-input) {
+    height: unset;
+  }
+}

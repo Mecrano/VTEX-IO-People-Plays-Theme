@@ -1,23 +1,22 @@
 .notificationBarContainer--notification-plp {
-  background-color:  #1D3557;
+  background-color: #1d3557;
 }
 
 .notificationBarInner--notification-plp {
-  width : calc(1320px - 10px * 2);
+  width: calc(1320px - 10px * 2);
   margin: 0 auto;
 }
 
 .notificationContent--notification-plp {
-  font-family: 'Titillium Web';
+  font-family: "Titillium Web";
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
   line-height: 27px;
-  color: #93ECFF;
+  color: #93ecff;
 }
 
 .infoCardTextContainer--info-card-1 {
-  height: 600px;
+  height: 500px;
   margin-left: 2rem;
   margin-right: 0;
   display: flex;
@@ -25,17 +24,27 @@
 }
 
 .infoCardTextContainer--info-card-1 :global(.vtex-button__label) {
-  font-family: 'Mukta';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 165.5%;
-color: #FFFFFF;
-text-transform: initial;
+  font-family: "Mukta";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 165.5%;
+  color: #ffffff;
+  text-transform: initial;
 }
 
-@media screen and (min-width: 1920px) {
+.flexRowContent--department-two-banners-container-row .infoCardTextContainer--info-card-1 :global(.vtex-button__label) {
+  font-weight: 400;
+}
+
+@media (min-width: 1920px) {
   .infoCardTextContainer--info-card-1 :global(.vtex-button__label) {
-  font-size: 18px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .infoCardTextContainer--info-card-1 {
+    max-height: 500px;
   }
 }

@@ -17,3 +17,10 @@
 .showAvailableText--product--stock{
     margin-left: 5px;
 }
+
+@media (max-width: 1024px) {
+    .showAvailableText--product--stock,
+    .showAvailableTextHighlight--product--stock{
+        font-size: 20px;
+    }
+  }

@@ -1,5 +1,6 @@
 .imageElement--image-lotto {
   height: 35px;
+  max-width: none;
 }
 
 .imageElement--seccionFive {
@@ -17,7 +18,7 @@
   margin-left: 10px;
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .imageElement--image-explora {
     max-width: 160px;
     min-width: 160px;
@@ -31,7 +32,7 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 425px) {
+@media (max-width: 425px) {
   .imageElement--figura-Five {
     bottom: 20px !important;
     width: 50px;
@@ -39,7 +40,7 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .imageElement--image-explora {
     max-width: 200px;
     min-width: 200px;
@@ -52,7 +53,7 @@
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+@media (min-width: 376px) and (max-width: 425px) {
   .imageElement--link-image-home {
     margin-left: 0 !important;
     margin-right: 25px;
@@ -65,7 +66,7 @@
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 1024px) {
+@media (min-width: 426px) and (max-width: 1024px) {
   .imageElement--figura-Five {
     bottom: 20px !important;
     width: 50px;
@@ -73,13 +74,13 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .imageElement--figura-Five {
     bottom: 30px !important;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media (max-width: 768px) {
   .imageElement--figura-Five {
     bottom: 10px;
   }
@@ -92,20 +93,26 @@
     max-width: 328px !important;
   }
 
-  .imageElement--image-lotto {
-    max-width: 60%;
-  }
-
   .imageElement--link-image-home {
     margin-left: 10px;
   }
-}
 
-@media screen and (max-width: 425px){
-  .imageElement--link-image-home{
-    margin-right: 10px;
-    max-width: 30px !important;
+  .notificationContent--notification {
+    color: #fff !important;
+    line-height: 27.38px !important;
+    font-weight: 400 !important;
   }
 }
 
+@media (max-width: 600px) {
+  .imageElement--link-image-home {
+    margin-right: 10px;
+    max-width: 30px !important;
+  }
 
+  .imageElement--image-explora {
+    object-fit: cover;
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 0 100%);
+    object-position: 75% 50%;
+  }
+}

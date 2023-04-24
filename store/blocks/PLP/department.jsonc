@@ -1,58 +1,58 @@
 {
-    "search-result-layout#department": {
-        "blocks": [
-            "search-result-layout.desktop#department",
-            "search-result-layout.mobile#department",
-            "search-not-found-layout"
-        ],
-        "props": {"blockClass": "plp--main"}
+  "search-result-layout#department": {
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
+    ],
+    "props": { "blockClass": "plp--main" }
+  },
+  "search-result-layout.desktop#department": {
+    "title": "genero desktop",
+    "props": {
+      "fullWidth": true,
+      "preventRouteChange": true,
+      "showFacetQuantity": true,
+      "brands": true,
+      "priceRange": true,
+      "blockClass": "desktop-plp--main-container"
     },
-    "search-result-layout.desktop#department": {
-        "title": "genero desktop",
-        "props": {
-            "fullWidth": true,
-            "preventRouteChange": true,
-            "showFacetQuantity": true,
-            "brands": true,
-            "priceRange": true,
-            "blockClass": "desktop-plp--main-container"
-        },
-        "children": ["flex-layout.row#department-main"]
+    "children": ["flex-layout.row#department-main"]
+  },
+  "search-result-layout.mobile#department": {
+    "title": "genero mobile",
+    "props": {
+      "fullWidth": true,
+      "preventRouteChange": true,
+      "showFacetQuantity": true,
+      "brands": true,
+      "priceRange": true,
+      "blockClass": "mobile-plp--main-container"
     },
-    "search-result-layout.mobile#department": {
-        "title": "genero mobile",
-        "props": {
-            "fullWidth": true,
-            "preventRouteChange": true,
-            "showFacetQuantity": true,
-            "brands": true,
-            "priceRange": true,
-            "blockClass": "mobile-plp--main-container"
-        },
-        "children": ["flex-layout.row#department-main"]
+    "children": ["flex-layout.row#department-main"]
+  },
+  "flex-layout.row#department-main": {
+    "title": "container genero",
+    "props": {
+      "blockClass": "department-main-container-row",
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
     },
-    "flex-layout.row#department-main": {
-        "title": "container genero",
-        "props": {
-            "blockClass": "department-main-container-row",
-            "fullWidth": true,
-            "preserveLayoutOnMobile": true
-        },
-        "children": ["flex-layout.col#department-main"]
-    },
-    "flex-layout.col#department-main": {
-        "title": "box genero",
-        "children": [
-            "breadcrumb.search",
-            "flex-layout.row#departament-banner-principal",
-            "flex-layout.row#titles-promociones-departamento",
-             "flex-layout.row#departament-slider-one",
-            "flex-layout.row#department-two-banners",
-            "flex-layout.row#encuentra-departament",
-            "flex-layout.row#department-newsletter-banner",
-            "flex-layout.row#titles-promociones-two",
-            "flex-layout.row#departament-slider-two"
-        ],
-        "props": {"blockClass": "department-main-container-col"}
-    }
+    "children": ["flex-layout.col#department-main"]
+  },
+  "flex-layout.col#department-main": {
+    "title": "box genero",
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#departament-banner-principal",
+      "flex-layout.row#titles-promociones-departamento",
+      "flex-layout.row#departament-slider-one",
+      "flex-layout.row#department-two-banners",
+      "flex-layout.row#encuentra-departament",
+      "flex-layout.row#department-newsletter-banner",
+      "flex-layout.row#titles-promociones-two",
+      "flex-layout.row#departament-slider-two"
+    ],
+    "props": { "blockClass": "department-main-container-col" }
+  }
 }

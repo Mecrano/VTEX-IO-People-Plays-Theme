@@ -10,21 +10,20 @@
   "list-context.image-list#people-plays": {
     "children": ["slider-layout#slider-home"],
     "props": {
-      // "height": 650,
       "images": [
         {
           "image": "assets/home/Desktop.png",
-          "mobileImage": "assets/home/banner-mobile.png",
+          "mobileImage": "assets/home/banner-mobile.jpg",
           "description": "banner one"
         },
         {
           "image": "assets/home/Desktop.png",
-          "mobileImage": "assets/home/banner-mobile.png",
+          "mobileImage": "assets/home/banner-mobile.jpg",
           "description": "banner two"
         },
         {
           "image": "assets/home/Desktop.png",
-          "mobileImage": "assets/home/banner-mobile.png",
+          "mobileImage": "assets/home/banner-mobile.jpg",
           "description": "banner three"
         }
       ]
@@ -41,16 +40,8 @@
       "fullWidth": true,
       "infinite": true,
       "showNavigationArrows": "always",
-      "blockClass": "slider-home"
+      "blockClass": "slider-home",
+      "showPaginationDots": "never"
     }
   }
-
-  /* "link#slider-link": {
-    "title": "title link",
-    "props": {
-      "href": "/",
-      "label": "Únete a People Plays",
-      "blockClass": "slider-link"
-    }
-  } */
 }

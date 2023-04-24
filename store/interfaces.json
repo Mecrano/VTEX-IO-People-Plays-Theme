@@ -4,5 +4,8 @@
   },
   "nearest-store": {
     "component": "NearestStore"
-  }
+  },
+  "custom-styles": {
+    "component": "StylesMain"
+  } 
 }

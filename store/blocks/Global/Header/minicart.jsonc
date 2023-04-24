@@ -130,7 +130,7 @@
   "minicart-checkout-button": {
     "props": {
       "finishShoppingButtonLink": "/checkout/#/orderform",
-      "width": "30%"
+      "width": "40%"
     }
   },
 
@@ -141,9 +141,9 @@
 
   "rich-text#continue-buying": {
     "props": {
-      "text": "[Seguir comprando](#)",
+      "text": "[Continuar comprando](#)",
       "blockClass": "carrito-lleno-boton-seguir-comprando",
-      "width": "70%"
+      "width": "60%"
     }
   },
 

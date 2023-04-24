@@ -8,7 +8,6 @@ width: 100% !important;
 }
 
 .flexRow--container-size--guide :global(.vtex-store-components-3-x-container) {
-  width: calc(1150px - 15px * 2);
   margin: 0 auto;
 }
 
@@ -48,16 +47,18 @@ width: 100% !important;
 }
 
 .flexRow--container-size--guide {
-  margin-top: 40px;
+  padding-top: 47px;
+  background-color: #fff;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .flexColChild--group-images:first-child {
   margin-top: -50px;
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container)  {
-    width: calc(300px - 15px * 2);
     margin: 0 auto;
   }
 
@@ -66,9 +67,8 @@ width: 100% !important;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container) {
-    width: calc(360px - 15px * 2);
     margin: 0 auto;
   }
 
@@ -77,9 +77,8 @@ width: 100% !important;
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px) {
+@media (min-width: 376px) and (max-width: 425px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container) {
-    width: calc(420px - 20px * 2);
     margin: 0 auto;
   }
 
@@ -88,9 +87,8 @@ width: 100% !important;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container)  {
-    width: calc(730px - 20px * 2);
     margin: 0 auto;
   }
 
@@ -99,9 +97,8 @@ width: 100% !important;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container) {
-    width: calc(999px - 40px * 2);
     margin: 0 auto;
     max-width: 95%;
   }
@@ -111,27 +108,29 @@ width: 100% !important;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container) {
     padding-left: 0;
     padding-right: 0;
   }
+
+  .flexRow--container-size--guide {
+    margin-top: 0px;
+    background: #fff;
+    padding-top: 20px;
+    padding-inline: 30px;
+  }
 }
 
-@media screen and (min-width: 1400px) {
+@media (min-width: 1400px) {
   .flexRow--container-size--guide :global(.vtex-store-components-3-x-container){
-    width: calc(1400px - 36px * 2);
     margin: 0 auto;
   }
 }
 
 
 /* slider */
-@media screen and (min-width: 300px) and (max-width: 425px) {
-
-  .flexRow--container-size--guide {
-    margin-top: 20px;
-  }
+@media (max-width: 425px) {
 
   .flexRow--group-size--guide {
     margin-top: 20px;
@@ -160,14 +159,24 @@ width: 100% !important;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .flexRowContent--group-size--guide {
     width: 800px;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .flexRowContent--group-size--guide {
     width: 680px;
+  }
+}
+
+@media (max-width: 1024px){
+  .flexRow--container-size--guide{
+    padding-top: 58px;
+  }
+
+  .flexRowContent--group-size--guide::-webkit-scrollbar{
+    display: none;
   }
 }

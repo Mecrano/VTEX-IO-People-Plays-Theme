@@ -1,6 +1,5 @@
 .flexRow--container-terminos-condiciones :global(.vtex-store-components-3-x-container) {
-  padding-left: 70px;
-  padding-right: 60px;
+  padding-inline: 60px;
 }
 
 .flexRow--container-terminos-condiciones {
@@ -48,21 +47,25 @@
   width: 100% !important;
 }
 
+:global(.vtex-disclosure-layout-1-x-trigger) :global(.vtex-store-icons-0-x-caretIcon){
+  margin: 0;
+}
+
 @media (max-width: 425px) {
   .flexRow--container-terminos-condiciones :global(.vtex-store-components-3-x-container) {
-    padding-left: 30px !important;
+    padding-inline: 30px !important;
   }
 }
 
 @media (max-width: 768px) {
   .flexRow--container-terminos-condiciones :global(.vtex-store-components-3-x-container) {
-    padding-left: 40px !important;
+    padding-inline: 40px !important;
   }
 }
 
 @media (max-width: 1024px) {
   .flexRow--container-terminos-condiciones :global(.vtex-store-components-3-x-container) {
-    padding-left: 60px;
+    padding-inline: 60px;
   }
 
   .flexRowContent--block-two-one {

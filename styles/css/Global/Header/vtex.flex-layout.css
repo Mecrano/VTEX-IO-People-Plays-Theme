@@ -50,7 +50,10 @@
   width: 30% !important;
 } */
 
-@media screen and (min-width: 426px) and (max-width: 1024px) {
+@media (min-width: 426px) and (max-width: 1024px) {
+  .flexCol--header-search-mobile {
+    z-index: 2;
+  }
   .flexRowContent--header-menu-mobile {
     display: flex;
     flex-direction: column;
@@ -72,6 +75,10 @@
 
   .flexRowContent--minicart-footer-buttons{
     padding-left: 0.75rem;
-  padding-right: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  
+  .flexColChild--container-texts-contact-lines-mobile{
+    display: flex;
   }
 }

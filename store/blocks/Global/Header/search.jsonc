@@ -25,7 +25,7 @@
   },
   "autocomplete-result-list.v2#search": {
     "props": {
-      "hideUnavailableItems": true,
+      "hideUnavailableItems": false,
       "maxTopSearches": 4,
       "maxHistory": 4,
       "maxSuggestedProducts": 6,

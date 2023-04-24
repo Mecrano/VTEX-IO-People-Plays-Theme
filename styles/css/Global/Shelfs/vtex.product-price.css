@@ -5,16 +5,16 @@
     font-family: Roboto;
 }
 
-@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
+@media (max-width: 1024px){ /* MediaQuery para Tablets */
     .savings--summary{
-        font-size: 11px;        
+        font-size: 11px;
         padding: 2px 5px;
     }
 }
 
-@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+@media (max-width: 768px){ /* MediaQuery para Telefonos */
     .savings--summary{
-        font-size: 11px;        
+        font-size: 11px;
         padding: 2px 5px 2px 9px;
     }
 }

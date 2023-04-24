@@ -23,7 +23,7 @@
     color: #000000;
 }
 
-@media only screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
     .paragraph--title-contactanos {
         font-size: 32px;
     }
@@ -33,7 +33,7 @@
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .paragraph--title-contactanos {
         font-size: 20px;
     }

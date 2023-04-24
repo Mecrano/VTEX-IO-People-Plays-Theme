@@ -29,6 +29,10 @@
   text-transform: capitalize;
 }
 
+.listItem--home1{
+  padding-bottom: 42px;
+}
+
 @media (max-width: 1024px) {
 
   .listItemActive--home1 :global(.vtex-button__label),
@@ -38,5 +42,30 @@
 
   .listContainer--home1 {
     flex-wrap: nowrap;
+  }
+
+  .listItem--home1{
+    padding-block: 0;
+    margin-block: 0;
+  }
+
+  .listItem--home1 :global(.vtex-button__label){
+    padding: 0 !important;
+    margin-block: 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .listItem--home1{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .listItemActive--home1 :global(.vtex-button__label){
+    text-decoration: none;
+    border-bottom: 1px solid #062F87;
   }
 }

@@ -10,8 +10,8 @@
   "rich-text#home1": {
     "title": "title text 1",
     "props": {
-      "text": "¿Por qué comprar en People Plays?",
-      "blockClass": "slider-text"
+      "text": "¿por qué comprar en People Plays?",
+      "blockClass": ["slider-text", "benefints--title"]
     }
   },
   "slider-layout#text-slider": {
@@ -24,9 +24,9 @@
       },
       "infinite": true,
       "navigationStep": 1,
-      "showNavigationArrows": "never",
+      "showNavigationArrows": "always",
       "showPaginationDots": "never",
-      "blockClass": "slider-text-two",
+      "blockClass": ["slider-text-two", "slider-home"],
       "autoplay": {
         "timeout": 5000,
         "stopOnHover": false

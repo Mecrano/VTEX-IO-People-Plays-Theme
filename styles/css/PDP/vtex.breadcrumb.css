@@ -1,62 +1,70 @@
 .container {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .homeIcon {
-    display: none;
+  display: none;
 }
 
 .homeLink::after {
-    content: url(/arquivos/Group.svg);
-    color: #FC701C;
-    width: 24.28px;
+  content: "" !important;
+  color: #fc701c;
+  width: 20px;
+  background: url(/arquivos/Group.svg);
+  display: block;
+  height: 20px;
+  background-size: 100%;
 }
 
 .link,
 .term,
 .link:hover,
 .term:hover {
-    font-family: "Titillium Web";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 40px;
-    color: #000000;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 40px;
+  color: #000000;
 }
 
 .link--1::before {
-    content: 'Categoría';
-    margin-right: 5px;
+  content: "Categoría";
+  margin-right: 5px;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 1024px) {
+  .link,
+  .term,
+  .link:hover,
+  .term:hover {
+    line-height: 20px !important;
+  }
 
-    .link,
-    .term,
-    .link:hover,
-    .term:hover {
-        line-height: 20px !important;
-    }
+  .term {
+    display: none;
+  }
+
+  .homeLink::after {
+    width: 15px;
+    height: 15px;
+  }
 }
 
-
-@media screen and (min-width: 1920px) {
-
-    .link,
-    .term,
-    .link:hover,
-    .term:hover {
-        font-size: 20px;
-    }
+@media (min-width: 1920px) {
+  .link,
+  .term,
+  .link:hover,
+  .term:hover {
+    font-size: 20px;
+  }
 }
 
-
-@media screen and (max-width: 450px) {
-
-    .link,
-    .term,
-    .link:hover,
-    .term:hover {
-        font-size: 13.6297px;
-    }
+@media (max-width: 450px) {
+  .link,
+  .term,
+  .link:hover,
+  .term:hover {
+    font-size: 12px;
+  }
 }

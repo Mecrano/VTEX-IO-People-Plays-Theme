@@ -92,7 +92,7 @@
     }
   },
   "disclosure-content#info": {
-    "children": ["rich-text#product--disclosures--info-title"],
+    "children": ["product-specification-group#table"],
     "props": {
       "blockClass": [
         "product--disclosures--info",
