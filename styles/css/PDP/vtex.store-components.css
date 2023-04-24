@@ -102,10 +102,16 @@
 }
 
 .skuSelectorSubcontainer--size
-  .valueWrapper--product--sku-selector--unavailable,
+.valueWrapper--product--sku-selector--unavailable,
 .skuSelectorSubcontainer--talla
-  .valueWrapper--product--sku-selector--unavailable {
+.valueWrapper--product--sku-selector--unavailable {
   padding-inline: 4px !important;
+  color: #A3A3A3 !important;
+  border-color: #A3A3A3 !important;
+}
+
+.skuSelectorItem--product--sku-selector--selected .valueWrapper--product--sku-selector--unavailable {
+  border: 1px solid black !important;
 }
 
 .skuSelectorSubcontainer--size .skuSelectorItemTextValue--product--sku-selector,
