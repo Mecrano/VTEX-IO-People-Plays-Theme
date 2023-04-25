@@ -78,7 +78,6 @@
       "responsive-layout.desktop#details-desktop",
       "responsive-layout.tablet#details-tablet",
       "flex-layout.row#product--sku-quantity--container",
-      "product-availability#product--stock",
       "credito-addi#pdp",
       "availability-notify",
       "flex-layout.row#product--addto-cart-and-list--container",
@@ -147,7 +146,8 @@
   },
   "responsive-layout.desktop#size-guide-desktop":{
     "children":[
-      "rich-text#product--size-guide--content"
+      "rich-text#product--size-guide--content",
+      "product-availability#product--stock"
     ]
   },
   "responsive-layout.tablet#size-guide-tablet":{
@@ -157,6 +157,7 @@
   },
   "responsive-layout.mobile#size-guide-mobile":{
     "children":[
+      "product-availability#product--stock",
       "rich-text#product--size-guide--content"
     ]
   },
