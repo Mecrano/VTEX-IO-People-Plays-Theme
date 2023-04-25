@@ -16,7 +16,17 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop", "notification.bar"]
+    "children": ["logo#whatsApp","flex-layout.row#desktop", "notification.bar"]
+  },
+  "logo#whatsApp": {
+    "props": {
+      "title": "Ahora puedes comprar tus productos desde WhatsApp",
+      "href": "https://wa.me/573123181116",
+      "url": "assets/whatsApp.svg",
+      "blockClass": "logo-whatsapp",
+      "width": "89",
+      "showLabel": true
+    }
   },
   "notification.bar": {
     "props":{
