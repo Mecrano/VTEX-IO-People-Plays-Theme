@@ -85,6 +85,10 @@
   bottom: 25px;
 }
 
+.logoContainer--logo-whatsapp{
+  justify-content: end;
+}
+
 @media (min-width: 1400px) {
   .searchBarContainer :global(.vtex-styleguide-9-x-input) {
     font-size: 1rem;

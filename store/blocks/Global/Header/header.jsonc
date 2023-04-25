@@ -24,7 +24,7 @@
       "href": "https://wa.me/573123181116",
       "url": "assets/whatsApp.svg",
       "blockClass": "logo-whatsapp",
-      "width": "89",
+      "width": "69",
       "showLabel": true
     }
   },
@@ -103,7 +103,7 @@
   },
   "sticky-layout#mobile": {
     "props": {"blockClass": "sticky-header"},
-    "children": ["sticky-layout.stack-container#header-mobile"]
+    "children": ["logo#whatsApp", "sticky-layout.stack-container#header-mobile"]
   },
   "sticky-layout.stack-container#header-mobile": {
     "props": {"position": "top"},

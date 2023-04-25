@@ -29,7 +29,7 @@
     }
   },
   "list-context.wishlist": {
-    "blocks": ["product-summary.shelf#wishlist"],
+    "blocks": ["product-summary.shelf#plp" /* "product-summary.shelf#wishlist" */],
     "children": ["slider-layout#wishlist"]
   },
   "product-summary.shelf#wishlist": {

@@ -279,12 +279,6 @@
       "image#visa"
     ]
   },
-  "flex-layout.col#medios-pago-2": {
-    "props": { "blockClass": "medios-pago-2" },
-    "children": [
-      "image#whatsapp"
-    ]
-  },
   "flex-layout.row#footer-7-mobile": {
     "title": "septimo bloque",
     "children":["rich-text#textcopy", "flex-layout.col#group-text"],
@@ -372,13 +366,6 @@
       "blockClass": "footer-4-image-brand",
       "src": "assets/home/visa.png",
       "maxHeight": 28
-    }
-  },
-  "image#whatsapp": {
-    "props": {
-      "blockClass": "footer-4-image-brand",
-      "src": "assets/home/whatsapp.png",
-      "maxHeight": 60
     }
   }
 }
