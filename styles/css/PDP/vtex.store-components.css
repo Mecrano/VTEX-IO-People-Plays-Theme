@@ -236,6 +236,8 @@
   padding-right: 5px;
   padding-left: 12px;
   top: 33%;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .gradientBaseLeft {
@@ -248,6 +250,8 @@
   padding-left: 8px;
   padding-right: 11px;
   top: 33%;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .carouselGaleryThumbs--product--images {
@@ -255,6 +259,11 @@
   justify-content: center;
   width: 90%;
   margin: 0 auto;
+}
+
+.carouselGaleryThumbs--product--images .swiper-container{
+  display: flex;
+  justify-content: center !important;
 }
 
 .productImagesThumb--product--images {
