@@ -26,8 +26,8 @@
       <path style="fill:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:4;" d="M 18.878906 1.998047 L 1.998047 18.878906 " transform="matrix(0.666667,0,0,0.666667,0,0)"/>
     </g>
     <g id="hpa-delete">
-      <path d="M1.00342 1L20.0589 20.0555" stroke="currentColor" stroke-width="1.75858" stroke-linecap="round"/>
-      <path d="M20.0555 1L1.00001 20.0555" stroke="currentColor" stroke-width="1.75858" stroke-linecap="round"/>
+      <path style="fill:none;stroke-width:1.87404;stroke-linecap:round;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 1.027344 1.074219 L 11.570312 11.621094 "/>
+      <path style="fill:none;stroke-width:1.87404;stroke-linecap:round;stroke-linejoin:miter;stroke:rgb(100%,100%,100%);stroke-opacity:1;stroke-miterlimit:4;" d="M 11.570312 1.074219 L 1.023438 11.621094 "/>
     </g>
 
     <g id="bnd-copy-to-clipboard">

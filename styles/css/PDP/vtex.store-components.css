@@ -261,11 +261,6 @@
   margin: 0 auto;
 }
 
-.carouselGaleryThumbs--product--images .swiper-container{
-  display: flex;
-  justify-content: center !important;
-}
-
 .productImagesThumb--product--images {
   height: auto !important;
 }

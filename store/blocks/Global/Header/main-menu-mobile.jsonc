@@ -43,7 +43,7 @@
       "blockClass": ["root", "mobile"],
       "itemProps": {
         "type": "internal",
-        "href": "/mujer",
+        "href": "/categoria-mujer",
         "noFollow": false,
         "tagTitle": "Mujer",
         "text": "Mujer"
@@ -61,7 +61,7 @@
       "blockClass": ["root", "mobile"],
       "itemProps": {
         "type": "internal",
-        "href": "/hombre",
+        "href": "/categoria-hombre",
         "noFollow": false,
         "tagTitle": "Hombre",
         "text": "Hombre"

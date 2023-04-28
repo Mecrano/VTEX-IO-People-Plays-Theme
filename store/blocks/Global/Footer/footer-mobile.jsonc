@@ -181,7 +181,7 @@
   "link#info-brands-1-mobile-2": {
     "title": "texto link 1",
     "props": {
-      "href": "/mujer",
+      "href": "/categoria-mujer",
       "label": "Mujer",
       "blockClass": ["info-brands", "link-mobile-text"]
     }
@@ -189,7 +189,7 @@
   "link#info-brands-2-mobile-2": {
     "title": "texto link 2",
     "props": {
-      "href": "/hombre",
+      "href": "/categoria-hombre",
       "label": "Hombre",
       "blockClass": ["info-brands", "link-mobile-text"]
     }

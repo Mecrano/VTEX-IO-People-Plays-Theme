@@ -10,6 +10,10 @@
   padding-top: 10px !important;
 }
 
+:global(.vtex-store-components-3-x-carouselGaleryThumbs--product--images) :global(.swiper-wrapper) {
+  justify-content: center;
+}
+
 @media (max-width: 1024px) {
   
 

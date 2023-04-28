@@ -56,6 +56,7 @@
 .container--slider-text {
   display: flex;
   justify-content: center;
+  margin: 20px 0 12px;
 }
 
 .paragraph--figura-text {
@@ -148,7 +149,7 @@
 
   .wrapper--benefints--title{
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
   }
 }
 

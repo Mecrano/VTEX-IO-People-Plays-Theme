@@ -1,0 +1,7 @@
+{
+    "store.custom#categoria-mujer": {
+        "blocks": [
+            "flex-layout.row#department-main"
+        ]
+    }
+}

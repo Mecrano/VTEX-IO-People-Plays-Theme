@@ -31,6 +31,7 @@
   line-height: 165.5%;
   color: #ffffff;
   text-transform: initial;
+  white-space: nowrap;
 }
 
 .flexRowContent--department-two-banners-container-row .infoCardTextContainer--info-card-1 :global(.vtex-button__label) {

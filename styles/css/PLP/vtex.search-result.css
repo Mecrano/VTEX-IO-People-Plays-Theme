@@ -309,11 +309,12 @@
   padding-bottom: 0;
 }
 
-.galleryItem
-  :global(.vtex-product-summary-2-x-element--shelf--home)
-  :global(.vtex-button) {
+.galleryItem :global(.vtex-product-summary-2-x-element--shelf--home) :global(.vtex-button) {
+  width: max-content !important;
   margin-top: 5px;
   margin-bottom: 20px;
+  padding-inline: 12px;
+  margin-left: 16px;
 }
 
 .galleryItem

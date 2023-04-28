@@ -19,5 +19,11 @@
   },
   "store.custom#nearest-store": {
     "path": "/tiendas"
+  },
+  "store.custom#categoria-hombre": {
+    "path": "/categoria-hombre"
+  },
+  "store.custom#categoria-mujer": {
+    "path": "/categoria-mujer"
   }
 }

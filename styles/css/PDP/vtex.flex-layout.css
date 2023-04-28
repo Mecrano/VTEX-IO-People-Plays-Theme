@@ -200,6 +200,8 @@
 
 .flexRow--product--sku-quantity--container {
   margin-top: 12px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #062F8740;
 }
 
 .flexColChild--product--quantity-size-guide--container {
@@ -388,6 +390,11 @@
 
   .flexColChild--product--images--container {
     background-color: #f1f3f9;
+  }
+
+  .flexRow--product--sku-quantity--container {
+    padding-bottom: 15px;
+    margin-bottom: 0px
   }
 }
 

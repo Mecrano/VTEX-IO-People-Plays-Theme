@@ -9,11 +9,6 @@
     color: #000;
 }
 
-.container--product--stock{
-    border-bottom: 1px solid #062F8740;
-    margin-bottom: 15px;
-}
-
 .showAvailableText--product--stock{
     margin-left: 5px;
 }

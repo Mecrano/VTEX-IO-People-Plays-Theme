@@ -32,6 +32,7 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button) {
   width: max-content !important;
   padding-inline: 12px;
+  margin: 10px 16px 0 0;
   margin-left: 16px;
 }
 
@@ -242,7 +243,7 @@
   }
 
   :global(.vtex-flex-layout-0-x-flexRowContent--shelfComplete) .element--shelf--plp :global(.vtex-button) {
-    margin-left: 10px;
+    margin: 0;
   }
 }
 

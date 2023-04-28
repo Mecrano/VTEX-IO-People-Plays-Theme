@@ -113,6 +113,10 @@
   border-bottom: 1px solid #fc701c;
 }
 
+.menuContainerNav--header-menu .submenuWrapper .menuContainer--submenu .menuItem--submenu:last-child .styledLink {
+  color: #fc701c;
+}
+
 @media (min-width: 1024px) {
   .menuContainerNav--header-menu .menuItem--root--isOpen .styledLink--root {
     background-color: var(--primary-blue);

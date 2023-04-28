@@ -53,7 +53,7 @@
   "store.search#department": {
     "title": "Departamento",
     "blocks": [
-      "search-result-layout#department"
+      "search-result-layout"
     ],
     "props": {
       "hideUnavailableItems": false,
