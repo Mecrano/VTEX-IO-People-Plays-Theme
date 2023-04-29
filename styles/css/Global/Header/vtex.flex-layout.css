@@ -4,6 +4,11 @@
   display: flex;
 }
 
+.flexColChild--submenu-header{
+  display: flex;
+  justify-content: center;
+}
+
 .flexColChild--submenu-header,
 .flexColChild--main-container-custom {
   height: auto !important;
@@ -49,6 +54,13 @@
 .flexRowContent--minicart-footer-buttons .stretchChildrenWidth:nth-child(2n){
   width: 40% !important;
 }
+
+.flexRowContent--header-menu-content{
+  justify-content: center;
+  gap: 15px;
+}
+
+
 
 @media (min-width: 426px) and (max-width: 1024px) {
   .flexCol--header-search-mobile {

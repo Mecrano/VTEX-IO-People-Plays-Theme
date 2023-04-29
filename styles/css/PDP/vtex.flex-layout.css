@@ -302,6 +302,15 @@
   align-items: flex-start;
 }
 
+.flexCol--product-description-desktop{
+  padding-inline: 50px;
+}
+
+.flexCol--product-description-desktop :global(.vtex-disclosure-layout-1-x-trigger),
+.flexCol--product-description-desktop :global(.vtex-disclosure-layout-1-x-content) {
+  width: 50%;
+}
+
 @media (max-width: 1024px) {
   :global(.vtex-wish-list-1-x-wishlistIcon--product--favorites) {
     width: 19px !important;

@@ -16,6 +16,7 @@
     "children": [
       "breadcrumb#product--bradcrumb",
       "flex-layout.row#product--image-details--container",
+      "responsive-layout.desktop#disclosure-desktop-pdp",
       "flex-layout.row#product--shelf-1--titles",
       "flex-layout.row#shelf1",
       "flex-layout.row#product--newsletter--container",
@@ -82,7 +83,7 @@
       "availability-notify",
       "flex-layout.row#product--addto-cart-and-list--container",
       "link.product#product-page",
-      "responsive-layout.mobile"
+      "responsive-layout.mobile#disclosure-mobile-pdp"
     ],
     "props": {
       "blockClass": ["product--details--container-col"],
@@ -215,11 +216,28 @@
       "blockClass": ["shelfComplete", "vitrina-pdp"]
     }
   },
-  "responsive-layout.mobile":{
+  "responsive-layout.desktop#disclosure-desktop-pdp":{
+    "children": [
+      "flex-layout.col#mobile-disclosures"
+    ]
+  },
+  "responsive-layout.mobile#disclosure-mobile-pdp":{
     "children": [
       "flex-layout.row#mobile-disclosures"
     ]
   },
+  "flex-layout.col#mobile-disclosures": {
+    "children": [
+      "disclosure-layout#product--description--disclosure",
+      "disclosure-layout#product--info--disclosure",
+      "disclosure-layout#product--warranty--disclosure",
+      "disclosure-layout#product--payment-methods--disclosure"
+    ],
+    "props": {
+      "blockClass": ["product-description", "product-description-desktop"]
+    }
+  },
+  
   "flex-layout.row#mobile-disclosures": {
     "children": [
       "disclosure-layout#product--description--disclosure",

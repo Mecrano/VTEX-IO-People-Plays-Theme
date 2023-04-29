@@ -31,7 +31,7 @@
         "text": "Marcas"
       }
     },
-    "blocks": ["submenu#header_sub-menu"]
+    "blocks": ["submenu#header_sub-menu-1"]
   },
   "menu-item#category-mujer-mobile": {
     "title": "mujer",

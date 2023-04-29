@@ -11,7 +11,7 @@
       "menu-item#category-ninos",
       "menu-item#category-deportes",
       "menu-item#sales",
-      "menu-item#hot"
+      "toggle-layout#hot-menu"
     ]
   },
   "menu-item#category-marcas": {
@@ -29,7 +29,7 @@
         "text": "Marcas"
       }
     },
-    "blocks": ["submenu#header_sub-menu"]
+    "blocks": ["submenu#header_sub-menu-1"]
   },
 
   "menu-item#category-mujer": {
@@ -47,7 +47,7 @@
         "text": "Mujer"
       }
     },
-    "blocks": ["submenu#header_sub-menu"]
+    "blocks": ["submenu#header_sub-menu-2"]
   },
 
   "menu-item#category-hombre": {
@@ -65,7 +65,7 @@
         "text": "Hombre"
       }
     },
-    "blocks": ["submenu#header_sub-menu"]
+    "blocks": ["submenu#header_sub-menu-2"]
   },
   "menu-item#category-ninos": {
     "props": {
@@ -82,7 +82,7 @@
         "text": "Niños"
       }
     },
-    "blocks": ["submenu#header_sub-menu"]
+    "blocks": ["submenu#header_sub-menu-2"]
   },
   "menu-item#category-deportes": {
     "props": {
@@ -99,7 +99,7 @@
         "text": "Deportes"
       }
     },
-    "blocks": ["submenu#header_sub-menu"]
+    "blocks": ["submenu#header_sub-menu-3"]
   },
   "menu-item#sales": {
     "props": {
@@ -117,6 +117,12 @@
       }
     }
   },
+  "toggle-layout#hot-menu": {
+    "title": "Menu evento",
+    "children": [
+      "menu-item#hot"
+      ]
+  },
   "menu-item#hot": {
     "props": {
       "id": "menu-item-category-sales",
@@ -133,13 +139,35 @@
       }
     }
   },
-  "submenu#header_sub-menu": {
+  
+  "submenu#header_sub-menu-2": {
     "props": {
       "width": "100%"
     },
-    "children": ["flex-layout.row#header-menu-content"]
+    "children": ["flex-layout.row#header-menu-content-2"]
   },
-  "flex-layout.row#header-menu-content": {
+  "submenu#header_sub-menu-3": {
+    "props": {
+      "width": "100%"
+    },
+    "children": ["flex-layout.row#header-menu-content-3"]
+  },
+
+  "flex-layout.row#header-menu-content-2": {
+    "title": "container submenu",
+    "props": {
+      "fullWidth": true,
+      "horizontalAlign": "between",
+      "blockClass": "header-menu-content",
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#header-menu-content-menu-1",
+      "flex-layout.col#header_menu-content-menu-2",
+      "flex-layout.col#header_menu-content-menu-3"
+    ]
+  },
+  "flex-layout.row#header-menu-content-3": {
     "title": "container submenu",
     "props": {
       "fullWidth": true,
