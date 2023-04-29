@@ -81,6 +81,7 @@
       "credito-addi#pdp",
       "availability-notify",
       "flex-layout.row#product--addto-cart-and-list--container",
+      "link.product#product-page",
       "responsive-layout.mobile"
     ],
     "props": {
@@ -170,6 +171,14 @@
       "blockClass": "product--addto-cart-and-list--container"
     }
   },
+  "link.product#product-page": {
+    "props": {
+      "href": "/{slug}/p",
+      "label": "Ver detalles del producto",
+      "blockClass": "view-detail-product"
+    }
+  },
+
   "flex-layout.row#product--newsletter--container": {
     "children": [
       "newsletter-form",

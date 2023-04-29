@@ -177,7 +177,8 @@
       "flex-layout.row#prices-listprice-discount",
       "product-summary-name#plp",
       "product-summary-description",
-      "add-to-cart-button#shelf"
+      // "add-to-cart-button#shelf", Se cambia este boton por el compra rapida
+      "modal-trigger#quickPurchase"
     ]
   },
   "product-summary-image#shelf": {

@@ -1,0 +1,29 @@
+{
+    "modal-trigger#quickPurchase": {
+        "children": [
+            "rich-text#example",
+            "modal-layout#example"
+        ]
+    },
+    "rich-text#example": {
+        "props": {
+            "text": "Añadir al carrito",
+            "blockClass": "button-trigger-quickPurchase"
+        }
+    },
+    "modal-layout#example": {
+        "props": {
+            "blockClass": "container-quickPurchase"
+        },
+        "children": [
+            "modal-header#quickview",
+            "flex-layout.row#product--image-details--container"
+        ]
+    },
+    "modal-header#quickview": {
+        "props": {
+            "blockClass": "close-quickview",
+            "iconCloseSize": 18
+        }
+    }
+}

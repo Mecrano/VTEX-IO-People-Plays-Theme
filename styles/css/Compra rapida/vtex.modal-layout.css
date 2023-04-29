@@ -1,0 +1,52 @@
+.paper--container-quickPurchase {
+    background-color: #ffffff;
+}
+
+.paper--container-quickPurchase :global(.vtex-flex-layout-0-x-flexRow--product-description) {
+    display: none;
+}
+
+/* Este selector quita el componente de la PDP */
+:global(.vtex-store-link-0-x-link--view-detail-product) {
+    display: none;
+}
+
+/* Este selector coloca el componente de la compra rapida */
+.paper--container-quickPurchase :global(.vtex-store-link-0-x-link--view-detail-product) {
+    width: 100%;
+    display: block;
+    margin-top: 25px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.paper--container-quickPurchase :global(.vtex-store-components-3-x-frameAround--product--sku-selector) {
+    border: 0px !important;
+    background-color: #ffffff !important;
+}
+
+.headerContainer--close-quickview{
+    border: none;
+}
+
+.closeButton--close-quickview{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.closeButton--close-quickview::after {
+    content: "Cerrar";
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 165.5%;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .paper--container-quickPurchase :global(.vtex-flex-layout-0-x-flexColChild--product--images--container) {
+        background-color: #ffffff !important;
+    }
+}

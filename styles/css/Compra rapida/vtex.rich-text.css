@@ -1,0 +1,31 @@
+.paragraph--button-trigger-quickPurchase {
+    margin: 0 0 16px 16px;
+    background-color: #FC701C;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Mukta';
+    font-style: normal;
+    white-space: nowrap;
+    padding: 8px 14px;
+    border-radius: 3.95553px;
+    display: flex;
+    align-items: center;
+}
+
+.paragraph--button-trigger-quickPurchase::before {
+    content: "";
+    background-image: url(/arquivos/carrito-new.png);
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .paragraph--button-trigger-quickPurchase{
+        font-size: 12px;
+    }
+}
