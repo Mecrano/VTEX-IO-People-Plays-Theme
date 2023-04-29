@@ -47,12 +47,6 @@
     padding-inline: 8px;
 }
 
-.flexCol--prices-listprice {
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-}
-
 @media (max-width: 1024px){ /* MediaQuery para Tablets */
 
     .flexColChild--shelf__add-to-cart__container :global(.vtex-button__label){
@@ -85,5 +79,14 @@
 
     .flexColChild--shelf__add-to-cart__container :global(.vtex-button__label){
         padding-top: 0.25em !important;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .flexCol--prices-listprice {
+        flex-direction: row;
+        gap: 8px;
+        align-items: center;
     }
 }

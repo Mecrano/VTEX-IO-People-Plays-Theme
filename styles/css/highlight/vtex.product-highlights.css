@@ -19,6 +19,14 @@
     z-index: 1;
 }
 
+.productHighlightWrapper--collection-sales{
+background-color: #EB0606 !important;
+}
+
+.productHighlightWrapper--collection-nuevo{
+background-color: #FC701C !important;
+}
+
 @media (max-width: 1024px) {
     .productHighlightWrapper--collection-ultimas-piezas {
         font-size: 12px;
