@@ -55,7 +55,10 @@
   gap: 15px;
 }
 
-
+.flexRowContent--header-menu-content :global(.vtex-store-image-0-x-imageElement){
+  min-width: 192px;
+  max-width: 192px;
+}
 
 @media (min-width: 426px) and (max-width: 1024px) {
   .flexCol--header-search-mobile {
