@@ -4,11 +4,6 @@
   display: flex;
 }
 
-.flexColChild--submenu-header{
-  display: flex;
-  justify-content: center;
-}
-
 .flexColChild--submenu-header,
 .flexColChild--main-container-custom {
   height: auto !important;
