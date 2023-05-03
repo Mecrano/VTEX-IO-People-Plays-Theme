@@ -9,6 +9,7 @@
     "children":[
       "rich-text#title-size-one",
       "rich-text#text-size-one",
+      "guide-size-table",
       "rich-text#title-size-two",
       "rich-text#text-size-two",
       "flex-layout.row#size-guide-group-images"

@@ -55,7 +55,8 @@
     "vtex.store-form": "0.x",
     "vtex.product-specifications": "1.x",
     "vtex.modal-layout": "0.x",
-    "vtex.toggle-layout": "0.x"
+    "vtex.toggle-layout": "0.x",
+    "vtex.styleguide": "9.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",
