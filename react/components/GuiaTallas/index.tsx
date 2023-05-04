@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 import { Dropdown } from 'vtex.styleguide'
+import Table from "./components/Table"
+import styles from './styles.css'
 //import dataSizes from './dataSizes'
 
 const dataSizes = [
@@ -495,7 +497,8 @@ const dataSizes = [
 
 const GuideSize = () => {
 
-    const [brands, setBrands] = useState('')
+    const [brand, setBrand] = useState('')
+    const [dataBrand, setDataBrand] = useState([])
 
     const options = [
         { value: 'adidas', label: 'Adidas' },
@@ -507,24 +510,28 @@ const GuideSize = () => {
     ]
 
     const handleReferenceSizeBrand = (value:any) => {
+        const result:any = dataSizes.filter( elem => elem.brand.toLowerCase() === value.toLowerCase())
         
-        setBrands(value)
-        const result = dataSizes.filter( elem => elem.brand.toLowerCase() === value.toLowerCase())
-        console.log(result, "--->", value)
+        setBrand(value)
+
+        setDataBrand(result)
     }
 
-    console.log(brands, "--->ESTADO")
-
     return (
-        <div>
+        <div className={styles.containerElementsGuideSize}>
             <Dropdown
                 label="Selecciona una marca"
                 size="large"
                 options={options}
-                value={brands}
+                value={brand}
                 //@ts-ignore
                 onChange={(_: any, value: any) => handleReferenceSizeBrand(value)}
             />
+
+            {/* @ts-ignore */}
+            {brand && dataBrand && dataBrand[0].person.map((person:any)=>{
+                return <Table dataTable={person} />
+            })}
         </div>
     )
 }
