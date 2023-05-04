@@ -4,6 +4,7 @@ const dataSizes = [
         person: [
             {
                 type: "Hombre",
+                titleTabla: "Guia de tallas calzado hombre",
                 measures: [
                     {
                         title: "MEDIDA DE PIE (cm)",
@@ -22,6 +23,7 @@ const dataSizes = [
             },
             {
                 type: "Mujer",
+                titleTabla: "Guia de tallas calzado mujer",
                 measures: [
 
                     {
@@ -41,6 +43,7 @@ const dataSizes = [
             },
             {
                 type: "Junior",
+                titleTabla: "Guia de tallas calzado junior",
                 measures: [
 
                     {
@@ -60,6 +63,7 @@ const dataSizes = [
             },
             {
                 type: "Bebe",
+                titleTabla: "Guia de tallas calzado bebé",
                 measures: [
                     {
                         title: "MEDIDA DE PIE (cm)",
@@ -83,6 +87,7 @@ const dataSizes = [
         person: [
             {
                 type: "Hombre",
+                titleTabla: "Guia de tallas calzado hombre",
                 measures: [
 
                     {
@@ -102,6 +107,7 @@ const dataSizes = [
             },
             {
                 type: "Mujer",
+                titleTabla: "Guia de tallas calzado mujer",
                 measures: [
 
                     {
@@ -121,6 +127,7 @@ const dataSizes = [
             },
             {
                 type: "Junior",
+                titleTabla: "Guia de tallas calzado junior",
                 measures: [
 
                     {
@@ -145,6 +152,7 @@ const dataSizes = [
         person: [
             {
                 type: "Hombre",
+                titleTabla: "Guia de tallas calzado hombre",
                 measures: [
 
                     {
@@ -164,6 +172,7 @@ const dataSizes = [
             },
             {
                 type: "Mujer",
+                titleTabla: "Guia de tallas calzado mujer",
                 measures: [
 
                     {
@@ -183,6 +192,7 @@ const dataSizes = [
             },
             {
                 type: "Junior",
+                titleTabla: "Guia de tallas calzado junior",
                 measures: [
 
                     {
@@ -203,6 +213,7 @@ const dataSizes = [
             },
             {
                 type: "Bebe",
+                titleTabla: "Guia de tallas calzado bebé",
                 measures: [
 
                     {
@@ -227,6 +238,7 @@ const dataSizes = [
         person: [
             {
                 type: "Hombre",
+                titleTabla: "Guia de tallas calzado hombre",
                 measures: [
 
                     {
@@ -246,6 +258,7 @@ const dataSizes = [
             },
             {
                 type: "Mujer",
+                titleTabla: "Guia de tallas calzado mujer",
                 measures: [
 
                     {
@@ -265,6 +278,7 @@ const dataSizes = [
             },
             {
                 type: "Junior",
+                titleTabla: "Guia de tallas calzado junior",
                 measures: [
 
                     {
@@ -284,6 +298,7 @@ const dataSizes = [
             },
             {
                 type: "Bebe",
+                titleTabla: "Guia de tallas calzado bebé",
                 measures: [
 
                     {
@@ -308,6 +323,7 @@ const dataSizes = [
         person: [
             {
                 type: "Hombre",
+                titleTabla: "Guia de tallas calzado hombre",
                 measures: [
 
                     {
@@ -327,6 +343,7 @@ const dataSizes = [
             },
             {
                 type: "Mujer",
+                titleTabla: "Guia de tallas calzado mujer",
                 measures: [
 
                     {
@@ -346,6 +363,7 @@ const dataSizes = [
             },
             {
                 type: "Junior",
+                titleTabla: "Guia de tallas calzado junior",
                 measures: [
 
                     {
@@ -370,6 +388,7 @@ const dataSizes = [
         person: [
             {
                 type: "Hombre",
+                titleTabla: "Guia de tallas calzado hombre",
                 measures: [
 
                     {
@@ -389,6 +408,7 @@ const dataSizes = [
             },
             {
                 type: "Mujer",
+                titleTabla: "Guia de tallas calzado mujer",
                 measures: [
 
                     {
@@ -408,6 +428,7 @@ const dataSizes = [
             },
             {
                 type: "Junior",
+                titleTabla: "Guia de tallas calzado junior",
                 measures: [
                     {
                         title: "MEDIDA DE PIE (cm)",
@@ -430,42 +451,131 @@ const dataSizes = [
         brand: "Ropa",
         person: [
             {
-                type: "",
+                type: "Hombre",
+                titleTabla: "Tallaje pantalon hombre",
                 measures: [
+
                     {
-                        title: "MEDIDA DE PIE (cm)",
-                        sizes: [],
-                        title: "COLOMBIA",
-                        sizes: [],
-                        title: "USA",
-                        sizes: []
+                        title: "TALLA",
+                        sizes: ["XS", "S", "M", "L", "XL"]
+                    },
+                    {
+                        title: "1. CINTURA",
+                        sizes: ["71 - 75 cm", "76 - 82 cm", "83 - 90 cm", "91 - 99 cm", "100 - 109 cm"]
+                    },
+                    {
+                        title: "2. CADERA",
+                        sizes: ["82 - 86 cm", "87 - 93 cm", "94 - 101 cm", "102 - 110 cm", "111 - 119 cm"]
+                    },
+                    {
+                        title: "3. TIRO DE LA ENTREPIERNA",
+                        sizes: ["81 cm", "81.5 cm", "82 cm", "82.5 cm", "83cm"]
                     }
+
                 ]
             },
             {
-                type: "",
+                type: "Hombre",
+                titleTabla: "Tallaje camisa o chaqueta hombre",
                 measures: [
+
                     {
-                        title: "MEDIDA DE PIE (cm)",
-                        sizes: [],
-                        title: "COLOMBIA",
-                        sizes: [],
-                        title: "USA",
-                        sizes: []
+                        title: "ETIQUETA",
+                        sizes: ["XS", "S", "M", "L", "XL"]
+                    },
+                    {
+                        title: "PECHO",
+                        sizes: ["83 - 86 cm", "87 - 92 cm", "93 - 100 cm", "101 - 108 cm", "109 - 118 cm"]
+                    },
+                    {
+                        title: "CINTURA",
+                        sizes: ["71 - 74 cm", "75 - 80 cm", "81 - 88 cm", "89 - 96 cm", "97 - 106 cm"]
+                    },
+                    {
+                        title: "CADERA",
+                        sizes: ["82 - 85 cm", "86 - 91 cm", "92 - 99 cm", "100 - 107 cm", "108 - 116 cm"]
                     }
+
                 ]
             },
             {
-                type: "",
+                type: "Mujer",
+                titleTabla: "Tallaje camisa o chaqueta mujer",
                 measures: [
+
                     {
-                        title: "MEDIDA DE PIE (cm)",
-                        sizes: [],
-                        title: "COLOMBIA",
-                        sizes: [],
-                        title: "USA",
-                        sizes: []
+                        title: "TALLA",
+                        sizes: ["XXS / 26-28", "XS / 30-32", "S / 34-36", "M / 38-40", "L / 42-44", "XL / 46-48"]
+                    },
+                    {
+                        title: "PECHO",
+                        sizes: ["73 - 76cm", "77 - 82cm", "83 - 88cm", "89 - 94cm", "95 - 101cm", "102 - 109cm"]
+                    },
+                    {
+                        title: "CINTURA",
+                        sizes: ["57 - 60cm", "61 - 66cm", "67 - 72cm", "73 - 78cm", "79 - 85cm", "86 - 94cm"]
+                    },
+                    {
+                        title: "CADERA",
+                        sizes: ["82 - 85cm", "86 - 91cm", "92 - 97cm", "98 - 103cm", "104 - 110cm", "111 - 117cm"]
                     }
+
+                ]
+            },
+            {
+                type: "Mujer",
+                titleTabla: "Tallaje pantalon mujer",
+                measures: [
+
+                    {
+                        title: "TALLA",
+                        sizes: ["XS / 30-32", "S / 34-36", "M / 38-40", "L / 42-44", "XL / 46-48"]
+                    },
+                    {
+                        title: "CINTURA",
+                        sizes: ["61 - 66cm", "67 - 72cm", "73 - 78cm", "79 - 85cm", "86 - 94cm"]
+                    },
+                    {
+                        title: "CADERA",
+                        sizes: ["86 - 91cm", "92 - 97cm", "98 - 103cm", "104 - 110cm", "111 - 117cm"]
+                    },
+                    {
+                        title: "TIRO",
+                        sizes: ["78cm", "78.5cm", "79cm", "79.5cm", "80cm"]
+                    }
+
+                ]
+            },
+            {
+                type: "Mujer",
+                titleTabla: "Tallaje ropa niño",
+                measures: [
+
+                    {
+                        title: "TALLA",
+                        sizes: ["8", "10", "12", "14", "16"]
+                    },
+                    {
+                        title: "ALTURA",
+                        sizes: ["123 - 128 cm", "129 - 134 cm", "135 - 140 cm", "141 - 146 cm", "147 - 152 cm"]
+                    },
+                    {
+                        title: "PECHO",
+                        sizes: ["64 cm", "67.5 cm", "71 cm", "74.5 cm", "78 cm"]
+                    },
+                    {
+                        title: "CINTURA",
+                        sizes: ["59 cm", "61.5 cm", "63.5 cm", "66 cm", "68 cm"]
+                    },
+                    {
+                        title: "CADERA",
+                        sizes: ["68 cm", "71 cm", "74.5 cm", "77.5 cm", "81 cm"]
+                    },
+                    {
+                        title: "TIRO",
+                        sizes: ["59.5 cm", "62 cm", "65 cm", "68 cm", "70.5 cm"]
+                    }
+
                 ]
             }
         ]

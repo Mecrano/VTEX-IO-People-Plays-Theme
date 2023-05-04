@@ -17,6 +17,10 @@
     color: #000000;
 }
 
+.contentGuideSize {
+    max-width: 95vw;
+}
+
 .contentGuideSizeTable,
 .contentGuideSizeTable tr,
 .contentGuideSizeTable th,
@@ -48,13 +52,16 @@
 .contentGuideSizeTable td {
     min-width: 70px;
     text-align: center;
+    padding: 7px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024) {
     .contentGuideSize {
         overflow: scroll;
     }
+}
 
+@media (max-width: 768px) {
     .contentGuideSizeTable thead th.titleTableGuideSize {
         text-align: left;
     }

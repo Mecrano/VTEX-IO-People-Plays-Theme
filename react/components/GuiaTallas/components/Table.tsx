@@ -3,7 +3,7 @@ import styles from '../styles.css'
 
 export default function Table(props: any) {
 
-    const { type, measures } = props.dataTable
+    const { titleTabla, measures } = props.dataTable
 
     const sizeColTitlteTable = () => {
         let maxArray = measures[0].sizes;
@@ -22,7 +22,7 @@ export default function Table(props: any) {
             <table className={styles.contentGuideSizeTable}>
                 <thead>
                     <tr>
-                        <th colSpan={sizeColTitlteTable()} className={styles.titleTableGuideSize}>Guia de tallas Calzado {type}</th>
+                        <th colSpan={sizeColTitlteTable()} className={styles.titleTableGuideSize}>{titleTabla.toUpperCase()}</th>
                     </tr>
                 </thead>
                 <tbody>
