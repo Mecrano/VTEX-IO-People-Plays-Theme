@@ -117,7 +117,9 @@
   "image#image-tab-one": {
     "props": {
       "src": "assets/home/ropa.png",
-      "blockClass": "image-tab-home"
+      "blockClass": "image-tab-home",
+      "maxWidth": 350,
+      "maxHeight":321
     }
   },
   "flex-layout.row#content-tab-two": {
@@ -139,7 +141,9 @@
   "image#image-tab-two": {
     "props": {
       "src": "assets/home/calzado.png",
-      "blockClass": "image-tab-home"
+      "blockClass": "image-tab-home",
+      "maxWidth": 350,
+      "maxHeight":321
     }
   },
   "flex-layout.row#content-tab-three": {
@@ -161,7 +165,9 @@
   "image#image-tab-three": {
     "props": {
       "src": "assets/home/accesorios.png",
-      "blockClass": "image-tab-home"
+      "blockClass": "image-tab-home",
+      "maxWidth": 350,
+      "maxHeight":321
     }
   },
   "flex-layout.row#content-tab-four": {
@@ -183,7 +189,9 @@
   "image#image-tab-four": {
     "props": {
       "src": "assets/home/sale.png",
-      "blockClass": "image-tab-home"
+      "blockClass": "image-tab-home",
+      "maxWidth": 350,
+      "maxHeight":321
     }
   }
 }

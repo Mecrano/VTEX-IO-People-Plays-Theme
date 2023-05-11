@@ -52,14 +52,14 @@
       "textAlignment": "left",
       "textPosition": "left",
       "text": "Explora la guía de tallas por marca",
-      "blockClass": "infotext"
+      "blockClass": ["infotext", "title-guia-tallas"]
     }
   },
   "link#infolink": {
     "props": {
       "href": "/size-guide",
       "label": "Guia de tallas para calzado",
-      "blockClass": "infotext"
+      "blockClass": ["infotext", "sub-title-guia-tallas"]
     }
   },
   "image#link-info": {

@@ -19,8 +19,9 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 24px;
   color: #062f87;
+  margin-bottom: 0px;
 }
 
 .paragraph--ropa {
@@ -83,15 +84,20 @@
   color: #fc701c;
 }
 
+.paragraph--title-guia-tallas{
+  font-size: 27px;
+}
+
 @media (max-width: 1024px) {
   .paragraph--promocion::after {
     font-size: 0 !important;
   }
   .paragraph--text-seccion-two {
     font-size: 22px;
-    line-height: 33.46px;
+    line-height: 27px;
     max-width: 80%;
     margin-inline: auto;
+    margin-bottom: 12px;
   }
 
   .paragraph--promocion,

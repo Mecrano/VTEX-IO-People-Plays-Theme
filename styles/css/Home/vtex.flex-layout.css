@@ -17,7 +17,7 @@
 /* .flexRowContent--home-seccion-seven :global(.vtex-flex-layout-0-x-stretchChildrenWidth), */
 .flexRowContent--home-seccion-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 .flexRowContent--infocard :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-  width: 100% !important;
+  width: auto !important;
 }
 
 .flexRowContent--infocard {
@@ -54,8 +54,8 @@
 
 .flexRow--content-tab-item {
   z-index: 1;
-  margin-left: 35px;
-  margin-right: 35px;
+ /*  margin-left: 35px;
+  margin-right: 35px; */
 }
 
 .flexRow--home-seccion-three,
@@ -240,11 +240,20 @@
   padding-right: 5%;
 }
 
+.flexRowContent--content-tab{
+  padding-inline: 10px;
+  justify-content: space-between;
+}
+
 @media (min-width: 1400px) {
+  .flexRowContent--content-tab{
+    padding-inline: 51px;
+  }
+
   .flexRow--content-tab-item {
     z-index: 1;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
   }
 
   .flexRow--home-seccion-seven {
@@ -286,6 +295,8 @@
 
   .flexRowContent--content-tab {
     display: flex;
+    padding-inline: 15px;
+    gap: 15px;
   }
 
   .flexRow--content-tab-item {
@@ -314,11 +325,11 @@
     min-height: 400px;
   }
 
-  .flexRowContent--content-tab
+  /* .flexRowContent--content-tab
     :global(.vtex-store-components-3-x-imageElement--image-tab-home),
   .flexRowContent--content-tab :global(.vtex-rich-text-0-x-container--ropa) {
     margin-inline: 15px;
-  }
+  } */
 
   .flexRowContent--shelf--titles {
     max-width: 90%;

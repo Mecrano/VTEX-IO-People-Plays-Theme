@@ -30,7 +30,7 @@
 }
 
 .listItem--home1{
-  padding-bottom: 42px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 1024px) {
@@ -55,6 +55,8 @@
     margin-bottom: 30px;
     font-size: 18px;
     line-height: 30px;
+    font-weight: 500;
+    color: #062F87;
   }
 
   .listItem--home1{
@@ -67,5 +69,6 @@
   .listItemActive--home1 :global(.vtex-button__label){
     text-decoration: none;
     border-bottom: 1px solid #062F87;
+    font-weight: 500;
   }
 }
