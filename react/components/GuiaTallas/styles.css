@@ -43,7 +43,7 @@
 }
 
 .contentGuideSizeTable thead th.titleTableGuideSize {
-    background-color: #000000;
+    background-color: #FC701C;
     color: white;
     text-align: center;
     padding: 10px;
@@ -53,6 +53,7 @@
     min-width: 70px;
     text-align: center;
     padding: 7px;
+    white-space: nowrap;
 }
 
 @media (max-width: 1024) {
@@ -62,6 +63,10 @@
 }
 
 @media (max-width: 768px) {
+    .contentGuideSize {
+        overflow: scroll;
+    }
+
     .contentGuideSizeTable thead th.titleTableGuideSize {
         text-align: left;
     }

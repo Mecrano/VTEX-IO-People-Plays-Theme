@@ -1,4 +1,29 @@
-const dataSizes = [
+interface Measure {
+    title: string;
+    sizes: string[];
+  }
+  
+  interface Person {
+    type: string;
+    titleTabla: string;
+    measures: Measure[];
+  }
+  
+  interface Brand {
+    brand: string;
+    person: Person[];
+  }
+
+export const options = [
+    { value: 'adidas', label: 'Adidas' },
+    { value: 'nike', label: 'Nike' },
+    { value: 'reebok', label: 'Reebok' },
+    { value: 'fila', label: 'Fila' },
+    { value: 'lotto', label: 'Lotto' },
+    { value: 'ropa', label: 'Ropa' },
+]
+
+export const dataSizes:Brand[] = [
     {
         brand: "Adidas",
         person: [
@@ -581,5 +606,3 @@ const dataSizes = [
         ]
     }
 ]
-
-export default dataSizes
