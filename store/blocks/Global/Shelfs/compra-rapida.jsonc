@@ -103,7 +103,7 @@
     },
     "flex-layout.col#container-description-quickPurchase-elemet-2": {
         "children": [
-            "sku-selector#product",
+            "product-summary-sku-selector#quickview",
             "rich-text#product--size-guide--content",
             "product-availability#product--stock"
         ]
@@ -131,6 +131,12 @@
             "add-to-cart-button#product--add-to-cart"
         ]
     },
+    "product-summary-sku-selector#quickview":{
+        "props": {
+          "hideImpossibleCombinations": true,
+          "blockClass": "product--sku-selector"
+        }
+      },
     "link.product#product-page": {
         "props": {
             "href": "/{slug}/p",
