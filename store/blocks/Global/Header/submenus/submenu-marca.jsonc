@@ -93,11 +93,13 @@
         "title": "block-one",
         "props": {
             "rowGap": 5,
-            "blockClass": "submenu-header"
+            "blockClass": ["submenu-header", "sub-menu-1-content-menu-6"]
         },
         "children": [
             "image-new#header_sub-menu-1-content-block-six",
-            "flex-layout.row#header_sub-menu-1-content-menu-4"
+            "image-new#header_sub-menu-1-content-block-six-marca-1",
+            "image-new#header_sub-menu-1-content-block-six-marca-2",
+            "image-new#header_sub-menu-1-content-block-six-marca-3"
         ]
     },
 
@@ -159,7 +161,40 @@
     "image-new#header_sub-menu-1-content-block-six": {
         "title": "imagen",
         "props": {
-            "src": "assets/images/header/adidas.jpg",
+            "src": "assets/images/header/otrasMarcas.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    "image-new#header_sub-menu-1-content-block-six-marca-1": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/otrasMarcas/marcaPeople.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    "image-new#header_sub-menu-1-content-block-six-marca-2": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/otrasMarcas/marcaLotto.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    "image-new#header_sub-menu-1-content-block-six-marca-3": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/otrasMarcas/marcaConverse.jpg",
             "link": {
                 "url": "/menu-image"
             },
@@ -186,14 +221,7 @@
             "blockClass": "header_sub-menu-1-content-items"
         },
         "children":["menu#header_sub-menu-1_content-block-three"]
-    },
-    "flex-layout.row#header_sub-menu-1-content-menu-4":{
-        "props":{
-            "blockClass": "header_sub-menu-1-content-items"
-        },
-        "children":["menu#header_sub-menu-1_content-block-four"]
-    },
-    
+    },    
 
     "menu#header_sub-menu-1_content-block-one": {
         "title": "submenu",
@@ -371,50 +399,5 @@
                 }
             ]
         }
-    },   
-    "menu#header_sub-menu-1_content-block-four": {
-        "title": "submenu",
-        "props": {
-            "orientation": "vertical",
-            "blockClass": "submenu",
-            "items": [
-                {
-                    "id": "menu-item-content-4-1",
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/content",
-                        "noFollow": false,
-                        "tagTitle": "MEDIAS",
-                        "text": "MEDIAS"
-                    }
-                },
-                {
-                    "id": "menu-item-content-4-2",
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/content",
-                        "noFollow": false,
-                        "tagTitle": "GORRAS",
-                        "text": "GORRAS"
-                    }
-                },
-                {
-                    "id": "menu-item-content-4-2",
-                    "type": "custom",
-                    "highlight": false,
-                    "itemProps": {
-                        "type": "internal",
-                        "href": "/content",
-                        "noFollow": false,
-                        "tagTitle": "VER TODO",
-                        "text": "VER TODO"
-                    }
-                }
-            ]
-        }
-    }    
+    }
 }
