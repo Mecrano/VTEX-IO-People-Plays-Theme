@@ -1,5 +1,8 @@
 {
     "modal-trigger#quickPurchase": {
+        "props": {
+            "blockClass": "container-modal-quickPurchase"
+        },
         "children": [
             "rich-text#example",
             "modal-layout#example"

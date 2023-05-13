@@ -389,6 +389,7 @@
 
   .flexRow--home-seccion-four {
     margin-top: 30px;
+    padding-top: 0px;
   }
 }
 
@@ -614,10 +615,21 @@
   .flexRow--info-images-figura-two {
     left: 15px;
   }
+
+  .flexRowContent--infocard {
+    margin-top: 0px;
+  }
+
 }
 
 @media (max-width: 425px) {
   .flexRowContent--infocard {
     gap: 0 !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .flexRowContent--infocard {
+    margin-top: 10px;
   }
 }

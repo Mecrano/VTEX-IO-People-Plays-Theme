@@ -2,7 +2,7 @@
   font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 136.7%;
   color: #000000;
 }
@@ -11,7 +11,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 27px;
   color: #000000;
 }
 
@@ -19,7 +19,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
   color: #062f87;
   margin-bottom: 0px;
 }
@@ -28,9 +28,11 @@
   font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 33px;
   color: #ffffff;
+  margin-bottom: 50px;
+  padding-left: 25px;
 }
 
 .paragraph--siempre-listos,
@@ -39,7 +41,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 27px;
   color: #000000;
   margin-left: 0px;
 }
@@ -85,16 +87,28 @@
 }
 
 .paragraph--title-guia-tallas{
-  font-size: 27px;
+  font-size: 32px !important;
+}
+
+:global(.vtex-store-link-0-x-label--sub-title-guia-tallas){
+  font-size: 20px !important;
 }
 
 @media (max-width: 1024px) {
+  .paragraph--title-guia-tallas{
+    font-size: 20px !important;
+  }
+
+  :global(.vtex-store-link-0-x-label--sub-title-guia-tallas){
+    font-size: 18px !important;
+  }
+
   .paragraph--promocion::after {
     font-size: 0 !important;
   }
   .paragraph--text-seccion-two {
     font-size: 22px;
-    line-height: 27px;
+    line-height: 33.46px;
     max-width: 80%;
     margin-inline: auto;
     margin-bottom: 12px;
@@ -103,6 +117,7 @@
   .paragraph--promocion,
   .paragraph--siempre-listos {
     font-size: 22px;
+    margin-top: 0px;
   }
 
   .paragraph--promocion::after {
@@ -120,6 +135,7 @@
     color: #000;
     font-size: 16.11px;
     line-height: 26.78px;
+    margin-bottom: 5px;
   }
 
   .link--promocion-ver-mas {
@@ -149,9 +165,15 @@
   :global(.vtex-flex-layout-0-x-flexRow--home-seccion-four) .paragraph--slider-text{
     max-width: 65%;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 25.42px;
   }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-seccion-four) .container--title-marcas-home .paragraph--slider-text{
+    max-width: initial;
+    font-size: 20px;
+  }
+
 
   .wrapper--benefints--title{
     width: 100%;
@@ -226,12 +248,5 @@
 
   .paragraph--figura-text {
     font-size: 16px;
-  }
-}
-
-@media (min-width: 1025px) {
-  .paragraph--ropa {
-    margin-bottom: 50px;
-    padding-left: 25px;
   }
 }

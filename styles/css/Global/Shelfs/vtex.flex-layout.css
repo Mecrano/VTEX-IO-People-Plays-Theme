@@ -47,6 +47,10 @@
     padding-inline: 8px;
 }
 
+.flexCol--prices-listprice{
+    text-align: left;
+}
+
 @media (max-width: 1024px){ /* MediaQuery para Tablets */
 
     .flexColChild--shelf__add-to-cart__container :global(.vtex-button__label){

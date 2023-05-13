@@ -1,5 +1,4 @@
 .paragraph--button-trigger-quickPurchase {
-    margin: 0 0 16px 16px;
     background-color: #FC701C;
     font-size: 16px;
     font-weight: 600;
@@ -11,6 +10,11 @@
     border-radius: 3.95553px;
     display: flex;
     align-items: center;
+}
+
+:global(.vtex-modal-layout-0-x-triggerContainer--container-modal-quickPurchase) {
+    width: 100%;
+    padding-left: 16px;
 }
 
 .paragraph--button-trigger-quickPurchase::before {
@@ -25,7 +29,14 @@
 }
 
 @media (max-width: 768px) {
-    .paragraph--button-trigger-quickPurchase{
+    .paragraph--button-trigger-quickPurchase {
         font-size: 12px;
     }
+}
+
+@media (max-width: 375px) {
+    :global(.vtex-modal-layout-0-x-triggerContainer--container-modal-quickPurchase) {
+        padding-left: 10px;
+    }
+
 }

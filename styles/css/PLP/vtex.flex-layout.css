@@ -37,10 +37,9 @@
   padding-right: 0;
 }
 
-
-.flexRow--container--search :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+/* .flexRow--container--search :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
   background-color: #f1f3f9;
-}
+} */
 
 .flexRowContent--content--container {
   flex-direction: column;

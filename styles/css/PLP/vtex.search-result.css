@@ -593,7 +593,6 @@
 
   .galleryItem :global(.vtex-flex-layout-0-x-flexRow--prices-plp) {
     padding-top: 0;
-    height: 50px;
   }
 
   .galleryItem

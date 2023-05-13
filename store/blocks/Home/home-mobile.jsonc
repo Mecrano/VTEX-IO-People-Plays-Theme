@@ -15,7 +15,8 @@
   "flex-layout.row#home-seccion-seven-mobile": {
     "title": "block seven",
     "children":[
-      "slider-layout#text-home-mobile",
+      "rich-text#home1-mobile",
+      // "slider-layout#text-home-mobile",
       "flex-layout.row#marcas-group"
     ],
     "props": {"blockClass": ["home-seccion-four", "orange-slider"]}
@@ -33,27 +34,13 @@
       "showPaginationDots": "never",
       "blockClass": ["slider-text", "orange-slider"]
     },
-    "children": ["rich-text#home1-mobile", "rich-text#home2-mobile", "rich-text#home3-mobile"]
+    "children": ["rich-text#home1-mobile"]
   },
   "rich-text#home1-mobile": {
     "title": "title text 1",
     "props": {
       "text": "Encuentra tus productos por marca",
-      "blockClass": "slider-text"
-    }
-  },
-  "rich-text#home2-mobile": {
-    "title": "title text 2",
-    "props": {
-      "text": "Encuentra tus productos por marca",
-      "blockClass": "slider-text"
-    }
-  },
-  "rich-text#home3-mobile": {
-    "title": "title text 3",
-    "props": {
-      "text": "Encuentra tus productos por marca",
-      "blockClass": "slider-text"
+      "blockClass": ["slider-text", "title-marcas-home"]
     }
   }
 }

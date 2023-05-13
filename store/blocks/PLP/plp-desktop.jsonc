@@ -176,11 +176,7 @@
       "vtex.product-highlights@2.x:product-highlights#collection3",
       "add-to-list-btn#plp",
       "product-summary-image#shelf",
-      "flex-layout.row#prices-listprice-discount",
-      "product-summary-name#plp",
-      "product-summary-description",
-      // "add-to-cart-button#shelf", Se cambia este boton por el compra rapida
-      "modal-trigger#quickPurchase"
+      "flex-layout.row#container-elements-shelf"
     ]
   },
   "product-summary-image#shelf": {
@@ -275,7 +271,23 @@
   },
 
   /* *********************************** */
-  
+
+  "flex-layout.row#container-elements-shelf": {
+    "children": ["flex-layout.col#container-elements-shelf"]
+  },
+
+  "flex-layout.col#container-elements-shelf": {
+    "props": {
+      "blockClass":"container-elements-shelf"
+    },
+    "children": [
+      "flex-layout.row#prices-listprice-discount",
+      "product-summary-name#plp",
+      "product-summary-description",
+      // "add-to-cart-button#shelf", Se cambia este boton por el compra rapida
+      "modal-trigger#quickPurchase"
+    ]
+  },
   "flex-layout.row#prices-listprice-discount": {
     "children": [
       "flex-layout.col#prices-listprice-discount",

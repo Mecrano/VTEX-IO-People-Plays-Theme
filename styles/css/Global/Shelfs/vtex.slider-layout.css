@@ -9,20 +9,20 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--home-seccion-four) .sliderArrows--slider-home{
   width: 40px;
   height: 40px;
-  top: -65px;
+  top: -80px;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--home-seccion-four) .sliderLeftArrow--slider-home{
-  left: 30vw;
+  left: 29vw;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--home-seccion-four) .sliderRightArrow--slider-home{
-  right: 30vw;
+  right: 29vw;
 }
 
 @media (max-width: 1024px){ /* MediaQuery para Tablets */
   :global(.vtex-flex-layout-0-x-flexRowContent--home-seccion-four) .sliderArrows--slider-home{
-    top: -85px;
+    top: -80px;
   }
 }
 
