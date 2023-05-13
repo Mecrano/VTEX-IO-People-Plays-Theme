@@ -3,6 +3,18 @@
     border-bottom: 1px solid #062F8740;
 }
 
+.flexRowContent--container-description-quickPurchase-elemet-2 :global(.vtex-store-components-3-x-skuSelectorItem) {
+    min-height: 40px;
+    min-width: 53px;
+}
+
+.flexRow--container-description-quickPurchase-elemet-3 :global(.vtex-button),
+.flexRowContent--container-description-quickPurchase-elemet-3-addToCar-quantity :global(.vtex-numeric-stepper__input),
+.flexRowContent--container-description-quickPurchase-elemet-3-addToCar-quantity :global(.vtex-numeric-stepper__plus-button),
+.flexRowContent--container-description-quickPurchase-elemet-3-addToCar-quantity :global(.vtex-numeric-stepper__minus-button) {
+    height: 67px;
+}
+
 .flexRowContent--container-description-quickPurchase-elemet-3-addToCar-quantity {
     align-items: end;
 }
@@ -18,4 +30,37 @@
 .flexRowContent--container-description-quickPurchase-elemet-2 :global(.vtex-store-components-3-x-skuSelectorItemImage) {
     width: 63px;
     height: 63px;
+}
+
+.flexCol--container-description-quickPurchase {
+    padding: 30px 45px 0px;
+}
+
+@media (max-width: 768px) {
+    .flexCol--container-description-quickPurchase {
+        padding: 10px 20px 20px;
+    }
+
+    .flexRowContent--container-description-quickPurchase-elemet-3-addToCar-quantity {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexRowContent--container-description-quickPurchase-elemet-3-addToCar-quantity :global(.vtex-numeric-stepper__input),
+    .flexRowContent--container-description-quickPurchase-elemet-3-addToCar-quantity :global(.vtex-numeric-stepper__plus-button),
+    .flexRowContent--container-description-quickPurchase-elemet-3-addToCar-quantity :global(.vtex-numeric-stepper__minus-button) {
+        height: 43px;
+    }
+
+    .flexRow--container-description-quickPurchase-elemet-3 :global(.vtex-button) {
+        height: 63px;
+    }
+
+    .flexRowContent--container-description-quickPurchase-mobile .flexCol--container-description-quickPurchase-elemet-2-rating-price .flexColChild--container-description-quickPurchase-elemet-2-rating-price {
+        height: auto !important;
+    }
+
+    .flexRowContent--container-description-quickPurchase-mobile :global(.vtex-product-identifier-0-x-product-identifier--skuReferenceId) {
+        font-size: 12px;
+    }
 }

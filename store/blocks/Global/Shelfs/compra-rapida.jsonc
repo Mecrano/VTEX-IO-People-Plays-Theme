@@ -4,23 +4,24 @@
             "blockClass": "container-modal-quickPurchase"
         },
         "children": [
-            "rich-text#example",
-            "modal-layout#example"
+            "rich-text#quickPurchase-add-to-car",
+            "modal-layout#quickPurchase-content"
         ]
     },
-    "rich-text#example": {
+    "rich-text#quickPurchase-add-to-car": {
         "props": {
             "text": "Añadir al carrito",
             "blockClass": "button-trigger-quickPurchase"
         }
     },
-    "modal-layout#example": {
+    "modal-layout#quickPurchase-content": {
         "props": {
             "blockClass": "container-quickPurchase"
         },
         "children": [
+            "modal-header#quickview",
+            "flex-layout.row#container-description-quickPurchase-elemet-mobile",
             "flex-layout.row#container-elements-quickPurchase"
-            /*  "flex-layout.row#product--image-details--container" */
         ]
     },
     "modal-header#quickview": {
@@ -28,6 +29,15 @@
             "blockClass": "close-quickview",
             "iconCloseSize": 18
         }
+    },
+    "flex-layout.row#container-description-quickPurchase-elemet-mobile": {
+        "props": {
+            "blockClass": "container-description-quickPurchase-mobile"
+        },
+        "children": [
+            "flex-layout.col#container-description-quickPurchase-elemet-1-name-sku",
+            "flex-layout.col#container-description-quickPurchase-elemet-2-rating-price"
+        ]
     },
     "flex-layout.row#container-elements-quickPurchase": {
         "children": [
@@ -45,7 +55,6 @@
             "blockClass": "container-description-quickPurchase"
         },
         "children": [
-            "modal-header#quickview",
             "flex-layout.row#container-description-quickPurchase"
         ]
     },
@@ -88,6 +97,9 @@
         ]
     },
     "flex-layout.col#container-description-quickPurchase-elemet-2-rating-price": {
+        "props": {
+            "blockClass": "container-description-quickPurchase-elemet-2-rating-price"
+        },
         "children": [
             "product-rating-summary",
             "flex-layout.row#product--prices--container"
@@ -131,12 +143,12 @@
             "add-to-cart-button#product--add-to-cart"
         ]
     },
-    "product-summary-sku-selector#quickview":{
+    "product-summary-sku-selector#quickview": {
         "props": {
-          "hideImpossibleCombinations": true,
-          "blockClass": "product--sku-selector"
+            "hideImpossibleCombinations": true,
+            "blockClass": "product--sku-selector"
         }
-      },
+    },
     "link.product#product-page": {
         "props": {
             "href": "/{slug}/p",
