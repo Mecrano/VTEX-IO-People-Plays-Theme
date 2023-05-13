@@ -6,3 +6,16 @@
 .flexRowContent--container-description-quickPurchase-elemet-3-addToCar-quantity {
     align-items: end;
 }
+
+.flexRowContent--container-description-quickPurchase-elemet-2 :global(.vtex-product-summary-2-x-frameAround--product--sku-selector) {
+    border: 4px solid #00D95F;
+}
+
+.flexRowContent--container-description-quickPurchase-elemet-2 :global(.vtex-store-components-3-x-skuSelectorSubcontainer--talla) :global(.vtex-product-summary-2-x-frameAround--product--sku-selector) {
+    border: none;
+}
+
+.flexRowContent--container-description-quickPurchase-elemet-2 :global(.vtex-store-components-3-x-skuSelectorItemImage) {
+    width: 63px;
+    height: 63px;
+}

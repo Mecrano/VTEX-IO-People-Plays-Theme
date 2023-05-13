@@ -74,7 +74,7 @@
 }
 
 .paper--container-quickPurchase :global(.vtex-flex-layout-0-x-flexCol--container-description-quickPurchase) {
-    padding: 0 45px 45px;
+    padding: 0 45px 0px;
 }
 
 .paper--container-quickPurchase :global(.vtex-flex-layout-0-x-flexRowContent--product--prices--container) {
@@ -90,6 +90,7 @@
 }
 
 .paper--container-quickPurchase :global(.vtex-store-components-3-x-skuSelectorSubcontainer--color) {
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
