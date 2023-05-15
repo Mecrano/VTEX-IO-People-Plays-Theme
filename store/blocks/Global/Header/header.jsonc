@@ -16,7 +16,7 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["logo#whatsApp","flex-layout.row#desktop", "notification.bar"]
+    "children": ["logo#whatsApp","flex-layout.row#desktop"]
   },
   "logo#whatsApp": {
     "props": {
@@ -26,12 +26,6 @@
       "blockClass": "logo-whatsapp",
       "width": "69",
       "showLabel": true
-    }
-  },
-  "notification.bar": {
-    "props":{
-      "content": "Envíos gratuitos con compras desde $292.482",
-      "blockClass": "notification"
     }
   },
   "flex-layout.row#desktop": {
@@ -108,15 +102,11 @@
   "sticky-layout.stack-container#header-mobile": {
     "props": {"position": "top"},
     "children": [
-      "sticky-layout#header-1",
-      "sticky-layout#header-2"
+      "sticky-layout#header-1"
     ]
   },
   "sticky-layout#header-1": {
     "children": ["flex-layout.row#mobile"]
-  },
-  "sticky-layout#header-2": {
-    "children": ["notification.bar"]
   },
   "flex-layout.row#mobile": {
     "props": {

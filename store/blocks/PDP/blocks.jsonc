@@ -246,10 +246,10 @@
       "blockClass": "product--shelf--titles"
     }
   },
-	"breadcrumb#product--bradcrumb": {
+	"breadcrumb#product--breadcrumb": {
     "props": {
       "showOnMobile": true,
-			"blockclass": "breadcrumb--plp"
+			"blockClass": "breadcrumb--plp"
     }
   },
 	"product-identifier.product":{

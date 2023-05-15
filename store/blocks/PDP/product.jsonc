@@ -14,7 +14,7 @@
   },
   "flex-layout.col#product-main": {
     "children": [
-      "breadcrumb#product--bradcrumb",
+      "breadcrumb#product--breadcrumb",
       "flex-layout.row#product--image-details--container",
       "responsive-layout.desktop#disclosure-desktop-pdp",
       "flex-layout.row#product--shelf-1--titles",
