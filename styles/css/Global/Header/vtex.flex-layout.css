@@ -20,13 +20,14 @@
 
 .flexColChild--main-container-custom:first-child {
   border-bottom: 0.826304px solid #ababab;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .flexRowContent--selectores {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  margin-top: 10px;
 }
 
 .flexCol--container-carrito-vacio

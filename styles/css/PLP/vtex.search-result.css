@@ -15,7 +15,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 28px;
   line-height: 49px;
   color: #000000;
   padding-block: 12px;
@@ -124,6 +124,7 @@
 
 .orderByButton {
   width: 210px !important;
+  height: 59px;
   padding: 0;
   padding-left: 10px;
   padding-right: 10px;
@@ -227,7 +228,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 27px;
   color: #000000;
   padding: 0;
   margin-bottom: 0;
@@ -385,19 +386,21 @@
     padding: 0;
   }
 
-  .orderByButton {
-    padding-right: 0;
-  }
-
   .filters--layout,
   .orderByButton {
     background-color: transparent;
   }
 
-  .orderBy--layout,
-  .orderByButton {
+  .orderBy--layout {
     border-bottom: none;
     width: auto !important;
+  }
+
+  .orderByButton {
+    border-bottom: none;
+    width: 190px !important;
+    padding-left: 25px;
+    padding-right: 15px;
   }
 
   .filterPopupButton {
