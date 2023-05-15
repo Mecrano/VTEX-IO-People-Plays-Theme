@@ -498,6 +498,10 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .loadingOverlay--mobile-plp--main-container :global(.vtex-breadcrumb-1-x-container--breadcrumb--plp){
+    padding-left: 0px !important;
+  }
 }
 
 @media (min-width: 426px) and (max-width: 1024px) {
