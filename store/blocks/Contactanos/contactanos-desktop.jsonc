@@ -63,7 +63,7 @@
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "Lunes a viernes: 8 am a 4 pm Sábados: 8:30 am a 11:30 am",
+      "text": "Lunes a viernes: 8 am a 4 y pm Sábados: 8:30 am a 11:30 am",
       "blockClass": "text-contactanos"
     }
   },

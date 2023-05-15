@@ -1,5 +1,6 @@
 .container {
   background-color: #fff;
+  padding: 0 3%;
 }
 
 .homeIcon {
@@ -49,6 +50,10 @@
     width: 15px;
     height: 15px;
   }
+
+  .container{
+    padding: 8px 30px;
+  }
 }
 
 @media (min-width: 1920px) {
@@ -66,5 +71,9 @@
   .link:hover,
   .term:hover {
     font-size: 12px;
+  }
+
+  .container{
+    padding-inline: 15px;
   }
 }

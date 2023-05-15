@@ -63,7 +63,7 @@
 
 .paragraph--product--shelf--titles{
     font-family: "Titillium Web";
-    font-size: 18px;
+    font-size: 27px;
     font-weight: 700;
     line-height: 55px;
     letter-spacing: 0em;
@@ -96,7 +96,7 @@
 
 @media (max-width: 768px){
     .paragraph--product--shelf--titles{
-        font-size: 18px;
+        font-size: 20px;
         line-height: 30px;
         margin-top: 17px;
     }

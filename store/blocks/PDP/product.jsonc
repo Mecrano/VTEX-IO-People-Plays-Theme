@@ -16,7 +16,6 @@
     "children": [
       "breadcrumb#product--breadcrumb",
       "flex-layout.row#product--image-details--container",
-      "responsive-layout.desktop#disclosure-desktop-pdp",
       "flex-layout.row#product--shelf-1--titles",
       "flex-layout.row#shelf1",
       "flex-layout.row#product--newsletter--container",
@@ -82,6 +81,7 @@
       "credito-addi#pdp",
       "availability-notify",
       "flex-layout.row#product--addto-cart-and-list--container",
+      "responsive-layout.desktop#disclosure-desktop-pdp",
       "responsive-layout.mobile#disclosure-mobile-pdp"
     ],
     "props": {

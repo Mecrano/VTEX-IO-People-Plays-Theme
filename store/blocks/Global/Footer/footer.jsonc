@@ -32,7 +32,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Lunes a viernes: 8:00am a 4:00pm Sábados: 8:30am a 11:30am",
+      "text": "Lunes a viernes: 8:00am a 4:00pm y Sábados: 8:30am a 11:30am",
       "blockClass": "footer-row-1-text-2"
     }
   },
