@@ -1,4 +1,4 @@
-.minicartSideBarContentWrapper ::-webkit-scrollbar {
+/* .minicartSideBarContentWrapper ::-webkit-scrollbar {
   display: none;
 }
 
@@ -9,7 +9,7 @@
 
 .minicartProductListContainer{
   overflow-y: initial;
-}
+} */
 
 .minicartWrapperContainer {
   margin: 10px 0;

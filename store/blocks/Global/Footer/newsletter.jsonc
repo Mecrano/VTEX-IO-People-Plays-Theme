@@ -1,5 +1,8 @@
 {
   "newsletter-form": {
+    "props": {
+      "SuccessState": "rich-text#success-newsletter"
+    },
     "children": [
       "rich-text#title-newsletter",
       "newsletter-input-email",
@@ -21,7 +24,7 @@
   "newsletter-checkbox-confirmation": {
     "props": {
       "checkboxLabel": "He leído y acepto las políticas de privacidad y tratamiento de datos personales.",
-      "blockClass":"newsletter-checkbox-confirmation",
+      "blockClass": "newsletter-checkbox-confirmation",
       "firstLabelLink": {
         "url": "/terminos-condiciones",
         "text": "Ver políticas aquí"
@@ -32,6 +35,12 @@
     "props": {
       "blockClass": "title-newsletter",
       "text": "### Suscríbete a nuestro newsletter. \nY entérate de primer mano lo que tenemos para ti"
+    }
+  },
+  "rich-text#success-newsletter": {
+    "props": {
+      "text": "¡Gracias por suscribirte! \n Tu información fue enviada con exito...",
+      "blockClass": "success-newsletter"
     }
   }
 }
