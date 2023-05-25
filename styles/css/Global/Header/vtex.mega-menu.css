@@ -1,0 +1,60 @@
+.departmentsTitle {
+    display: none;
+}
+
+.menuItemVertical {
+    border: none;
+    height: 69px;
+    background-color: #ffffff;
+}
+
+.menuContainerVertical {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.menuContainerVertical .menuItemVertical:last-child .styledLink .styledLinkText {
+    color: #FF671D;
+}
+
+.styledLinkText {
+    font-family: Titillium Web;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #000;
+}
+
+.accordionIconContainer {
+    display: flex;
+    align-items: center;
+}
+
+.collapsibleHeaderText {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 31px;
+    color: #000;
+}
+
+.submenuContainerVertical,
+.submenuItemVertical--isOpen {
+    background-color: #ffffff;
+}
+
+.seeAllLink {
+    color: #fc701c;
+}
+
+.accordionIconContainer::before {
+    content: url('data:image/svg+xml,<svg width="27" height="16" viewBox="0 0 27 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.7058 1.3392L25.3666 7.99998L18.7058 14.6608" stroke="%23062F87" stroke-width="1.42647"/><path d="M25.2399 8.35661H0.633301" stroke="%23062F87" stroke-width="1.42647"/></svg>');
+}
+
+.menuContainerNavVertical .caretIcon {
+    visibility: hidden;
+}
+
+.menuContainerNavVertical .self-center {
+    color: #000;
+}

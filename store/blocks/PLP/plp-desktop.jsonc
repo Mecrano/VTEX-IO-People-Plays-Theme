@@ -12,15 +12,15 @@
       "blockClass": "desktop-plp--main-container",
       "hiddenFacets": {
         "specificationFilters": {
-          "hideAll": false,
-          "hiddenFilters": [
+          "hideAll": false
+          /* "hiddenFilters": [
             {
               "name": "COLOR"
             },
             {
               "name": "GENERO"
             }
-          ]
+          ] */
         }
       }
     },

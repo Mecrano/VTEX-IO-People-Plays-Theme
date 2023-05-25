@@ -40,8 +40,46 @@
   color: #000000;
 }
 
-.filter__container--selectedFilters {
-  display: none;
+.filter__container--selectedFilters .filterTemplateOverflow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5.22px;
+}
+
+.filter__container--selectedFilters .filterTemplateOverflow .filterItem {
+  max-width: max-content;
+}
+
+.filter__container--selectedFilters :global(.vtex-checkbox__label){
+  width: auto;
+  color: #FFFFFF;
+  background-color: #062F87;
+  padding: 2px 10px 2px 6px;
+  height: 32px;
+  box-sizing: border-box;
+  border-radius: 0 4.71px 4.71px 0;
+}
+
+.filter__container--selectedFilters :global(.vtex-checkbox__container) {
+  background-color: #062F87;
+  margin: 0;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 4.71px 0 0 4.71px;
+}
+
+.filter__container--selectedFilters :global(.vtex-checkbox__container) :global(.vtex-checkbox__box-wrapper),
+.filter__container--selectedFilters :global(.vtex-checkbox__container) :global(.vtex-checkbox__inner-container){
+  visibility: hidden;
+}
+
+.filter__container--selectedFilters :global(.vtex-checkbox__container)::after{
+  content: url('data:image/svg+xml,<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.63721 4.36279L10.911 11.6366" stroke="white" stroke-width="2.35294" stroke-linecap="round"/><path d="M10.9106 4.36279L3.63683 11.6366" stroke="white" stroke-width="2.35294" stroke-linecap="round"/></svg>');
+  margin-top: 1px;
 }
 
 .filterTitle,
