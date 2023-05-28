@@ -340,10 +340,6 @@
   display: none;
 }
 
-.galleryItem :global(.vtex-product-summary-2-x-image) {
-  height: 100% !important;
-}
-
 .galleryItem :global(.vtex-product-summary-2-x-element--shelf--home) {
   padding-bottom: 0;
 }
