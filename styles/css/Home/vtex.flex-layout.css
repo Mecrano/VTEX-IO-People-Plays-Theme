@@ -10,6 +10,7 @@
   flex-direction: column;
 }
 
+
 .flexRowContent--home-seccion-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 /* .flexRowContent--home-seccion-three :global(.vtex-flex-layout-0-x-stretchChildrenWidth), */
 .flexRowContent--home-seccion-four :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
@@ -18,6 +19,10 @@
 .flexRowContent--home-seccion-one :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 .flexRowContent--infocard :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
   width: auto !important;
+}
+
+.flexRowContent--home-seccion-five .flexRowContent--group-images {
+  gap: 20px;
 }
 
 .flexRowContent--infocard {
@@ -204,14 +209,9 @@
   margin-inline: 40px;
 }
 
-.flexRowContent--container-orange-two {
+/* .flexRowContent--container-orange-two {
   margin-right: 10px;
-}
-
-.flexRowContent--group-images
-  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
-  margin-right: 20px;
-}
+} */
 
 .flexRowContent--group-images
   :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
@@ -353,7 +353,7 @@
   }
 
   .flexRow--second-home--shelf--container {
-    margin-top: 80px;
+    margin-top: 40px;
   }
 
   .flexRow--mobile-flex,
@@ -456,7 +456,6 @@
   .flexRow--figura-orange {
     width: 89% !important;
     height: 90px;
-    right: 11px;
   }
 
   .flexRowContent--group-images-text-one {

@@ -50,28 +50,23 @@
   margin: 0;
 }
 
-.skuSelectorSubcontainer--color
-  .skuSelectorItem--product--sku-selector--selected
-  .frameAround--product--sku-selector {
+.skuSelectorSubcontainer--color .skuSelectorItem--product--sku-selector--selected .frameAround--product--sku-selector {
   border: 1px solid black;
   background-color: black;
   color: white;
   border-color: black !important;
   border: 0px !important;
 }
+
 .frameAround--product--sku-selector {
   border: 0px !important;
   background-color: #f1f3f9 !important;
 }
-.skuSelectorItemTextValue--product--sku-selector {
-  color: black !important;
-}
-.skuSelectorItem--product--sku-selector--selected
-  :global(
-    .vtex-store-components-3-x-skuSelectorItemTextValue--product--sku-selector
-  ) {
+
+.skuSelectorItem--product--sku-selector--selected :global(.vtex-store-components-3-x-skuSelectorItemTextValue--product--sku-selector) {
   color: white !important;
 }
+
 .skuSelectorInternalBox--product--sku-selector {
   border: 2px solid transparent;
   border-radius: 7px;
@@ -128,17 +123,14 @@
 }
 
 .skuSelectorSubcontainer--size .skuSelectorItemTextValue--product--sku-selector,
-.skuSelectorSubcontainer--talla
-  .skuSelectorItemTextValue--product--sku-selector {
-  border: 2px solid;
-  border-color: #000;
-  padding: 4px 9px;
+.skuSelectorSubcontainer--talla .skuSelectorItemTextValue--product--sku-selector {
   border-radius: 5px;
 }
+
 .skuSelectorItem--product--sku-selector--selected {
-  border: 1px solid black;
   background-color: black;
   color: white;
+  border: none;
 }
 
 .skuSelectorSubcontainer--size .skuSelectorNameContainer,
@@ -207,8 +199,10 @@
   align-items: center;
 }
 
-.skuSelectorSubcontainer--talla .skuSelectorInternalBox--product--sku-selector {
+.skuSelectorSubcontainer--talla .skuSelectorInternalBox--product--sku-selector,
+.skuSelectorSubcontainer--talla .skuSelectorInternalBox--product--sku-selector:hover {
   min-height: 50px;
+  border: 1px solid#e3e4e6;;
 }
 
 .skuSelectorSubcontainer--size .skuSelectorItemTextValue--product--sku-selector,
@@ -231,32 +225,29 @@
   padding: 0;
 }
 
-.gradientBaseRight {
-  color: #fff;
-  background: #062f87;
-  border-radius: 50px;
-  height: max-content;
-  width: max-content;
-  padding: 9px;
-  padding-right: 5px;
-  padding-left: 12px;
-  top: 33%;
-  opacity: 1;
-  pointer-events: auto;
+.productImagesGallerySwiperContainer--product--images {
+  position: initial;
 }
 
-.gradientBaseLeft {
-  color: #fff;
-  background: #062f87;
-  border-radius: 50px;
-  height: max-content;
-  width: max-content;
-  padding: 9px;
-  padding-left: 8px;
-  padding-right: 11px;
-  top: 33%;
-  opacity: 1;
-  pointer-events: auto;
+.swiperCaretNext--product--images,
+.swiperCaretPrev--product--images {
+    position: absolute;
+    visibility: hidden;
+    top: 88%;
+}
+
+ .swiperCaretNext--product--images::after {
+  visibility: visible;
+  content: url('data:image/svg+xml,<svg width="55" height="56" viewBox="0 0 65 66" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="65" height="65" rx="32.5" transform="matrix(1 -8.74228e-08 -8.74228e-08 -1 0 65.5)" fill="%23062F87"/><path d="M29.5 41.7505L37.7201 33.5303C38.013 33.2374 38.013 32.7626 37.7201 32.4697L29.5 24.2495" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>');
+  position: absolute;
+  right: 30px;
+}
+
+.swiperCaretPrev--product--images::after {
+  visibility: visible;
+  content: url('data:image/svg+xml,<svg width="55" height="56" viewBox="0 0 65 66" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="65" y="65.5" width="65" height="65" rx="32.5" transform="rotate(-180 65 65.5)" fill="%23062F87"/><path d="M35.5 41.7505L27.2799 33.5303C26.987 33.2374 26.987 32.7626 27.2799 32.4697L35.5 24.2495" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>');
+  position: absolute;
+  left: 30px;
 }
 
 .carouselGaleryThumbs--product--images {
@@ -264,6 +255,10 @@
   justify-content: center;
   width: 90%;
   margin: 0 auto;
+}
+
+.productImagesThumbCaret--product--images {
+  display: none;
 }
 
 .productImagesThumb--product--images {

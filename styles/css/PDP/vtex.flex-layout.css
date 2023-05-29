@@ -11,7 +11,7 @@
 .flexCol--product--details--container-col {
   padding-inline: 5vw;
   padding-block: 2vw;
-  height: 720px;
+  height: 700px;
   overflow: hidden;
   overflow-y: scroll;
 }

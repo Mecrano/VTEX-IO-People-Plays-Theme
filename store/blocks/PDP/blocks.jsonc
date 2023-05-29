@@ -11,7 +11,7 @@
       "thumbnailsOrientation": "horizontal",
       "displayThumbnailsArrows": true,
       "showPaginationDots": false,
-      "showNavigationArrows": false,
+      "showNavigationArrows": true,
       "thumbnailAspectRatio": "1:1"
     }
   },
