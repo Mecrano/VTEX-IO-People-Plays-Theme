@@ -27,7 +27,7 @@ const GuideSize = () => {
             />
 
             {/* @ts-ignore */}
-            {dataBrand && dataBrand[0].person.map((person:any)=>{
+            {dataBrand && dataBrand[0]?.person?.map((person:any)=>{
                 return <Table dataTable={person} />
             })}
         </div>
