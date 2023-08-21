@@ -78,7 +78,7 @@
       "responsive-layout.desktop#details-desktop",
       "responsive-layout.tablet#details-tablet",
       "flex-layout.row#product--sku-quantity--container",
-      "credito-addi#pdp",
+      "addi-infos",
       "availability-notify",
       "flex-layout.row#product--addto-cart-and-list--container",
       "responsive-layout.desktop#disclosure-desktop-pdp",
@@ -89,11 +89,8 @@
       "preventVerticalStretch": true
     }
   },
-  "credito-addi#pdp": {
-    "props": {
-      "installments": 3
-    }
-  },
+  "addi-infos": {},
+
   "responsive-layout.desktop#details-desktop":{
     "children":[
       "flex-layout.row#product--name-ratings--container",
@@ -171,7 +168,7 @@
       "blockClass": "product--addto-cart-and-list--container"
     }
   },
-  
+
 
   "flex-layout.row#product--newsletter--container": {
     "children": [
@@ -231,7 +228,7 @@
       "blockClass": ["product-description", "product-description-desktop"]
     }
   },
-  
+
   "flex-layout.row#mobile-disclosures": {
     "children": [
       "disclosure-layout#product--description--disclosure",
