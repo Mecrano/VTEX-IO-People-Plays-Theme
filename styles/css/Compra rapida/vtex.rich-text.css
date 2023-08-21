@@ -17,6 +17,7 @@
     padding-left: 16px;
 }
 
+:global(.vtex-add-to-cart-button-0-x-buttonText)::before,
 .paragraph--button-trigger-quickPurchase::before {
     content: "";
     background-image: url(/arquivos/carrito-new.png);
@@ -26,6 +27,12 @@
     display: block;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+:global(.vtex-add-to-cart-button-0-x-buttonText) {
+    display: flex;
+    align-items: center;
+    text-transform: initial;
 }
 
 @media (max-width: 768px) {

@@ -105,7 +105,7 @@
     "rich-text#figura-text-four-departament": {
         "title": "title figura",
         "props": {
-            "text": "Promociones",
+            "text": "## Promociones",
             "blockClass": "figura-text"
         }
     },

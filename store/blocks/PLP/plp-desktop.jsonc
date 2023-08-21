@@ -237,7 +237,7 @@
   },
   "product-highlight-text#sales": {
     "props": {
-      "message": "Sales",
+      "message": "Sale",
       "blockClass": "cc-collection-ultimas-piezas"
     }
   },

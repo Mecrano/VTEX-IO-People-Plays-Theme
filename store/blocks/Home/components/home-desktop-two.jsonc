@@ -4,14 +4,22 @@
     "props":{
       "blockClass": "home-seccion-two"
     },
-    "children":["rich-text#home-text-seccion-two", "tab-layout#home-seccion-two"]
+    "children":["rich-text#home-text-seccion-two-1","rich-text#home-text-seccion-two", "tab-layout#home-seccion-two"]
+  },
+  "rich-text#home-text-seccion-two-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "# Tienda Deportiva en Colombia",
+      "blockClass": "text-seccion-two"
+    }
   },
   "rich-text#home-text-seccion-two": {
     "title": "title",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Compras para grandes y pequeños en un mismo lugar",
+      "text": "## Compras para grandes y pequeños en un mismo lugar",
       "blockClass": "text-seccion-two"
     }
   },

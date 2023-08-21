@@ -98,8 +98,7 @@
         "children": [
             "image-new#header_sub-menu-1-content-block-six",
             "image-new#header_sub-menu-1-content-block-six-marca-1",
-            "image-new#header_sub-menu-1-content-block-six-marca-2",
-            "image-new#header_sub-menu-1-content-block-six-marca-3"
+            "image-new#header_sub-menu-1-content-block-six-marca-2"
         ]
     },
 
@@ -191,18 +190,6 @@
             "title": "Imagen de una marca"
         }
     },
-    "image-new#header_sub-menu-1-content-block-six-marca-3": {
-        "title": "imagen",
-        "props": {
-            "src": "assets/images/header/otrasMarcas/marcaConverse.jpg",
-            "link": {
-                "url": "/menu-image"
-            },
-            "alt": "Imagen de una marca",
-            "title": "Imagen de una marca"
-        }
-    },
-
 
     "flex-layout.row#header_sub-menu-1-content-menu-1":{
         "props":{
@@ -237,8 +224,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "ZAPATOS HOMBRE",
-                        "text": "ZAPATOS HOMBRE"
+                        "tagTitle": "Zapatos hombre",
+                        "text": "Zapatos hombre"
                     }
                 },
                 {
@@ -249,8 +236,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "ZAPATOS MUJER",
-                        "text": "ZAPATOS MUJER"
+                        "tagTitle": "Zapatos mujer",
+                        "text": "Zapatos mujer"
                     }
                 },
                 {
@@ -262,8 +249,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "ZAPATOS NIÑOS",
-                        "text": "ZAPATOS NIÑOS"
+                        "tagTitle": "Zapatos niños",
+                        "text": "Zapatos niños"
                     }
                 },
                 {
@@ -275,8 +262,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "VER TODO",
-                        "text": "VER TODO"
+                        "tagTitle": "Ver todo",
+                        "text": "Ver todo"
                     }
                 }
             ]
@@ -296,8 +283,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "ROPA HOMBRE",
-                        "text": "ROPA HOMBRE"
+                        "tagTitle": "Ropa hombre",
+                        "text": "Ropa hombre"
                     }
                 },
                 {
@@ -308,8 +295,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "ROPA MUJER",
-                        "text": "ROPA MUJER"
+                        "tagTitle": "Ropa mujer",
+                        "text": "Ropa mujer"
                     }
                 },
                 {
@@ -321,8 +308,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "ROPA NIÑOS",
-                        "text": "ROPA NIÑOS"
+                        "tagTitle": "Ropa niños",
+                        "text": "Ropa niños"
                     }
                 },
                 {
@@ -334,8 +321,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "VER TODO",
-                        "text": "VER TODO"
+                        "tagTitle": "Ver todo",
+                        "text": "Ver todo"
                     }
                 }
             ]
@@ -355,8 +342,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "ACCESORIOS HOMBRE",
-                        "text": "ACCESORIOS HOMBRE"
+                        "tagTitle": "Accesorios hombre",
+                        "text": "Accesorios hombre"
                     }
                 },
                 {
@@ -367,8 +354,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "ACCESORIOS MUJER",
-                        "text": "ACCESORIOS MUJER"
+                        "tagTitle": "Accesorios mujer",
+                        "text": "Accesorios mujer"
                     }
                 },
                 {
@@ -380,8 +367,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "ACCESORIOS NIÑOS",
-                        "text": "ACCESORIOS NIÑOS"
+                        "tagTitle": "Accesorios niños",
+                        "text": "Accesorios niños"
                     }
                 },
                 {
@@ -393,8 +380,8 @@
                         "type": "internal",
                         "href": "/content",
                         "noFollow": false,
-                        "tagTitle": "VER TODO",
-                        "text": "VER TODO"
+                        "tagTitle": "Ver todo",
+                        "text": "Ver todo"
                     }
                 }
             ]

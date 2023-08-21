@@ -270,10 +270,6 @@
     flex-direction: column;
   }
 
-  .flexRowContent--footer-6-mobile :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
-    width: 100% !important;
-  }
-
   .flexRowContent--footer-logos {
     display: flex;
     flex-direction: row;

@@ -41,7 +41,7 @@
   "link#info-title-brands": {
     "props": {
       "href": "/",
-      "label": "REDES SOCIALES",
+      "label": "Redes sociales",
       "blockClass": "info-title-brands"
     }
   },
@@ -103,20 +103,29 @@
     "props": {
       "blockClass": "info-brands-socialNetwork",
       "src": "assets/footer/socialNetwork-instagram-icon.png",
-      "width": 20
+      "width": 20,
+      "link":{
+        "url": "https://www.instagram.com/tiendaspeopleplays/"
+      }
     }
   },
   "image#info-brands-socialNetwork-2": {
     "props": {
       "blockClass": "info-brands-socialNetwork",
       "src": "assets/footer/socialNetwork-twitter-icon.png",
-      "width": 20
+      "width": 20,
+      "link":{
+        "url": "https://www.tiktok.com/@tiendaspeopleplays?lang=es"
+      }
     }
   },
   "image#info-brands-socialNetwork-3": {
     "props": {
       "blockClass": "info-brands-socialNetwork",
-      "src": "assets/footer/socialNetwork-facebook-icon.png"
+      "src": "assets/footer/socialNetwork-facebook-icon.png",
+      "link":{
+        "url": "https://www.facebook.com/tiendaspeopleplays/"
+      }
     }
   }
 }

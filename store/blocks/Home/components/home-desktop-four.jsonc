@@ -10,7 +10,7 @@
   "rich-text#home1": {
     "title": "title text 1",
     "props": {
-      "text": "¿Por qué comprar en People Plays?",
+      "text": "## ¿Por qué comprar en People Plays?",
       "blockClass": ["slider-text", "benefints--title"]
     }
   },

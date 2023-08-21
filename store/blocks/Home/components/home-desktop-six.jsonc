@@ -51,7 +51,7 @@
     "props": {
       "textAlignment": "left",
       "textPosition": "left",
-      "text": "Explora la guía de tallas por marca",
+      "text": "## Explora la guía de tallas por marca",
       "blockClass": ["infotext", "title-guia-tallas"]
     }
   },

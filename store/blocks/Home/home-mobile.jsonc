@@ -39,7 +39,7 @@
   "rich-text#home1-mobile": {
     "title": "title text 1",
     "props": {
-      "text": "Encuentra tus productos por marca",
+      "text": "## Encuentra tus productos por marca",
       "blockClass": ["slider-text", "title-marcas-home"]
     }
   }

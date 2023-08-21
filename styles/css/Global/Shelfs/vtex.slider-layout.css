@@ -13,11 +13,11 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--home-seccion-four) .sliderLeftArrow--slider-home{
-  left: 29vw;
+  left: 27vw;
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--home-seccion-four) .sliderRightArrow--slider-home{
-  right: 29vw;
+  right: 27vw;
 }
 
 @media (max-width: 1024px){ /* MediaQuery para Tablets */

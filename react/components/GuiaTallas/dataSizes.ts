@@ -15,7 +15,7 @@ interface Measure {
   }
 
 export const options = [
-    { value: 'adidas', label: 'Adidas' },
+    { value: 'adidas', label: 'adidas' },
     { value: 'nike', label: 'Nike' },
     { value: 'reebok', label: 'Reebok' },
     { value: 'fila', label: 'Fila' },

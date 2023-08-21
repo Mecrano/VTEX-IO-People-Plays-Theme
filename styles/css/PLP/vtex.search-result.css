@@ -233,7 +233,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
-  text-transform: lowercase;
+  text-transform: initial;
 }
 
 .totalProducts--layout {

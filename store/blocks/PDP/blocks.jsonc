@@ -200,7 +200,7 @@
     }
   },
   "disclosure-content#careful": {
-    "children": ["rich-text#product--disclosures--careful-title"],
+    "children": ["rich-text#product--disclosures--careful-content"],
     "props": {
       "blockClass": [
         "careful-disclosure-content",
@@ -211,6 +211,11 @@
   "rich-text#product--disclosures--careful-title": {
     "props": {
       "text": "Cuidados"
+    }
+  },
+  "rich-text#product--disclosures--careful-content": {
+    "props": {
+      "text": "No usar blanqueador, ni dejar en remojo \nNo retorcer, ni exprimir\n Secar en tendero a la sombra\n No planchar"
     }
   },
   "add-to-cart-button#product--add-to-cart": {

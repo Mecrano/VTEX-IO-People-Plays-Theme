@@ -10,7 +10,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Siempre listos para cada ocasión",
+      "text": "## Siempre listos para cada ocasión",
       "blockClass": "siempre-listos"
     }
   },

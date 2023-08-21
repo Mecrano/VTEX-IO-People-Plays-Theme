@@ -10,6 +10,9 @@
   flex-direction: column;
 }
 
+.flexRowContent--home-seccion-two {
+  padding-top: 33px;
+}
 
 .flexRowContent--home-seccion-two :global(.vtex-flex-layout-0-x-stretchChildrenWidth),
 /* .flexRowContent--home-seccion-three :global(.vtex-flex-layout-0-x-stretchChildrenWidth), */

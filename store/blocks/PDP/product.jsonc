@@ -224,7 +224,8 @@
       "disclosure-layout#product--description--disclosure",
       "disclosure-layout#product--info--disclosure",
       "disclosure-layout#product--warranty--disclosure",
-      "disclosure-layout#product--payment-methods--disclosure"
+      "disclosure-layout#product--payment-methods--disclosure",
+      "disclosure-layout#product--careful--disclosure"
     ],
     "props": {
       "blockClass": ["product-description", "product-description-desktop"]
@@ -236,7 +237,8 @@
       "disclosure-layout#product--description--disclosure",
       "disclosure-layout#product--info--disclosure",
       "disclosure-layout#product--warranty--disclosure",
-      "disclosure-layout#product--payment-methods--disclosure"
+      "disclosure-layout#product--payment-methods--disclosure",
+      "disclosure-layout#product--careful--disclosure"
     ],
     "props": {
       "blockClass": "product-description"

@@ -9,7 +9,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "Promociones",
+            "text": "## Promociones",
             "blockClass": "promocion"
         }
     },
