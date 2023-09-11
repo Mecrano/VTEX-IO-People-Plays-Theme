@@ -143,7 +143,6 @@
   }
 
   .paragraph--promocion,
-  .paragraph--promocion-ver-mas,
   .paragraph--promocion-vermas{
     margin-top: 0;
     margin-bottom: 30px;
@@ -156,10 +155,11 @@
     color: #000;
   }
 
-  .wrapper--benefints--title .paragraph--slider-text{
-    font-size: 22px;
+  .headingLevel2--benefints--title{
+    font-size: 19px;
     line-height: 33.46px;
-    margin-bottom: 38px;
+    margin-bottom: 15px;
+    text-align: center;
   }
 
   :global(.vtex-flex-layout-0-x-flexRow--home-seccion-four) .paragraph--slider-text{
@@ -178,6 +178,10 @@
   .wrapper--benefints--title{
     width: 100%;
     margin-bottom: 15px;
+  }
+
+  .headingLevel2--title-guia-tallas {
+    margin: 0;
   }
 }
 

@@ -337,6 +337,7 @@
   .flexRowContent--shelf--titles {
     max-width: 90%;
     margin-inline: auto;
+    align-items: center;
   }
 
   .flexRow--home-seccion-three {
