@@ -48,7 +48,7 @@
   "rich-text#text-marca": {
     "title": "title 2",
     "props": {
-      "text": "People Plays es la tienda multimarca en comercializar productos deportivos de las mejores marcas con reconocimiento mundial como Fila, Adidas, Skechers, Nike, Lacoste, Le Coq Sportif, entre otras. En la actualidad cuenta con 24 tiendas en Bogotá y Bucaramanga y una tienda Online. Con más de 25 años de experiencia en el mercado colombiano ofreciendo una atención personalizada con nuestro personal experto en todas las tiendas de People Plays. ¡Te experamos! Recuerda que People Plays se mueve contigo, a cualquier lugar, 24 horas al día, 7 días a la semana por toda Colombia en www.peopleplays.com.",
+      "text": "People Plays es la tienda multimarca en comercializar productos deportivos de las mejores marcas con reconocimiento mundial como Fila, adidas, Skechers, Nike, Lacoste, Le Coq Sportif, entre otras. En la actualidad cuenta con 24 tiendas en Bogotá y Bucaramanga y una tienda Online. Con más de 25 años de experiencia en el mercado colombiano ofreciendo una atención personalizada con nuestro personal experto en todas las tiendas de People Plays. ¡Te experamos! Recuerda que People Plays se mueve contigo, a cualquier lugar, 24 horas al día, 7 días a la semana por toda Colombia en www.peopleplays.com.",
       "blockClass": "text-marca"
     }
   }

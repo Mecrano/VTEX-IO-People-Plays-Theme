@@ -2,7 +2,7 @@
   font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 136.7%;
   color: #000000;
 }
@@ -11,7 +11,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 27px;
   color: #000000;
 }
 
@@ -19,17 +19,20 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 32px !important;
   color: #062f87;
+  margin-bottom: 0px;
 }
 
 .paragraph--ropa {
   font-family: "Mukta";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 33px;
   color: #ffffff;
+  margin-bottom: 50px;
+  padding-left: 25px;
 }
 
 .paragraph--siempre-listos,
@@ -38,7 +41,7 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 28px;
   color: #000000;
   margin-left: 0px;
 }
@@ -56,6 +59,7 @@
 .container--slider-text {
   display: flex;
   justify-content: center;
+  margin: 20px 0 12px;
 }
 
 .paragraph--figura-text {
@@ -77,22 +81,43 @@
   text-decoration: none;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 40px;
   color: #fc701c;
 }
 
+.paragraph--title-guia-tallas{
+  font-size: 28px !important;
+}
+
+:global(.vtex-store-link-0-x-label--sub-title-guia-tallas){
+  font-size: 24px !important;
+}
+
 @media (max-width: 1024px) {
+  .paragraph--title-guia-tallas{
+    font-size: 20px !important;
+  }
+
+  :global(.vtex-store-link-0-x-label--sub-title-guia-tallas){
+    font-size: 18px !important;
+  }
+
   .paragraph--promocion::after {
     font-size: 0 !important;
   }
   .paragraph--text-seccion-two {
-    font-size: 18px;
+    font-size: 22px !important;
+    line-height: 33.46px;
+    max-width: 80%;
+    margin-inline: auto;
+    margin-bottom: 12px;
   }
 
   .paragraph--promocion,
   .paragraph--siempre-listos {
     font-size: 22px;
+    margin-top: 0px;
   }
 
   .paragraph--promocion::after {
@@ -101,18 +126,70 @@
 
   .paragraph--slider-text {
     text-align: center;
+    font-size: 25.51px;
+    line-height: 38.79px;
+    max-width: 90vw;
+  }
+
+  .paragraph--ropa{
+    color: #000;
+    font-size: 16.11px;
+    line-height: 26.78px;
+    margin-bottom: 5px;
+  }
+
+  .link--promocion-ver-mas {
+    font-weight: 400;
+  }
+
+  .paragraph--promocion,
+  .paragraph--promocion-vermas{
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .link--promocion-ver-mas{
+    font-size: 16px;
+    position: relative;
+    top: -3px;
+    color: #000;
+  }
+
+  .headingLevel2--benefints--title{
+    font-size: 19px;
+    line-height: 33.46px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-seccion-four) .paragraph--slider-text{
+    max-width: 65%;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 25.42px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--home-seccion-four) .container--title-marcas-home .paragraph--slider-text{
+    max-width: initial;
     font-size: 20px;
+  }
+
+
+  .wrapper--benefints--title{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .headingLevel2--title-guia-tallas {
+    margin: 0;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .paragraph--figura-text {
     left: 70px;
     font-size: 13px;
     width: 150px;
-  }
-  .paragraph--slider-text {
-    font-size: 13px;
   }
 
   .paragraph--infotext {
@@ -122,73 +199,59 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .paragraph--figura-text {
     left: 85px;
     font-size: 16px;
     width: 180px;
   }
-  .paragraph--slider-text {
-    font-size: 16px !important ;
-  }
 }
 
-@media screen and (min-width: 321px) and (max-width: 425px) {
+@media (max-width: 425px) {
   .paragraph--infotext {
-    font-size: 18px !important;
-    margin-top: -60px;
-    margin-left: -12px;
+    font-size: 16px !important;
+    margin-top: 0;
+    margin-left: 0;
+    padding-bottom: 14px;
   }
 
   .paragraph--figura-text {
     bottom: 29px;
   }
-  .paragraph--slider-text {
-    font-size: 14px;
-  }
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .paragraph--text-group {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .paragraph--infotext {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 20px;
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media (min-width: 1400px) {
   .paragraph--figura-text {
     left: 120px;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
   .paragraph--figura-text {
     bottom: 29px;
     left: 70px;
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
   .paragraph--siempre-listos,
   .paragraph--infotext,
   .paragraph--promocion {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .paragraph--figura-text {
-    font-size: 18px;
-  }
-}
-
-
-@media screen and (max-width: 425px){
-  .paragraph--infotext{
-    font-size: 14px !important;
-    margin-top: 0 !important;
-    margin-left: 0 !important;
-    padding-bottom: 14px;
+    font-size: 16px;
   }
 }

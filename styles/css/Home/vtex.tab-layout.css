@@ -23,20 +23,52 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 40px;
   color: rgba(0, 47, 135, 0.5);
   text-transform: capitalize;
+}
+
+.listItem--home1{
+  padding-bottom: 20px;
 }
 
 @media (max-width: 1024px) {
 
   .listItemActive--home1 :global(.vtex-button__label),
   .listItem--home1 :global(.vtex-button__label) {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .listContainer--home1 {
     flex-wrap: nowrap;
+  }
+
+  .listItem--home1{
+    padding-block: 0;
+    margin-block: 0;
+  }
+
+  .listItem--home1 :global(.vtex-button__label){
+    padding: 0 !important;
+    margin-block: 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #062F87;
+  }
+
+  .listItem--home1{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .listItemActive--home1 :global(.vtex-button__label){
+    text-decoration: none;
+    border-bottom: 1px solid #062F87;
+    font-weight: 500;
   }
 }

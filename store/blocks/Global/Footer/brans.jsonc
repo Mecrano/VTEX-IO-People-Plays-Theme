@@ -31,6 +31,18 @@
     "props": { "blockClass": "container-footer-4-image-brand" },
     "children": ["image#footer-4-image-brand"]
   },
+  "flex-layout.col#footer-4-desktop-brands-9": {
+    "props": { "blockClass": "container-footer-4-image-brand" },
+    "children": ["image#footer-4-image-brand"]
+  },
+  "flex-layout.col#footer-4-desktop-brands-10": {
+    "props": { "blockClass": "container-footer-4-image-brand" },
+    "children": ["image#footer-4-image-brand"]
+  },
+  "flex-layout.col#footer-4-desktop-brands-11": {
+    "props": { "blockClass": "container-footer-4-image-brand" },
+    "children": ["image#footer-4-image-brand"]
+  },
   "rich-text#footer-4-desktop-brands":{
     "props":{
       "blockClass": "footer-4-text-brands",

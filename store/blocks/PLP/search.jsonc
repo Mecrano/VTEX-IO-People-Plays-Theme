@@ -5,9 +5,9 @@
       "search-result-layout"
     ],
     "props": {
-      "hideUnavailableItems": true,
+      "hideUnavailableItems": false,
       "context": {
-        "hideUnavailableItems": true,
+        "hideUnavailableItems": false,
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "static",
         "maxItemsPerPage": 12,
@@ -22,9 +22,9 @@
       "search-result-layout"
     ],
     "props": {
-      "hideUnavailableItems": true,
+      "hideUnavailableItems": false,
       "context": {
-        "hideUnavailableItems": true,
+        "hideUnavailableItems": false,
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "static",
         "maxItemsPerPage": 12,
@@ -39,9 +39,9 @@
       "search-result-layout"
     ],
     "props": {
-      "hideUnavailableItems": true,
+      "hideUnavailableItems": false,
       "context": {
-        "hideUnavailableItems": true,
+        "hideUnavailableItems": false,
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "static",
         "maxItemsPerPage": 12,
@@ -53,12 +53,12 @@
   "store.search#department": {
     "title": "Departamento",
     "blocks": [
-      "search-result-layout#department"
+      "search-result-layout"
     ],
     "props": {
-      "hideUnavailableItems": true,
+      "hideUnavailableItems": false,
       "context": {
-        "hideUnavailableItems": true,
+        "hideUnavailableItems": false,
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "static",
         "maxItemsPerPage": 12,
@@ -73,9 +73,9 @@
       "search-result-layout"
     ],
     "props": {
-      "hideUnavailableItems": true,
+      "hideUnavailableItems": false,
       "context": {
-        "hideUnavailableItems": true,
+        "hideUnavailableItems": false,
         "orderByField": "OrderByReleaseDateDESC",
         "facetsBehavior": "static",
         "maxItemsPerPage": 12,

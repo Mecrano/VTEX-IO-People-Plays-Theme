@@ -2,7 +2,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 26px;
   line-height: 55px;
   text-align: center;
   color: #000000;
@@ -43,7 +43,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
   text-decoration: none;
 }
@@ -55,10 +55,30 @@
   padding: 9px 0;
 }
 
+.container--mobile-rich{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container--mobile-rich-one{
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 @media (max-width: 425px) {
   .paragraph--carrito-vacio {
-    font-size: 20.461px;
+    font-size: 18px;
     line-height: 148.69%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .paragraph--mobile-rich-one{
+    margin-top: 20px;
+  }
+
+  .wrapper--mobile-rich-one .paragraph--mobile-rich-one{
+    margin-top: 0;
   }
 }

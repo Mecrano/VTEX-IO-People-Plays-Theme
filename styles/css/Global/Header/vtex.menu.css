@@ -113,6 +113,14 @@
   border-bottom: 1px solid #fc701c;
 }
 
+.menuContainerNav--header-menu .submenuWrapper .menuContainer--submenu .menuItem--submenu:last-child .styledLink {
+  color: #fc701c;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--header_sub-menu-1-content-items) .styledLinkContainer--submenu{
+  margin-left: 0px;
+}
+
 @media (min-width: 1024px) {
   .menuContainerNav--header-menu .menuItem--root--isOpen .styledLink--root {
     background-color: var(--primary-blue);
@@ -160,7 +168,7 @@
     transform: skewX(0) !important;
     margin-bottom: 7px;
     color: #000000;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     font-weight: 700;
   }
 

@@ -11,7 +11,7 @@
       "thumbnailsOrientation": "horizontal",
       "displayThumbnailsArrows": true,
       "showPaginationDots": false,
-      "showNavigationArrows": false,
+      "showNavigationArrows": true,
       "thumbnailAspectRatio": "1:1"
     }
   },
@@ -35,7 +35,6 @@
     "props": {
       "warningQuantityThreshold": 9999999,
       "showUnit": false
-
     }
   },
   "product-availability#product--stock": {
@@ -93,7 +92,7 @@
     }
   },
   "disclosure-content#info": {
-    "children": ["rich-text#product--disclosures--info-title"],
+    "children": ["product-specification-group#table"],
     "props": {
       "blockClass": [
         "product--disclosures--info",
@@ -201,7 +200,7 @@
     }
   },
   "disclosure-content#careful": {
-    "children": ["rich-text#product--disclosures--careful-title"],
+    "children": ["rich-text#product--disclosures--careful-content"],
     "props": {
       "blockClass": [
         "careful-disclosure-content",
@@ -212,6 +211,11 @@
   "rich-text#product--disclosures--careful-title": {
     "props": {
       "text": "Cuidados"
+    }
+  },
+  "rich-text#product--disclosures--careful-content": {
+    "props": {
+      "text": "No usar blanqueador, ni dejar en remojo \nNo retorcer, ni exprimir\n Secar en tendero a la sombra\n No planchar"
     }
   },
   "add-to-cart-button#product--add-to-cart": {
@@ -247,10 +251,10 @@
       "blockClass": "product--shelf--titles"
     }
   },
-	"breadcrumb#product--bradcrumb": {
+	"breadcrumb#product--breadcrumb": {
     "props": {
       "showOnMobile": true,
-			"blockclass": "breadcrumb--plp"
+			"blockClass": "breadcrumb--plp"
     }
   },
 	"product-identifier.product":{

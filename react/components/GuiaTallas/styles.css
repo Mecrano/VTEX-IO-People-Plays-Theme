@@ -1,0 +1,73 @@
+.containerElementsGuideSize {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.containerElementsGuideSize :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-dropdown__label) {
+    display: none;
+}
+
+.containerElementsGuideSize :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-styleguide-9-x-container) {
+    width: 250px;
+    background-color: #ffffff;
+}
+
+.containerElementsGuideSize :global(.vtex-styleguide-9-x-dropdown) :global(.vtex-dropdown__button) {
+    color: #000000;
+}
+
+.contentGuideSize {
+    max-width: 95vw;
+}
+
+.contentGuideSizeTable,
+.contentGuideSizeTable tr,
+.contentGuideSizeTable th,
+.contentGuideSizeTable td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.contentGuideSizeTable th {
+    background-color: #E9E9E9;
+    color: #000000;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.contentGuideSizeTable tbody tr:nth-child(1),
+.contentGuideSizeTable tbody tr:nth-child(1) th {
+    background-color: #002F87;
+    color: #ffffff;
+}
+
+.contentGuideSizeTable thead th.titleTableGuideSize {
+    background-color: #FC701C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contentGuideSizeTable td {
+    min-width: 70px;
+    text-align: center;
+    padding: 7px;
+    white-space: nowrap;
+}
+
+@media (max-width: 1024) {
+    .contentGuideSize {
+        overflow: scroll;
+    }
+}
+
+@media (max-width: 768px) {
+    .contentGuideSize {
+        overflow: scroll;
+    }
+
+    .contentGuideSizeTable thead th.titleTableGuideSize {
+        text-align: left;
+    }
+}

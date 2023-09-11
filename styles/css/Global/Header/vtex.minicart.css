@@ -1,3 +1,16 @@
+/* .minicartSideBarContentWrapper ::-webkit-scrollbar {
+  display: none;
+}
+
+
+.minicartContentContainer{
+  overflow-y: scroll;
+}
+
+.minicartProductListContainer{
+  overflow-y: initial;
+} */
+
 .minicartWrapperContainer {
   margin: 10px 0;
 }
@@ -62,7 +75,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 165.5%;
   color: #FFFFFF;
   text-transform: initial;
@@ -95,7 +108,7 @@
 }
 
 .drawer :global(.vtex-product-list-0-x-productName) {
-  line-height: 23px;
+  line-height: 18px;
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
@@ -125,7 +138,7 @@
   font-family: 'Mukta';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 168.7%;
   color: #000000;
 }
@@ -150,6 +163,21 @@
 
 .minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label){
 white-space: nowrap;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+  width: 100% !important;
+  margin-left: 15px;
+}
+
+.minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productImage){
+  width: 102.23px;
+  height: 102.23px;
+}
+
+.drawer :global(.vtex-product-list-0-x-productPrice){
+  font-weight: 700;
+  font-size: 18px;
 }
 
 @media (min-width: 1025px) {
@@ -179,6 +207,14 @@ white-space: nowrap;
     content: "Ir a pagar";
   }
 
+  .minicartCheckoutButton :global(.vtex-button){
+    margin-left: 0px;
+  }
+
+  .minicartSideBarContentWrapper :global(.vtex-product-list-0-x-productImage){
+    width: 90.51px;
+    height: 90.51px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -212,7 +248,7 @@ white-space: nowrap;
 
 @media (max-width: 425px) {
   .drawer .minicartTitle {
-    font-size: 20.461px;
+    font-size: 18px;
     line-height: 31px;
     margin-top: 60px !important;
     margin-left: 19px;

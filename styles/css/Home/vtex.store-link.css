@@ -37,12 +37,12 @@
   font-family: "Titillium Web";
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 42px;
   color: #002F87;
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .link--slider-link-mobile {
     width: 244.9px !important;
     height: 62px;
@@ -58,8 +58,8 @@
     font-family: 'Titillium Web';
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
-    line-height: 165.5%;
+    font-size: 16px;
+    line-height: 29.79px;
     color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -69,10 +69,11 @@
     content: "→";
     font-size: 35px;
     margin-left: 10px;
+    margin-bottom: 8px;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .label--infotext {
     font-size: 14px !important;
     line-height: 0;
@@ -88,27 +89,27 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 425px) {
+@media (max-width: 476px) {
   .label--infotext {
-    font-size: 18px !important;
+    font-size: 16px !important;
     line-height: 0;
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 1024px) {
+@media (min-width: 426px) and (max-width: 1024px) {
   .label--infotext {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media (min-width: 1400px) {
   .link--slider-link {
     top: 240px;
     left: 890px;
   }
 }
 
-@media screen and (max-width: 425px){
+@media (max-width: 425px){
   .label--infotext{
     font-size: 14px !important;
   }

@@ -2,7 +2,7 @@
   font-family: 'Titillium Web';
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 16px;
   color: #000000;
   margin-bottom: 0;
 }
@@ -117,7 +117,7 @@
   }
 
   .paragraph--text-termino {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .paragraph--border {

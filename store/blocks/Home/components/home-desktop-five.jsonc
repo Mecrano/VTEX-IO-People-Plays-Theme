@@ -10,7 +10,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Siempre listos para cada ocasión",
+      "text": "## Siempre listos para cada ocasión",
       "blockClass": "siempre-listos"
     }
   },
@@ -109,19 +109,22 @@
   "image#seccion-5-one": {
     "props": {
       "src": "assets/home/seccion5.png",
-      "blockClass": "seccionFive"
+      "blockClass": "seccionFive",
+      "maxHeight": 582
     }
   },
   "image#seccion-5-two": {
     "props": {
       "src": "assets/home/seccion5-1.png",
-      "blockClass": "seccionFive"
+      "blockClass": "seccionFive",
+      "maxHeight": 582
     }
   },
   "image#seccion-5-three": {
     "props": {
       "src": "assets/home/seccion-5-2.png",
-      "blockClass": "seccionFive"
+      "blockClass": "seccionFive",
+      "maxHeight": 582
     }
   }
 }

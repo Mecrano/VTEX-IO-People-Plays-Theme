@@ -8,7 +8,7 @@
 
     &::before {
       content: 'Tu Carrito';
-      font-size: 2rem;
+      font-size: 1.75rem;
       font-weight: 700;
       color: black;
       display: block;
@@ -16,7 +16,7 @@
 
     &::after {
       content: 'Envíos a domicilio en todo Colombia';
-      font-size: 1.25rem;
+      font-size: 1.125rem;
       font-weight: 500;
       color: black;
       line-height: 1;
@@ -91,7 +91,7 @@
             td.monetary {
               font-family: 'Mukta';
               color: #000000;
-              font-size: 1.25rem;
+              font-size: 1.125rem;
               white-space: nowrap;
               width: auto;
             }
@@ -134,7 +134,7 @@
         label {
           text-align: left;
           font-weight: 700;
-          font-size: 1.25rem;
+          font-size: 1.125rem;
           color: black;
           margin-bottom: 15px;
         }
@@ -225,7 +225,7 @@
 
       &::after {
         content: 'Aún no tienes nada agregado a tu carrito';
-        font-size: 2rem;
+        font-size: 1.75rem;
         color: black;
         text-align: center;
       }
@@ -524,7 +524,7 @@
 
                 &::before {
                   content: '\f014';
-                  font-size: 18px;
+                  font-size: 16px;
                 }
               }
             }

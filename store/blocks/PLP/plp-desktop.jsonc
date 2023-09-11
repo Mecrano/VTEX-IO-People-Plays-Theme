@@ -12,15 +12,15 @@
       "blockClass": "desktop-plp--main-container",
       "hiddenFacets": {
         "specificationFilters": {
-          "hideAll": false,
-          "hiddenFilters": [
+          "hideAll": false
+          /* "hiddenFilters": [
             {
               "name": "COLOR"
             },
             {
               "name": "GENERO"
             }
-          ]
+          ] */
         }
       }
     },
@@ -172,35 +172,25 @@
     },
     "children": [
       "vtex.product-highlights@2.x:product-highlights#collection1",
+      "vtex.product-highlights@2.x:product-highlights#collection2",
+      "vtex.product-highlights@2.x:product-highlights#collection3",
       "add-to-list-btn#plp",
       "product-summary-image#shelf",
-      "flex-layout.row#prices-listprice-discount",
-      "product-summary-name#plp",
-      "product-summary-description",
-      "add-to-cart-button#shelf"
+      "flex-layout.row#container-elements-shelf"
     ]
   },
   "product-summary-image#shelf": {
     "props": {
-      "showBadge": false,
-      "aspectRatio": "1:1",
-      "width": {
-        "desktop": 315,
-        "mobile": 315
-      },
-      "height": {
-        "desktop": 315,
-        "mobile": 315
-      }
     }
   },
+  /* *********************************** */
   "vtex.product-highlights@2.x:product-highlights#collection1": {
     "props": {
       "type": "collection",
       "filter": {
         "type": "show",
         "highlightNames": [
-          "bucaramanga50"
+          "Últimas piezas"
         ]
       }
     },
@@ -219,9 +209,84 @@
   "product-highlight-text#ultimas-piezas": {
     "props": {
       "message": "Últimas piezas",
-      "link": "465/?map=productClusterIds",
       "blockClass": "cc-collection-ultimas-piezas"
     }
+  },
+
+  "vtex.product-highlights@2.x:product-highlights#collection2": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": [
+          "Sales"
+        ]
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#sales"
+    ]
+  },
+  "product-highlight-wrapper#sales": {
+    "props": {
+      "blockClass": ["collection-ultimas-piezas", "collection-sales"]
+    },
+    "children": [
+      "product-highlight-text#sales"
+    ]
+  },
+  "product-highlight-text#sales": {
+    "props": {
+      "message": "Sale",
+      "blockClass": "cc-collection-ultimas-piezas"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#collection3": {
+    "props": {
+      "type": "collection",
+      "filter": {
+        "type": "show",
+        "highlightNames": [
+          "Nuevo"
+        ]
+      }
+    },
+    "children": [
+      "product-highlight-wrapper#nuevo"
+    ]
+  },
+  "product-highlight-wrapper#nuevo": {
+    "props": {
+      "blockClass": ["collection-ultimas-piezas", "collection-nuevo"]
+    },
+    "children": [
+      "product-highlight-text#nuevo"
+    ]
+  },
+  "product-highlight-text#nuevo": {
+    "props": {
+      "message": "Nuevo",
+      "blockClass": "cc-collection-ultimas-piezas"
+    }
+  },
+
+  /* *********************************** */
+
+  "flex-layout.row#container-elements-shelf": {
+    "children": ["flex-layout.col#container-elements-shelf"]
+  },
+
+  "flex-layout.col#container-elements-shelf": {
+    "props": {
+      "blockClass":"container-elements-shelf"
+    },
+    "children": [
+      "flex-layout.row#prices-listprice-discount",
+      "product-summary-name#plp",
+      "product-summary-description",
+      // "add-to-cart-button#shelf", Se cambia este boton por el compra rapida
+      "modal-trigger#quickPurchase"
+    ]
   },
   "flex-layout.row#prices-listprice-discount": {
     "children": [

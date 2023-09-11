@@ -20,13 +20,14 @@
 
 .flexColChild--main-container-custom:first-child {
   border-bottom: 0.826304px solid #ababab;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 .flexRowContent--selectores {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  margin-top: 10px;
 }
 
 .flexCol--container-carrito-vacio
@@ -35,13 +36,57 @@
 }
 
 .flexRowContent--minicart-footer-buttons {
+  display: flex;
   align-items: center;
   margin: 0 auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-@media screen and (min-width: 426px) and (max-width: 1024px) {
+.flexRowContent--minicart-footer-buttons .stretchChildrenWidth:nth-child(1n){
+  width: 60% !important;
+}
+
+.flexRowContent--minicart-footer-buttons .stretchChildrenWidth:nth-child(2n){
+  width: 40% !important;
+}
+
+.flexRowContent--header-menu-content{
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.flexRowContent--header-menu-content :global(.vtex-store-image-0-x-imageElement){
+  min-width: 192px;
+  max-width: 192px;
+  border-radius: 4px;
+}
+
+.flexRowContent--header-menu-content .flexCol--sub-menu-1-content-menu-6 :global(.vtex-store-image-0-x-imageElement) {
+  min-width: auto;
+}
+
+.flexRow--drawer-header {
+  width: 100%;
+}
+
+.flexRowContent--drawer-header{
+  justify-content: space-between;
+}
+
+.flexRowContent--whatsApp-mega-menu{
+  width: 50px;
+  height: 50px;
+}
+
+.flexRowContent--whatsApp-mega-menu::before{
+  content: url('data:image/svg+xml,<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3.63721 4.36279L10.911 11.6366" stroke="white" stroke-width="2.35294" stroke-linecap="round"/><path d="M10.9106 4.36279L3.63683 11.6366" stroke="white" stroke-width="2.35294" stroke-linecap="round"/></svg><svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.335876 44.6465L3.52295 32.8163C0.952654 28.2079 0.136047 22.8302 1.22297 17.6701C2.3099 12.51 5.22745 7.91357 9.44025 4.72435C13.653 1.53512 18.8785 -0.0330183 24.1578 0.307687C29.437 0.648392 34.4159 2.87509 38.1809 6.57917C41.9458 10.2832 44.2442 15.2163 44.6543 20.473C45.0645 25.7297 43.5588 30.9575 40.4137 35.1971C37.2685 39.4367 32.6948 42.4037 27.5319 43.5537C22.3689 44.7037 16.963 43.9595 12.3062 41.4576L0.335876 44.6465Z" fill="%2300D95F"/><path d="M16.762 32.7074L16.254 32.406L11.6647 33.6287L12.8873 29.0824L12.5687 28.5572C11.4012 26.656 10.7842 24.4682 10.7864 22.2372C10.7824 19.5465 11.6686 16.93 13.3069 14.7956C14.9451 12.6611 17.2435 11.1285 19.8437 10.4367C22.4439 9.74482 25.2 9.93255 27.6824 10.9706C30.1648 12.0086 32.2341 13.8387 33.5678 16.1756C34.9015 18.5125 35.4248 21.2249 35.0559 23.8902C34.6871 26.5555 33.447 29.024 31.5288 30.9109C29.6106 32.7978 27.1221 33.9972 24.4511 34.3221C21.7801 34.6471 19.0767 34.0793 16.762 32.7074Z" fill="%2300D95F"/><path d="M7.30286 37.8949L9.51835 29.6711C7.73161 26.4675 7.16394 22.7292 7.91952 19.1422C8.6751 15.5551 10.7032 12.3599 13.6318 10.1429C16.5603 7.92593 20.1928 6.83584 23.8627 7.07268C27.5326 7.30952 30.9936 8.85741 33.6108 11.4323C36.228 14.0072 37.8258 17.4364 38.1109 21.0906C38.396 24.7448 37.3493 28.379 35.163 31.3261C32.9766 34.2733 29.7972 36.3358 26.2082 37.1352C22.6192 37.9346 18.8612 37.4173 15.6241 35.6781L7.30286 37.8949ZM16.0253 32.6007L16.5399 32.905C18.8847 34.2901 21.6233 34.8633 24.3291 34.5352C27.0348 34.2072 29.5557 32.9963 31.4989 31.0912C33.442 29.1861 34.6983 26.6939 35.0719 24.003C35.4455 21.3121 34.9154 18.5735 33.5644 16.2142C32.2133 13.8548 30.1171 12.0071 27.6024 10.9591C25.0877 9.91106 22.2958 9.72153 19.6617 10.42C17.0276 11.1186 14.6994 12.6659 13.0398 14.8209C11.3802 16.9758 10.4825 19.6175 10.4865 22.334C10.4843 24.5865 11.1094 26.7954 12.2921 28.7149L12.6148 29.2451L11.3762 33.8352L16.0253 32.6007Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M27.6706 24.0761C27.4067 23.8731 27.0976 23.7302 26.767 23.6583C26.4365 23.5864 26.093 23.5874 25.7629 23.6613C25.2669 23.8578 24.9464 24.6 24.6259 24.9712C24.5583 25.0601 24.459 25.1225 24.3466 25.1467C24.2342 25.1708 24.1165 25.155 24.0154 25.1022C22.1996 24.4239 20.6775 23.1801 19.6964 21.5727C19.6127 21.4724 19.5731 21.3451 19.5859 21.2175C19.5987 21.0899 19.663 20.972 19.7651 20.8887C20.1225 20.5512 20.385 20.1332 20.5282 19.6734C20.5599 19.1661 20.4381 18.6609 20.1771 18.2179C19.9754 17.5968 19.5915 17.0438 19.0707 16.6242C18.8021 16.509 18.5042 16.4704 18.2131 16.513C17.922 16.5556 17.6501 16.6776 17.43 16.8643C17.0481 17.1786 16.7449 17.5706 16.5429 18.0114C16.3408 18.4522 16.245 18.9306 16.2625 19.4114C16.2637 19.6814 16.2996 19.9502 16.3694 20.2119C16.5466 20.8406 16.8191 21.4412 17.1782 21.9948C17.4374 22.4189 17.7201 22.8294 18.0252 23.2246C19.0169 24.5229 20.2634 25.6252 21.6957 26.4703C22.4144 26.8997 23.1825 27.2489 23.9849 27.5109C24.8184 27.8713 25.7387 28.0096 26.6481 27.9112C27.1662 27.8364 27.6571 27.6413 28.0775 27.3431C28.498 27.0449 28.8352 26.6527 29.0594 26.201C29.1911 25.9282 29.2311 25.6231 29.1739 25.3278C29.0365 24.7238 28.1895 24.3672 27.6706 24.0761Z" fill="white"/></svg>');
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  .flexCol--header-search-mobile {
+    z-index: 2;
+  }
   .flexRowContent--header-menu-mobile {
     display: flex;
     flex-direction: column;
@@ -59,5 +104,16 @@
 
   .flexRow--header-mobile {
     background-color: #FC701C;
+  }
+
+  .flexRowContent--minicart-footer-buttons{
+    justify-content: center;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    gap: 8px;
+  }
+
+  .flexColChild--container-texts-contact-lines-mobile{
+    display: flex;
   }
 }

@@ -7,18 +7,25 @@
   },
   "header-layout.desktop": {
     "title": "header desktop",
-    "children": ["sticky-layout#desktop"]
+    "children": [
+      "sticky-layout#desktop",
+      "custom-styles"
+    ]
   },
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#desktop", "notification.bar"]
+    "children": ["logo#whatsApp","flex-layout.row#desktop"]
   },
-  "notification.bar": {
-    "props":{
-      "content": "Envíos gratuitos con compras desde $292.482",
-      "blockClass": "notification"
+  "logo#whatsApp": {
+    "props": {
+      "title": "Ahora puedes comprar tus productos desde WhatsApp",
+      "href": "https://wa.me/573123181116",
+      "url": "assets/whatsApp.svg",
+      "blockClass": "logo-whatsapp",
+      "width": "69",
+      "showLabel": true
     }
   },
   "flex-layout.row#desktop": {
@@ -51,7 +58,7 @@
       "title": "People Plays",
       "href": "/",
       "url": "assets/desktop-logo.svg",
-      "width": "120"
+      "width": "90"
     }
   },
   "flex-layout.col#header-right-column": {
@@ -83,24 +90,24 @@
   },
   "header-layout.mobile": {
     "title": "header mobile",
-    "children": ["sticky-layout#mobile"]
+    "children": [
+      "sticky-layout#mobile",
+      "custom-styles"
+      
+    ]
   },
   "sticky-layout#mobile": {
     "props": {"blockClass": "sticky-header"},
-    "children": ["sticky-layout.stack-container#header-mobile"]
+    "children": ["logo#whatsApp", "sticky-layout.stack-container#header-mobile"]
   },
   "sticky-layout.stack-container#header-mobile": {
     "props": {"position": "top"},
     "children": [
-      "sticky-layout#header-1",
-      "sticky-layout#header-2"
+      "sticky-layout#header-1"
     ]
   },
   "sticky-layout#header-1": {
     "children": ["flex-layout.row#mobile"]
-  },
-  "sticky-layout#header-2": {
-    "children": ["notification.bar"]
   },
   "flex-layout.row#mobile": {
     "props": {
@@ -148,7 +155,8 @@
     "children": [
       "login#mobile",
       "minicart.v2",
-      "drawer#header-menu-mobile"
+      "flex-layout.col#trigger-mega-menu"
+      /* "drawer#header-menu-mobile" */
     ]
   },
 
@@ -175,15 +183,15 @@
       "blockClass": "header-menu-mobile"
     },
     "children": [
-      "flex-layout.col#header-drawer-search-mobile",
+      "flex-layout.row#header-drawer-search-mobile",
       "flex-layout.col#header-drawer-main-menu-mobile",
       "flex-layout.col#header-drawer-aux-menu-mobile"
     ]
   },
-  "flex-layout.col#header-drawer-search-mobile": {
+  "flex-layout.row#header-drawer-search-mobile": {
     "title": "search mobile",
     "props": {
-      "blockClass": "header-menu-mobile"
+      "blockClass": ["header-menu-mobile", "header-search-mobile"]
     },
     "children": ["search-bar#mobile"]
   },
@@ -198,5 +206,80 @@
       "blockClass": "header-menu-mobile"
     },
     "children": [/* "menu#header-aux-menu-mobile" */]
+  },
+
+
+
+
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn"]
+  },
+  "mega-menu-trigger-btn": {
+    "props": {
+      "Drawer": "drawer"
+    }
+  },
+  "drawer": {
+    "props": {
+      "isFullWidth": true,
+      "slideDirection": "rightToLeft",
+      "blockClass": "header-menu-mobile"
+    },
+    "children": [
+      "flex-layout.row#header-drawer-search-mobile",
+      "mega-menu#mobile",
+      "logo#whatsApp-mega-menu"
+    ],
+    "blocks": ["drawer-header#my-drawer"]
+  },
+  "mega-menu#mobile": {
+    "props": {
+      "defaultDepartmentActive": "...",
+      "orientation": "vertical",
+      "openOnly": "vertical"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": ["flex-layout.row#drawer-header"]
+  },
+  "flex-layout.row#drawer-header": {
+    "children": [
+      "flex-layout.col#mega-menu-go-back-btn",
+      "flex-layout.col#drawer-close-button"
+    ],
+    "props": {
+      "blockClass": "drawer-header",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-close-button": {
+    "children": ["drawer-close-button"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "children": ["mega-menu-go-back-btn"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  },
+  "logo#whatsApp-mega-menu": {
+    "props": {
+      "title": "Ahora puedes comprar tus productos desde WhatsApp",
+      "href": "https://wa.me/573123181116",
+      "url": "assets/header/whastApp-mega-menu.svg",
+      "width": "44",
+      "showLabel": true
+    }
   }
 }

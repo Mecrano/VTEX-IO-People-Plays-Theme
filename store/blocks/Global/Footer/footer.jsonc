@@ -1,10 +1,15 @@
 {
   "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
   },
   "footer-layout.desktop": {
     "title": "footer desktop container",
-    "props": { "blockClass": "containerFooter" },
+    "props": {
+      "blockClass": "containerFooter"
+    },
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
@@ -14,7 +19,9 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "title": "primer bloque",
-    "props": { "blockClass": "footer-1-desktop" },
+    "props": {
+      "blockClass": "footer-1-desktop"
+    },
     "children": [
       "rich-text#footer-row-1-text-1",
       "rich-text#footer-row-1-text-2"
@@ -32,14 +39,16 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Lunes a viernes: 8:00am a 4:00pm Sábados: 8:30am a 11:30am",
+      "text": "Lunes a viernes: 8:00am a 4:00pm y Sábados: 8:30am a 11:30am",
       "blockClass": "footer-row-1-text-2"
     }
   },
-
   "flex-layout.row#footer-2-desktop": {
     "title": "segundo bloque",
-    "props": { "blockClass": "footer-2-desktop", "colSizing": "auto" },
+    "props": {
+      "blockClass": "footer-2-desktop",
+      "colSizing": "auto"
+    },
     "children": [
       "flex-layout.col#contact-lines-1",
       "flex-layout.col#contact-lines-2",
@@ -49,12 +58,20 @@
   /* block 1 */
   "flex-layout.col#contact-lines-1": {
     "title": "block 1",
-    "props": {"blockClass": "column-contact-line"},
-    "children": ["flex-layout.row#container-contact-lines01"]
+    "props": {
+      "blockClass": "column-contact-line"
+    },
+    "children": [
+      "flex-layout.row#container-contact-lines01"
+    ]
   },
   "flex-layout.row#container-contact-lines01": {
     "title": "container",
-    "props": { "blockClass": ["container-contact-lines"] },
+    "props": {
+      "blockClass": [
+        "container-contact-lines"
+      ]
+    },
     "children": [
       "image#img-1-contact-lines01",
       "flex-layout.col#background-contact-lines",
@@ -65,12 +82,17 @@
     "title": "image",
     "props": {
       "src": "assets/footer/footer3.png",
-      "blockClass": ["img-1-contact-lines", "image3"]
+      "blockClass": [
+        "img-1-contact-lines",
+        "image3"
+      ]
     }
   },
   "flex-layout.col#text-contact-lines01": {
     "title": "container textos",
-    "props": { "blockClass": "container-texts-contact-lines" },
+    "props": {
+      "blockClass": "container-texts-contact-lines"
+    },
     "children": [
       "flex-layout.row#text-1-contact-lines01",
       "flex-layout.row#text-2-contact-lines01"
@@ -78,8 +100,12 @@
   },
   "flex-layout.row#text-1-contact-lines01": {
     "title": "content text 1",
-    "props": { "blockClass": "container-text-1-contact-lines" },
-    "children": ["rich-text#text-1-contact-lines01"]
+    "props": {
+      "blockClass": "container-text-1-contact-lines"
+    },
+    "children": [
+      "rich-text#text-1-contact-lines01"
+    ]
   },
   "rich-text#text-1-contact-lines01": {
     "title": "texto 1",
@@ -87,13 +113,20 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Servicio al cliente",
-      "blockClass": ["text-1-contact-lines", "mobile-rich"]
+      "blockClass": [
+        "text-1-contact-lines",
+        "mobile-rich"
+      ]
     }
   },
   "flex-layout.row#text-2-contact-lines01": {
     "title": "content text 2",
-    "props": { "blockClass": "container-text-2-contact-lines" },
-    "children": ["rich-text#text-2-contact-lines01"]
+    "props": {
+      "blockClass": "container-text-2-contact-lines"
+    },
+    "children": [
+      "rich-text#text-2-contact-lines01"
+    ]
   },
   "rich-text#text-2-contact-lines01": {
     "title": "texto 2",
@@ -101,19 +134,30 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "(571) 3-907-222 Ext.1250",
-      "blockClass": ["text-1-contact-lines", "mobile-rich-one", "marginTop"]
+      "blockClass": [
+        "text-1-contact-lines",
+        "mobile-rich-one",
+        "marginTop"
+      ]
     }
   },
-
-/* block 2 */
+  /* block 2 */
   "flex-layout.col#contact-lines-2": {
     "title": "block 2",
-    "props": {"blockClass": "column-contact-line"},
-    "children": ["flex-layout.row#container-contact-lines02"]
+    "props": {
+      "blockClass": "column-contact-line"
+    },
+    "children": [
+      "flex-layout.row#container-contact-lines02"
+    ]
   },
   "flex-layout.row#container-contact-lines02": {
     "title": "container",
-    "props": { "blockClass": ["container-contact-lines"] },
+    "props": {
+      "blockClass": [
+        "container-contact-lines"
+      ]
+    },
     "children": [
       "image#img-1-contact-lines02",
       "flex-layout.col#background-contact-lines",
@@ -124,12 +168,17 @@
     "title": "image",
     "props": {
       "src": "assets/footer/footer2.png",
-      "blockClass": ["img-1-contact-lines", "image2"]
+      "blockClass": [
+        "img-1-contact-lines",
+        "image2"
+      ]
     }
   },
   "flex-layout.col#text-contact-lines02": {
     "title": "container textos",
-    "props": { "blockClass": "container-texts-contact-lines" },
+    "props": {
+      "blockClass": "container-texts-contact-lines"
+    },
     "children": [
       "flex-layout.row#text-1-contact-lines02",
       "flex-layout.row#text-2-contact-lines02"
@@ -137,8 +186,12 @@
   },
   "flex-layout.row#text-1-contact-lines02": {
     "title": "content text 1",
-    "props": { "blockClass": "container-text-1-contact-lines" },
-    "children": ["rich-text#text-1-contact-lines02"]
+    "props": {
+      "blockClass": "container-text-1-contact-lines"
+    },
+    "children": [
+      "rich-text#text-1-contact-lines02"
+    ]
   },
   "rich-text#text-1-contact-lines02": {
     "title": "texto 1",
@@ -146,13 +199,20 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Servicio al cliente",
-      "blockClass": ["text-1-contact-lines", "mobile-rich"]
+      "blockClass": [
+        "text-1-contact-lines",
+        "mobile-rich"
+      ]
     }
   },
   "flex-layout.row#text-2-contact-lines02": {
     "title": "content text 2",
-    "props": { "blockClass": "container-text-2-contact-lines" },
-    "children": ["rich-text#text-2-contact-lines02"]
+    "props": {
+      "blockClass": "container-text-2-contact-lines"
+    },
+    "children": [
+      "rich-text#text-2-contact-lines02"
+    ]
   },
   "rich-text#text-2-contact-lines02": {
     "title": "texto 2",
@@ -160,21 +220,31 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "servicioalcliente@peopleplays.com",
-      "blockClass": ["text-1-contact-lines", "mobile-rich-one", "marginTop", "font"]
+      "blockClass": [
+        "text-1-contact-lines",
+        "mobile-rich-one",
+        "marginTop",
+        "font"
+      ]
     }
   },
-
-/* block 3 */
+  /* block 3 */
   "flex-layout.col#contact-lines-3": {
     "title": "block 3",
     "props": {
       "blockClass": "column-contact-line"
     },
-    "children": ["flex-layout.row#container-contact-lines"]
+    "children": [
+      "flex-layout.row#container-contact-lines"
+    ]
   },
   "flex-layout.row#container-contact-lines": {
     "title": "container",
-    "props": { "blockClass": ["container-contact-lines"] },
+    "props": {
+      "blockClass": [
+        "container-contact-lines"
+      ]
+    },
     "children": [
       "image#img-1-contact-lines",
       "flex-layout.col#background-contact-lines",
@@ -185,12 +255,17 @@
     "title": "image",
     "props": {
       "src": "assets/footer/footer1.png",
-      "blockClass": ["img-1-contact-lines", "image1"]
+      "blockClass": [
+        "img-1-contact-lines",
+        "image1"
+      ]
     }
   },
   "flex-layout.col#background-contact-lines": {
     "title": "figura",
-    "children": ["flex-layout.row#container-background-contact-lines"]
+    "children": [
+      "flex-layout.row#container-background-contact-lines"
+    ]
   },
   "flex-layout.row#container-background-contact-lines": {
     "props": {},
@@ -206,12 +281,17 @@
   },
   "flex-layout.col#background-2-contact-lines": {
     "props": {
-      "blockClass": ["background-2-contact-lines", "mobile-back"]
+      "blockClass": [
+        "background-2-contact-lines",
+        "mobile-back"
+      ]
     }
   },
   "flex-layout.col#text-contact-lines": {
     "title": "container textos",
-    "props": { "blockClass": "container-texts-contact-lines" },
+    "props": {
+      "blockClass": "container-texts-contact-lines"
+    },
     "children": [
       "flex-layout.row#text-1-contact-lines",
       "flex-layout.row#text-2-contact-lines"
@@ -219,13 +299,21 @@
   },
   "flex-layout.row#text-1-contact-lines": {
     "title": "content text 1",
-    "props": { "blockClass": "container-text-1-contact-lines" },
-    "children": ["rich-text#text-1-contact-lines"]
+    "props": {
+      "blockClass": "container-text-1-contact-lines"
+    },
+    "children": [
+      "rich-text#text-1-contact-lines"
+    ]
   },
   "flex-layout.row#text-2-contact-lines": {
     "title": "content text 2",
-    "props": { "blockClass": "container-text-2-contact-lines" },
-    "children": ["rich-text#text-2-contact-lines"]
+    "props": {
+      "blockClass": "container-text-2-contact-lines"
+    },
+    "children": [
+      "rich-text#text-2-contact-lines"
+    ]
   },
   "rich-text#text-1-contact-lines": {
     "title": "texto 1",
@@ -233,7 +321,10 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "Compra a tráves de Whatsapp",
-      "blockClass": ["text-1-contact-lines", "mobile-rich"]
+      "blockClass": [
+        "text-1-contact-lines",
+        "mobile-rich"
+      ]
     }
   },
   "rich-text#text-2-contact-lines": {
@@ -242,12 +333,18 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "(57) 3123181116",
-      "blockClass": ["text-1-contact-lines", "mobile-rich-one", "marginTop"]
+      "blockClass": [
+        "text-1-contact-lines",
+        "mobile-rich-one",
+        "marginTop"
+      ]
     }
   },
   "flex-layout.row#footer-3-desktop": {
     "title": "tercer bloque",
-    "props": { "blockClass": "footer-3-desktop" },
+    "props": {
+      "blockClass": "footer-3-desktop"
+    },
     "children": [
       "flex-layout.col#footer-3-desktop-col-1",
       "flex-layout.col#footer-3-desktop-col-2"
@@ -267,10 +364,14 @@
     "props": {
       "width": "40%"
     },
-    "children": ["flex-layout.col#info-4"]
+    "children": [
+      "flex-layout.col#info-4"
+    ]
   },
   "flex-layout.row#footer-3-desktop-col-1a": {
-    "props": { "blockClass": "footer-3-desktop-col-1a" },
+    "props": {
+      "blockClass": "footer-3-desktop-col-1a"
+    },
     "children": [
       "flex-layout.col#info-1",
       "flex-layout.col#info-2",
@@ -278,10 +379,15 @@
     ]
   },
   "flex-layout.row#footer-3-desktop-col-1b": {
-    "children": ["flex-layout.col#footer-4-desktop-brands-1"]
+    "children": [
+      "flex-layout.col#footer-4-desktop-brands-1"
+    ]
   },
   "flex-layout.row#footer-4-desktop": {
-    "props": { "blockClass": "footer-4-desktop" },
+    "props": {
+      "blockClass": "footer-4-desktop",
+      "colSizing": "auto"
+    },
     "children": [
       "flex-layout.col#footer-4-desktop-brands-2",
       "flex-layout.col#footer-4-desktop-brands-3",
@@ -289,30 +395,39 @@
       "flex-layout.col#footer-4-desktop-brands-5",
       "flex-layout.col#footer-4-desktop-brands-6",
       "flex-layout.col#footer-4-desktop-brands-7",
-      "flex-layout.col#footer-4-desktop-brands-8"
+      "flex-layout.col#footer-4-desktop-brands-8",
+      "flex-layout.col#footer-4-desktop-brands-9",
+      "flex-layout.col#footer-4-desktop-brands-10",
+      "flex-layout.col#footer-4-desktop-brands-11"
     ]
   },
   "flex-layout.row#footer-5-desktop": {
     "title": "cuarto bloque",
-    "props": { "blockClass": "footer-5-desktop" },
+    "props": {
+      "blockClass": "footer-5-desktop"
+    },
     "children": [
       "flex-layout.col#footer-5-copyright",
       "flex-layout.col#footer-5-term-and-conditions"
     ]
   },
   "flex-layout.col#footer-5-copyright": {
-    "children": ["rich-text#footer-5-desktop"]
+    "children": [
+      "rich-text#footer-5-desktop"
+    ]
   },
   "rich-text#footer-5-desktop": {
     "props": {
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "text": "© COPYRIGHT 2022 PEOPLE PLAYS TODOS LOS DERECHOS RESERVADOS.",
+      "text": "© COPYRIGHT 2023 PEOPLE PLAYS TODOS LOS DERECHOS RESERVADOS.",
       "blockClass": "texts-footer-5"
     }
   },
   "flex-layout.col#footer-5-term-and-conditions": {
-    "children": ["flex-layout.row#term-and-conditions"]
+    "children": [
+      "flex-layout.row#term-and-conditions"
+    ]
   },
   "flex-layout.row#term-and-conditions": {
     "children": [
@@ -325,7 +440,9 @@
     "props": {
       "horizontalAlign": "left"
     },
-    "children": ["rich-text#footer-51-desktop"]
+    "children": [
+      "rich-text#footer-51-desktop"
+    ]
   },
   "rich-text#footer-51-desktop": {
     "props": {
@@ -339,7 +456,9 @@
     "props": {
       "horizontalAlign": "left"
     },
-    "children": ["rich-text#footer-52-desktop"]
+    "children": [
+      "rich-text#footer-52-desktop"
+    ]
   },
   "rich-text#footer-52-desktop": {
     "props": {
@@ -353,7 +472,9 @@
     "props": {
       "horizontalAlign": "left"
     },
-    "children": ["rich-text#footer-53-desktop"]
+    "children": [
+      "rich-text#footer-53-desktop"
+    ]
   },
   "rich-text#footer-53-desktop": {
     "props": {

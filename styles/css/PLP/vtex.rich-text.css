@@ -1,7 +1,7 @@
 .paragraph--department-title,
 .paragraph--department-title-2 {
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     color: #000;
     margin-left: 40px;
@@ -25,7 +25,7 @@
     margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
     /* MediaQuery para Tablets */
     .paragraph--department-title {
         font-size: 22px;
@@ -33,7 +33,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     /* MediaQuery para Telefonos */
     .paragraph--department-title {
         font-size: 17px;
@@ -42,8 +42,8 @@
 
 
 
-@media only screen and (min-width: 1920px) {
+@media (min-width: 1920px) {
     .link--promocion-vermas {
-        font-size: 20px;
+        font-size: 18px;
     }
 }

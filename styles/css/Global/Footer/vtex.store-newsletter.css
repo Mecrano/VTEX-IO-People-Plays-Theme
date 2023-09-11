@@ -10,7 +10,6 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--department-newsletter-banner-row) .emailInputContainer--newsletter-input-email :global(.vtex-styleguide-9-x-input) {
-  border: none;
   background-color: #fff;
 }
 
@@ -44,4 +43,17 @@
 
 .confirmationCheckboxContainer--newsletter-checkbox-confirmation {
   margin-top: 50px;
+}
+
+:global(.vtex-rich-text-0-x-container--success-newsletter){
+  height: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--success-newsletter){
+  font-size: 24px;
+  color: #FC6F1D;
 }

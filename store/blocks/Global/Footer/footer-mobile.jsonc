@@ -126,7 +126,7 @@
     "title": "titulo link",
     "props": {
       "href": "/",
-      "label": "LINKS DE INTERES",
+      "label": "Links de interés",
       "blockClass": ["info-title-brands", "link-mobile-title"]
     }
   },
@@ -174,14 +174,14 @@
     "title": "titulo link",
     "props": {
       "href": "/",
-      "label": "GENEROS",
+      "label": "Generos",
       "blockClass": ["info-title-brands", "link-mobile-title"]
     }
   },
   "link#info-brands-1-mobile-2": {
     "title": "texto link 1",
     "props": {
-      "href": "/mujer",
+      "href": "/categoria-mujer",
       "label": "Mujer",
       "blockClass": ["info-brands", "link-mobile-text"]
     }
@@ -189,7 +189,7 @@
   "link#info-brands-2-mobile-2": {
     "title": "texto link 2",
     "props": {
-      "href": "/hombre",
+      "href": "/categoria-hombre",
       "label": "Hombre",
       "blockClass": ["info-brands", "link-mobile-text"]
     }
@@ -224,7 +224,7 @@
     "title": "titulo socialNetwork",
     "props": {
       "href": "/",
-      "label": "REDES SOCIALES",
+      "label": "Redes sociales",
       "blockClass": ["info-title-brands", "link-mobile-title"]
     }
   },
@@ -237,7 +237,7 @@
   },
   "flex-layout.row#footer-6-mobile": {
     "title": "sexto bloque",
-    "children":["link#info-title-mediosDePago", "flex-layout.row#medios-pago-logos"],
+    "children":["link#info-title-mediosDePago", "flex-layout.row#footer-4-desktop"],
     "props":{
       "blockClass": "footer-6-mobile"
     }
@@ -246,20 +246,20 @@
     "title": "titulo socialNetwork",
     "props": {
       "href": "/",
-      "label": "MEDIOS DE PAGO",
+      "label": "Medios de pago",
       "blockClass": ["info-title-brands", "link-mobile-title"]
     }
   },
   "flex-layout.row#medios-pago-logos": {
     "props": { "blockClass": "footer-logos" },
     "children": [
-      "flex-layout.col#medios-pago-1",
-      "flex-layout.col#medios-pago-2"
+      "flex-layout.col#medios-pago-1"
     ]
   },
   "flex-layout.col#medios-pago-1": {
     "props": { "blockClass": "medios-pago-1" },
     "children": [
+      "flex-layout.col#medios-pago-1-box-one",
       "flex-layout.col#medios-pago-1-box-one",
       "flex-layout.col#medios-pago-2-box-two"
     ]
@@ -277,13 +277,9 @@
     "children": [
       "image#mastercard",
       "image#american",
+      "image#american",
+      "image#american",
       "image#visa"
-    ]
-  },
-  "flex-layout.col#medios-pago-2": {
-    "props": { "blockClass": "medios-pago-2" },
-    "children": [
-      "image#whatsapp"
     ]
   },
   "flex-layout.row#footer-7-mobile": {
@@ -297,7 +293,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "© COPYRIGHT 2022 PEOPLE PLAYS TODOS LOS DERECHOS RESERVADOS.",
+      "text": "© COPYRIGHT 2023 PEOPLE PLAYS TODOS LOS DERECHOS RESERVADOS.",
       "blockClass": "textcopy"
     }
   },
@@ -373,13 +369,6 @@
       "blockClass": "footer-4-image-brand",
       "src": "assets/home/visa.png",
       "maxHeight": 28
-    }
-  },
-  "image#whatsapp": {
-    "props": {
-      "blockClass": "footer-4-image-brand",
-      "src": "assets/home/whatsapp.png",
-      "maxHeight": 60
     }
   }
 }

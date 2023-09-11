@@ -1,0 +1,390 @@
+{
+    "submenu#header_sub-menu-1": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "flex-layout.row#header-menu-content-1"
+        ]
+    },
+    "flex-layout.row#header-menu-content-1": {
+        "title": "container submenu",
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "between",
+            "blockClass": "header-menu-content",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#header_sub-menu-1-content-menu-1",
+            "flex-layout.col#header_sub-menu-1-content-menu-2",
+            "flex-layout.col#header_sub-menu-1-content-menu-3",
+            "flex-layout.col#header_sub-menu-1-content-menu-4",
+            "flex-layout.col#header_sub-menu-1-content-menu-5",
+            "flex-layout.col#header_sub-menu-1-content-menu-6"
+        ]
+    },
+    "flex-layout.col#header_sub-menu-1-content-menu-1": {
+        "title": "block-one",
+        "props": {
+            "rowGap": 5,
+            "blockClass": "submenu-header"
+        },
+        "children": [
+            "image-new#header_sub-menu-1-content-block-one",
+            "flex-layout.row#header_sub-menu-1-content-menu-1",
+            "flex-layout.row#header_sub-menu-1-content-menu-2",
+            "flex-layout.row#header_sub-menu-1-content-menu-3"
+        ]
+    },
+    "flex-layout.col#header_sub-menu-1-content-menu-2": {
+        "title": "block-two",
+        "props": {
+            "rowGap": 5,
+            "blockClass": "submenu-header"
+        },
+        "children": [
+            "image-new#header_sub-menu-1-content-block-two",
+            "flex-layout.row#header_sub-menu-1-content-menu-1",
+            "flex-layout.row#header_sub-menu-1-content-menu-2",
+            "flex-layout.row#header_sub-menu-1-content-menu-3"
+        ]
+    },
+    "flex-layout.col#header_sub-menu-1-content-menu-3": {
+        "title": "block-three",
+        "props": {
+            "rowGap": 5,
+            "blockClass": "submenu-header"
+        },
+        "children": [
+            "image-new#header_sub-menu-1-content-block-three",
+            "flex-layout.row#header_sub-menu-1-content-menu-1",
+            "flex-layout.row#header_sub-menu-1-content-menu-2",
+            "flex-layout.row#header_sub-menu-1-content-menu-3"
+        ]
+    },
+    "flex-layout.col#header_sub-menu-1-content-menu-4": {
+        "title": "block-four",
+        "props": {
+            "rowGap": 5,
+            "blockClass": "submenu-header"
+        },
+        "children": [
+            "image-new#header_sub-menu-1-content-block-four",
+            "flex-layout.row#header_sub-menu-1-content-menu-1",
+            "flex-layout.row#header_sub-menu-1-content-menu-2",
+            "flex-layout.row#header_sub-menu-1-content-menu-3"
+        ]
+    },
+    "flex-layout.col#header_sub-menu-1-content-menu-5": {
+        "title": "block-five",
+        "props": {
+            "rowGap": 5,
+            "blockClass": "submenu-header"
+        },
+        "children": [
+            "image-new#header_sub-menu-1-content-block-five",
+            "flex-layout.row#header_sub-menu-1-content-menu-1",
+            "flex-layout.row#header_sub-menu-1-content-menu-2",
+            "flex-layout.row#header_sub-menu-1-content-menu-3"
+        ]
+    },
+    "flex-layout.col#header_sub-menu-1-content-menu-6": {
+        "title": "block-one",
+        "props": {
+            "rowGap": 5,
+            "blockClass": ["submenu-header", "sub-menu-1-content-menu-6"]
+        },
+        "children": [
+            "image-new#header_sub-menu-1-content-block-six",
+            "image-new#header_sub-menu-1-content-block-six-marca-1",
+            "image-new#header_sub-menu-1-content-block-six-marca-2"
+        ]
+    },
+
+    "image-new#header_sub-menu-1-content-block-one": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/adidas.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    "image-new#header_sub-menu-1-content-block-two": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/fila.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    "image-new#header_sub-menu-1-content-block-three": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/skechers.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    "image-new#header_sub-menu-1-content-block-four": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/reebok.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    "image-new#header_sub-menu-1-content-block-five": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/nike.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    "image-new#header_sub-menu-1-content-block-six": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/otrasMarcas.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    "image-new#header_sub-menu-1-content-block-six-marca-1": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/otrasMarcas/marcaPeople.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    "image-new#header_sub-menu-1-content-block-six-marca-2": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/otrasMarcas/marcaLotto.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+
+    "flex-layout.row#header_sub-menu-1-content-menu-1":{
+        "props":{
+            "blockClass": "header_sub-menu-1-content-items"
+        },
+        "children":["menu#header_sub-menu-1_content-block-one"]
+    },
+    "flex-layout.row#header_sub-menu-1-content-menu-2":{
+        "props":{
+            "blockClass": "header_sub-menu-1-content-items"
+        },
+        "children":["menu#header_sub-menu-1_content-block-two"]
+    },
+    "flex-layout.row#header_sub-menu-1-content-menu-3":{
+        "props":{
+            "blockClass": "header_sub-menu-1-content-items"
+        },
+        "children":["menu#header_sub-menu-1_content-block-three"]
+    },    
+
+    "menu#header_sub-menu-1_content-block-one": {
+        "title": "submenu",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "submenu",
+            "items": [
+                {
+                    "id": "menu-item-content-1-1",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Zapatos hombre",
+                        "text": "Zapatos hombre"
+                    }
+                },
+                {
+                    "id": "menu-item-content-1-2",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Zapatos mujer",
+                        "text": "Zapatos mujer"
+                    }
+                },
+                {
+                    "id": "menu-item-content-1-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Zapatos niños",
+                        "text": "Zapatos niños"
+                    }
+                },
+                {
+                    "id": "menu-item-content-1-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Ver todo",
+                        "text": "Ver todo"
+                    }
+                }
+            ]
+        }
+    },   
+    "menu#header_sub-menu-1_content-block-two": {
+        "title": "submenu",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "submenu",
+            "items": [
+                {
+                    "id": "menu-item-content-2-1",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Ropa hombre",
+                        "text": "Ropa hombre"
+                    }
+                },
+                {
+                    "id": "menu-item-content-2-2",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Ropa mujer",
+                        "text": "Ropa mujer"
+                    }
+                },
+                {
+                    "id": "menu-item-content-2-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Ropa niños",
+                        "text": "Ropa niños"
+                    }
+                },
+                {
+                    "id": "menu-item-content-2-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Ver todo",
+                        "text": "Ver todo"
+                    }
+                }
+            ]
+        }
+    },    
+    "menu#header_sub-menu-1_content-block-three": {
+        "title": "submenu",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "submenu",
+            "items": [
+                {
+                    "id": "menu-item-content-3-1",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Accesorios hombre",
+                        "text": "Accesorios hombre"
+                    }
+                },
+                {
+                    "id": "menu-item-content-3-2",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Accesorios mujer",
+                        "text": "Accesorios mujer"
+                    }
+                },
+                {
+                    "id": "menu-item-content-3-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Accesorios niños",
+                        "text": "Accesorios niños"
+                    }
+                },
+                {
+                    "id": "menu-item-content-3-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Ver todo",
+                        "text": "Ver todo"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,8 +1,15 @@
 {
   "store.home": {
     "blocks": [
+      "notification.bar",
       "responsive-layout.desktop#home",
       "responsive-layout.mobile#home"
     ]
+  },
+  "notification.bar": {
+    "props":{
+      "content": "Envíos gratuitos con compras desde $292.482",
+      "blockClass": "notification"
+    }
   }
 }

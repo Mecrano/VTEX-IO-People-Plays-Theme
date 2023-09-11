@@ -1,4 +1,4 @@
-.flexRow--footer-1-desktop{
+.flexRow--footer-1-desktop {
   padding-top: 50px;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .flexCol--background-2-contact-lines {
-  width: 344px !important ;
+  width: 344px !important;
   right: 0;
 }
 
@@ -92,16 +92,21 @@
 
 .flexRowContent--container-socialNetwork-info .stretchChildrenWidth :global(.vtex-store-components-3-x-imageElement--info-brands-socialNetwork) {
   cursor: pointer;
-  max-width: initial;
+  max-width: 35px;
   width: auto !important;
 }
 
 .flexCol--container-footer-4-image-brand {
-  margin-top: 28px
+  margin-top: 28px;
+  width: auto !important;
 }
 
 .flexRowContent--footer-4-desktop {
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
 }
 
 .flexColChild--container-footer-4-image-brand {
@@ -116,10 +121,12 @@
 .flexRowContent--footer-6-mobile,
 .flexRow--footer-6-mobile,
 .flexRow--footer-2-desktop,
-.flexRow--footer-1-desktop{
+.flexRow--footer-1-desktop {
   max-width: 100vw;
 }
 
-/* .flexColChild--column-contact-line{
-  margin-inline:auto ;
-} */
+@media (min-width: 1024px) {
+  .flexRowContent--footer-4-desktop {
+    justify-content: start;
+  }
+}

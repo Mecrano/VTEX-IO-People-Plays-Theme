@@ -34,7 +34,7 @@
     color: #fff;
 }
 
-@media only screen and (max-width: 768px){
+@media (max-width: 768px){
     .currencyContainer--product--price--selling{
         font-size: 22px;
         line-height: 26px;

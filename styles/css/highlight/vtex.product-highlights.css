@@ -19,21 +19,29 @@
     z-index: 1;
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
+.productHighlightWrapper--collection-sales{
+background-color: #EB0606 !important;
+}
+
+.productHighlightWrapper--collection-nuevo{
+background-color: #FC701C !important;
+}
+
+@media (max-width: 1024px) {
     .productHighlightWrapper--collection-ultimas-piezas {
         font-size: 12px;
         padding: 8px;
     }
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
     :global(.vtex-search-result-3-x-galleryItem) .productHighlightWrapper--collection-ultimas-piezas {
         font-size: 12px;
         padding:5px 10px;
       }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
     :global(.vtex-search-result-3-x-galleryItem) .productHighlightWrapper--collection-ultimas-piezas {
         font-size: 10px !important;
         padding:3px 6px !important;

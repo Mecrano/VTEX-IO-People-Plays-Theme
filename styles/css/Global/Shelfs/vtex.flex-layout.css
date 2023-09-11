@@ -47,12 +47,11 @@
     padding-inline: 8px;
 }
 
-.flexCol--prices-listprice {
-  flex-direction: row;
-  gap: 8px;
+.flexCol--prices-listprice{
+    text-align: left;
 }
 
-@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
+@media (max-width: 1024px){ /* MediaQuery para Tablets */
 
     .flexColChild--shelf__add-to-cart__container :global(.vtex-button__label){
         font-size: 12px;
@@ -69,7 +68,7 @@
     }
 }
 
-@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+@media (max-width: 768px){ /* MediaQuery para Telefonos */
     .flexRowContent--shelf__pricesyadd-to-cart-button__container{
         height: 63px;
     }
@@ -84,5 +83,14 @@
 
     .flexColChild--shelf__add-to-cart__container :global(.vtex-button__label){
         padding-top: 0.25em !important;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .flexCol--prices-listprice {
+        flex-direction: row;
+        gap: 8px;
+        align-items: center;
     }
 }

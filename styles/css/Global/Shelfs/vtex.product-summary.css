@@ -49,7 +49,7 @@
 .price_sellingPriceContainer--shelf__price,
 .price_listPriceContainer--shelf__price{
     padding: 0;
-} 
+}
 
 .price_className--shelf__price{
     justify-content: center;
@@ -69,7 +69,7 @@
 
 .price_listPrice--shelf__price{
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -78,7 +78,17 @@
     padding: 0;
 }
 
-@media only screen and (max-width: 1024px){ /* MediaQuery para Tablets */
+.imageNormal{
+    max-height: unset;
+}
+
+.element--shelf--home{
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: space-between;
+}
+
+@media (max-width: 1024px){ /* MediaQuery para Tablets */
     .productBrandName--shelf__brand{
         font-size: 10px;
     }
@@ -97,7 +107,7 @@
     }
 }
 
-@media only screen and (max-width: 768px){ /* MediaQuery para Telefonos */
+@media (max-width: 768px){ /* MediaQuery para Telefonos */
     .productBrandName--shelf__brand{
         font-size: 8.67px;
     }

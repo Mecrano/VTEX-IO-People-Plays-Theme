@@ -1,0 +1,347 @@
+{
+    "submenu#header_sub-menu-2": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "flex-layout.row#header-menu-content-2"
+        ]
+    },
+    "flex-layout.row#header-menu-content-2": {
+        "title": "container submenu",
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "between",
+            "blockClass": "header-menu-content",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#header_sub-menu-2-content-menu-1",
+            "flex-layout.col#header_sub_menu-2-content-menu-2",
+            "flex-layout.col#header_sub_menu-2-content-menu-3"
+        ]
+    },
+    "flex-layout.col#header_sub-menu-2-content-menu-1": {
+        "title": "block-one",
+        "props": {
+            "rowGap": 5,
+            "blockClass": "submenu-header"
+        },
+        "children": [
+            "image-new#header_sub-menu-2_content-block-one",
+            "menu#header_sub-menu-2_content-block-one"
+        ]
+    },
+    "menu#header_sub-menu-2_content-block-one": {
+        "title": "submenu",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "submenu",
+            "items": [
+                {
+                    "id": "menu-item-content-1-1",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Fashion",
+                        "text": "Fashion"
+                    }
+                },
+                {
+                    "id": "menu-item-content-1-2",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Running",
+                        "text": "Running"
+                    }
+                },
+                {
+                    "id": "menu-item-content-1-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Training",
+                        "text": "Training"
+                    }
+                },
+                {
+                    "id": "menu-item-content-1-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Futbol",
+                        "text": "Futbol"
+                    }
+                },
+                {
+                    "id": "menu-item-content-1-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Sandalias",
+                        "text": "Sandalias"
+                    }
+                },
+                {
+                    "id": "menu-item-content-1-6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Ver todo",
+                        "text": "Ver todo"
+                    }
+                }
+            ]
+        }
+    },
+    "image-new#header_sub-menu-2_content-block-one": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/adidas.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    /* menu block-two */
+    "flex-layout.col#header_sub_menu-2-content-menu-2": {
+        "title": "block-two",
+        "props": {
+            "rowGap": 5,
+            "blockClass": "submenu-header"
+        },
+        "children": [
+            "image-new#header_sub-menu-2_content-block-two",
+            "menu#header_sub-menu-2_content-block-two"
+        ]
+    },
+    "menu#header_sub-menu-2_content-block-two": {
+        "title": "submenu",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "submenu",
+            "items": [
+                {
+                    "id": "menu-item-content-2-1",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Camisetas",
+                        "text": "Camisetas"
+                    }
+                },
+                {
+                    "id": "menu-item-content-2-2",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Short",
+                        "text": "Short"
+                    }
+                },
+                {
+                    "id": "menu-item-content-2-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Sudaderas",
+                        "text": "Sudaderas"
+                    }
+                },
+                {
+                    "id": "menu-item-content-2-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Pantalones y licras",
+                        "text": "Pantalones y licras"
+                    }
+                },
+                {
+                    "id": "menu-item-content-2-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Busos",
+                        "text": "Busos"
+                    }
+                },
+                {
+                    "id": "menu-item-content-2-6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Ver todo",
+                        "text": "Ver todo"
+                    }
+                }
+            ]
+        }
+    },
+    "image-new#header_sub-menu-2_content-block-two": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/fila.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    },
+    /* menu block-three */
+    "flex-layout.col#header_sub_menu-2-content-menu-3": {
+        "title": "block-three",
+        "props": {
+            "rowGap": 5,
+            "blockClass": "submenu-header"
+        },
+        "children": [
+            "image-new#header_sub-menu-2_content-block-three",
+            "menu#header_sub-menu-2_content-block-three"
+        ]
+    },
+    "menu#header_sub-menu-2_content-block-three": {
+        "title": "submenu",
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "submenu",
+            "items": [
+                {
+                    "id": "menu-item-content-3-1",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Gorras",
+                        "text": "Gorras"
+                    }
+                },
+                {
+                    "id": "menu-item-content-3-2",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Canguros",
+                        "text": "Canguros"
+                    }
+                },
+                {
+                    "id": "menu-item-content-3-3",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Morrales",
+                        "text": "Morrales"
+                    }
+                },
+                {
+                    "id": "menu-item-content-3-4",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Balones",
+                        "text": "Balones"
+                    }
+                },
+                {
+                    "id": "menu-item-content-3-5",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Medias",
+                        "text": "Medias"
+                    }
+                },
+                {
+                    "id": "menu-item-content-3-6",
+                    "type": "custom",
+                    "iconId": null,
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/content",
+                        "noFollow": false,
+                        "tagTitle": "Ver todo",
+                        "text": "Ver todo"
+                    }
+                }
+            ]
+        }
+    },
+    "image-new#header_sub-menu-2_content-block-three": {
+        "title": "imagen",
+        "props": {
+            "src": "assets/images/header/skechers.jpg",
+            "link": {
+                "url": "/menu-image"
+            },
+            "alt": "Imagen de una marca",
+            "title": "Imagen de una marca"
+        }
+    }
+}

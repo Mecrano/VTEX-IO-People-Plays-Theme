@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) and (max-width: 320px) {
+@media (max-width: 320px) {
   .paragraph--text-one-footer {
     font-size: 10px !important;
   }
@@ -9,7 +9,7 @@
     margin-bottom: 0;
   }
 
-  .wrapper--mobile-rich .paragraph--mobile-rich{
+  .wrapper--mobile-rich .paragraph--mobile-rich {
     margin-top: 25px;
   }
 
@@ -18,13 +18,13 @@
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .paragraph--text-1-contact-lines {
     margin-top: 1rem !important;
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 375px) {
+@media (max-width: 375px) {
   .paragraph--textcopy {
     font-size: 10px !important;
   }
@@ -33,13 +33,15 @@
     font-size: 11px;
   }
 
-  .paragraph--mobile-rich, .paragraph--mobile-rich-one {
+  .paragraph--mobile-rich,
+  .paragraph--mobile-rich-one {
     font-size: 14px !important;
   }
 }
 
-@media screen and (min-width: 376px) and (max-width: 1024px) {
-  .paragraph--text-one-footer, .paragraph--textcopy {
+@media (min-width: 376px) and (max-width: 1024px) {
+  .paragraph--text-one-footer,
+  .paragraph--textcopy {
     line-height: 22px;
   }
 
@@ -48,21 +50,21 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .paragraph--footer-row-1-text-1 {
-    font-family: 'Titillium Web';
+    font-family: "Titillium Web";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px !important;
+    font-size: 18px !important;
     line-height: 33px !important;
     color: #000000 !important;
   }
 
   .paragraph--footer-row-1-text-2 {
-    font-family: 'Mukta';
+    font-family: "Mukta";
     font-style: normal;
     font-weight: 500;
-    font-size: 20px !important;
+    font-size: 18px !important;
     text-align: center;
     color: #000000 !important;
   }
@@ -76,16 +78,20 @@
   }
 
   .heading--title-newsletter {
-    font-family: 'Titillium Web';
+    font-family: "Titillium Web";
     font-style: normal;
     font-weight: 600;
-    font-size: 18px !important;
-    text-transform: uppercase;
+    font-size: 16px !important;
     color: #000000 !important;
+    margin: 15px 0 !important;
+  }
+
+  .container--title-newsletter {
+    margin-bottom: 15px;
   }
 
   .paragraph--title-newsletter {
-    font-family: 'Mukta';
+    font-family: "Mukta";
     font-style: normal;
     font-weight: 400;
     font-size: 17px !important;
@@ -93,20 +99,20 @@
   }
 
   .paragraph--textcopy {
-    font-family: 'Mukta';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  color: #FFFFFF;
-  margin-top: 0;
-  margin-bottom: 0;
+    font-family: "Mukta";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .paragraph--text-one-footer {
-    font-family: 'Mukta';
+    font-family: "Mukta";
     font-style: normal;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 0;
     margin-bottom: 0;
   }

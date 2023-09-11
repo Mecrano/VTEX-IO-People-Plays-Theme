@@ -221,7 +221,7 @@
       "muted-5": "#f2f4f5"
     },
     "on": {
-      "base": "#002F87",
+      "base": "#000000",
       "base--inverted": "#ffffff",
       "action-primary": "#ffffff",
       "action-secondary": "#ffffff",
@@ -326,23 +326,26 @@
       "heading-1": {
         "fontFamily": "Titillium Web",
         "fontWeight": "500",
-        "fontSize": "3rem",
+        "fontSize": "2.5rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "margin": "0"
       },
       "heading-2": {
         "fontFamily": "Titillium Web",
         "fontWeight": "500",
-        "fontSize": "2.25rem",
+        "fontSize": "2.125rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "margin": "0rem"
       },
       "heading-3": {
         "fontFamily": "Titillium Web",
         "fontWeight": "500",
-        "fontSize": "1.75rem",
+        "fontSize": "1.813rem",
         "textTransform": "initial",
-        "letterSpacing": "0"
+        "letterSpacing": "0",
+        "margin": "0"
       },
       "heading-4": {
         "fontFamily": "Titillium Web",

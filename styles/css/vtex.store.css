@@ -10,3 +10,23 @@
   --secondary-blue: #4e7eff;
   --tertiary-blue: #f1f3f9;
 }
+
+
+:global(.vtex-rich-text-0-x-heading-level-1) {
+  margin: 0px;
+}
+
+:global(.vtex-rich-text-0-x-headingLevel1--text-seccion-two),
+:global(.vtex-rich-text-0-x-headingLevel2--text-seccion-two) {
+  color: #062F87;
+}
+
+@media (max-width: 1024px) {
+  :global(.vtex-rich-text-0-x-heading-level-1) {
+    font-size: 32px;
+  }
+
+  :global(.vtex-rich-text-0-x-heading-level-2) {
+    font-size: 22px;
+  }
+}
