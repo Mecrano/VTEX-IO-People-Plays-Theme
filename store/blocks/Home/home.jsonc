@@ -2,8 +2,15 @@
   "store.home": {
     "blocks": [
       "notification.bar",
-      "responsive-layout.desktop#home",
-      "responsive-layout.mobile#home"
+      "flex-layout.row#home-seccion-one",
+      "flex-layout.row#home-seccion-two",
+      "flex-layout.row#home-seccion-three",
+      "flex-layout.row#home-seccion-four",
+      "flex-layout.row#home-seccion-five",
+      "flex-layout.row#home-seccion-six",
+      "responsive-layout.desktop#home-seccion-seven",
+      "responsive-layout.mobile#home-seccion-seven",
+      "flex-layout.row#home-seccion-eight"
     ]
   },
   "notification.bar": {

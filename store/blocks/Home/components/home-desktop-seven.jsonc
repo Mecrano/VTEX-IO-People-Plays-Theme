@@ -1,16 +1,22 @@
 {
+  "responsive-layout.desktop#home-seccion-seven": {
+    "title": "block seven desktop",
+    "children": [
+      "flex-layout.row#home-seccion-seven"
+    ]
+  },
   "flex-layout.row#home-seccion-seven": {
     "title": "block seven",
-    "props":{
+    "props": {
       "blockClass": "home-seccion-seven"
     },
-    "children":["flex-layout.col#home-seccion-seven"]
+    "children": ["flex-layout.col#home-seccion-seven"]
   },
-  "flex-layout.col#home-seccion-seven":{
-    "props":{
+  "flex-layout.col#home-seccion-seven": {
+    "props": {
       "blockClass": "container-home-seccion-seven"
     },
-    "children":["rich-text#marcas", "flex-layout.row#marcas-group"]
+    "children": ["rich-text#marcas", "flex-layout.row#marcas-group"]
   },
   "rich-text#marcas": {
     "title": "title",
@@ -23,11 +29,11 @@
   },
   "flex-layout.row#marcas-group": {
     "title": "contenido marcas group",
-    "props":{
+    "props": {
       "blockClass": "marcas-group",
       "colSizing": "auto"
     },
-    "children":[
+    "children": [
       "image#lotto",
       "image#adidas",
       "image#se",
@@ -84,6 +90,22 @@
     "props": {
       "src": "assets/home/peoples.png",
       "blockClass": "image-lotto"
+    }
+  },
+  "responsive-layout.mobile#home-seccion-seven": {
+    "title": "block seven mobile",
+    "children": ["flex-layout.row#home-seccion-seven-mobile"]
+  },
+  "flex-layout.row#home-seccion-seven-mobile": {
+    "title": "block seven",
+    "children": ["rich-text#home1-mobile", "flex-layout.row#marcas-group"],
+    "props": { "blockClass": ["home-seccion-four", "orange-slider"] }
+  },
+  "rich-text#home1-mobile": {
+    "title": "title text 1",
+    "props": {
+      "text": "## Encuentra tus productos por marca",
+      "blockClass": ["slider-text", "title-marcas-home"]
     }
   }
 }
