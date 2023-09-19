@@ -127,7 +127,12 @@
     "props": {
       "id": "menu-item-category-sales",
       "type": "custom",
-      "iconId": null,
+      "iconProps": {
+        "id": "bnd-bucaramanga",
+        "size": 16,
+        "viewBox": "0 0 612 792",
+        "activeClassName": "vtex-icon-ab"
+      },
       "highlight": true,
       "blockClass": "root",
       "itemProps": {
@@ -139,7 +144,7 @@
       }
     }
   },
-  
+
 /* MENU mobile */
   "menu#header_content": {
     "title": "submenu",
