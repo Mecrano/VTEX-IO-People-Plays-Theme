@@ -1,83 +1,49 @@
 {
-    "flex-layout.row#departament-banner-principal": {
-        "title": "container banner",
-        "props": {
-            "blockClass": "departament-banner-principal",
-            "preventHorizontalStretch": true
+  "flex-layout.row#departament-banner-principal": {
+    "title": "container banner",
+    "props": {
+      "blockClass": "departament-banner-principal",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "list-context.image-list#people-plays-department"
+    ]
+  },
+  "list-context.image-list#people-plays-department": {
+    "children": ["slider-layout#slider-department"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/home/Desktop.png",
+          "mobileImage": "assets/home/banner-mobile.jpg",
+          "description": "banner one"
         },
-        "children": [
-            "responsive-layout.desktop#department-image",
-            "responsive-layout.tablet#department-image",
-            "responsive-layout.phone#department-image"
-        ]
-    },
-    "responsive-layout.desktop#department-image": {
-        "title": "Banner desktop",
-        "props": {
-            "blockClass": [
-                "banner-container-department",
-                "banner-container-department-desktop"
-            ]
+        {
+          "image": "assets/home/Desktop.png",
+          "mobileImage": "assets/home/banner-mobile.jpg",
+          "description": "banner two"
         },
-        "children": ["list-context.image-list#plp--banner"]
-    },
-    "list-context.image-list#plp--banner": {
-        "children": ["slider-layout#plp--banner"],
-        "props": {
-            "height": 601,
-            "images": [
-                {"image": "/arquivos/banner1.png"}
-            ]
+        {
+          "image": "assets/home/Desktop.png",
+          "mobileImage": "assets/home/banner-mobile.jpg",
+          "description": "banner three"
         }
-    },
-    "responsive-layout.tablet#department-image": {
-        "title": "Banner tablet",
-        "props": {
-            "blockClass": [
-                "banner-container-department",
-                "banner-container-department-tablet"
-            ]
-        },
-        "children": ["list-context.image-list#plp--banner-tablet"]
-    },
-    "list-context.image-list#plp--banner-tablet": {
-        "children": ["slider-layout#plp--banner"],
-        "props": {
-            "images": [
-                {"image": "/arquivos/banner1.png"}
-            ]
-        }
-    },
-    "responsive-layout.phone#department-image": {
-        "title": "Banner phone",
-        "props": {
-            "blockClass": [
-                "banner-container-department",
-                "banner-container-department-mobile"
-            ]
-        },
-        "children": ["list-context.image-list#plp--banner-mobile"]
-    },
-
-    "list-context.image-list#plp--banner-mobile": {
-        "children": ["slider-layout#plp--banner"],
-        "props": {
-            "height": 550,
-            "images": [
-                {"image": "/arquivos/banner2.png"}
-            ]
-        }
-    },
-    "slider-layout#plp--banner": {
-        "title": "slider",
-        "props": {
-            "blockClass": "plp--banner",
-            "navigationStep": 1,
-            "itemsPerPage": {
-                "desktop": 1,
-                "tablet": 1,
-                "phone": 1
-            }
-        }
+      ]
     }
+  },
+  "slider-layout#slider-department": {
+    "title": "slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "slider-home",
+      "showPaginationDots": "never"
+    }
+  }
 }

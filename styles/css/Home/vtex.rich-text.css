@@ -24,7 +24,8 @@
   margin-bottom: 0px;
 }
 
-.paragraph--ropa {
+.paragraph--ropa,
+.link--ropa {
   font-family: "Mukta";
   font-style: normal;
   font-weight: 500;

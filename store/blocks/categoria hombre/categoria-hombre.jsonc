@@ -1,7 +1,5 @@
 {
-    "store.custom#categoria-hombre": {
-        "blocks": [
-            "flex-layout.row#department-main"
-        ]
-    }
+  "store.custom#categoria-hombre": {
+    "blocks": ["flex-layout.row#department-main"]
+  }
 }
