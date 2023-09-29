@@ -1,0 +1,53 @@
+{
+  "store.custom#products-landing": {
+    "blocks": [
+      "list-context.image-list#people-plays-products-landing",
+      "search-result-layout.customQuery#products-landing"
+    ]
+  },
+
+  "list-context.image-list#people-plays-products-landing": {
+    "children": ["slider-layout#slider-products-landing"],
+    "props": {
+      "images": [
+        {
+          "image": "assets/home/Desktop.png",
+          "mobileImage": "assets/home/banner-mobile.jpg",
+          "description": "banner one"
+        }
+      ]
+    }
+  },
+  "slider-layout#slider-products-landing": {
+    "title": "slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "fullWidth": true,
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "slider-home",
+      "showPaginationDots": "never"
+    }
+  },
+
+  "search-result-layout.customQuery#products-landing": {
+    "props": {
+      "blockClass": "plp--main",
+      "querySchema": {
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 12,
+        "mapField": "productClusterIds",
+        "skusFilter": "FIRST_AVAILABLE"
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  }
+}
